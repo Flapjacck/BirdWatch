@@ -23,5 +23,9 @@ async function fetchBirdCourses() {
   }
 }
 
-// Run the function
-fetchBirdCourses();
+// Execute the function if this script is run directly
+if (require.main === module) {
+  fetchBirdCourses();
+}
+
+module.exports = fetchBirdCourses;

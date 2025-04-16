@@ -1,0 +1,17 @@
+# Data processing
+pandas>=1.5.3
+numpy>=1.24.3
+
+# NLP and sentiment analysis
+nltk>=3.8.1
+scikit-learn>=1.2.2
+
+# HTTP requests
+requests>=2.31.0
+
+# Date/time handling
+python-dateutil>=2.8.2
+
+# Development
+setuptools>=65.5.0
+wheel>=0.38.4

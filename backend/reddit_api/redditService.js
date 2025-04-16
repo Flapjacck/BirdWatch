@@ -3,63 +3,95 @@ require('dotenv').config({ path: '../../.env' });
 
 class RedditService {
   constructor() {
-    this.userAgent = `BirdWatch/1.0.0 (Node.js/${process.version}; Windows; by /u/${process.env.REDDIT_USERNAME})`;
+    this.accessToken = null;
+    this.tokenExpiry = null;
+    this.userAgent = 'BirdWatch/1.0.0 (by /u/your_username)';
   }
 
-  /**
-   * Fetches popular threads about bird courses from the WLU subreddit
-   * @param {number} limit - Maximum number of threads to return
-   * @param {string} timePeriod - Time period to search ('hour', 'day', 'week', 'month', 'year', 'all')
-   * @returns {Promise<Array>} Array of thread objects
-   */
-  async getBirdCourseThreads(limit = 25, timePeriod = 'year') {
+  async getAccessToken() {
+    // Check if token is still valid
+    if (this.accessToken && this.tokenExpiry > Date.now()) {
+      return this.accessToken;
+    }
+
     try {
-      console.log(`Fetching up to ${limit} bird course threads from past ${timePeriod}...`);
-      
-      // Validate time period
-      const validTimePeriods = ['hour', 'day', 'week', 'month', 'year', 'all'];
-      if (!validTimePeriods.includes(timePeriod)) {
-        timePeriod = 'year'; // Default to year if invalid
-      }
-      
-      // Use public API with search query
-      const searchQuery = 'bird course';
-      const url = `https://www.reddit.com/r/wlu/search.json?q=${encodeURIComponent(searchQuery)}&restrict_sr=on&limit=${limit}&sort=relevance&t=${timePeriod}`;
-      
+      // For Reddit's API, we can use an "app only" OAuth flow
+      // This doesn't require a username/password, just client credentials
+      // Or we can use the public API without authentication for read-only operations
       const response = await axios({
         method: 'get',
-        url: url,
+        url: 'https://www.reddit.com/r/wlu/search.json',
+        params: {
+          q: 'bird course',
+          restrict_sr: 'on',
+          t: 'year',
+          limit: 100,
+          sort: 'relevance'
+        },
         headers: {
           'User-Agent': this.userAgent
         }
       });
-      
-      if (!response.data.data.children.length) {
-        console.log('No bird course threads found');
+
+      return 'public-access'; // Not using actual OAuth for simplicity
+    } catch (error) {
+      console.error('Error connecting to Reddit:', error.message);
+      throw new Error('Failed to connect to Reddit API');
+    }
+  }
+
+  async getBirdCourseThreads(limit = 100, timePeriod = 'year') {
+    try {
+      // Using public API - no need for authentication for this use case
+      const response = await axios({
+        method: 'get',
+        url: 'https://www.reddit.com/r/wlu/search.json',
+        params: {
+          q: 'bird course',
+          restrict_sr: 'on',
+          t: timePeriod,
+          limit: limit,
+          sort: 'relevance'
+        },
+        headers: {
+          'User-Agent': this.userAgent
+        }
+      });
+
+      if (!response.data || !response.data.data || !response.data.data.children) {
         return [];
       }
-      
-      console.log(`Found ${response.data.data.children.length} threads`);
-      
-      // Process and return the posts
-      return response.data.data.children.map(child => {
-        const post = child.data;
+
+      return response.data.data.children.map(post => {
+        const data = post.data;
         return {
-          id: post.id,
-          title: post.title,
-          author: post.author,
-          created: new Date(post.created_utc * 1000).toISOString(),
-          url: `https://www.reddit.com${post.permalink}`,
-          selftext: post.selftext,
-          score: post.score,
-          num_comments: post.num_comments,
-          upvote_ratio: post.upvote_ratio
+          id: data.id,
+          title: data.title,
+          author: data.author,
+          created: new Date(data.created_utc * 1000).toISOString(),
+          url: `https://www.reddit.com${data.permalink}`,
+          selftext: data.selftext,
+          score: data.score,
+          num_comments: data.num_comments,
+          upvote_ratio: data.upvote_ratio
         };
-      }).sort((a, b) => b.score - a.score); // Sort by score (most popular first)
+      });
     } catch (error) {
       console.error('Error fetching bird course threads:', error.message);
-      throw new Error('Failed to fetch bird course threads from Reddit');
+      throw new Error('Failed to fetch data from Reddit');
     }
+  }
+
+  async getTopBirdCourses(count = 10) {
+    // This would be based on processed data from sentiment analysis
+    // For now, just return placeholder data to show the API structure
+    return [
+      { code: 'EM203', bird_score: 8.7, mentions: 42 },
+      { code: 'EM202', bird_score: 7.9, mentions: 38 },
+      { code: 'UU150', bird_score: 7.5, mentions: 29 },
+      { code: 'ES110', bird_score: 7.2, mentions: 31 },
+      { code: 'CP102', bird_score: 6.8, mentions: 25 }
+    ];
   }
 }
 
