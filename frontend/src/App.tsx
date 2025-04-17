@@ -1,230 +1,278 @@
 import { useState, useEffect } from "react";
-import Header from "./components/Header";
+import Header from "./components/layout/Header";
+import Hero from "./components/layout/Hero";
+import Footer from "./components/layout/Footer";
 import Section from "./components/Section";
-import CourseCard from "./components/CourseCard";
-import RedditThread from "./components/RedditThread";
-
-// Mock data for demonstration
-const topCourses = [
-  { code: "EM203", birdScore: 8.7, mentions: 42 },
-  { code: "EM202", birdScore: 7.9, mentions: 38 },
-  { code: "UU150", birdScore: 7.5, mentions: 29 },
-  { code: "ES110", birdScore: 7.2, mentions: 31 },
-  { code: "CP102", birdScore: 6.8, mentions: 25 },
-  { code: "BU111", birdScore: 6.5, mentions: 22 },
-  { code: "PS101", birdScore: 6.2, mentions: 19 },
-  { code: "GG101", birdScore: 5.9, mentions: 15 },
-];
-
-const redditThreads = [
-  {
-    title: "Bird courses for Winter 2026?",
-    author: "student123",
-    score: 45,
-    numComments: 23,
-    url: "https://www.reddit.com/r/wlu/123",
-    created: "2025-03-10T14:48:00.000Z",
-  },
-  {
-    title: "Easiest courses at Laurier?",
-    author: "easyA",
-    score: 67,
-    numComments: 41,
-    url: "https://www.reddit.com/r/wlu/456",
-    created: "2025-02-15T09:22:00.000Z",
-  },
-  {
-    title: "What makes EM203 such a bird course?",
-    author: "curious_student",
-    score: 38,
-    numComments: 19,
-    url: "https://www.reddit.com/r/wlu/789",
-    created: "2025-03-22T16:35:00.000Z",
-  },
-  {
-    title: "Best bird courses for non-business students?",
-    author: "artsMajor",
-    score: 52,
-    numComments: 27,
-    url: "https://www.reddit.com/r/wlu/101",
-    created: "2025-03-05T11:14:00.000Z",
-  },
-];
+import StatsCard from "./components/layout/StatsCard";
+import FeaturedCourse from "./components/layout/FeaturedCourse";
+import CourseGrid from "./components/courses/CourseGrid";
+import ThreadList from "./components/reddit/ThreadList";
+import LoadingSpinner from "./components/layout/LoadingSpinner";
+import AnimatedSection from "./components/layout/AnimatedSection";
+import CourseService from "./services/CourseService";
+import { CourseType, RedditThreadType } from "./types/CourseTypes";
 
 function App() {
-  const [featured, setFeatured] = useState<(typeof topCourses)[0] | null>(null);
-  const [searchQuery, setSearchQuery] = useState("");
+  // State variables
+  const [topCourses, setTopCourses] = useState<CourseType[]>([]);
+  const [featuredCourse, setFeaturedCourse] = useState<CourseType | null>(null);
+  const [recentThreads, setRecentThreads] = useState<RedditThreadType[]>([]);
+  const [searchResults, setSearchResults] = useState<CourseType[]>([]);
+  const [isSearching, setIsSearching] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
 
-  // Simulate loading the featured course
+  // Fetch initial data
   useEffect(() => {
-    // In a real app, you might fetch this from an API
-    const randomIndex = Math.floor(Math.random() * 3); // Get one of the top 3
+    const fetchData = async () => {
+      try {
+        setIsLoading(true);
 
-    // Add small delay to simulate loading and trigger animations
-    setTimeout(() => {
-      setFeatured(topCourses[randomIndex]);
-      setIsLoaded(true);
-    }, 300);
+        // Fetch top courses
+        const courses = await CourseService.getTopCourses(8);
+        setTopCourses(courses);
+
+        // Get featured course
+        const featured = await CourseService.getFeaturedCourse();
+        setFeaturedCourse(featured);
+
+        // Fetch recent threads
+        const threads = await CourseService.getRecentThreads(6);
+        setRecentThreads(threads);
+
+        // Data loading complete
+        setIsLoading(false);
+
+        // Small delay to trigger animations
+        setTimeout(() => {
+          setIsLoaded(true);
+        }, 300);
+      } catch (error) {
+        console.error("Error loading data:", error);
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
+
+  // Handle search
+  const handleSearch = async (query: string) => {
+    setSearchQuery(query);
+    setIsSearching(true);
+
+    try {
+      const results = await CourseService.searchCourses(query);
+      setSearchResults(results);
+    } catch (error) {
+      console.error("Error searching courses:", error);
+      setSearchResults([]);
+    }
+  };
+
+  // Calculate stats from the course data
+  const calculateStats = () => {
+    if (topCourses.length === 0)
+      return {
+        totalCourses: 0,
+        avgBirdScore: 0,
+        onlineAvailable: 0,
+        totalMentions: 0,
+      };
+
+    const onlineAvailable = topCourses.filter(
+      (course) => course.is_online_available
+    ).length;
+    const totalMentions = topCourses.reduce(
+      (sum, course) => sum + course.specific_mentions,
+      0
+    );
+    const avgBirdScore =
+      topCourses.reduce((sum, course) => sum + course.bird_score, 0) /
+      topCourses.length;
+
+    return {
+      totalCourses: topCourses.length,
+      avgBirdScore: avgBirdScore.toFixed(1),
+      onlineAvailable,
+      totalMentions,
+    };
+  };
+
+  const stats = calculateStats();
+
+  // Initial loading state
+  if (isLoading && !isSearching && !isLoaded) {
+    return (
+      <div className="min-h-screen bg-gray-50 font-['Poppins',sans-serif] flex items-center justify-center">
+        <div className="text-center">
+          <LoadingSpinner size="large" text="Loading BirdWatch data..." />
+          <p className="mt-4 text-gray-600 max-w-md mx-auto">
+            We're analyzing course data from Reddit discussions to find the best
+            bird courses for you.
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 font-['Poppins',sans-serif]">
       <Header title="BirdWatch" />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-b from-blue-500 to-blue-400 py-16 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="mb-4 text-4xl font-bold hero-title">
-            Find Your Perfect Bird Course
-          </h1>
-          <p className="mb-8 text-xl hero-subtitle">
-            Discover the easiest courses based on real student discussions
-          </p>
-          <div className="mx-auto max-w-lg search-box">
-            <div className="flex rounded-lg bg-white p-1 shadow-lg">
-              <input
-                type="text"
-                placeholder="Search for a course..."
-                className="w-full rounded-l-lg px-4 py-2 text-gray-700 focus:outline-none"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-              <button className="rounded-r-lg bg-blue-600 px-6 py-2 text-white hover:bg-blue-700 hover:scale-105 transition-transform">
-                Search
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Hero onSearch={handleSearch} />
 
-      {/* Featured Course */}
-      {featured && (
-        <Section title="Featured Bird Course" className="bg-white">
-          <div className="mx-auto max-w-2xl">
-            <div
-              className={`overflow-hidden rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 p-0.5 shadow-lg transition-all duration-700 ${
-                isLoaded ? "animate-card-in" : "opacity-0"
-              }`}
-            >
-              <div className="rounded-lg bg-white p-6">
-                <div className="mb-4 flex items-center justify-between">
-                  <h3 className="text-3xl font-bold text-gray-800 hover:text-blue-600 transition-colors duration-300">
-                    {featured.code}
-                  </h3>
-                  <span className="rounded-full bg-green-100 px-4 py-1 text-lg font-bold text-green-800 hover:bg-green-200 transition-colors duration-300">
-                    {featured.birdScore.toFixed(1)}/10
-                  </span>
-                </div>
-                <p className="mb-4 text-gray-600">
-                  This course has been mentioned {featured.mentions} times in
-                  student discussions, making it one of the top-rated bird
-                  courses.
-                </p>
-                <div className="mb-4 h-3 w-full rounded-full bg-gray-200 overflow-hidden">
-                  <div
-                    className="h-3 rounded-full bg-green-500 transition-all duration-1000 ease-out"
-                    style={{
-                      width: isLoaded
-                        ? `${Math.min(100, featured.birdScore * 10)}%`
-                        : "0%",
-                    }}
-                  ></div>
-                </div>
-                <button className="rounded-lg bg-blue-600 px-6 py-2 text-white hover:bg-blue-700 hover:scale-105 transform transition-all duration-300">
-                  View Course Details
+      {/* Search Results Section (shown only when searching) */}
+      {isSearching && (
+        <AnimatedSection>
+          <Section
+            title={`Search Results: ${searchQuery}`}
+            className="bg-white"
+          >
+            <CourseGrid
+              courses={searchResults}
+              loading={isLoading}
+              showDetailed={true}
+            />
+            {!isLoading && searchResults.length > 0 && (
+              <div className="mt-6 text-center">
+                <button
+                  onClick={() => setIsSearching(false)}
+                  className="rounded-lg bg-gray-200 px-4 py-2 text-gray-700 hover:bg-gray-300 transition-colors"
+                >
+                  Clear Search
                 </button>
               </div>
-            </div>
-          </div>
-        </Section>
+            )}
+          </Section>
+        </AnimatedSection>
       )}
 
-      {/* Top Bird Courses */}
-      <Section title="Top Bird Courses" className="bg-gray-50">
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {topCourses.slice(0, 8).map((course, index) => (
-            <CourseCard
-              key={index}
-              code={course.code}
-              birdScore={course.birdScore}
-              mentions={course.mentions}
-            />
-          ))}
-        </div>
-      </Section>
+      {/* Featured Course (hidden when searching) */}
+      {!isSearching && (
+        <AnimatedSection>
+          <Section title="Featured Bird Course" className="bg-white">
+            <FeaturedCourse course={featuredCourse} isLoaded={isLoaded} />
+          </Section>
+        </AnimatedSection>
+      )}
 
-      {/* Trending Discussions */}
-      <Section title="Trending Discussions" className="bg-white">
-        <div className="grid gap-6 md:grid-cols-2">
-          {redditThreads.map((thread, index) => (
-            <RedditThread
-              key={index}
-              title={thread.title}
-              author={thread.author}
-              score={thread.score}
-              numComments={thread.numComments}
-              url={thread.url}
-              created={thread.created}
-            />
-          ))}
-        </div>
-      </Section>
+      {/* Stats Section (hidden when searching) */}
+      {!isSearching && (
+        <AnimatedSection delay={100}>
+          <Section title="BirdWatch Statistics" className="bg-gray-50 py-12">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              <StatsCard
+                title="Courses Analyzed"
+                value={stats.totalCourses}
+                icon={
+                  <svg
+                    className="h-6 w-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                    <path
+                      fillRule="evenodd"
+                      d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                }
+              />
+              <StatsCard
+                title="Avg. Bird Score"
+                value={stats.avgBirdScore}
+                icon={
+                  <svg
+                    className="h-6 w-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                }
+              />
+              <StatsCard
+                title="Online Available"
+                value={stats.onlineAvailable}
+                icon={
+                  <svg
+                    className="h-6 w-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                }
+              />
+              <StatsCard
+                title="Total Mentions"
+                value={stats.totalMentions}
+                icon={
+                  <svg
+                    className="h-6 w-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                }
+              />
+            </div>
+          </Section>
+        </AnimatedSection>
+      )}
+
+      {/* Top Bird Courses (hidden when searching) */}
+      {!isSearching && (
+        <AnimatedSection delay={200}>
+          <Section title="Top Bird Courses" className="bg-white">
+            <CourseGrid courses={topCourses} loading={isLoading} />
+          </Section>
+        </AnimatedSection>
+      )}
+
+      {/* Trending Discussions (hidden when searching) */}
+      {!isSearching && (
+        <AnimatedSection delay={300}>
+          <Section title="Trending Discussions" className="bg-gray-50">
+            <ThreadList threads={recentThreads} loading={isLoading} />
+          </Section>
+        </AnimatedSection>
+      )}
 
       {/* About Section */}
-      <Section title="About BirdWatch" className="bg-gray-50">
-        <div className="mx-auto max-w-3xl">
-          <p className="mb-4 text-gray-700">
-            BirdWatch analyzes thousands of Reddit threads to identify and rank
-            "bird courses" based on student discussions. Our advanced sentiment
-            analysis algorithm processes mentions, context, and sentiment to
-            generate accurate bird scores.
-          </p>
-          <p className="text-gray-700">
-            This tool helps students make informed decisions about their course
-            selections. All data is sourced from public Reddit discussions and
-            updated regularly.
-          </p>
-        </div>
-      </Section>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 py-10 text-white">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
-            <div>
-              <h3 className="text-xl font-bold">BirdWatch</h3>
-              <p className="text-gray-400">
-                © 2025 BirdWatch. All rights reserved.
-              </p>
-            </div>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-blue-400">
-                Terms
-              </a>
-              <a href="#" className="hover:text-blue-400">
-                Privacy
-              </a>
-              <a href="#" className="hover:text-blue-400">
-                Contact
-              </a>
-            </div>
-          </div>
-          <div className="mt-6 text-center">
-            <p className="text-gray-400">
-              Made by{" "}
-              <a
-                href="https://github.com/Flapjacck/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 transition-colors"
-              >
-                Spencer Kelly
-              </a>
+      <AnimatedSection delay={400}>
+        <Section title="About BirdWatch" className="bg-white">
+          <div className="mx-auto max-w-3xl">
+            <p className="mb-4 text-gray-700">
+              BirdWatch analyzes thousands of Reddit threads to identify and
+              rank "bird courses" based on student discussions. Our advanced
+              sentiment analysis algorithm processes mentions, context, and
+              sentiment to generate accurate bird scores.
+            </p>
+            <p className="text-gray-700">
+              This tool helps students make informed decisions about their
+              course selections. All data is sourced from public Reddit
+              discussions and updated regularly.
             </p>
           </div>
-        </div>
-      </footer>
+        </Section>
+      </AnimatedSection>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
