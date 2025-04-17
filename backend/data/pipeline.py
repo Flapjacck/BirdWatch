@@ -24,7 +24,7 @@ def load_json_file(file_path):
         print(f"Error loading data from {file_path}: {e}")
         return None
 
-def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, use_sample_data=False):
+def run_pipeline(api_url, limit, time_period, data_dir, processed_dir):
     """Run the full data pipeline"""
     # Ensure directories exist
     os.makedirs(data_dir, exist_ok=True)
@@ -33,36 +33,13 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, use_sampl
     # Generate timestamp
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     
-    # Get Reddit data
-    threads = []
-    if use_sample_data:
-        # Use sample data if API is not available
-        sample_file = os.path.join(data_dir, "sample_threads.json")
-        
-        # Check if sample file exists
-        if os.path.exists(sample_file):
-            print(f"Using sample data from {sample_file}")
-            threads = load_json_file(sample_file)
-        else:
-            print("Sample data file not found. Make sure to create it first.")
-            return
-    else:
-        # 1. Fetch data from Reddit API
-        print(f"Fetching up to {limit} bird course threads from the past {time_period}...")
-        threads = fetch_bird_course_threads(api_url, limit, time_period)
-        
-        if not threads:
-            print("No threads fetched. Checking for sample data...")
-            sample_file = os.path.join(data_dir, "sample_threads.json")
-            if os.path.exists(sample_file):
-                print(f"Using sample data from {sample_file}")
-                threads = load_json_file(sample_file)
-            else:
-                print("No sample data available. Pipeline stopped.")
-                return
+    # 1. Fetch data from Reddit API
+    print(f"Fetching up to {limit} bird course threads from the past {time_period}...")
+    threads = fetch_bird_course_threads(api_url, limit, time_period)
     
     if not threads:
-        print("No data available. Pipeline stopped.")
+        print("No threads fetched. Make sure the Reddit API server is running.")
+        print(f"Check that the API server is running at {api_url}")
         return
     
     # 2. Save raw data
@@ -70,12 +47,6 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, use_sampl
     save_to_json(threads, raw_data_file)
     latest_threads_file = os.path.join(data_dir, "latest_threads.json")
     save_to_json(threads, latest_threads_file)
-    
-    # Save as sample data if it doesn't exist
-    sample_file = os.path.join(data_dir, "sample_threads.json")
-    if not os.path.exists(sample_file) and not use_sample_data:
-        print(f"Creating sample data file for future use: {sample_file}")
-        save_to_json(threads, sample_file)
     
     # 3. Initialize sentiment analyzer
     analyzer = SentimentAnalyzer()
@@ -106,6 +77,9 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, use_sampl
     print(f"Top 5 bird courses:")
     for i, course in enumerate(course_rankings[:5], 1):
         print(f"{i}. {course['code']} - Bird Score: {course['bird_score']:.2f} - Mentions: {course['mentions']}")
+        # Print department adjustment if available
+        if 'dept_adjustment' in course:
+            print(f"   Department adjustment: {course['dept_adjustment']:.2f}")
 
 def main():
     parser = argparse.ArgumentParser(description='Run the BirdWatch data pipeline')
@@ -115,10 +89,9 @@ def main():
                         default='year', help='Time period to search')
     parser.add_argument('--data-dir', default='data', help='Directory to save raw data')
     parser.add_argument('--processed-dir', default='processed', help='Directory to save processed data')
-    parser.add_argument('--use-sample-data', action='store_true', help='Use sample data instead of fetching from API')
     
     args = parser.parse_args()
-    run_pipeline(args.api_url, args.limit, args.time_period, args.data_dir, args.processed_dir, args.use_sample_data)
+    run_pipeline(args.api_url, args.limit, args.time_period, args.data_dir, args.processed_dir)
 
 if __name__ == "__main__":
     main()
