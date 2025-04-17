@@ -34,6 +34,24 @@ app.get('/api/top-bird-courses', async (req, res) => {
   }
 });
 
+// New endpoint for course-specific threads
+app.get('/api/course-threads/:courseCode', async (req, res) => {
+  try {
+    const courseCode = req.params.courseCode.toUpperCase();
+    const limit = parseInt(req.query.limit) || 25;
+    
+    if (!courseCode || !/^[A-Z]{2,4}[0-9]{3,4}$/.test(courseCode)) {
+      return res.status(400).json({ error: 'Invalid course code format. Expected format: XX123 or XXX123' });
+    }
+    
+    const threads = await redditService.getCourseSpecificThreads(courseCode, limit);
+    res.json(threads);
+  } catch (error) {
+    console.error(`Error fetching threads for course ${req.params.courseCode}:`, error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
 // Health check route
 app.get('/health', (req, res) => {
   res.status(200).send('OK');

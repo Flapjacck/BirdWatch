@@ -4,6 +4,7 @@ import argparse
 import datetime
 from fetch_reddit_data import fetch_bird_course_threads
 from sentiment_analyzer import SentimentAnalyzer
+from course_details_analyzer import analyze_course_specific_threads
 import json
 
 def save_to_json(data, file_path):
@@ -24,11 +25,15 @@ def load_json_file(file_path):
         print(f"Error loading data from {file_path}: {e}")
         return None
 
-def run_pipeline(api_url, limit, time_period, data_dir, processed_dir):
+def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_top_courses=True, top_courses_count=10):
     """Run the full data pipeline"""
     # Ensure directories exist
     os.makedirs(data_dir, exist_ok=True)
     os.makedirs(processed_dir, exist_ok=True)
+    
+    # Create a directory for course details
+    course_details_dir = os.path.join(processed_dir, "course_details")
+    os.makedirs(course_details_dir, exist_ok=True)
     
     # Generate timestamp
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -71,8 +76,44 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir):
     latest_rankings_file = os.path.join(processed_dir, "latest_course_rankings.json")
     save_to_json(course_rankings, latest_rankings_file)
     
-    # 8. Print summary
-    print(f"Pipeline completed successfully.")
+    # 8. If enabled, analyze top courses in more detail
+    if analyze_top_courses and course_rankings:
+        print(f"\nAnalyzing top {top_courses_count} courses in detail...")
+        
+        # Get the top N course codes
+        top_courses = [course['code'] for course in course_rankings[:top_courses_count]]
+        print(f"Top courses selected for detailed analysis: {', '.join(top_courses)}")
+        
+        # Run detailed analysis on these courses
+        course_details = analyze_course_specific_threads(api_url, top_courses, course_details_dir)
+        
+        if course_details:
+            print(f"Detailed analysis completed for {len(course_details)} courses.")
+            
+            # Update course rankings with references to the detailed analysis
+            for course_ranking in course_rankings:
+                for course_detail in course_details:
+                    if course_ranking['code'] == course_detail['code']:
+                        # Add a reference to the detailed analysis
+                        course_ranking['has_detailed_analysis'] = True
+                        course_ranking['specific_mentions'] = course_detail['specific_mentions']
+                        # Add some key details directly to the course ranking
+                        if 'professors' in course_detail and course_detail['professors']:
+                            course_ranking['professors'] = course_detail['professors']
+                        if 'is_online_available' in course_detail:
+                            course_ranking['is_online_available'] = course_detail['is_online_available']
+                        break
+                else:
+                    course_ranking['has_detailed_analysis'] = False
+            
+            # Save updated rankings with detailed analysis references
+            updated_rankings_file = os.path.join(processed_dir, f"course_rankings_detailed_{timestamp}.json")
+            save_to_json(course_rankings, updated_rankings_file)
+            latest_detailed_rankings_file = os.path.join(processed_dir, "latest_course_rankings_detailed.json")
+            save_to_json(course_rankings, latest_detailed_rankings_file)
+    
+    # 9. Print summary
+    print(f"\nPipeline completed successfully.")
     print(f"Processed {len(threads)} threads and identified {len(course_rankings)} courses")
     print(f"Top 5 bird courses:")
     for i, course in enumerate(course_rankings[:5], 1):
@@ -80,18 +121,37 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir):
         # Print department adjustment if available
         if 'dept_adjustment' in course:
             print(f"   Department adjustment: {course['dept_adjustment']:.2f}")
+        # Print if detailed analysis is available
+        if 'has_detailed_analysis' in course and course['has_detailed_analysis']:
+            print(f"   Detailed analysis available with {course.get('specific_mentions', 0)} specific threads")
+            if 'professors' in course:
+                print(f"   Professors mentioned: {', '.join(course['professors'])}")
+            if 'is_online_available' in course:
+                print(f"   Online option: {'Yes' if course['is_online_available'] else 'Not mentioned'}")
 
 def main():
     parser = argparse.ArgumentParser(description='Run the BirdWatch data pipeline')
     parser.add_argument('--api-url', default='http://localhost:3001', help='URL of the Reddit API service')
-    parser.add_argument('--limit', type=int, default=100, help='Maximum number of threads to fetch')
+    parser.add_argument('--limit', type=int, default=200, help='Maximum number of threads to fetch')
     parser.add_argument('--time-period', choices=['hour', 'day', 'week', 'month', 'year', 'all'], 
-                        default='year', help='Time period to search')
+                        default='all', help='Time period to search')
     parser.add_argument('--data-dir', default='data', help='Directory to save raw data')
     parser.add_argument('--processed-dir', default='processed', help='Directory to save processed data')
+    parser.add_argument('--analyze-top-courses', action='store_true', default=True, 
+                        help='Enable detailed analysis of top courses')
+    parser.add_argument('--top-courses-count', type=int, default=15, 
+                        help='Number of top courses to analyze in detail')
     
     args = parser.parse_args()
-    run_pipeline(args.api_url, args.limit, args.time_period, args.data_dir, args.processed_dir)
+    run_pipeline(
+        args.api_url, 
+        args.limit, 
+        args.time_period, 
+        args.data_dir, 
+        args.processed_dir,
+        args.analyze_top_courses,
+        args.top_courses_count
+    )
 
 if __name__ == "__main__":
     main()
