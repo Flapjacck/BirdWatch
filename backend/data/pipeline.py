@@ -141,8 +141,37 @@ def main():
                         help='Enable detailed analysis of top courses')
     parser.add_argument('--top-courses-count', type=int, default=15, 
                         help='Number of top courses to analyze in detail')
+    parser.add_argument('--no-prompt', action='store_true', 
+                        help='Run without prompting for time period')
     
     args = parser.parse_args()
+    
+    # Prompt for time period if not using --no-prompt
+    if not args.no_prompt:
+        print("Select time period for Reddit posts:")
+        print("1. hour  - Posts from the last hour")
+        print("2. day   - Posts from the last day")
+        print("3. week  - Posts from the last week")
+        print("4. month - Posts from the last month")
+        print("5. year  - Posts from the last year")
+        print("6. all   - All posts regardless of time")
+        
+        time_options = {
+            '1': 'hour',
+            '2': 'day',
+            '3': 'week',
+            '4': 'month',
+            '5': 'year',
+            '6': 'all'
+        }
+        
+        while True:
+            choice = input("Enter your choice (1-6) [default=5]: ").strip() or '5'
+            if choice in time_options:
+                args.time_period = time_options[choice]
+                break
+            print("Invalid choice. Please enter a number between 1 and 6.")
+    
     run_pipeline(
         args.api_url, 
         args.limit, 

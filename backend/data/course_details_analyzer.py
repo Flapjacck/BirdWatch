@@ -6,6 +6,7 @@ import datetime
 import requests
 import re
 from typing import List, Dict, Any
+from collections import Counter
 from sentiment_analyzer import SentimentAnalyzer
 
 def fetch_course_specific_threads(api_url: str, course_code: str, limit: int = 25) -> List[Dict[str, Any]]:
@@ -21,10 +22,14 @@ def fetch_course_specific_threads(api_url: str, course_code: str, limit: int = 2
         print(f"Error fetching course-specific threads for {course_code}: {e}")
         return []
 
-def extract_key_course_attributes(threads: List[Dict[str, Any]]) -> Dict[str, Any]:
+def extract_key_course_attributes(threads: List[Dict[str, Any]], analyzer: SentimentAnalyzer = None) -> Dict[str, Any]:
     """Extract key course attributes from threads that specifically mention a course"""
     if not threads:
         return {}
+    
+    # If analyzer is not provided, initialize one
+    if analyzer is None:
+        analyzer = SentimentAnalyzer()
     
     # Extract the course code from the first thread's title
     course_pattern = re.compile(r'\b[A-Z]{2,4}[0-9]{3,4}\b')
@@ -38,7 +43,6 @@ def extract_key_course_attributes(threads: List[Dict[str, Any]]) -> Dict[str, An
         return {}
     
     # Use the most frequently mentioned course code
-    from collections import Counter
     course_code = Counter(course_codes).most_common(1)[0][0]
     
     # Initialize course attributes with more detailed information
@@ -51,10 +55,11 @@ def extract_key_course_attributes(threads: List[Dict[str, Any]]) -> Dict[str, An
         "oldest_thread_date": None,
         "newest_thread_date": None,
         "is_online_available": False,
+        "bird_score": 0,
         "discussion_topics": {
             "difficulty": 0,
             "workload": 0,
-            "bird_course": 0,  # Changed from bird_course_mentions to bird_course to match the topic key
+            "bird_course": 0,
             "content": 0,
             "structure": 0,
             "grading": 0
@@ -87,7 +92,12 @@ def extract_key_course_attributes(threads: List[Dict[str, Any]]) -> Dict[str, An
         "sentiment_analysis": {
             "positive_aspects": {},
             "negative_aspects": {},
-            "overall_sentiment": 0
+            "overall_sentiment": 0,
+            "compound": 0,
+            "pos": 0,
+            "neu": 0,
+            "neg": 0,
+            "bird_terms": {}
         },
         "context_clues": {
             "terms": {},
@@ -288,6 +298,50 @@ def extract_key_course_attributes(threads: List[Dict[str, Any]]) -> Dict[str, An
         denominator = max(1, len(threads))
         sentiment_raw = (positive_sentiment - negative_sentiment) / denominator * 5
         course_attributes["sentiment_analysis"]["overall_sentiment"] = max(-10, min(10, sentiment_raw))
+        
+        # Calculate sentiment scores for bird score calculation
+        total_compound = 0
+        total_pos = 0
+        total_neg = 0
+        total_neu = 0
+        total_bird_terms = {}
+        total_comments = 0
+        
+        # Process each thread for sentiment analysis
+        for thread in threads:
+            full_text = f"{thread['title']} {thread['selftext']}"
+            
+            # Get sentiment scores using the analyzer
+            sentiment = analyzer.sia.polarity_scores(full_text)
+            
+            # Collect bird terms
+            thread_bird_terms = analyzer.detect_bird_terms_dict(full_text)
+            for term, count in thread_bird_terms.items():
+                if term in total_bird_terms:
+                    total_bird_terms[term] += count
+                else:
+                    total_bird_terms[term] = count
+            
+            # Collect sentiment scores
+            total_compound += sentiment["compound"]
+            total_pos += sentiment["pos"]
+            total_neg += sentiment["neg"]
+            total_neu += sentiment["neu"]
+            total_comments += thread.get("num_comments", 0)
+        
+        # Calculate averages
+        avg_compound = total_compound / len(threads)
+        avg_pos = total_pos / len(threads)
+        avg_neg = total_neg / len(threads)
+        avg_neu = total_neu / len(threads)
+        avg_comments = total_comments / len(threads) if threads else 0
+        
+        # Store in course attributes
+        course_attributes["sentiment_analysis"]["compound"] = avg_compound
+        course_attributes["sentiment_analysis"]["pos"] = avg_pos
+        course_attributes["sentiment_analysis"]["neg"] = avg_neg
+        course_attributes["sentiment_analysis"]["neu"] = avg_neu
+        course_attributes["sentiment_analysis"]["bird_terms"] = total_bird_terms
     
     # Identify key terms by frequency
     all_text = " ".join([f"{t['title']} {t['selftext']}" for t in threads]).lower()
@@ -306,6 +360,121 @@ def extract_key_course_attributes(threads: List[Dict[str, Any]]) -> Dict[str, An
     term_counts = Counter([w for w in common_words if w not in stop_words])
     # Get most common terms (up to 10)
     course_attributes["context_clues"]["terms"] = {term: count for term, count in term_counts.most_common(10)}
+    
+    # Calculate bird score similar to sentiment_analyzer.py get_course_rankings method
+    # Calculate bird term score
+    bird_term_score = 0
+    for term, count in course_attributes["sentiment_analysis"]["bird_terms"].items():
+        if term.startswith("anti:"):
+            # This is an anti-bird term
+            actual_term = term[5:]  # Remove "anti:" prefix
+            bird_term_score += analyzer.anti_bird_terms.get(actual_term, 0) * count
+        else:
+            bird_term_score += analyzer.bird_terms.get(term, 0) * count
+    
+    # Normalize bird term score based on mentions
+    if len(threads) > 0:
+        bird_term_score /= len(threads)
+    
+    # Calculate title mention bonus - course code appears in title
+    title_mentions = sum(1 for thread in threads if course_code in thread.get("title", ""))
+    title_bonus = title_mentions * 0.3
+    
+    # Get department adjustment
+    dept_code = course_attributes["department"]
+    dept_adjustment = analyzer.department_adjustments.get(dept_code, 0)
+    
+    # Comment factor (negative for high comment counts)
+    comment_factor = min(0.5, max(-0.5, (avg_comments - 10) / -20))
+    
+    # Extract course number for level adjustment
+    course_number = 0
+    try:
+        numeric_part = re.search(r'\d+', course_code)
+        if numeric_part:
+            course_number = int(numeric_part.group())
+    except (ValueError, AttributeError):
+        pass
+    
+    # Higher course numbers generally indicate more advanced, potentially harder courses
+    level_adjustment = 0
+    if course_number >= 300:
+        level_adjustment = -0.5  # Harder senior-level courses
+    elif course_number >= 200:
+        level_adjustment = -0.3  # Moderately harder intermediate courses
+    elif course_number >= 100:
+        level_adjustment = 0     # No adjustment for first-year courses
+    
+    # Calculate bird score with all factors - improved algorithm
+    total_score = sum(thread.get("score", 0) for thread in threads)
+    avg_score = total_score / len(threads) if threads else 0
+    
+    # NEW: Additional penalty factors for courses with many mentions of difficult components
+    assessment_penalty = 0
+    
+    # Extract mentions of exams, assignments, etc.
+    exam_mentions = course_attributes["course_components"]["exams"]["total"]
+    midterm_mentions = course_attributes["course_components"]["exams"]["midterm"]
+    final_mentions = course_attributes["course_components"]["exams"]["final"]
+    
+    # Calculate assessment penalty based on mentions and difficulty
+    if course_attributes["course_components"]["exams"]["difficulty_mentioned"]:
+        # If difficulty of exams is explicitly mentioned, increase penalty
+        assessment_penalty -= (midterm_mentions + final_mentions) * 0.15
+    else:
+        # Otherwise, still apply a smaller penalty for having many exams/midterms
+        assessment_penalty -= (midterm_mentions + final_mentions) * 0.05
+    
+    # NEW: Apply penalty for high mentions of difficulty in discussion
+    difficulty_mentions = course_attributes["discussion_topics"]["difficulty"]
+    workload_mentions = course_attributes["discussion_topics"]["workload"]
+    bird_course_mentions = course_attributes["discussion_topics"]["bird_course"]
+    
+    # Bird course mentions positively affect score, but difficulty and workload negatively affect it
+    topic_adjustment = (bird_course_mentions * 0.4) - (difficulty_mentions * 0.25) - (workload_mentions * 0.15)
+    
+    # NEW: Check if failure is commonly mentioned
+    failure_mentions = sum(count for term, count in course_attributes["sentiment_analysis"]["bird_terms"].items() 
+                          if "fail" in term or "failed" in term or "failing" in term)
+    failure_penalty = -0.4 * failure_mentions / max(1, len(threads))
+    
+    # NEW: Analyze sentiment patterns in titles more carefully
+    negative_title_sentiment = 0
+    for thread in threads:
+        if "title" in thread and course_code in thread["title"]:
+            title_lower = thread["title"].lower()
+            if any(term in title_lower for term in ["fail", "hard", "difficult", "tough", "help", "struggling"]):
+                negative_title_sentiment -= 0.2
+    
+    # Calculate final bird score with improved factors
+    course_attributes["bird_score"] = (
+        (course_attributes["sentiment_analysis"]["compound"] * 2.0) +       # Reduced weight of compound sentiment
+        (min(1.2, course_attributes["specific_mentions"] / 5)) +           # Mentions factor
+        (course_attributes["sentiment_analysis"]["pos"] * 1.5) -           # Positive sentiment
+        (course_attributes["sentiment_analysis"]["neg"] * 4.0) +           # Increased weight of negative sentiment
+        (bird_term_score * 1.0) +                                          # Reduced weight of bird terms
+        (min(0.6, avg_score / 50)) +                                       # Reddit score
+        title_bonus +                                                      # Title mentions
+        dept_adjustment +                                                  # Department adjustment
+        comment_factor +                                                   # Comment factor
+        level_adjustment +                                                 # Course level adjustment
+        topic_adjustment +                                                 # NEW: Topic-based adjustment
+        assessment_penalty +                                               # NEW: Assessment penalty
+        failure_penalty +                                                  # NEW: Failure mentions penalty
+        negative_title_sentiment                                           # NEW: Title sentiment penalty
+    )
+    
+    # Store additional scores for reference
+    course_attributes["bird_term_score"] = bird_term_score
+    course_attributes["dept_adjustment"] = dept_adjustment
+    course_attributes["comment_factor"] = comment_factor
+    course_attributes["level_adjustment"] = level_adjustment
+    course_attributes["topic_adjustment"] = topic_adjustment               # NEW: Store topic adjustment
+    course_attributes["assessment_penalty"] = assessment_penalty           # NEW: Store assessment penalty
+    course_attributes["failure_penalty"] = failure_penalty                 # NEW: Store failure penalty
+    
+    # Ensure bird score is in a reasonable range (0-10)
+    course_attributes["bird_score"] = max(0, min(10, course_attributes["bird_score"]))
 
     return course_attributes
 
@@ -335,7 +504,7 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
         analyzed_threads = analyzer.analyze_threads(threads)
         
         # Extract key course attributes
-        course_details = extract_key_course_attributes(analyzed_threads)
+        course_details = extract_key_course_attributes(analyzed_threads, analyzer)
         
         if course_details:
             all_course_details.append(course_details)
@@ -345,6 +514,7 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
             with open(course_file, 'w') as f:
                 json.dump(course_details, f, indent=2, sort_keys=False)
             print(f"Course details for {course_code} saved to {course_file}")
+            print(f"Bird Score: {course_details.get('bird_score', 0):.2f}/10")
     
     # Save combined analysis for all courses with pretty formatting
     if all_course_details:
@@ -358,6 +528,18 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
             json.dump(all_course_details, f, indent=2, sort_keys=False)
         
         print(f"Combined course details saved to {combined_file}")
+        
+        # Print summary of bird scores with score components
+        print("\nBird Score Summary:")
+        for course in sorted(all_course_details, key=lambda x: x.get('bird_score', 0), reverse=True):
+            print(f"{course['code']}: {course.get('bird_score', 0):.2f}/10")
+            print(f"  - Sentiment: {course['sentiment_analysis']['compound']:.2f} (pos: {course['sentiment_analysis']['pos']:.2f}, neg: {course['sentiment_analysis']['neg']:.2f})")
+            print(f"  - Bird terms: {course.get('bird_term_score', 0):.2f}")
+            print(f"  - Topic adj: {course.get('topic_adjustment', 0):.2f} (bird mentions: {course['discussion_topics'].get('bird_course', 0)}, difficulty: {course['discussion_topics'].get('difficulty', 0)})")
+            print(f"  - Assessment penalty: {course.get('assessment_penalty', 0):.2f}")
+            print(f"  - Failure mentions: {course.get('failure_penalty', 0):.2f}")
+            print(f"  - Department adj: {course.get('dept_adjustment', 0):.2f}")
+            print()
     
     return all_course_details
 
