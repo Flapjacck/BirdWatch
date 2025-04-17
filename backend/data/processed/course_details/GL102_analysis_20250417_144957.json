@@ -1,0 +1,241 @@
+{
+  "code": "GL102",
+  "department": "GL",
+  "specific_mentions": 4,
+  "avg_thread_score": 2.25,
+  "recent_mentions": 0,
+  "oldest_thread_date": "2023-04-23T22:59:59+00:00",
+  "newest_thread_date": "2024-07-03T17:31:15+00:00",
+  "is_online_available": false,
+  "bird_score": 2.582125,
+  "discussion_topics": {
+    "difficulty": 2,
+    "workload": 0,
+    "bird_course": 1,
+    "content": 1,
+    "structure": 2,
+    "grading": 0
+  },
+  "course_components": {
+    "exams": {
+      "midterm": 0,
+      "final": 0,
+      "total": 0,
+      "weight_mentioned": false,
+      "difficulty_mentioned": false
+    },
+    "assignments": {
+      "count": 1,
+      "papers": 1,
+      "total": 2,
+      "weight_mentioned": false,
+      "difficulty_mentioned": true
+    },
+    "assessments": {
+      "quizzes": 0,
+      "labs": 0,
+      "attendance": 0,
+      "participation": 0,
+      "presentations": 0,
+      "projects": 1,
+      "group_work": 0
+    }
+  },
+  "sentiment_analysis": {
+    "positive_aspects": {
+      "interesting": 1
+    },
+    "negative_aspects": {},
+    "overall_sentiment": 3.75,
+    "compound": 0.18225,
+    "pos": 0.11174999999999999,
+    "neu": 0.80175,
+    "neg": 0.08625,
+    "bird_terms": {
+      "anti:hard": 1,
+      "bird": 1,
+      "easy": 1,
+      "enjoyed": 1
+    }
+  },
+  "context_clues": {
+    "terms": {
+      "year": 4,
+      "discord": 2,
+      "last": 2,
+      "second": 2,
+      "going": 2,
+      "into": 2,
+      "guys": 1,
+      "hard": 1,
+      "hello": 1,
+      "wanna": 1
+    },
+    "year_level_appropriate": true,
+    "pre_requisites_mentioned": false
+  },
+  "thread_summary": {
+    "post_dates": [
+      "2023-09-29T00:18:24+00:00",
+      "2023-04-23T22:59:59+00:00",
+      "2024-07-03T17:31:15+00:00",
+      "2023-06-22T16:08:14+00:00"
+    ],
+    "scores": [
+      1,
+      2,
+      5,
+      1
+    ],
+    "comments": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "titles": [
+      "GL102",
+      "gl102 discord",
+      "Second year bird courses",
+      "Financial Mathematics course registration"
+    ]
+  },
+  "threads": [
+    {
+      "id": "16uwkpt",
+      "title": "GL102",
+      "author": "Huge-Cricket6206",
+      "created": "2023-09-29T00:18:24.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/16uwkpt/gl102/",
+      "selftext": "Yo guys, how hard is this course?",
+      "score": 1,
+      "num_comments": 1,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.167,
+        "neu": 0.833,
+        "pos": 0.0,
+        "compound": -0.1027
+      },
+      "courses": {
+        "GL102": {
+          "compound": -0.6632399999999999,
+          "pos": 0.0,
+          "neu": 0.833,
+          "neg": 0.167,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "GL"
+        }
+      }
+    },
+    {
+      "id": "12wtm2k",
+      "title": "gl102 discord",
+      "author": "CommercialOld3462",
+      "created": "2023-04-23T22:59:59.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/12wtm2k/gl102_discord/",
+      "selftext": "Hello, is there a gl 102 discord? I wanna see if I can get those questions from the last two lectures that she gave out, thanks!",
+      "score": 2,
+      "num_comments": 0,
+      "upvote_ratio": 0.75,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.171,
+        "neu": 0.665,
+        "pos": 0.165,
+        "compound": -0.0516
+      },
+      "courses": {}
+    },
+    {
+      "id": "1duk5dr",
+      "title": "Second year bird courses",
+      "author": "BudgetLecture1970",
+      "created": "2024-07-03T17:31:15.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1duk5dr/second_year_bird_courses/",
+      "selftext": "I'm a CS student going into second year and need some electives to fill up my schedule. Last year I really enjoyed GL102 and AS101 as they didn't have any writing assignment's and were pretty easy 12s. If anyone has any course recommendations similar that would be great.",
+      "score": 5,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.716,
+        "pos": 0.284,
+        "compound": 0.9577
+      },
+      "courses": {
+        "GL102": {
+          "compound": 0.9041322222222224,
+          "pos": 0.2816666666666667,
+          "neu": 0.7183333333333333,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "enjoyed": 1,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "GL"
+        },
+        "AS101": {
+          "compound": 1.4207988888888892,
+          "pos": 0.2816666666666667,
+          "neu": 0.7183333333333333,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "enjoyed": 1,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "14g7k8u",
+      "title": "Financial Mathematics course registration",
+      "author": "arman_l",
+      "created": "2023-06-22T16:08:14.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14g7k8u/financial_mathematics_course_registration/",
+      "selftext": "Going into fin math BSc the first year, course requirements are as follows, but it will not let me register for CP104, Any ideas?  \n\n\nhttps://preview.redd.it/5gzrh8xdfl7b1.png?width=1386&amp;format=png&amp;auto=webp&amp;s=ab94936447d7507e906b89a531e1d60c45d91668",
+      "score": 1,
+      "num_comments": 1,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "courses": {
+        "CP104": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 0.5,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        }
+      }
+    }
+  ],
+  "bird_term_score": 0.875,
+  "dept_adjustment": 0,
+  "comment_factor": 0.475,
+  "level_adjustment": 0,
+  "topic_adjustment": -0.09999999999999998,
+  "assessment_penalty": 0.0,
+  "failure_penalty": -0.0
+}

@@ -1,0 +1,1384 @@
+{
+  "code": "UU100",
+  "department": "UU",
+  "specific_mentions": 26,
+  "avg_thread_score": 2.769230769230769,
+  "recent_mentions": 0,
+  "oldest_thread_date": "2023-01-11T20:13:51+00:00",
+  "newest_thread_date": "2025-04-15T21:16:05+00:00",
+  "is_online_available": true,
+  "bird_score": 6.833665384615384,
+  "discussion_topics": {
+    "difficulty": 10,
+    "workload": 1,
+    "bird_course": 10,
+    "content": 2,
+    "structure": 0,
+    "grading": 1
+  },
+  "course_components": {
+    "exams": {
+      "midterm": 5,
+      "final": 5,
+      "total": 10,
+      "weight_mentioned": false,
+      "difficulty_mentioned": true
+    },
+    "assignments": {
+      "count": 3,
+      "papers": 1,
+      "total": 4,
+      "weight_mentioned": true,
+      "difficulty_mentioned": true
+    },
+    "assessments": {
+      "quizzes": 2,
+      "labs": 1,
+      "attendance": 0,
+      "participation": 0,
+      "presentations": 0,
+      "projects": 0,
+      "group_work": 0
+    }
+  },
+  "sentiment_analysis": {
+    "positive_aspects": {
+      "helpful": 1,
+      "interesting": 1
+    },
+    "negative_aspects": {},
+    "overall_sentiment": 2.307692307692308,
+    "compound": 0.5653230769230769,
+    "pos": 0.20934615384615388,
+    "neu": 0.7273846153846153,
+    "neg": 0.06323076923076923,
+    "bird_terms": {
+      "bird": 14,
+      "anti:midterm": 6,
+      "anti:exam": 5,
+      "no final": 1,
+      "online": 15,
+      "anti:final": 6,
+      "easy": 14,
+      "gpa booster": 2,
+      "anti:mandatory": 1,
+      "anti:challenging": 1,
+      "anti:avoid": 1,
+      "basic": 1,
+      "no exam": 1,
+      "anti:required": 6
+    }
+  },
+  "context_clues": {
+    "terms": {
+      "courses": 23,
+      "online": 15,
+      "bird": 14,
+      "easy": 14,
+      "year": 14,
+      "electives": 12,
+      "anyone": 10,
+      "person": 9,
+      "looking": 8,
+      "first": 8
+    },
+    "year_level_appropriate": true,
+    "pre_requisites_mentioned": true
+  },
+  "thread_summary": {
+    "post_dates": [
+      "2025-02-25T12:23:35+00:00",
+      "2024-10-25T04:17:44+00:00",
+      "2024-10-10T01:52:13+00:00",
+      "2024-06-28T04:22:31+00:00",
+      "2023-03-21T18:55:50+00:00",
+      "2023-01-11T20:13:51+00:00",
+      "2024-12-17T22:57:19+00:00",
+      "2024-12-18T05:05:59+00:00",
+      "2024-09-10T16:03:00+00:00",
+      "2024-06-15T01:16:23+00:00",
+      "2023-07-03T04:52:14+00:00",
+      "2023-03-16T15:41:55+00:00",
+      "2023-06-20T05:36:09+00:00",
+      "2025-04-15T21:16:05+00:00",
+      "2024-12-19T18:44:48+00:00",
+      "2024-12-16T02:23:39+00:00",
+      "2024-07-08T13:48:16+00:00",
+      "2024-08-13T00:55:29+00:00",
+      "2024-06-15T22:19:20+00:00",
+      "2023-07-21T02:49:30+00:00",
+      "2023-06-18T02:53:33+00:00",
+      "2023-12-12T16:20:01+00:00",
+      "2023-12-14T00:10:15+00:00",
+      "2023-07-05T11:47:55+00:00",
+      "2023-06-23T01:51:02+00:00",
+      "2023-04-08T20:33:20+00:00"
+    ],
+    "scores": [
+      5,
+      2,
+      5,
+      0,
+      1,
+      0,
+      17,
+      0,
+      9,
+      0,
+      3,
+      9,
+      2,
+      0,
+      5,
+      0,
+      0,
+      0,
+      3,
+      2,
+      3,
+      0,
+      1,
+      3,
+      0,
+      2
+    ],
+    "comments": [
+      1,
+      5,
+      1,
+      6,
+      9,
+      0,
+      18,
+      11,
+      8,
+      6,
+      8,
+      7,
+      2,
+      9,
+      6,
+      5,
+      10,
+      5,
+      5,
+      23,
+      13,
+      4,
+      1,
+      5,
+      4,
+      5
+    ],
+    "titles": [
+      "UU100 OR SC100 FOR SPRING 2025?",
+      "UU100 OC",
+      "Is UU100 a pass fail course?",
+      "Is uu100 a pass or fail",
+      "Thoughts on Em 202/ UU100?",
+      "UU100",
+      "Easiest 12 ",
+      "Winter 2025 electives",
+      "BIRD COURSES",
+      "Im going in to first year Bba. Are these good Gpa boosters for co op?",
+      "Looking for the 100% easiest GPA boosting electives.",
+      "spring courses a good idea?",
+      "first year courses selection",
+      "Easy courses",
+      "BU Bird Electives",
+      "4th year BBA student looking for an OC course because of co-op commitments",
+      "Easiest Electives for Freshmen to Boost GPA?",
+      "No exam bird courses ",
+      "What are good coures to take as first psych student at Laurier for BA? ",
+      "WILL I SURVIVE? \ud83d\ude42",
+      "What first year courses are easy and don\u2019t include a lot of essays (if any)?",
+      "Bird Courses",
+      "Help me with a bird course",
+      "Easy/interesting electives",
+      "Laurier BBA GPA Course Booster",
+      "Bird/Easy second year courses to complete in the summer"
+    ]
+  },
+  "threads": [
+    {
+      "id": "1ixtqoe",
+      "title": "UU100 OR SC100 FOR SPRING 2025?",
+      "author": "Rude-East1051",
+      "created": "2025-02-25T12:23:35.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1ixtqoe/uu100_or_sc100_for_spring_2025/",
+      "selftext": "",
+      "score": 5,
+      "num_comments": 1,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "courses": {
+        "UU100": {
+          "compound": 1.0333333333333334,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 1,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "UU"
+        },
+        "SC100": {
+          "compound": 0.5166666666666667,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 1,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "SC"
+        }
+      }
+    },
+    {
+      "id": "1gblweq",
+      "title": "UU100 OC",
+      "author": "ScaleAffectionate570",
+      "created": "2024-10-25T04:17:44.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1gblweq/uu100_oc/",
+      "selftext": "How is each thing graded, like the weight of assignments, quizzes, etc. I have Strahan next sem",
+      "score": 2,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.872,
+        "pos": 0.128,
+        "compound": 0.3612
+      },
+      "courses": {
+        "UU100": {
+          "compound": 1.2329429333333335,
+          "pos": 0.0805,
+          "neu": 0.9195,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "UU"
+        }
+      }
+    },
+    {
+      "id": "1g084p3",
+      "title": "Is UU100 a pass fail course?",
+      "author": "mkkria12",
+      "created": "2024-10-10T01:52:13.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1g084p3/is_uu100_a_pass_fail_course/",
+      "selftext": "",
+      "score": 5,
+      "num_comments": 1,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.467,
+        "neu": 0.533,
+        "pos": 0.0,
+        "compound": -0.5423
+      },
+      "courses": {
+        "UU100": {
+          "compound": 0.3608813333333334,
+          "pos": 0.0,
+          "neu": 0.533,
+          "neg": 0.467,
+          "mentions": 1,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "UU"
+        }
+      }
+    },
+    {
+      "id": "1dqb0nu",
+      "title": "Is uu100 a pass or fail",
+      "author": "Able_Note_4906",
+      "created": "2024-06-28T04:22:31.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dqb0nu/is_uu100_a_pass_or_fail/",
+      "selftext": "",
+      "score": 0,
+      "num_comments": 6,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.467,
+        "neu": 0.533,
+        "pos": 0.0,
+        "compound": -0.5423
+      },
+      "courses": {}
+    },
+    {
+      "id": "11xqi1s",
+      "title": "Thoughts on Em 202/ UU100?",
+      "author": "Key_Echidna_7848",
+      "created": "2023-03-21T18:55:50.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/11xqi1s/thoughts_on_em_202_uu100/",
+      "selftext": "Anyone know anything about these courses? Is there a midterm and exam and are they bird courses ?",
+      "score": 1,
+      "num_comments": 9,
+      "upvote_ratio": 0.6,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.12,
+        "neu": 0.72,
+        "pos": 0.16,
+        "compound": 0.4588
+      },
+      "courses": {
+        "UU100": {
+          "compound": 1.0066666666666666,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "UU"
+        }
+      }
+    },
+    {
+      "id": "109en87",
+      "title": "UU100",
+      "author": "Signal_Buyer_2782",
+      "created": "2023-01-11T20:13:51.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/109en87/uu100/",
+      "selftext": "Has anyone taken UU100 and could tell me how it was and what the assignments and exams were",
+      "score": 0,
+      "num_comments": 0,
+      "upvote_ratio": 0.33,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "courses": {
+        "UU100": {
+          "compound": 0.8200000000000001,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:exam": 1
+          },
+          "title_mention": true,
+          "department": "UU"
+        }
+      }
+    },
+    {
+      "id": "1hgnbqu",
+      "title": "Easiest 12 ",
+      "author": "SheepherderClear4589",
+      "created": "2024-12-17T22:57:19.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
+      "selftext": "planning to take electives in the spring to boost my gpa. what are the easiest electives i can take to get 12. no final and midterm in person preferred. online everything. took cp102, uu100, es110, re104. taking em101 and em203 in winter term",
+      "score": 17,
+      "num_comments": 18,
+      "upvote_ratio": 0.91,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.098,
+        "neu": 0.682,
+        "pos": 0.22,
+        "compound": 0.7506
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hgue3i",
+      "title": "Winter 2025 electives",
+      "author": "ThatOneGuy2810",
+      "created": "2024-12-18T05:05:59.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgue3i/winter_2025_electives/",
+      "selftext": "Does anyone know any easy (preferably online) winter 2025 courses? A lot are full, like cp102, uu100, em202,  as101, etc. Already took em203 in the fall",
+      "score": 0,
+      "num_comments": 11,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.781,
+        "pos": 0.219,
+        "compound": 0.7184
+      },
+      "courses": {}
+    },
+    {
+      "id": "1fdli6c",
+      "title": "BIRD COURSES",
+      "author": "oreo_david",
+      "created": "2024-09-10T16:03:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "selftext": "Im a BBA student and ik regardless of what year u are, everyone is always looking for bird courses, after looking extensively through them, here is a list, hope it helps :)  \n(UR WELCOME)\n\n**IN-Person**  \nES110\n\n**ONLINE**  \nAS101 - might've changed it so careful  \nSC100  \nUU150  \nUU100  \nAN100  \nCP102  \nEM202  \nEM203  \nEM101  \nEM110  \nEM300  \nISHS 200\n\n**I heard it was ez but idk**  \nUX100  \nUX103  \nGG101",
+      "score": 9,
+      "num_comments": 8,
+      "upvote_ratio": 0.77,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.023,
+        "neu": 0.758,
+        "pos": 0.219,
+        "compound": 0.866
+      },
+      "courses": {
+        "EM203": {
+          "compound": 2.12,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "UU150": {
+          "compound": 2.12,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "GG101": {
+          "compound": 1.06,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "GG"
+        },
+        "SC100": {
+          "compound": 1.59,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "SC"
+        },
+        "UX100": {
+          "compound": 1.06,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        },
+        "EM202": {
+          "compound": 2.12,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM101": {
+          "compound": 2.12,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM300": {
+          "compound": 2.12,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "ES110": {
+          "compound": 2.12,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.59,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.59,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "UU100": {
+          "compound": 2.12,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "EM110": {
+          "compound": 2.12,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "CP102": {
+          "compound": -1.0,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "UX103": {
+          "compound": 1.06,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        }
+      }
+    },
+    {
+      "id": "1dg6grm",
+      "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
+      "author": "Confusedandcool",
+      "created": "2024-06-15T01:16:23.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dg6grm/im_going_in_to_first_year_bba_are_these_good_gpa/",
+      "selftext": "An100, uu100, es110, re104, and cc102?",
+      "score": 0,
+      "num_comments": 6,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.795,
+        "pos": 0.205,
+        "compound": 0.5994
+      },
+      "courses": {}
+    },
+    {
+      "id": "14p9969",
+      "title": "Looking for the 100% easiest GPA boosting electives.",
+      "author": "Jumpman78",
+      "created": "2023-07-03T04:52:14.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14p9969/looking_for_the_100_easiest_gpa_boosting_electives/",
+      "selftext": "Currently have UU100 SC100 AN100 (anyone know if this is better irl or online?) ES110 GG102 CP102 CC101 to decide between. Just wanted to see if anyone had any recent experience with any of these (as some might have changed around over the years). Any other recommendations would be very appreciated as well, profs taken or good profs for any courses would be very helpful too.",
+      "score": 3,
+      "num_comments": 8,
+      "upvote_ratio": 0.71,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.734,
+        "pos": 0.266,
+        "compound": 0.9663
+      },
+      "courses": {
+        "CC101": {
+          "compound": 0.230078,
+          "pos": 0.08933333333333333,
+          "neu": 0.9106666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CC"
+        },
+        "SC100": {
+          "compound": 0.9900119999999999,
+          "pos": 0.286,
+          "neu": 0.714,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "SC"
+        },
+        "ES110": {
+          "compound": 1.250078,
+          "pos": 0.08933333333333333,
+          "neu": 0.9106666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AN100": {
+          "compound": 0.9900119999999999,
+          "pos": 0.286,
+          "neu": 0.714,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "UU100": {
+          "compound": 1.500012,
+          "pos": 0.286,
+          "neu": 0.714,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "GG102": {
+          "compound": 0.230078,
+          "pos": 0.08933333333333333,
+          "neu": 0.9106666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "GG"
+        },
+        "CP102": {
+          "compound": -1.7744333333333333,
+          "pos": 0.08933333333333333,
+          "neu": 0.9106666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "11sxmmi",
+      "title": "spring courses a good idea?",
+      "author": "britney_d",
+      "created": "2023-03-16T15:41:55.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/11sxmmi/spring_courses_a_good_idea/",
+      "selftext": "pros:\n- i get ahead in my electives \n- lighten my course load in 2nd year (i\u2019m in BBA and heard 2nd year mandatory classes are rough)\n- can maybe finally learn how to study??\n- i can improve my first year GPA for co op and scholarships \n\ncons:\n- i\u2019m working full time in the summer\n- no break from school \n\nhere are the courses i\u2019m thinking (i only plan to do 2 and both online)\n- SY242 (sociology of crime: interpretive perspective)\n- SY241 (sociology of crime: structural perspectives)\n- CP104 (introduction to programming)\n- PS101 (introduction to psychology I)\n- PS102 (introduction to psychology II)\n- UU100 (mental health literacy)",
+      "score": 9,
+      "num_comments": 7,
+      "upvote_ratio": 0.85,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.099,
+        "neu": 0.807,
+        "pos": 0.094,
+        "compound": -0.3818
+      },
+      "courses": {
+        "SY241": {
+          "compound": -0.46155,
+          "pos": 0.0635,
+          "neu": 0.8625,
+          "neg": 0.074,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 1,
+            "anti:final": 1,
+            "anti:mandatory": 1
+          },
+          "title_mention": false,
+          "department": "SY"
+        },
+        "PS101": {
+          "compound": -0.46155,
+          "pos": 0.0635,
+          "neu": 0.8625,
+          "neg": 0.074,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 1,
+            "anti:final": 1,
+            "anti:mandatory": 1
+          },
+          "title_mention": false,
+          "department": "PS"
+        },
+        "PS102": {
+          "compound": -0.46155,
+          "pos": 0.0635,
+          "neu": 0.8625,
+          "neg": 0.074,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 1,
+            "anti:final": 1,
+            "anti:mandatory": 1
+          },
+          "title_mention": false,
+          "department": "PS"
+        },
+        "SY242": {
+          "compound": -0.46155,
+          "pos": 0.0635,
+          "neu": 0.8625,
+          "neg": 0.074,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 1,
+            "anti:final": 1,
+            "anti:mandatory": 1
+          },
+          "title_mention": false,
+          "department": "SY"
+        },
+        "CP104": {
+          "compound": -0.46155,
+          "pos": 0.0635,
+          "neu": 0.8625,
+          "neg": 0.074,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 1,
+            "anti:final": 1,
+            "anti:mandatory": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "UU100": {
+          "compound": 0.570757,
+          "pos": 0.0635,
+          "neu": 0.8625,
+          "neg": 0.074,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 1,
+            "anti:final": 1,
+            "anti:mandatory": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        }
+      }
+    },
+    {
+      "id": "14e24e3",
+      "title": "first year courses selection",
+      "author": "Dazzling_Rock4849",
+      "created": "2023-06-20T05:36:09.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14e24e3/first_year_courses_selection/",
+      "selftext": "I am a first year cs student, and i  am thinking of having these courses \nFall\nMa102, ma122,cp104 ux100,em203\nWinter \nCp164, ma103,ux103,em202 uu100\nWhat do you think of this list? Am I missing anything?\nTIA",
+      "score": 2,
+      "num_comments": 2,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.057,
+        "neu": 0.857,
+        "pos": 0.086,
+        "compound": 0.2732
+      },
+      "courses": {}
+    },
+    {
+      "id": "1k03c17",
+      "title": "Easy courses",
+      "author": "Adventurous-Job4599",
+      "created": "2025-04-15T21:16:05.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1k03c17/easy_courses/",
+      "selftext": "Can anyone give me me online course in Laurier which have online exams and midterms. ",
+      "score": 0,
+      "num_comments": 9,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.7,
+        "pos": 0.3,
+        "compound": 0.6124
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hhzw3i",
+      "title": "BU Bird Electives",
+      "author": "Individual-Edge499",
+      "created": "2024-12-19T18:44:48.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hhzw3i/bu_bird_electives/",
+      "selftext": "Anyone know any BU electives that are pretty chill? Trying to boost my GPA after hell finals season\ud83d\ude2e\u200d\ud83d\udca8",
+      "score": 5,
+      "num_comments": 6,
+      "upvote_ratio": 0.86,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.142,
+        "neu": 0.495,
+        "pos": 0.362,
+        "compound": 0.7269
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hf8wp1",
+      "title": "4th year BBA student looking for an OC course because of co-op commitments",
+      "author": "Mindless_Yogurt_322",
+      "created": "2024-12-16T02:23:39.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
+      "selftext": "As the title suggests, I am looking for a course that is offered online because I have 5-day in-person co-op in a different city and need 3.0 credits (6 courses of 0.5 credits each) to graduate in time. I cannot make the commute back and forth for any in-person lectures or labs. In an ideal world, I don't want to commute for an in-person midterm or final. I don't mind any assignments or any number of hours to be put into quizzes or other grading assessments. The course doesn't have to be necessarily be a bird course, all I am trying to accommodate for myself is that I can get the credit without having to take days off from work to write the midterm or the final and it is offered OC. I appreciate any all advice you guys can give.\n\nFor reference, I have already taken the following electives:  \n1. PS101 (Intro to Psychology 1)  \n2. CP102 (Info Processing with Micros)  \n3. RE103 (Love and its Myths)  \n4. RE104 (Evil and its Symbols)  \n5. AS101 (Astronomy 1: Our Cosmos)  \n6. EC223 (Canadian Banking)  \n7. EC229 (Economics of China)  \n8. EM202 (Educational Divide)  \n9. EM203 (The Twitter Course)  \n",
+      "score": 0,
+      "num_comments": 5,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.063,
+        "neu": 0.812,
+        "pos": 0.125,
+        "compound": 0.9334
+      },
+      "courses": {
+        "RE103": {
+          "compound": -0.007599999999999977,
+          "pos": 0.17066666666666666,
+          "neu": 0.6546666666666666,
+          "neg": 0.17466666666666666,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "EM203": {
+          "compound": 1.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EC229": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "EM202": {
+          "compound": 1.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EM"
+        },
+        "PS101": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "PS"
+        },
+        "RE104": {
+          "compound": -0.007599999999999977,
+          "pos": 0.17066666666666666,
+          "neu": 0.6546666666666666,
+          "neg": 0.17466666666666666,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "AS101": {
+          "compound": 0.2801,
+          "pos": 0.0,
+          "neu": 0.8253333333333334,
+          "neg": 0.17466666666666666,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AS"
+        },
+        "EC223": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "CP102": {
+          "compound": -1.7877,
+          "pos": 0.17066666666666666,
+          "neu": 0.8293333333333334,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "1dy9dl3",
+      "title": "Easiest Electives for Freshmen to Boost GPA?",
+      "author": "GreenAirport7622",
+      "created": "2024-07-08T13:48:16.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dy9dl3/easiest_electives_for_freshmen_to_boost_gpa/",
+      "selftext": "Hi everyone,\n\nI'm a freshman looking to boost my GPA. Can anyone recommend some easy electives that are generally known for being less challenging? Any tips on which courses to take (or avoid) would be greatly appreciated!\n\nThanks :)",
+      "score": 0,
+      "num_comments": 10,
+      "upvote_ratio": 0.45,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.036,
+        "neu": 0.545,
+        "pos": 0.419,
+        "compound": 0.9647
+      },
+      "courses": {}
+    },
+    {
+      "id": "1equpp6",
+      "title": "No exam bird courses ",
+      "author": "Organic-Buffalo9012",
+      "created": "2024-08-13T00:55:29.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1equpp6/no_exam_bird_courses/",
+      "selftext": "Need a bird for this fall that doesn\u2019t have any exams (midterms or finals) and not much course load, just need a easy credit basically",
+      "score": 0,
+      "num_comments": 5,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.097,
+        "neu": 0.548,
+        "pos": 0.355,
+        "compound": 0.8979
+      },
+      "courses": {}
+    },
+    {
+      "id": "1dgt44r",
+      "title": "What are good coures to take as first psych student at Laurier for BA? ",
+      "author": "Adorable-Place-2010",
+      "created": "2024-06-15T22:19:20.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dgt44r/what_are_good_coures_to_take_as_first_psych/",
+      "selftext": "could list 4 easy courses that are not science related? ",
+      "score": 3,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.781,
+        "pos": 0.219,
+        "compound": 0.7096
+      },
+      "courses": {}
+    },
+    {
+      "id": "155bavd",
+      "title": "WILL I SURVIVE? \ud83d\ude42",
+      "author": "Total_Commercial5347",
+      "created": "2023-07-21T02:49:30.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
+      "selftext": "Hi, I'm going to Laurier University this year in the fall term for Honours BA Psychology: Forensic Specialization first-year student. What do you guys think? Can I survive? If anyone has experience with any course please help me. Please give some tips for survival would be well appreciated.\n\nBTW IF YOU HAVE ANY KIND OF BIRD COURSE PLEASE LET ME KNOW BUT IT HAS TO BE OTHER THAN Faculty of Human &amp; Social Sciences OR Science. \nSOMEONE SAID THAT I SHOULD TAKE YC100\n\nFALL:\n\nPS101 (IN PERSON) (COMPULSORY/REQUIRED)\n\nCC100 (ONLINE) (COMPULSORY/REQUIRED)\n\nCC102 (IN PERSON) (COMPULSORY/REQUIRED)\n\nUU150 (ONLINE) (COMPULSORY/REQUIRED)\n\nEM101 (ONLINE) (ELECTIVE)\n\nWINTER:\n\nPS102 (IN PERSON) (COMPULSORY/REQUIRED)\n\nHS103 (IN PERSON) (COMPULSORY/REQUIRED)\n\nAN105 (ONLINE) (ELECTIVE)\n\nHI128 (ONLINE) (ELECTIVE)\n\nGS101 (ONLINE) (ELECTIVE)",
+      "score": 2,
+      "num_comments": 23,
+      "upvote_ratio": 0.58,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.805,
+        "pos": 0.195,
+        "compound": 0.9473
+      },
+      "courses": {
+        "UU150": {
+          "compound": 1.3742826666666668,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "HI128": {
+          "compound": 0.36094933333333346,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "HI"
+        },
+        "HS103": {
+          "compound": 0.36094933333333346,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "HS"
+        },
+        "EM101": {
+          "compound": 1.3742826666666668,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "PS101": {
+          "compound": 0.36094933333333346,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "PS"
+        },
+        "GS101": {
+          "compound": 0.36094933333333346,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "GS"
+        },
+        "CC102": {
+          "compound": 0.36094933333333346,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "CC"
+        },
+        "YC100": {
+          "compound": 0.36094933333333346,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "YC"
+        },
+        "PS102": {
+          "compound": 0.36094933333333346,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "PS"
+        },
+        "AN105": {
+          "compound": 0.8676160000000002,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "CC100": {
+          "compound": 0.36094933333333346,
+          "pos": 0.1665,
+          "neu": 0.8335,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 6,
+            "anti:required": 6,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "CC"
+        }
+      }
+    },
+    {
+      "id": "14c96gj",
+      "title": "What first year courses are easy and don\u2019t include a lot of essays (if any)?",
+      "author": "noredlights4",
+      "created": "2023-06-18T02:53:33.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14c96gj/what_first_year_courses_are_easy_and_dont_include/",
+      "selftext": "I got into Laurier BBA and want to have a high GPA to make co op.  What courses are easy (with small amount of essays) that could help me with this?  Also does it hurt my odds if I take non business courses?",
+      "score": 3,
+      "num_comments": 13,
+      "upvote_ratio": 0.71,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.054,
+        "neu": 0.757,
+        "pos": 0.189,
+        "compound": 0.765
+      },
+      "courses": {}
+    },
+    {
+      "id": "18gpna4",
+      "title": "Bird Courses",
+      "author": "InspectionNo586",
+      "created": "2023-12-12T16:20:01.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18gpna4/bird_courses/",
+      "selftext": "Anyone got any first year bird courses that I should take next sem?",
+      "score": 0,
+      "num_comments": 4,
+      "upvote_ratio": 0.4,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.6,
+        "pos": 0.4,
+        "compound": 0.8402
+      },
+      "courses": {}
+    },
+    {
+      "id": "18hvds0",
+      "title": "Help me with a bird course",
+      "author": "Equal_Worldliness343",
+      "created": "2023-12-14T00:10:15.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18hvds0/help_me_with_a_bird_course/",
+      "selftext": "I need help regarding a course which would be an easy grade, I am looking to drop astronomy(my friend told me it was very easy) because it is a 5 30 to 6 30 slot, I want to join gym at that time, please tell me about the easiest courses and I will see if it fits my timetable",
+      "score": 1,
+      "num_comments": 1,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.028,
+        "neu": 0.606,
+        "pos": 0.366,
+        "compound": 0.9723
+      },
+      "courses": {}
+    },
+    {
+      "id": "14r8du8",
+      "title": "Easy/interesting electives",
+      "author": "bubblykk",
+      "created": "2023-07-05T11:47:55.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14r8du8/easyinteresting_electives/",
+      "selftext": "I have course registration and I\u2019m looking for easy(bird) electives. If you have any suggestions pls lmk :)",
+      "score": 3,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.929,
+        "pos": 0.071,
+        "compound": 0.0772
+      },
+      "courses": {}
+    },
+    {
+      "id": "14gllrs",
+      "title": "Laurier BBA GPA Course Booster",
+      "author": "Effective-Lion5089",
+      "created": "2023-06-23T01:51:02.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14gllrs/laurier_bba_gpa_course_booster/",
+      "selftext": "What cources are easy and are gpa boosters for Year 1 Laurier BBA student",
+      "score": 0,
+      "num_comments": 4,
+      "upvote_ratio": 0.33,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.583,
+        "pos": 0.417,
+        "compound": 0.8402
+      },
+      "courses": {}
+    },
+    {
+      "id": "12fxkw0",
+      "title": "Bird/Easy second year courses to complete in the summer",
+      "author": "kd02004",
+      "created": "2023-04-08T20:33:20.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/12fxkw0/birdeasy_second_year_courses_to_complete_in_the/",
+      "selftext": "any suggestions for easy bird courses to take this summer? preferably online",
+      "score": 2,
+      "num_comments": 5,
+      "upvote_ratio": 0.63,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.679,
+        "pos": 0.321,
+        "compound": 0.8176
+      },
+      "courses": {}
+    }
+  ],
+  "bird_term_score": 2.076923076923077,
+  "dept_adjustment": 1.0,
+  "comment_factor": 0.15961538461538463,
+  "level_adjustment": 0,
+  "topic_adjustment": 1.35,
+  "assessment_penalty": -1.5,
+  "failure_penalty": -0.0
+}

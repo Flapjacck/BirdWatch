@@ -1,0 +1,2100 @@
+{
+  "code": "ES110",
+  "department": "ES",
+  "specific_mentions": 39,
+  "avg_thread_score": 6.82051282051282,
+  "recent_mentions": 0,
+  "oldest_thread_date": "2021-04-07T20:33:30+00:00",
+  "newest_thread_date": "2025-03-08T20:23:18+00:00",
+  "is_online_available": true,
+  "bird_score": 6.141312820512819,
+  "discussion_topics": {
+    "difficulty": 13,
+    "workload": 0,
+    "bird_course": 8,
+    "content": 5,
+    "structure": 5,
+    "grading": 1
+  },
+  "course_components": {
+    "exams": {
+      "midterm": 6,
+      "final": 9,
+      "total": 15,
+      "weight_mentioned": false,
+      "difficulty_mentioned": true
+    },
+    "assignments": {
+      "count": 1,
+      "papers": 0,
+      "total": 1,
+      "weight_mentioned": false,
+      "difficulty_mentioned": false
+    },
+    "assessments": {
+      "quizzes": 1,
+      "labs": 1,
+      "attendance": 0,
+      "participation": 0,
+      "presentations": 0,
+      "projects": 1,
+      "group_work": 1
+    }
+  },
+  "sentiment_analysis": {
+    "positive_aspects": {
+      "interesting": 2
+    },
+    "negative_aspects": {
+      "stressful": 1
+    },
+    "overall_sentiment": 0.44871794871794873,
+    "compound": 0.3291051282051282,
+    "pos": 0.12712820512820514,
+    "neu": 0.8035641025641027,
+    "neg": 0.06933333333333334,
+    "bird_terms": {
+      "easy": 9,
+      "online": 17,
+      "anti:exam": 17,
+      "anti:midterm": 8,
+      "anti:final": 9,
+      "anti:hard": 6,
+      "bird": 14,
+      "anti:challenging": 1,
+      "basic": 2,
+      "anti:difficult": 3,
+      "no final": 2,
+      "gpa booster": 1
+    }
+  },
+  "context_clues": {
+    "terms": {
+      "online": 17,
+      "exam": 13,
+      "anyone": 12,
+      "bird": 12,
+      "courses": 11,
+      "year": 9,
+      "know": 9,
+      "easy": 9,
+      "prof": 9,
+      "final": 9
+    },
+    "year_level_appropriate": true,
+    "pre_requisites_mentioned": false
+  },
+  "thread_summary": {
+    "post_dates": [
+      "2025-03-08T20:23:18+00:00",
+      "2025-03-03T22:34:00+00:00",
+      "2024-12-14T22:33:38+00:00",
+      "2024-12-31T01:39:23+00:00",
+      "2024-12-06T00:44:54+00:00",
+      "2024-12-15T03:35:13+00:00",
+      "2024-10-12T05:12:41+00:00",
+      "2023-11-21T05:11:24+00:00",
+      "2024-07-02T14:37:40+00:00",
+      "2024-07-18T23:00:37+00:00",
+      "2024-07-05T04:10:23+00:00",
+      "2024-05-02T15:25:13+00:00",
+      "2024-06-23T14:48:56+00:00",
+      "2024-05-31T16:19:25+00:00",
+      "2024-03-24T23:08:17+00:00",
+      "2024-01-09T15:00:08+00:00",
+      "2024-01-03T02:51:07+00:00",
+      "2024-02-28T16:56:01+00:00",
+      "2024-03-02T03:17:27+00:00",
+      "2024-04-22T00:34:14+00:00",
+      "2024-04-15T17:54:36+00:00",
+      "2023-09-13T21:44:04+00:00",
+      "2023-12-11T19:40:26+00:00",
+      "2023-11-15T02:20:37+00:00",
+      "2024-01-05T04:54:51+00:00",
+      "2024-12-17T22:57:19+00:00",
+      "2024-12-20T01:49:29+00:00",
+      "2024-12-12T00:45:40+00:00",
+      "2025-01-13T16:42:36+00:00",
+      "2024-09-10T16:03:00+00:00",
+      "2023-12-04T18:42:01+00:00",
+      "2024-06-15T01:16:23+00:00",
+      "2024-06-24T15:16:37+00:00",
+      "2021-04-07T20:33:30+00:00",
+      "2024-07-05T17:16:00+00:00",
+      "2023-12-22T03:16:36+00:00",
+      "2024-01-07T18:32:00+00:00",
+      "2023-06-25T04:01:07+00:00",
+      "2022-12-05T01:38:24+00:00"
+    ],
+    "scores": [
+      1,
+      4,
+      1,
+      2,
+      2,
+      1,
+      2,
+      21,
+      4,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      5,
+      7,
+      2,
+      1,
+      1,
+      36,
+      3,
+      1,
+      0,
+      17,
+      0,
+      2,
+      2,
+      10,
+      4,
+      0,
+      0,
+      64,
+      2,
+      57,
+      3,
+      3,
+      4
+    ],
+    "comments": [
+      6,
+      3,
+      10,
+      4,
+      6,
+      1,
+      5,
+      19,
+      3,
+      0,
+      2,
+      4,
+      0,
+      1,
+      5,
+      9,
+      7,
+      3,
+      3,
+      0,
+      0,
+      6,
+      5,
+      6,
+      3,
+      18,
+      16,
+      6,
+      0,
+      8,
+      20,
+      6,
+      2,
+      45,
+      0,
+      6,
+      5,
+      16,
+      13
+    ],
+    "titles": [
+      "CC100 vs ES110 for spring",
+      "ES110 midterm short answer or multiple choice",
+      "Es110 final exam",
+      "ES110 Lauren Vanessa Judge",
+      "How hard is ES110 OC? Compared to in person",
+      "ES110 Cheat sheet",
+      "Gg102 and es110 OC online winter term",
+      "Who tf said es110 is a bird course??",
+      "ES110 Winter 2025",
+      "Anyone in ES110 OC3 rn with John Machlachlan?",
+      "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "ES110 6 week Online",
+      "Syllabus for OL101, GG102, ES110",
+      "Es110 with Denise Grafton - what are her online exams like? ",
+      "Es110 6 week spring ",
+      "Es110",
+      "ES110 a bird?",
+      "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
+      "Es110 ",
+      "es110 oc",
+      "ES110 Final Exam",
+      "ES110 is on tiktok ",
+      "ES110 Online?",
+      "es110 Robert McLeman - turtles vs houses assignment",
+      "AN100, ML100, ES110 work load",
+      "Easiest 12 ",
+      "Bird courses",
+      "Interesting/easy first and second year courses for BBA Winter Term?",
+      "Study group/ reading partner ",
+      "BIRD COURSES",
+      "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
+      "Im going in to first year Bba. Are these good Gpa boosters for co op?",
+      "Electives for BBA",
+      "Complete bird course list (1st year)",
+      "How is easy is Yc230 compared to other birds",
+      "Robert McLeman is the goat fr.",
+      "Adding or dropping courses",
+      "Help with BBA Classes Choice",
+      "What even is on the es110 final exam.."
+    ]
+  },
+  "threads": [
+    {
+      "id": "1j6q1pr",
+      "title": "CC100 vs ES110 for spring",
+      "author": "h1ghh0pe",
+      "created": "2025-03-08T20:23:18.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1j6q1pr/cc100_vs_es110_for_spring/",
+      "selftext": "I need my 10th credit for first year, and I need a course that will get me a 12. I will put the energy in, but I want to know which one will be easier for me to take.\n\nI'm also leaving the country this summer, so I need everything to be fully online. I can't fly in for any exams \n\nI'm taking cc102, and it's easy. Probably will get an A in it (messed up on a few quizzes",
+      "score": 1,
+      "num_comments": 6,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.036,
+        "neu": 0.793,
+        "pos": 0.171,
+        "compound": 0.8621
+      },
+      "courses": {
+        "ES110": {
+          "compound": 1.6545170666666664,
+          "pos": 0.2145,
+          "neu": 0.7855,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "ES"
+        },
+        "CC100": {
+          "compound": 0.6478503999999999,
+          "pos": 0.2145,
+          "neu": 0.7855,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "CC"
+        }
+      }
+    },
+    {
+      "id": "1j2vimd",
+      "title": "ES110 midterm short answer or multiple choice",
+      "author": "ilajtaiahm",
+      "created": "2025-03-03T22:34:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1j2vimd/es110_midterm_short_answer_or_multiple_choice/",
+      "selftext": "what is the midterm?? i assumed it was MC but I heard some people say it was short answer, but they have a diff prof than me so idk. I missed a couple classes before the midterm (this Wednesday)",
+      "score": 4,
+      "num_comments": 3,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.213,
+        "neu": 0.787,
+        "pos": 0.0,
+        "compound": -0.7761
+      },
+      "courses": {
+        "ES110": {
+          "compound": 0.4919170666666667,
+          "pos": 0.0,
+          "neu": 0.8255,
+          "neg": 0.1745,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:midterm": 2
+          },
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "1heedm3",
+      "title": "Es110 final exam",
+      "author": "Perspective_Designer",
+      "created": "2024-12-14T22:33:38.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1heedm3/es110_final_exam/",
+      "selftext": "I know the es exam is insanely light especially with a cheat sheet and cause he lists subjects that they\u2019ll be in for each question. But I was wondering if a topic like \u201cvector borne diseases\u201d will be like specifically on that or like related to it and u need a deeper understanding of the course material.",
+      "score": 1,
+      "num_comments": 10,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.115,
+        "neu": 0.708,
+        "pos": 0.177,
+        "compound": 0.7852
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hq3iln",
+      "title": "ES110 Lauren Vanessa Judge",
+      "author": "Effective-Lion5089",
+      "created": "2024-12-31T01:39:23.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hq3iln/es110_lauren_vanessa_judge/",
+      "selftext": "Has anyone taken ES100 by Lauren? How was it?",
+      "score": 2,
+      "num_comments": 4,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "courses": {
+        "ES110": {
+          "compound": 1.0133333333333334,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "ES"
+        },
+        "ES100": {
+          "compound": 1.0133333333333334,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "1h7osqc",
+      "title": "How hard is ES110 OC? Compared to in person",
+      "author": "RareAbbreviations631",
+      "created": "2024-12-06T00:44:54.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1h7osqc/how_hard_is_es110_oc_compared_to_in_person/",
+      "selftext": "I have es110 oc next sem with Lauren McDonald. Just wondering what to expect.",
+      "score": 2,
+      "num_comments": 6,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.062,
+        "neu": 0.938,
+        "pos": 0.0,
+        "compound": -0.1027
+      },
+      "courses": {
+        "ES110": {
+          "compound": 0.6772917333333334,
+          "pos": 0.0,
+          "neu": 0.8705,
+          "neg": 0.1295,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "1hek0ja",
+      "title": "ES110 Cheat sheet",
+      "author": "0range_t1ger",
+      "created": "2024-12-15T03:35:13.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hek0ja/es110_cheat_sheet/",
+      "selftext": "Does anyone have a completed one?",
+      "score": 1,
+      "num_comments": 1,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.3,
+        "neu": 0.7,
+        "pos": 0.0,
+        "compound": -0.4588
+      },
+      "courses": {
+        "ES110": {
+          "compound": 0.4524362666666667,
+          "pos": 0.0,
+          "neu": 0.7,
+          "neg": 0.3,
+          "mentions": 1,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "1g1t1nc",
+      "title": "Gg102 and es110 OC online winter term",
+      "author": "Commercial-Driver-90",
+      "created": "2024-10-12T05:12:41.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1g1t1nc/gg102_and_es110_oc_online_winter_term/",
+      "selftext": "First year, how is this? Hard? Easy? Exams? ",
+      "score": 2,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.083,
+        "neu": 0.667,
+        "pos": 0.25,
+        "compound": 0.4588
+      },
+      "courses": {}
+    },
+    {
+      "id": "1809a79",
+      "title": "Who tf said es110 is a bird course??",
+      "author": "thatboiomeed",
+      "created": "2023-11-21T05:11:24.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1809a79/who_tf_said_es110_is_a_bird_course/",
+      "selftext": "Everywhere on reddit, I was told to take es110 as it's known as the \"easiest class at laurier\"...  well we just got back our midterms and the average was a 60. A fucking 60! He definitely made this course more challenging this year because everyone said its the easiest bird ever. ",
+      "score": 21,
+      "num_comments": 19,
+      "upvote_ratio": 0.89,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.7,
+        "pos": 0.3,
+        "compound": 0.9615
+      },
+      "courses": {}
+    },
+    {
+      "id": "1dtnem5",
+      "title": "ES110 Winter 2025",
+      "author": "hoorey7",
+      "created": "2024-07-02T14:37:40.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dtnem5/es110_winter_2025/",
+      "selftext": "so es110 with robert is currently full for fall, i am on the waitlist but i was just thinking of registering for winter too just in case. Would you guys say In person lecture with Lauren Judge is better or OC with John Maclachlan?",
+      "score": 4,
+      "num_comments": 3,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.03,
+        "neu": 0.89,
+        "pos": 0.08,
+        "compound": 0.5267
+      },
+      "courses": {
+        "ES110": {
+          "compound": 1.2618554666666666,
+          "pos": 0.0755,
+          "neu": 0.8905000000000001,
+          "neg": 0.034,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "1e6oqnd",
+      "title": "Anyone in ES110 OC3 rn with John Machlachlan?",
+      "author": "Rude_Space1538",
+      "created": "2024-07-18T23:00:37.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1e6oqnd/anyone_in_es110_oc3_rn_with_john_machlachlan/",
+      "selftext": "im taking the six week course and literally havent been able to get the textbook, tophat support says its free and I dont need to pay. this doesn't seem right, can anyone in the course lmk?? ",
+      "score": 0,
+      "num_comments": 0,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.031,
+        "neu": 0.816,
+        "pos": 0.153,
+        "compound": 0.7
+      },
+      "courses": {
+        "ES110": {
+          "compound": 1.42,
+          "pos": 0.1225,
+          "neu": 0.8525,
+          "neg": 0.025,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "1dvp78v",
+      "title": "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "author": "little-bandit1026",
+      "created": "2024-07-05T04:10:23.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvp78v/i_gotta_take_off_1_elective_to_fit_in_a_pc_class/",
+      "selftext": "ive hear alot abt Mcleman and him being a very good teacher and the class being very straight foward, but AN100 is online even tho i have no clue whether its better to take or not,  ultimately i want a booster thats very easy and wont take too much time so i can focus on the harder classes, \n\nmy schedule so far is:\n\nFall: MA123, CP104, PC131, MA102(i had a gap yr so i need to catch-up even after doing good in the CPE), and either one of AN100/ES110\n\nWinter: MA103, PC132, CP164, AS101, AR101\n\nim thinking of dropping MA102 and spending the summer to basically review everything that'll be in MA103\n\nI'd rather have 2 bird courses, but idk whether or not i should take MA102, i can take MA103 without MA102 btw\n\nbut idk, can yall lmk what yall think?",
+      "score": 0,
+      "num_comments": 2,
+      "upvote_ratio": 0.33,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.062,
+        "neu": 0.789,
+        "pos": 0.149,
+        "compound": 0.9495
+      },
+      "courses": {
+        "AR101": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "AR"
+        },
+        "PC132": {
+          "compound": -0.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "PC"
+        },
+        "CP164": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "MA123": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        },
+        "PC131": {
+          "compound": -0.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "PC"
+        },
+        "MA102": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        },
+        "ES110": {
+          "compound": 2.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        },
+        "CP104": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "MA103": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        }
+      }
+    },
+    {
+      "id": "1ciig34",
+      "title": "ES110 6 week Online",
+      "author": "wheeeluv",
+      "created": "2024-05-02T15:25:13.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1ciig34/es110_6_week_online/",
+      "selftext": "hey everyone! So I'm taking ES110 over the summer and it's a 6-week course with Maclachlan. Does anyone who's taken it before know if exams/midterms are online, or in person? I stupidly made plans during this time because I thought the exam period would be the same as the 12-week courses, but i was wrong!",
+      "score": 1,
+      "num_comments": 4,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.126,
+        "neu": 0.832,
+        "pos": 0.042,
+        "compound": -0.7096
+      },
+      "courses": {
+        "ES110": {
+          "compound": 1.1356810666666666,
+          "pos": 0.1298,
+          "neu": 0.8702,
+          "neg": 0.0,
+          "mentions": 5,
+          "bird_terms": {
+            "online": 3,
+            "anti:midterm": 1,
+            "anti:exam": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "1dmntdc",
+      "title": "Syllabus for OL101, GG102, ES110",
+      "author": "Ok_Buy1706",
+      "created": "2024-06-23T14:48:56.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dmntdc/syllabus_for_ol101_gg102_es110/",
+      "selftext": "If anyone has an old syllabus for any of these courses please share!! \n\n* ES110 - Enviro, Sustain &amp; Society \n* GG102 - Intro To Human Geography\n* OL101 - Leadership and Personal Dev't",
+      "score": 0,
+      "num_comments": 0,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.873,
+        "pos": 0.127,
+        "compound": 0.5423
+      },
+      "courses": {
+        "GG102": {
+          "compound": 0.32538,
+          "pos": 0.11,
+          "neu": 0.8900000000000001,
+          "neg": 0.0,
+          "mentions": 4,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "GG"
+        },
+        "ES110": {
+          "compound": 1.32538,
+          "pos": 0.11,
+          "neu": 0.8900000000000001,
+          "neg": 0.0,
+          "mentions": 4,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "ES"
+        },
+        "OL101": {
+          "compound": 0.32538,
+          "pos": 0.11,
+          "neu": 0.8900000000000001,
+          "neg": 0.0,
+          "mentions": 4,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "OL"
+        }
+      }
+    },
+    {
+      "id": "1d4ziyq",
+      "title": "Es110 with Denise Grafton - what are her online exams like? ",
+      "author": "Flat-Improvement8362",
+      "created": "2024-05-31T16:19:25.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1d4ziyq/es110_with_denise_grafton_what_are_her_online/",
+      "selftext": "Has anyone done the online class with her and how hard is the exam? Do you have to do all the readings? ",
+      "score": 1,
+      "num_comments": 1,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.123,
+        "neu": 0.724,
+        "pos": 0.153,
+        "compound": 0.2732
+      },
+      "courses": {}
+    },
+    {
+      "id": "1bmyf6p",
+      "title": "Es110 6 week spring ",
+      "author": "Sea-Attention-3667",
+      "created": "2024-03-24T23:08:17.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1bmyf6p/es110_6_week_spring/",
+      "selftext": "Hey, does anyone know how difficult es110 is in spring for 6 weeks or how it is? Please somone let me know. ",
+      "score": 2,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.093,
+        "neu": 0.821,
+        "pos": 0.086,
+        "compound": -0.0516
+      },
+      "courses": {}
+    },
+    {
+      "id": "192gm9d",
+      "title": "Es110",
+      "author": "Big-Rice-1330",
+      "created": "2024-01-09T15:00:08.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/192gm9d/es110/",
+      "selftext": "Any thoughts on ES110 is it hard or easy and was it in person?",
+      "score": 0,
+      "num_comments": 9,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.08,
+        "neu": 0.747,
+        "pos": 0.172,
+        "compound": 0.3818
+      },
+      "courses": {
+        "ES110": {
+          "compound": 1.5318,
+          "pos": 0.172,
+          "neu": 0.747,
+          "neg": 0.08,
+          "mentions": 1,
+          "bird_terms": {
+            "easy": 1,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "18x8fes",
+      "title": "ES110 a bird?",
+      "author": "Admirable-Bonus5887",
+      "created": "2024-01-03T02:51:07.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18x8fes/es110_a_bird/",
+      "selftext": "I just joined the waitlist for ES110 and just wanted to know if it is still a bird course or not and the course outline",
+      "score": 5,
+      "num_comments": 7,
+      "upvote_ratio": 0.78,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.742,
+        "pos": 0.258,
+        "compound": 0.8402
+      },
+      "courses": {
+        "ES110": {
+          "compound": 2.066666666666667,
+          "pos": 0.47700000000000004,
+          "neu": 0.523,
+          "neg": 0.0,
+          "mentions": 4,
+          "bird_terms": {
+            "bird": 4
+          },
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "1b2axew",
+      "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
+      "author": "glxcs_",
+      "created": "2024-02-28T16:56:01.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1b2axew/spring_oc_bird_courses_other_than_as101_cp102/",
+      "selftext": "",
+      "score": 7,
+      "num_comments": 3,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.733,
+        "pos": 0.267,
+        "compound": 0.6124
+      },
+      "courses": {
+        "UU150": {
+          "compound": 1.6746666666666667,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "UU"
+        },
+        "UX100": {
+          "compound": 0.628,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "UX"
+        },
+        "ES110": {
+          "compound": 1.6746666666666667,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.1513333333333333,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.1513333333333333,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        },
+        "CP102": {
+          "compound": -1.4,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "1b4e48h",
+      "title": "Es110 ",
+      "author": "Fast_Satisfaction292",
+      "created": "2024-03-02T03:17:27.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1b4e48h/es110/",
+      "selftext": "Es110 with John maLachlan or denise Uretta\n\nWhich one would be easier, both are online? ",
+      "score": 2,
+      "num_comments": 3,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.765,
+        "pos": 0.235,
+        "compound": 0.5106
+      },
+      "courses": {}
+    },
+    {
+      "id": "1c9xdum",
+      "title": "es110 oc",
+      "author": "yourmom_03",
+      "created": "2024-04-22T00:34:14.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1c9xdum/es110_oc/",
+      "selftext": "What is everyone\u2019s final grade for es110 oc this term?\nAnd the individual grades for lab 2 and the final exam? ",
+      "score": 1,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.25,
+        "neu": 0.75,
+        "pos": 0.0,
+        "compound": -0.4588
+      },
+      "courses": {}
+    },
+    {
+      "id": "1c4soe2",
+      "title": "ES110 Final Exam",
+      "author": "SillySteve11",
+      "created": "2024-04-15T17:54:36.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1c4soe2/es110_final_exam/",
+      "selftext": "Is anyone currently taking or has taken ES110 (Environmental Sustainability)? I missed the last few classes of the course as I currently have a 95 in the course before the exam. I tried to email the professor about the final exam format, but she has yet to respond. If you know anything, help me out. ",
+      "score": 1,
+      "num_comments": 0,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.134,
+        "neu": 0.805,
+        "pos": 0.061,
+        "compound": 0.1779
+      },
+      "courses": {
+        "ES110": {
+          "compound": 0.3411190666666666,
+          "pos": 0.0,
+          "neu": 0.799,
+          "neg": 0.201,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:final": 1,
+            "anti:exam": 2
+          },
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "16hzu6y",
+      "title": "ES110 is on tiktok ",
+      "author": "RCamateurauthor",
+      "created": "2023-09-13T21:44:04.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/16hzu6y/es110_is_on_tiktok/",
+      "selftext": "Scrolling my fyp and see the professor on tiktok with his es110 class. ",
+      "score": 36,
+      "num_comments": 6,
+      "upvote_ratio": 0.87,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "courses": {
+        "ES110": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 1,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "18g2400",
+      "title": "ES110 Online?",
+      "author": "NikiBluEyez",
+      "created": "2023-12-11T19:40:26.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18g2400/es110_online/",
+      "selftext": "Hi, I'm wondering if anyone has taken ES110oc with Denise Grafton and knows how and what the course is like with this prof, which I wanna take this course online in winter 2024?",
+      "score": 3,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.849,
+        "pos": 0.151,
+        "compound": 0.5423
+      },
+      "courses": {
+        "ES110": {
+          "compound": 1.5627216000000002,
+          "pos": 0.359,
+          "neu": 0.641,
+          "neg": 0.0,
+          "mentions": 4,
+          "bird_terms": {
+            "online": 4
+          },
+          "title_mention": true,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "17vj6sa",
+      "title": "es110 Robert McLeman - turtles vs houses assignment",
+      "author": "Good-Pin6310",
+      "created": "2023-11-15T02:20:37.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/17vj6sa/es110_robert_mcleman_turtles_vs_houses_assignment/",
+      "selftext": "someone pls sos where do i find these 10 sources on blanding's turtles population in ontario. and what option do i choose for the second part. SOS.",
+      "score": 1,
+      "num_comments": 6,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.046,
+        "neu": 0.915,
+        "pos": 0.04,
+        "compound": -0.0516
+      },
+      "courses": {}
+    },
+    {
+      "id": "18yyg1a",
+      "title": "AN100, ML100, ES110 work load",
+      "author": "SuspiciousExample339",
+      "created": "2024-01-05T04:54:51.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18yyg1a/an100_ml100_es110_work_load/",
+      "selftext": "how hard are these three, im particularly interested with ML100 and just wondering how difficult it is since i'll have to take 6 courses this sem.",
+      "score": 0,
+      "num_comments": 3,
+      "upvote_ratio": 0.5,
+      "search_type": "title_match",
+      "sentiment": {
+        "neg": 0.188,
+        "neu": 0.728,
+        "pos": 0.084,
+        "compound": -0.4033
+      },
+      "courses": {
+        "ML100": {
+          "compound": -1.2,
+          "pos": 0.084,
+          "neu": 0.728,
+          "neg": 0.188,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:difficult": 1,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "ML"
+        },
+        "ES110": {
+          "compound": -0.19999999999999996,
+          "pos": 0.084,
+          "neu": 0.728,
+          "neg": 0.188,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:difficult": 1,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        },
+        "AN100": {
+          "compound": -0.7,
+          "pos": 0.084,
+          "neu": 0.728,
+          "neg": 0.188,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:difficult": 1,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "1hgnbqu",
+      "title": "Easiest 12 ",
+      "author": "SheepherderClear4589",
+      "created": "2024-12-17T22:57:19.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
+      "selftext": "planning to take electives in the spring to boost my gpa. what are the easiest electives i can take to get 12. no final and midterm in person preferred. online everything. took cp102, uu100, es110, re104. taking em101 and em203 in winter term",
+      "score": 17,
+      "num_comments": 18,
+      "upvote_ratio": 0.91,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.098,
+        "neu": 0.682,
+        "pos": 0.22,
+        "compound": 0.7506
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hi90ek",
+      "title": "Bird courses",
+      "author": "0range_t1ger",
+      "created": "2024-12-20T01:49:29.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hi90ek/bird_courses/",
+      "selftext": "I\u2019m registered for gg102, what is it like? What other classes are easy 12s preferably no final or midterm but whatever works- already had an100 es110 and sc100",
+      "score": 0,
+      "num_comments": 16,
+      "upvote_ratio": 0.5,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.119,
+        "neu": 0.699,
+        "pos": 0.182,
+        "compound": 0.4854
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hc8wqn",
+      "title": "Interesting/easy first and second year courses for BBA Winter Term?",
+      "author": "Professional-Hotel95",
+      "created": "2024-12-12T00:45:40.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hc8wqn/interestingeasy_first_and_second_year_courses_for/",
+      "selftext": "I took ES110 in the fall and I have GG101, EC140, BU121, UU101, and AN237. Are any of these difficult in particular? If so, what would be a good substitute? AN237 is the one course I'm not too sure about. Thanks!",
+      "score": 2,
+      "num_comments": 6,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.082,
+        "neu": 0.811,
+        "pos": 0.107,
+        "compound": 0.3265
+      },
+      "courses": {
+        "GG101": {
+          "compound": -0.07039999999999998,
+          "pos": 0.0,
+          "neu": 0.902,
+          "neg": 0.09799999999999999,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "anti:difficult": 1
+          },
+          "title_mention": false,
+          "department": "GG"
+        },
+        "UU101": {
+          "compound": 0.9419946666666668,
+          "pos": 0.0,
+          "neu": 0.902,
+          "neg": 0.09799999999999999,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "anti:difficult": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "EC140": {
+          "compound": -0.07039999999999998,
+          "pos": 0.0,
+          "neu": 0.902,
+          "neg": 0.09799999999999999,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "anti:difficult": 1
+          },
+          "title_mention": false,
+          "department": "EC"
+        },
+        "ES110": {
+          "compound": 0.9419946666666668,
+          "pos": 0.0,
+          "neu": 0.902,
+          "neg": 0.09799999999999999,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "anti:difficult": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AN237": {
+          "compound": 0.5790355555555556,
+          "pos": 0.221,
+          "neu": 0.7001666666666666,
+          "neg": 0.07883333333333332,
+          "mentions": 6,
+          "bird_terms": {
+            "easy": 1,
+            "anti:difficult": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "BU121": {
+          "compound": -0.07039999999999998,
+          "pos": 0.0,
+          "neu": 0.902,
+          "neg": 0.09799999999999999,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "anti:difficult": 1
+          },
+          "title_mention": false,
+          "department": "BU"
+        }
+      }
+    },
+    {
+      "id": "1i0i6rr",
+      "title": "Study group/ reading partner ",
+      "author": "Healthy-Giraffe-564",
+      "created": "2025-01-13T16:42:36.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1i0i6rr/study_group_reading_partner/",
+      "selftext": "Hey guys, I\u2019m currently taking BI236, BI256, ES110, GG101, SY207 and I\u2019m looking for study partners. I have problems with time management and procrastination which I\u2019m trying to work on. So I need a group or person I can study with( basically like an accountability partner). Please send a message. \n\n",
+      "score": 2,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.05,
+        "neu": 0.86,
+        "pos": 0.09,
+        "compound": 0.2732
+      },
+      "courses": {
+        "GG101": {
+          "compound": -0.20095,
+          "pos": 0.0,
+          "neu": 0.9079999999999999,
+          "neg": 0.092,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "GG"
+        },
+        "BI256": {
+          "compound": -0.20095,
+          "pos": 0.0,
+          "neu": 0.9079999999999999,
+          "neg": 0.092,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BI"
+        },
+        "SY207": {
+          "compound": -0.20095,
+          "pos": 0.0,
+          "neu": 0.9079999999999999,
+          "neg": 0.092,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "SY"
+        },
+        "BI236": {
+          "compound": -0.20095,
+          "pos": 0.0,
+          "neu": 0.9079999999999999,
+          "neg": 0.092,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BI"
+        },
+        "ES110": {
+          "compound": 0.8097040000000001,
+          "pos": 0.0,
+          "neu": 0.9079999999999999,
+          "neg": 0.092,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "ES"
+        }
+      }
+    },
+    {
+      "id": "1fdli6c",
+      "title": "BIRD COURSES",
+      "author": "oreo_david",
+      "created": "2024-09-10T16:03:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "selftext": "Im a BBA student and ik regardless of what year u are, everyone is always looking for bird courses, after looking extensively through them, here is a list, hope it helps :)  \n(UR WELCOME)\n\n**IN-Person**  \nES110\n\n**ONLINE**  \nAS101 - might've changed it so careful  \nSC100  \nUU150  \nUU100  \nAN100  \nCP102  \nEM202  \nEM203  \nEM101  \nEM110  \nEM300  \nISHS 200\n\n**I heard it was ez but idk**  \nUX100  \nUX103  \nGG101",
+      "score": 10,
+      "num_comments": 8,
+      "upvote_ratio": 0.86,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.023,
+        "neu": 0.758,
+        "pos": 0.219,
+        "compound": 0.866
+      },
+      "courses": {
+        "EM203": {
+          "compound": 2.1333333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "UU150": {
+          "compound": 2.1333333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "GG101": {
+          "compound": 1.0666666666666667,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "GG"
+        },
+        "SC100": {
+          "compound": 1.6,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "SC"
+        },
+        "UX100": {
+          "compound": 1.0666666666666667,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        },
+        "EM202": {
+          "compound": 2.1333333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM101": {
+          "compound": 2.1333333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM300": {
+          "compound": 2.1333333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "ES110": {
+          "compound": 2.1333333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.6,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.6,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "UU100": {
+          "compound": 2.1333333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "EM110": {
+          "compound": 2.1333333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "CP102": {
+          "compound": -1.0,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "UX103": {
+          "compound": 1.0666666666666667,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        }
+      }
+    },
+    {
+      "id": "18aqxdy",
+      "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
+      "author": "Kayakular",
+      "created": "2023-12-04T18:42:01.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18aqxdy/need_one_more_course_for_winter_whats_your/",
+      "selftext": "Was gonna take one of the philosophy 100s but apparently the prof is absolutely atrocious. Anyone got any suggestions? I was thinking the intro to programming course but it's full as fuck.\n\nI'm running po102 (polscimajor), es110, gg102 (gg101 was amazing with bitton), hi128 (cause hi127 is fall 2023 only) as it stands rn",
+      "score": 4,
+      "num_comments": 20,
+      "upvote_ratio": 0.83,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.092,
+        "neu": 0.841,
+        "pos": 0.066,
+        "compound": -0.2617
+      },
+      "courses": {}
+    },
+    {
+      "id": "1dg6grm",
+      "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
+      "author": "Confusedandcool",
+      "created": "2024-06-15T01:16:23.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dg6grm/im_going_in_to_first_year_bba_are_these_good_gpa/",
+      "selftext": "An100, uu100, es110, re104, and cc102?",
+      "score": 0,
+      "num_comments": 6,
+      "upvote_ratio": 0.43,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.795,
+        "pos": 0.205,
+        "compound": 0.5994
+      },
+      "courses": {}
+    },
+    {
+      "id": "1dnfz01",
+      "title": "Electives for BBA",
+      "author": "Complete-Speaker-107",
+      "created": "2024-06-24T15:16:37.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dnfz01/electives_for_bba/",
+      "selftext": "Hi guys, \n\n  \nIm trying to plan out my scheduled classes for next year. Im in BBA so I have to take 2 electives per sem. Could you guys let me know which electives below I should and should not take.    \n\n\nFall sem: \n\n  \n- Either es110, into criminology 100, an100, or uu150 (online) - which 2 are the easiest? \n\nWinter sem: \n\n- Either cp102 (online), leadership 101, social and environmental justice 100 (online), 0r cc102 (criminal justice system) - which 2 are the easiest? \n\n  \nAlso if there's any other electives you would reccomend please do so. Im super stressed im going to pick the \"wrong\" ones lol. ",
+      "score": 0,
+      "num_comments": 2,
+      "upvote_ratio": 0.4,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.075,
+        "neu": 0.711,
+        "pos": 0.214,
+        "compound": 0.9327
+      },
+      "courses": {}
+    },
+    {
+      "id": "mmbavs",
+      "title": "Complete bird course list (1st year)",
+      "author": "Certain-Daikon-1850",
+      "created": "2021-04-07T20:33:30.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "selftext": "Ive been doing some research and I came up with a list of all the bird courses for first years at laurier.\n\nThis is just from what I have seen around this sub so I figured I would put em all in one place... lmk if I need to add or remove anything\n\nAN100, UX103, UU150, ES110, AR105, GG102, AS101, UX100, RE104, RE103, UU101, CP102, CC102",
+      "score": 64,
+      "num_comments": 45,
+      "upvote_ratio": 0.94,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.889,
+        "pos": 0.111,
+        "compound": 0.8402
+      },
+      "courses": {
+        "RE103": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "UU150": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UU"
+        },
+        "UU101": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UU"
+        },
+        "UX100": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UX"
+        },
+        "RE104": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "ES110": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "ES"
+        },
+        "CC102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CC"
+        },
+        "AS101": {
+          "compound": 0.6,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 0.6,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AN"
+        },
+        "GG102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "GG"
+        },
+        "CP102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        },
+        "AR105": {
+          "compound": 0.6,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AR"
+        },
+        "UX103": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UX"
+        }
+      }
+    },
+    {
+      "id": "1dw357q",
+      "title": "How is easy is Yc230 compared to other birds",
+      "author": "Federal_Ad_6307",
+      "created": "2024-07-05T17:16:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dw357q/how_is_easy_is_yc230_compared_to_other_birds/",
+      "selftext": "How is easy is Yc230 compared to other birds like em202,203, es110, cp102 etc",
+      "score": 2,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.702,
+        "pos": 0.298,
+        "compound": 0.8176
+      },
+      "courses": {}
+    },
+    {
+      "id": "18o55xu",
+      "title": "Robert McLeman is the goat fr.",
+      "author": "thatboiomeed",
+      "created": "2023-12-22T03:16:36.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18o55xu/robert_mcleman_is_the_goat_fr/",
+      "selftext": "Theres no way theres a better prof at laurier. The class did terrible on the midterm ( i think the class average was 60%) for es110, so this man went ahead and gave us all the questions for the final exam and made it so damn easy. I think I had a 7/8 GPA before the exam, and now im at an 11 thanks to this amazing ass prof and exam. I literally only studied the night before and got 37/40 on the exam. I also never went to class\ud83d\ude2d. On behalf of all es110 students, thank you robert \ud83d\udc10",
+      "score": 57,
+      "num_comments": 6,
+      "upvote_ratio": 0.92,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.178,
+        "neu": 0.677,
+        "pos": 0.145,
+        "compound": 0.0225
+      },
+      "courses": {}
+    },
+    {
+      "id": "190ysqe",
+      "title": "Adding or dropping courses",
+      "author": "No_Pumpkin_8242",
+      "created": "2024-01-07T18:32:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/190ysqe/adding_or_dropping_courses/",
+      "selftext": "So i was going to take OL140(online) but I got mixed opinions on it and now I don't want to take it anymore:( . So since classes start tmr, im i still allowed to drop it and add another course maybe ES110 or CC100. Will I get into the new course just in time or should I stick with OL140? \n\n&amp;#x200B;",
+      "score": 3,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.066,
+        "neu": 0.934,
+        "pos": 0.0,
+        "compound": -0.4557
+      },
+      "courses": {
+        "ES110": {
+          "compound": 0.948974,
+          "pos": 0.0,
+          "neu": 0.9470000000000001,
+          "neg": 0.053,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "CC100": {
+          "compound": -0.06963333333333334,
+          "pos": 0.0,
+          "neu": 0.9470000000000001,
+          "neg": 0.053,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CC"
+        },
+        "OL140": {
+          "compound": -0.09641999999999999,
+          "pos": 0.0,
+          "neu": 0.9474,
+          "neg": 0.0526,
+          "mentions": 5,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "OL"
+        }
+      }
+    },
+    {
+      "id": "14ic8p7",
+      "title": "Help with BBA Classes Choice",
+      "author": "Individual-Jelly-369",
+      "created": "2023-06-25T04:01:07.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14ic8p7/help_with_bba_classes_choice/",
+      "selftext": "I'm in the BBA program and I was wondering how these professors and classes are for the first year. Please let me know anyone's experiences!\n\nSem 1:\n\n\\- Intro to Financial Accounting (BU127) with Bixia Xu\n\n\\- Understanding Bus. Environment (BU111) with David Swanston\n\n\\- Intro To Microeconomics (EC120) with Tammy Schirle\n\n\\- Enviro, Sustain &amp; Society (ES110) with Robert McLeman\n\n\\- Info Processing With Micros (CP102) prof tbd\n\n&amp;#x200B;\n\nSem 2:\n\n\\- Critical Thinking &amp; Comm Skill (BU121) prof tbd\n\n\\- Intro Calc for Bus/Soc Science (MA129) with Lawrence Howe\n\n\\- Intro To Macroeconomics (EC140) with Kenneth Jackson\n\n\\- Cultures Today (AN100) prof tbd\n\n\\- Introduction to Global Studies (GS101) prof tbd\n\n&amp;#x200B;",
+      "score": 3,
+      "num_comments": 16,
+      "upvote_ratio": 0.8,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.021,
+        "neu": 0.934,
+        "pos": 0.045,
+        "compound": 0.4019
+      },
+      "courses": {
+        "BU121": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "EC120": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "EC140": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "BU111": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "ES110": {
+          "compound": 0.857718,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "ES"
+        },
+        "MA129": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "MA"
+        },
+        "GS101": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "GS"
+        },
+        "AN100": {
+          "compound": 0.34771799999999997,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AN"
+        },
+        "BU127": {
+          "compound": 0.0,
+          "pos": 0.105,
+          "neu": 0.8836666666666666,
+          "neg": 0.011333333333333334,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "CP102": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "zcsvth",
+      "title": "What even is on the es110 final exam..",
+      "author": "Juicyy42",
+      "created": "2022-12-05T01:38:24.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/zcsvth/what_even_is_on_the_es110_final_exam/",
+      "selftext": "It doesn\u2019t say anywhere literally. Is it everything?",
+      "score": 4,
+      "num_comments": 13,
+      "upvote_ratio": 0.75,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.176,
+        "neu": 0.824,
+        "pos": 0.0,
+        "compound": -0.25
+      },
+      "courses": {}
+    }
+  ],
+  "bird_term_score": 0.782051282051282,
+  "dept_adjustment": 1.0,
+  "comment_factor": 0.15128205128205127,
+  "level_adjustment": 0,
+  "topic_adjustment": -0.04999999999999982,
+  "assessment_penalty": -2.25,
+  "failure_penalty": -0.0
+}

@@ -1,0 +1,539 @@
+{
+  "code": "AR101",
+  "department": "AR",
+  "specific_mentions": 6,
+  "avg_thread_score": 1.8333333333333333,
+  "recent_mentions": 0,
+  "oldest_thread_date": "2022-08-17T00:59:16+00:00",
+  "newest_thread_date": "2024-12-22T19:55:16+00:00",
+  "is_online_available": true,
+  "bird_score": 7.045766666666667,
+  "discussion_topics": {
+    "difficulty": 3,
+    "workload": 1,
+    "bird_course": 2,
+    "content": 0,
+    "structure": 4,
+    "grading": 0
+  },
+  "course_components": {
+    "exams": {
+      "midterm": 0,
+      "final": 0,
+      "total": 0,
+      "weight_mentioned": false,
+      "difficulty_mentioned": false
+    },
+    "assignments": {
+      "count": 0,
+      "papers": 2,
+      "total": 2,
+      "weight_mentioned": true,
+      "difficulty_mentioned": true
+    },
+    "assessments": {
+      "quizzes": 2,
+      "labs": 0,
+      "attendance": 0,
+      "participation": 0,
+      "presentations": 0,
+      "projects": 0,
+      "group_work": 0
+    }
+  },
+  "sentiment_analysis": {
+    "positive_aspects": {
+      "helpful": 1
+    },
+    "negative_aspects": {
+      "stressful": 1
+    },
+    "overall_sentiment": 0.41666666666666663,
+    "compound": 0.8563,
+    "pos": 0.22566666666666668,
+    "neu": 0.7596666666666666,
+    "neg": 0.014666666666666666,
+    "bird_terms": {
+      "bird": 2,
+      "easy": 4,
+      "online": 7,
+      "anti:exam": 1,
+      "basic": 1,
+      "anti:hard": 1
+    }
+  },
+  "context_clues": {
+    "terms": {
+      "online": 7,
+      "syllabus": 6,
+      "easier": 4,
+      "easy": 4,
+      "should": 3,
+      "essays": 3,
+      "courses": 3,
+      "class": 3,
+      "bird": 2,
+      "elective": 2
+    },
+    "year_level_appropriate": true,
+    "pre_requisites_mentioned": false
+  },
+  "thread_summary": {
+    "post_dates": [
+      "2024-12-22T19:55:16+00:00",
+      "2024-12-22T16:45:26+00:00",
+      "2023-07-07T22:02:11+00:00",
+      "2024-07-05T04:10:23+00:00",
+      "2023-07-07T00:18:00+00:00",
+      "2022-08-17T00:59:16+00:00"
+    ],
+    "scores": [
+      3,
+      3,
+      4,
+      0,
+      1,
+      0
+    ],
+    "comments": [
+      2,
+      0,
+      0,
+      2,
+      7,
+      1
+    ],
+    "titles": [
+      "UU150 OC or AR101 OC- easier bird course?",
+      "How\u2019s AR101 online with Alec McLellan?",
+      "Ar101 or ar104 or ar105 all online? Which one is easier from your experience?",
+      "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "Help!!",
+      "Transferring, need course Syllabus to show credit transfer"
+    ]
+  },
+  "threads": [
+    {
+      "id": "1hk696b",
+      "title": "UU150 OC or AR101 OC- easier bird course?",
+      "author": "Only_Living7003",
+      "created": "2024-12-22T19:55:16.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hk696b/uu150_oc_or_ar101_oc_easier_bird_course/",
+      "selftext": "I need an easy elective next sem and got off the waitlist for UU150\n\nShould I take UU150 or AR101? Which is easier? They\u2019re both online\n\nMy main question/concern also is which is more writing heavy? I prefer tests/quizzes/exams over essays way more so I don\u2019t wanna take anything with any / minimal essays.\n\n\nEDIT: I just realized UU150 is pass or fail and doesn\u2019t count towards GPA\n\nSo my question now I guess is, is it worth putting (presumably) more effort into AR101 and getting a grade? Or just having practically a free course and I can focus on my other courses more?\n\n\nALSO if anyone has the syllabus for either that would be very helpful!!!!!",
+      "score": 3,
+      "num_comments": 2,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.026,
+        "neu": 0.777,
+        "pos": 0.197,
+        "compound": 0.9633
+      },
+      "courses": {
+        "UU150": {
+          "compound": 1.766487,
+          "pos": 0.29774999999999996,
+          "neu": 0.689875,
+          "neg": 0.012375,
+          "mentions": 8,
+          "bird_terms": {
+            "bird": 2,
+            "easy": 2,
+            "anti:exam": 1
+          },
+          "title_mention": true,
+          "department": "UU"
+        },
+        "AR101": {
+          "compound": 1.256487,
+          "pos": 0.29774999999999996,
+          "neu": 0.689875,
+          "neg": 0.012375,
+          "mentions": 8,
+          "bird_terms": {
+            "bird": 2,
+            "easy": 2,
+            "anti:exam": 1
+          },
+          "title_mention": true,
+          "department": "AR"
+        }
+      }
+    },
+    {
+      "id": "1hk28y3",
+      "title": "How\u2019s AR101 online with Alec McLellan?",
+      "author": "Only_Living7003",
+      "created": "2024-12-22T16:45:26.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hk28y3/hows_ar101_online_with_alec_mclellan/",
+      "selftext": "Hello, I\u2019m looking for an easy online course for next sem and saw this\n\nIs it easy? What\u2019s the syllabus like / what are his evaluations like? I\u2019m not an essay type of guy so please lmk if the class is lots of writing and essays or more like online quizzes\n\nTyia",
+      "score": 3,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.678,
+        "pos": 0.322,
+        "compound": 0.9543
+      },
+      "courses": {
+        "AR101": {
+          "compound": 1.292136,
+          "pos": 0.29,
+          "neu": 0.71,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 2,
+            "easy": 2
+          },
+          "title_mention": true,
+          "department": "AR"
+        }
+      }
+    },
+    {
+      "id": "14tkw3w",
+      "title": "Ar101 or ar104 or ar105 all online? Which one is easier from your experience?",
+      "author": "Fast_Satisfaction292",
+      "created": "2023-07-07T22:02:11.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14tkw3w/ar101_or_ar104_or_ar105_all_online_which_one_is/",
+      "selftext": "",
+      "score": 4,
+      "num_comments": 0,
+      "upvote_ratio": 0.83,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.736,
+        "pos": 0.264,
+        "compound": 0.5106
+      },
+      "courses": {}
+    },
+    {
+      "id": "1dvp78v",
+      "title": "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "author": "little-bandit1026",
+      "created": "2024-07-05T04:10:23.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvp78v/i_gotta_take_off_1_elective_to_fit_in_a_pc_class/",
+      "selftext": "ive hear alot abt Mcleman and him being a very good teacher and the class being very straight foward, but AN100 is online even tho i have no clue whether its better to take or not,  ultimately i want a booster thats very easy and wont take too much time so i can focus on the harder classes, \n\nmy schedule so far is:\n\nFall: MA123, CP104, PC131, MA102(i had a gap yr so i need to catch-up even after doing good in the CPE), and either one of AN100/ES110\n\nWinter: MA103, PC132, CP164, AS101, AR101\n\nim thinking of dropping MA102 and spending the summer to basically review everything that'll be in MA103\n\nI'd rather have 2 bird courses, but idk whether or not i should take MA102, i can take MA103 without MA102 btw\n\nbut idk, can yall lmk what yall think?",
+      "score": 0,
+      "num_comments": 2,
+      "upvote_ratio": 0.33,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.062,
+        "neu": 0.789,
+        "pos": 0.149,
+        "compound": 0.9495
+      },
+      "courses": {
+        "AR101": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "AR"
+        },
+        "PC132": {
+          "compound": -0.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "PC"
+        },
+        "CP164": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "MA123": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        },
+        "PC131": {
+          "compound": -0.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "PC"
+        },
+        "MA102": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        },
+        "ES110": {
+          "compound": 2.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        },
+        "CP104": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "MA103": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        }
+      }
+    },
+    {
+      "id": "14squc5",
+      "title": "Help!!",
+      "author": "Fast_Satisfaction292",
+      "created": "2023-07-07T00:18:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14squc5/help/",
+      "selftext": "Ar101 oc1 with Alec mclellan \nOr\nAs101 with Stephen sathiaraji\nOr \nBu127 oc with James Matthew \n\nWhich one is easier ??",
+      "score": 1,
+      "num_comments": 7,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.776,
+        "pos": 0.224,
+        "compound": 0.6705
+      },
+      "courses": {}
+    },
+    {
+      "id": "wqb30z",
+      "title": "Transferring, need course Syllabus to show credit transfer",
+      "author": "tiraptor2001",
+      "created": "2022-08-17T00:59:16.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/wqb30z/transferring_need_course_syllabus_to_show_credit/",
+      "selftext": "I am transferring schools and I need to show my course syllabus to get the credit transfer. I have some of the syllabus from the years I was at Laurier but I need more of them. If anyone in the WLU reddit has syllabus they can send me, that would be much appreciated. I have listed the courses in which I need the course outline for:   \n\n\nBU127 \n\nAR101\n\nCC102\n\nBU121\n\nBU288\n\nEC250\n\nBU231\n\nEC249\n\nFeel free to DM me if you got it, any of them would help greatly.",
+      "score": 0,
+      "num_comments": 1,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.841,
+        "pos": 0.159,
+        "compound": 0.9437
+      },
+      "courses": {
+        "AR101": {
+          "compound": 1.1145,
+          "pos": 0.1645,
+          "neu": 0.8354999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AR"
+        },
+        "BU231": {
+          "compound": -0.38549999999999995,
+          "pos": 0.1645,
+          "neu": 0.8354999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "EC250": {
+          "compound": 0.11450000000000005,
+          "pos": 0.1645,
+          "neu": 0.8354999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "CC102": {
+          "compound": 0.6145,
+          "pos": 0.1645,
+          "neu": 0.8354999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CC"
+        },
+        "BU127": {
+          "compound": -0.38549999999999995,
+          "pos": 0.1645,
+          "neu": 0.8354999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "BU121": {
+          "compound": -0.38549999999999995,
+          "pos": 0.1645,
+          "neu": 0.8354999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "EC249": {
+          "compound": 0.11450000000000005,
+          "pos": 0.1645,
+          "neu": 0.8354999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "BU288": {
+          "compound": -0.38549999999999995,
+          "pos": 0.1645,
+          "neu": 0.8354999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        }
+      }
+    }
+  ],
+  "bird_term_score": 2.4166666666666665,
+  "dept_adjustment": 0.5,
+  "comment_factor": 0.4,
+  "level_adjustment": 0,
+  "topic_adjustment": -0.09999999999999995,
+  "assessment_penalty": 0.0,
+  "failure_penalty": -0.0
+}

@@ -70,13 +70,20 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_t
     print("Generating course rankings...")
     course_rankings = analyzer.get_course_rankings(analyzed_threads)
     
-    # 7. Save course rankings
+    # 7. Normalize bird scores to ensure they're on a 0-10 scale
+    for course in course_rankings:
+        # Ensure bird score is properly capped at 10.0
+        course['bird_score'] = min(10.0, course.get('bird_score', 0))
+        # Round to 2 decimal places for consistency
+        course['bird_score'] = round(course['bird_score'] * 100) / 100
+    
+    # 8. Save course rankings
     rankings_file = os.path.join(processed_dir, f"course_rankings_{timestamp}.json")
     save_to_json(course_rankings, rankings_file)
     latest_rankings_file = os.path.join(processed_dir, "latest_course_rankings.json")
     save_to_json(course_rankings, latest_rankings_file)
     
-    # 8. If enabled, analyze top courses in more detail
+    # 9. If enabled, analyze top courses in more detail
     if analyze_top_courses and course_rankings:
         print(f"\nAnalyzing top {top_courses_count} courses in detail...")
         
@@ -97,6 +104,8 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_t
                         # Add a reference to the detailed analysis
                         course_ranking['has_detailed_analysis'] = True
                         course_ranking['specific_mentions'] = course_detail['specific_mentions']
+                        # Update the bird score from the detailed analysis (more accurate)
+                        course_ranking['bird_score'] = round(course_detail['bird_score'] * 100) / 100
                         # Add some key details directly to the course ranking
                         if 'professors' in course_detail and course_detail['professors']:
                             course_ranking['professors'] = course_detail['professors']
@@ -112,12 +121,16 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_t
             latest_detailed_rankings_file = os.path.join(processed_dir, "latest_course_rankings_detailed.json")
             save_to_json(course_rankings, latest_detailed_rankings_file)
     
-    # 9. Print summary
+    # 10. Print summary
     print(f"\nPipeline completed successfully.")
     print(f"Processed {len(threads)} threads and identified {len(course_rankings)} courses")
+    
+    # Sort the course rankings by bird_score before displaying the top 5
+    sorted_rankings = sorted(course_rankings, key=lambda x: x['bird_score'], reverse=True)
+    
     print(f"Top 5 bird courses:")
-    for i, course in enumerate(course_rankings[:5], 1):
-        print(f"{i}. {course['code']} - Bird Score: {course['bird_score']:.2f} - Mentions: {course['mentions']}")
+    for i, course in enumerate(sorted_rankings[:5], 1):
+        print(f"{i}. {course['code']} - Bird Score: {course['bird_score']:.2f}/10 - Mentions: {course['mentions']}")
         # Print department adjustment if available
         if 'dept_adjustment' in course:
             print(f"   Department adjustment: {course['dept_adjustment']:.2f}")

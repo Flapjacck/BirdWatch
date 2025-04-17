@@ -1,0 +1,189 @@
+{
+  "code": "EM299",
+  "department": "EM",
+  "specific_mentions": 2,
+  "avg_thread_score": 2.0,
+  "recent_mentions": 0,
+  "oldest_thread_date": "2024-07-17T18:22:12+00:00",
+  "newest_thread_date": "2024-10-25T12:40:22+00:00",
+  "is_online_available": true,
+  "bird_score": 7.771849999999999,
+  "discussion_topics": {
+    "difficulty": 2,
+    "workload": 1,
+    "bird_course": 1,
+    "content": 0,
+    "structure": 0,
+    "grading": 0
+  },
+  "course_components": {
+    "exams": {
+      "midterm": 0,
+      "final": 0,
+      "total": 0,
+      "weight_mentioned": false,
+      "difficulty_mentioned": false
+    },
+    "assignments": {
+      "count": 0,
+      "papers": 0,
+      "total": 0,
+      "weight_mentioned": false,
+      "difficulty_mentioned": false
+    },
+    "assessments": {
+      "quizzes": 0,
+      "labs": 0,
+      "attendance": 0,
+      "participation": 0,
+      "presentations": 0,
+      "projects": 0,
+      "group_work": 0
+    }
+  },
+  "sentiment_analysis": {
+    "positive_aspects": {},
+    "negative_aspects": {},
+    "overall_sentiment": 5.0,
+    "compound": 0.5107999999999999,
+    "pos": 0.16549999999999998,
+    "neu": 0.8,
+    "neg": 0.0345,
+    "bird_terms": {
+      "easy": 4,
+      "bird": 1
+    }
+  },
+  "context_clues": {
+    "terms": {
+      "courses": 4,
+      "easy": 4,
+      "beemer": 3,
+      "looking": 2,
+      "winter": 2,
+      "sarrah": 2,
+      "heard": 2,
+      "time": 2,
+      "electives": 2,
+      "senior": 2
+    },
+    "year_level_appropriate": true,
+    "pre_requisites_mentioned": false
+  },
+  "thread_summary": {
+    "post_dates": [
+      "2024-10-25T12:40:22+00:00",
+      "2024-07-17T18:22:12+00:00"
+    ],
+    "scores": [
+      2,
+      2
+    ],
+    "comments": [
+      5,
+      9
+    ],
+    "titles": [
+      "Thoughts on EM299 and OL200?",
+      "Senior Elective Choices -  EM299 and EM300 ?"
+    ]
+  },
+  "threads": [
+    {
+      "id": "1gbtac1",
+      "title": "Thoughts on EM299 and OL200?",
+      "author": "lothkru",
+      "created": "2024-10-25T12:40:22.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1gbtac1/thoughts_on_em299_and_ol200/",
+      "selftext": "Looking to see which OC course to take in the winter. The options are:\n\n1. EM299 with Sarrah Marie Beemer\n2. OL200 with Desmond Courtney\n\nI've taken EM courses before and they were nice and easy, but I've heard Beemer is not the greatest marker. Not sure which one would be an easier time, right now I just need a couple more electives to finish the degree and since I will be working next term that's why looking for an OC course that won't demand much time and effort.",
+      "score": 2,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.071,
+        "neu": 0.837,
+        "pos": 0.092,
+        "compound": 0.0413
+      },
+      "courses": {
+        "OL200": {
+          "compound": 0.12293760000000002,
+          "pos": 0.045200000000000004,
+          "neu": 0.9148,
+          "neg": 0.0398,
+          "mentions": 5,
+          "bird_terms": {
+            "easy": 1
+          },
+          "title_mention": true,
+          "department": "OL"
+        },
+        "EM299": {
+          "compound": 1.0638459733333334,
+          "pos": 0.0264,
+          "neu": 0.9426,
+          "neg": 0.031,
+          "mentions": 5,
+          "bird_terms": {
+            "easy": 1
+          },
+          "title_mention": true,
+          "department": "EM"
+        }
+      }
+    },
+    {
+      "id": "1e5pd47",
+      "title": "Senior Elective Choices -  EM299 and EM300 ?",
+      "author": "wm11wm",
+      "created": "2024-07-17T18:22:12.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1e5pd47/senior_elective_choices_em299_and_em300/",
+      "selftext": "Hi mostly EM courses are easy afaik like em203 or em202 but I wanted to ask if anyone also took;  \n  \n1. EM299   - Reflection in Educ. Context with Beemer, Sarrah  \n2. EM300   - Teaching in Non-School Context\n\n  \nIf they are not easy or have so much of course work what would you recommend as senior electives other than em202 / 203 ?  I heard some leadership classes are also bird ? \n\nI just have a pretty loaded CS courses in fall / winter so trying to fill up with those easy courses.\n\nThankss !!!",
+      "score": 2,
+      "num_comments": 9,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.763,
+        "pos": 0.237,
+        "compound": 0.9771
+      },
+      "courses": {
+        "EM299": {
+          "compound": 1.4997333333333334,
+          "pos": 0.07239999999999999,
+          "neu": 0.9276,
+          "neg": 0.0,
+          "mentions": 5,
+          "bird_terms": {
+            "easy": 2
+          },
+          "title_mention": true,
+          "department": "EM"
+        },
+        "EM300": {
+          "compound": 1.6469179733333335,
+          "pos": 0.13240000000000002,
+          "neu": 0.8516,
+          "neg": 0.016,
+          "mentions": 5,
+          "bird_terms": {
+            "easy": 2,
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "EM"
+        }
+      }
+    }
+  ],
+  "bird_term_score": 5.0,
+  "dept_adjustment": 1.0,
+  "comment_factor": 0.15,
+  "level_adjustment": -0.3,
+  "topic_adjustment": -0.24999999999999997,
+  "assessment_penalty": 0.0,
+  "failure_penalty": -0.0
+}

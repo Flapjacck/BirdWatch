@@ -1,0 +1,2442 @@
+{
+  "code": "AN100",
+  "department": "AN",
+  "specific_mentions": 46,
+  "avg_thread_score": 3.739130434782609,
+  "recent_mentions": 0,
+  "oldest_thread_date": "2020-11-28T14:39:27+00:00",
+  "newest_thread_date": "2024-12-20T01:49:29+00:00",
+  "is_online_available": true,
+  "bird_score": 10.0,
+  "discussion_topics": {
+    "difficulty": 10,
+    "workload": 3,
+    "bird_course": 15,
+    "content": 9,
+    "structure": 5,
+    "grading": 1
+  },
+  "course_components": {
+    "exams": {
+      "midterm": 5,
+      "final": 5,
+      "total": 10,
+      "weight_mentioned": false,
+      "difficulty_mentioned": true
+    },
+    "assignments": {
+      "count": 2,
+      "papers": 0,
+      "total": 2,
+      "weight_mentioned": false,
+      "difficulty_mentioned": true
+    },
+    "assessments": {
+      "quizzes": 5,
+      "labs": 0,
+      "attendance": 1,
+      "participation": 1,
+      "presentations": 0,
+      "projects": 3,
+      "group_work": 2
+    }
+  },
+  "sentiment_analysis": {
+    "positive_aspects": {
+      "interesting": 1,
+      "helpful": 2,
+      "fair": 1
+    },
+    "negative_aspects": {
+      "stressful": 1,
+      "useless": 1
+    },
+    "overall_sentiment": 2.282608695652174,
+    "compound": 0.5032434782608695,
+    "pos": 0.16960869565217393,
+    "neu": 0.7771521739130434,
+    "neg": 0.05319565217391303,
+    "bird_terms": {
+      "online": 25,
+      "anti:difficult": 4,
+      "anti:midterm": 7,
+      "bird": 15,
+      "easy": 11,
+      "anti:hard": 6,
+      "anti:challenging": 1,
+      "anti:demanding": 1,
+      "anti:final": 2,
+      "basic": 1,
+      "anti:exam": 7,
+      "no exam": 2,
+      "no final": 1,
+      "gpa booster": 1,
+      "anti:not worth": 1,
+      "anti:required": 1
+    }
+  },
+  "context_clues": {
+    "terms": {
+      "online": 25,
+      "courses": 21,
+      "year": 18,
+      "anyone": 16,
+      "bird": 15,
+      "first": 12,
+      "should": 11,
+      "easy": 11,
+      "classes": 11,
+      "class": 10
+    },
+    "year_level_appropriate": true,
+    "pre_requisites_mentioned": true
+  },
+  "thread_summary": {
+    "post_dates": [
+      "2024-10-28T22:57:32+00:00",
+      "2024-10-14T20:19:37+00:00",
+      "2024-09-07T21:16:30+00:00",
+      "2024-10-14T19:36:32+00:00",
+      "2024-09-08T19:04:41+00:00",
+      "2024-07-05T04:10:23+00:00",
+      "2023-12-24T02:17:10+00:00",
+      "2024-02-28T16:56:01+00:00",
+      "2024-01-05T04:54:51+00:00",
+      "2023-12-29T23:11:25+00:00",
+      "2024-01-01T05:08:37+00:00",
+      "2024-01-15T15:49:01+00:00",
+      "2023-12-18T03:09:54+00:00",
+      "2023-09-08T23:36:10+00:00",
+      "2023-10-22T02:19:21+00:00",
+      "2024-01-08T21:35:02+00:00",
+      "2024-01-10T14:37:17+00:00",
+      "2023-09-16T00:37:12+00:00",
+      "2023-10-31T04:19:51+00:00",
+      "2023-09-06T16:05:50+00:00",
+      "2023-05-23T20:02:45+00:00",
+      "2022-12-25T05:47:03+00:00",
+      "2023-01-19T04:15:15+00:00",
+      "2023-01-09T23:57:37+00:00",
+      "2023-01-16T14:46:26+00:00",
+      "2024-12-20T01:49:29+00:00",
+      "2024-09-10T16:03:00+00:00",
+      "2024-06-15T01:16:23+00:00",
+      "2024-06-24T15:16:37+00:00",
+      "2021-04-07T20:33:30+00:00",
+      "2024-02-14T00:49:09+00:00",
+      "2023-06-25T04:01:07+00:00",
+      "2023-07-15T21:25:09+00:00",
+      "2024-01-05T03:16:34+00:00",
+      "2023-07-03T04:52:14+00:00",
+      "2022-09-10T21:22:44+00:00",
+      "2023-08-16T15:00:44+00:00",
+      "2023-07-02T21:15:33+00:00",
+      "2021-06-19T21:30:06+00:00",
+      "2022-08-31T13:56:44+00:00",
+      "2023-01-14T22:02:21+00:00",
+      "2020-11-28T14:39:27+00:00",
+      "2022-11-22T00:24:40+00:00",
+      "2022-09-12T14:30:48+00:00",
+      "2022-06-21T23:08:31+00:00",
+      "2022-09-12T20:45:10+00:00"
+    ],
+    "scores": [
+      2,
+      3,
+      0,
+      7,
+      0,
+      0,
+      7,
+      6,
+      0,
+      2,
+      0,
+      0,
+      3,
+      2,
+      1,
+      1,
+      0,
+      3,
+      3,
+      1,
+      2,
+      5,
+      1,
+      0,
+      1,
+      0,
+      11,
+      0,
+      0,
+      68,
+      2,
+      4,
+      4,
+      2,
+      1,
+      9,
+      1,
+      3,
+      3,
+      3,
+      1,
+      2,
+      1,
+      5,
+      2,
+      0
+    ],
+    "comments": [
+      6,
+      7,
+      11,
+      4,
+      8,
+      2,
+      9,
+      3,
+      3,
+      3,
+      2,
+      0,
+      0,
+      6,
+      2,
+      0,
+      0,
+      5,
+      1,
+      2,
+      5,
+      8,
+      5,
+      3,
+      2,
+      16,
+      8,
+      6,
+      2,
+      45,
+      4,
+      16,
+      10,
+      0,
+      8,
+      18,
+      1,
+      2,
+      19,
+      7,
+      2,
+      18,
+      1,
+      2,
+      4,
+      2
+    ],
+    "titles": [
+      "An100 online quizzes",
+      "AN100 MIDTERM",
+      "An100 got harder?? ",
+      "an100 midterm ",
+      "an100 course requirements quiz",
+      "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "An100 OC",
+      "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
+      "AN100, ML100, ES110 work load",
+      "AN100 Online",
+      "Which course should I take that? I need a bird course: AN100 online or WS100 online???",
+      "Ws100 online or an100 online",
+      "AN100",
+      "Has anyone recently taken an100?",
+      "AN100 Lecture notes?",
+      "CC100 and AN100 discord channels",
+      "Does anyone have a pdf version of the an100 (cultures today) textbook",
+      "re103 or an100?",
+      "an100",
+      "AN100 Difficulty",
+      "Anyone in AN100 OC this term with Iga Mergeler?",
+      "thoughts on AN100 (OC) winter term?",
+      "An100 course load?",
+      "AN100 - Rajat Nayyar (cultures today)",
+      "An100 l-oc online group chat ?",
+      "Bird courses",
+      "BIRD COURSES",
+      "Im going in to first year Bba. Are these good Gpa boosters for co op?",
+      "Electives for BBA",
+      "Complete bird course list (1st year)",
+      "Second year electives",
+      "Help with BBA Classes Choice",
+      "elective help!",
+      "AN100OC or RE104OC?",
+      "Looking for the 100% easiest GPA boosting electives.",
+      "why are textbooks SO EXPENSIVE",
+      "Digital Textbook Access",
+      "Can upper year students take courses meant for previous years?",
+      "Thoughts on first year courses?",
+      "Tips for OC classes?",
+      "Anyone in AN100 OC with Iga?",
+      "Good First Year Classes?",
+      "OC first year bird course for winter",
+      "AN100 Textbook",
+      "an100 with iga mergler",
+      "Looking/Buying these textbooks please!"
+    ]
+  },
+  "threads": [
+    {
+      "id": "1geft8e",
+      "title": "An100 online quizzes",
+      "author": "gay_man_lover",
+      "created": "2024-10-28T22:57:32.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1geft8e/an100_online_quizzes/",
+      "selftext": "Is anyone having difficulty with the quizzes. The first few quizzes I was getting A and now I\u2019m getting D on every test. I feel like the tests aren\u2019t relevant to the class content and I\u2019m not sure how to study for them at all. ",
+      "score": 2,
+      "num_comments": 6,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.12,
+        "neu": 0.798,
+        "pos": 0.082,
+        "compound": -0.2173
+      },
+      "courses": {}
+    },
+    {
+      "id": "1g3po3t",
+      "title": "AN100 MIDTERM",
+      "author": "0range_t1ger",
+      "created": "2024-10-14T20:19:37.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1g3po3t/an100_midterm/",
+      "selftext": "Has anyone taken the class? Iga has not posted an outline and simply said weeks 1-5. Is the midterm just a bunch of definitions because I genuinely don\u2019t think there\u2019s a way to apply your knowledge in this class. I\u2019m not sure how to go about studying and the focuses I should be spending my time on. Perhaps the title chapter of the week? Any help would be great ",
+      "score": 3,
+      "num_comments": 7,
+      "upvote_ratio": 0.72,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.067,
+        "neu": 0.841,
+        "pos": 0.092,
+        "compound": 0.5911
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.339864,
+          "pos": 0.0,
+          "neu": 0.9,
+          "neg": 0.1,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:midterm": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "1fbhfdc",
+      "title": "An100 got harder?? ",
+      "author": "WrongProfession-",
+      "created": "2024-09-07T21:16:30.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1fbhfdc/an100_got_harder/",
+      "selftext": "BBA student here, and I enrolled in this class because everyone said it was an easy bird. But now I see that Iga has changed the course requirements as of this semester, and it's pretty strict. There are 2 discussion posts and a quiz each week, plus a one-week project and a 6-page final assignment. Was it always this demanding? I'm not sure if I should stick with it or switch to a less challenging class to manage my other courses. Any advice or suggestions would be appreciated. :D ",
+      "score": 0,
+      "num_comments": 11,
+      "upvote_ratio": 0.4,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.12,
+        "neu": 0.731,
+        "pos": 0.149,
+        "compound": 0.7077
+      },
+      "courses": {}
+    },
+    {
+      "id": "1g3olx3",
+      "title": "an100 midterm ",
+      "author": "According-Storage-49",
+      "created": "2024-10-14T19:36:32.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1g3olx3/an100_midterm/",
+      "selftext": "So the midterm is online synchronous, includes multiple choice, short answer, fill in the blank. The prof is Iga, any advice on how to study for it and what content is going to be on it?\n\nThanks! ",
+      "score": 7,
+      "num_comments": 4,
+      "upvote_ratio": 0.82,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.071,
+        "neu": 0.825,
+        "pos": 0.104,
+        "compound": 0.34
+      },
+      "courses": {}
+    },
+    {
+      "id": "1fc5gst",
+      "title": "an100 course requirements quiz",
+      "author": "Original_Throat_594",
+      "created": "2024-09-08T19:04:41.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1fc5gst/an100_course_requirements_quiz/",
+      "selftext": "any1 done it yet? what r the questions",
+      "score": 0,
+      "num_comments": 8,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.115,
+        "neu": 0.885,
+        "pos": 0.0,
+        "compound": -0.0772
+      },
+      "courses": {}
+    },
+    {
+      "id": "1dvp78v",
+      "title": "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "author": "little-bandit1026",
+      "created": "2024-07-05T04:10:23.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvp78v/i_gotta_take_off_1_elective_to_fit_in_a_pc_class/",
+      "selftext": "ive hear alot abt Mcleman and him being a very good teacher and the class being very straight foward, but AN100 is online even tho i have no clue whether its better to take or not,  ultimately i want a booster thats very easy and wont take too much time so i can focus on the harder classes, \n\nmy schedule so far is:\n\nFall: MA123, CP104, PC131, MA102(i had a gap yr so i need to catch-up even after doing good in the CPE), and either one of AN100/ES110\n\nWinter: MA103, PC132, CP164, AS101, AR101\n\nim thinking of dropping MA102 and spending the summer to basically review everything that'll be in MA103\n\nI'd rather have 2 bird courses, but idk whether or not i should take MA102, i can take MA103 without MA102 btw\n\nbut idk, can yall lmk what yall think?",
+      "score": 0,
+      "num_comments": 2,
+      "upvote_ratio": 0.33,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.062,
+        "neu": 0.789,
+        "pos": 0.149,
+        "compound": 0.9495
+      },
+      "courses": {
+        "AR101": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "AR"
+        },
+        "PC132": {
+          "compound": -0.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "PC"
+        },
+        "CP164": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "MA123": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        },
+        "PC131": {
+          "compound": -0.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "PC"
+        },
+        "MA102": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        },
+        "ES110": {
+          "compound": 2.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        },
+        "CP104": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "MA103": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        }
+      }
+    },
+    {
+      "id": "18pl5pi",
+      "title": "An100 OC",
+      "author": "Only-Nature-7091",
+      "created": "2023-12-24T02:17:10.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18pl5pi/an100_oc/",
+      "selftext": "Is the online class a bird I heard mixed reviews about it and wanted to hear recent reviews about it and what is a relaid grade I can get in it",
+      "score": 7,
+      "num_comments": 9,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.831,
+        "pos": 0.169,
+        "compound": 0.6705
+      },
+      "courses": {}
+    },
+    {
+      "id": "1b2axew",
+      "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
+      "author": "glxcs_",
+      "created": "2024-02-28T16:56:01.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1b2axew/spring_oc_bird_courses_other_than_as101_cp102/",
+      "selftext": "",
+      "score": 6,
+      "num_comments": 3,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.733,
+        "pos": 0.267,
+        "compound": 0.6124
+      },
+      "courses": {
+        "UU150": {
+          "compound": 1.6640000000000001,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "UU"
+        },
+        "UX100": {
+          "compound": 0.624,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "UX"
+        },
+        "ES110": {
+          "compound": 1.6640000000000001,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.1440000000000001,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.1440000000000001,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        },
+        "CP102": {
+          "compound": -1.4,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "18yyg1a",
+      "title": "AN100, ML100, ES110 work load",
+      "author": "SuspiciousExample339",
+      "created": "2024-01-05T04:54:51.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18yyg1a/an100_ml100_es110_work_load/",
+      "selftext": "how hard are these three, im particularly interested with ML100 and just wondering how difficult it is since i'll have to take 6 courses this sem.",
+      "score": 0,
+      "num_comments": 3,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.188,
+        "neu": 0.728,
+        "pos": 0.084,
+        "compound": -0.4033
+      },
+      "courses": {
+        "ML100": {
+          "compound": -1.2,
+          "pos": 0.084,
+          "neu": 0.728,
+          "neg": 0.188,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:difficult": 1,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "ML"
+        },
+        "ES110": {
+          "compound": -0.19999999999999996,
+          "pos": 0.084,
+          "neu": 0.728,
+          "neg": 0.188,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:difficult": 1,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        },
+        "AN100": {
+          "compound": -0.7,
+          "pos": 0.084,
+          "neu": 0.728,
+          "neg": 0.188,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:difficult": 1,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "18u0brw",
+      "title": "AN100 Online",
+      "author": "No_Cantaloupe_3447",
+      "created": "2023-12-29T23:11:25.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18u0brw/an100_online/",
+      "selftext": "Taking this course in the winter, have heard mixed reviews about the online version. How easy is it to get a 12? Are the assignments marked hard?",
+      "score": 2,
+      "num_comments": 3,
+      "upvote_ratio": 0.75,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.045,
+        "neu": 0.764,
+        "pos": 0.191,
+        "compound": 0.5574
+      },
+      "courses": {
+        "AN100": {
+          "compound": 1.4490666666666667,
+          "pos": 0.2545,
+          "neu": 0.7455,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 2,
+            "easy": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "18vpkf1",
+      "title": "Which course should I take that? I need a bird course: AN100 online or WS100 online???",
+      "author": "Lonely_Bet_7167",
+      "created": "2024-01-01T05:08:37.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18vpkf1/which_course_should_i_take_that_i_need_a_bird/",
+      "selftext": "",
+      "score": 0,
+      "num_comments": 2,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.588,
+        "pos": 0.412,
+        "compound": 0.7184
+      },
+      "courses": {
+        "AN100": {
+          "compound": 1.1,
+          "pos": 0.2915,
+          "neu": 0.7085,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1,
+            "online": 2
+          },
+          "title_mention": true,
+          "department": "AN"
+        },
+        "WS100": {
+          "compound": 0.6,
+          "pos": 0.2915,
+          "neu": 0.7085,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1,
+            "online": 2
+          },
+          "title_mention": true,
+          "department": "WS"
+        }
+      }
+    },
+    {
+      "id": "197buqi",
+      "title": "Ws100 online or an100 online",
+      "author": "Lonely_Bet_7167",
+      "created": "2024-01-15T15:49:01.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/197buqi/ws100_online_or_an100_online/",
+      "selftext": "Which is easier?",
+      "score": 0,
+      "num_comments": 0,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.463,
+        "pos": 0.537,
+        "compound": 0.5859
+      },
+      "courses": {}
+    },
+    {
+      "id": "18kyqem",
+      "title": "AN100",
+      "author": "alcatrazdahc",
+      "created": "2023-12-18T03:09:54.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18kyqem/an100/",
+      "selftext": "Autoethnography #2 grades? I cant believe it took this long for it to be returned to us just to have 0 feedback on why I did so shit. I feel like there was no outline to the project to be able to succeed anyways. How did everyone else do? GL on the exam tomorrow",
+      "score": 3,
+      "num_comments": 0,
+      "upvote_ratio": 0.81,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.161,
+        "neu": 0.704,
+        "pos": 0.135,
+        "compound": -0.1412
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.09231000000000003,
+          "pos": 0.0,
+          "neu": 0.9099999999999999,
+          "neg": 0.09,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "16dq19p",
+      "title": "Has anyone recently taken an100?",
+      "author": "Both_Invite_1430",
+      "created": "2023-09-08T23:36:10.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/16dq19p/has_anyone_recently_taken_an100/",
+      "selftext": "People here kept saying it was easy but the prof said the course has changed a bit so I was wondering if it was still an easy course.  Also are there any course I should replace it with?",
+      "score": 2,
+      "num_comments": 6,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.864,
+        "pos": 0.136,
+        "compound": 0.7184
+      },
+      "courses": {}
+    },
+    {
+      "id": "17diuzq",
+      "title": "AN100 Lecture notes?",
+      "author": "SoftwareHaunting2467",
+      "created": "2023-10-22T02:19:21.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/17diuzq/an100_lecture_notes/",
+      "selftext": "Is lecture content going to be heavy on the midterm exam? If so, can someone send their notes they made during lecs?",
+      "score": 1,
+      "num_comments": 2,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.211,
+        "neu": 0.789,
+        "pos": 0.0,
+        "compound": -0.3818
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.08331173333333333,
+          "pos": 0.0,
+          "neu": 0.628,
+          "neg": 0.372,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:midterm": 1,
+            "anti:exam": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "191wrlr",
+      "title": "CC100 and AN100 discord channels",
+      "author": "Difficult-Whole-5114",
+      "created": "2024-01-08T21:35:02.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/191wrlr/cc100_and_an100_discord_channels/",
+      "selftext": "both courses are online to help with confusion etc.. join if ur in these courses it'll help w success in it - dm me in case the link is expired\n\nAN100: [https://discord.gg/SP967Rck](https://discord.gg/SP967Rck)\n\nCC100: [https://discord.gg/gRE5wsRe](https://discord.gg/gRE5wsRe)",
+      "score": 1,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.107,
+        "neu": 0.613,
+        "pos": 0.28,
+        "compound": 0.7845
+      },
+      "courses": {
+        "CC100": {
+          "compound": 0.19197536,
+          "pos": 0.11120000000000001,
+          "neu": 0.8376000000000001,
+          "neg": 0.0514,
+          "mentions": 5,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": true,
+          "department": "CC"
+        },
+        "AN100": {
+          "compound": 0.8872840533333333,
+          "pos": 0.22240000000000001,
+          "neu": 0.6752,
+          "neg": 0.1028,
+          "mentions": 5,
+          "bird_terms": {
+            "online": 2
+          },
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "1939pfg",
+      "title": "Does anyone have a pdf version of the an100 (cultures today) textbook",
+      "author": "Every_Background_415",
+      "created": "2024-01-10T14:37:17.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1939pfg/does_anyone_have_a_pdf_version_of_the_an100/",
+      "selftext": "Please send it if you do.",
+      "score": 0,
+      "num_comments": 0,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.08,
+        "neu": 0.798,
+        "pos": 0.122,
+        "compound": 0.2023
+      },
+      "courses": {}
+    },
+    {
+      "id": "16jts8g",
+      "title": "re103 or an100?",
+      "author": "cherrqcola",
+      "created": "2023-09-16T00:37:12.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/16jts8g/re103_or_an100/",
+      "selftext": "hellloo i took re103 as an online course, because i thought i\u2019d be interested in the subject but honestly it\u2019s a lot of reading and i don\u2019t like how there\u2019s an exam. i\u2019ve also heard they mark difficultly? \n\ni heard an100 has no exam and the course is easy.  the subject also sounds pretty interesting. both of these courses are fully online. which one do y\u2019all recommend?",
+      "score": 3,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.112,
+        "neu": 0.591,
+        "pos": 0.297,
+        "compound": 0.946
+      },
+      "courses": {}
+    },
+    {
+      "id": "17kcsc8",
+      "title": "an100",
+      "author": "sher308",
+      "created": "2023-10-31T04:19:51.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/17kcsc8/an100/",
+      "selftext": "anyone taking it in person with iga and have any notes for the midterm ?",
+      "score": 3,
+      "num_comments": 1,
+      "upvote_ratio": 0.8,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.097,
+        "neu": 0.903,
+        "pos": 0.0,
+        "compound": -0.128
+      },
+      "courses": {}
+    },
+    {
+      "id": "16bo6d8",
+      "title": "AN100 Difficulty",
+      "author": "SoftwareHaunting2467",
+      "created": "2023-09-06T16:05:50.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/16bo6d8/an100_difficulty/",
+      "selftext": "I took this course because I heard it was a bird but my prof is Iga Mergler and saw her ratings were terrible. I really don\u2019t want a bird course to drop my GPA but I can\u2019t drop the course now. Does anyone have some advice with this specific prof or course?",
+      "score": 1,
+      "num_comments": 2,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.176,
+        "neu": 0.63,
+        "pos": 0.195,
+        "compound": 0.2999
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.6774665333333333,
+          "pos": 0.1835,
+          "neu": 0.6025,
+          "neg": 0.214,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 2,
+            "anti:difficult": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "13pz1xa",
+      "title": "Anyone in AN100 OC this term with Iga Mergeler?",
+      "author": "Stunning-Sentence896",
+      "created": "2023-05-23T20:02:45.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/13pz1xa/anyone_in_an100_oc_this_term_with_iga_mergeler/",
+      "selftext": "Read title, looking for fellow classmates :)",
+      "score": 2,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.5066666666666667,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "zurqst",
+      "title": "thoughts on AN100 (OC) winter term?",
+      "author": "ab0rtionclinic",
+      "created": "2022-12-25T05:47:03.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/zurqst/thoughts_on_an100_oc_winter_term/",
+      "selftext": "",
+      "score": 5,
+      "num_comments": 8,
+      "upvote_ratio": 0.86,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.5166666666666667,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 1,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "10fs596",
+      "title": "An100 course load?",
+      "author": "b17810195",
+      "created": "2023-01-19T04:15:15.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/10fs596/an100_course_load/",
+      "selftext": "Hey \nJust wondering what the an100 course load is like/ how important attendance in lectures are and if people think it\u2019s a bird course. Thanks!!!",
+      "score": 1,
+      "num_comments": 5,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.043,
+        "neu": 0.634,
+        "pos": 0.323,
+        "compound": 0.8658
+      },
+      "courses": {}
+    },
+    {
+      "id": "107uigq",
+      "title": "AN100 - Rajat Nayyar (cultures today)",
+      "author": "Either_Fun_2362",
+      "created": "2023-01-09T23:57:37.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/107uigq/an100_rajat_nayyar_cultures_today/",
+      "selftext": "Anyone that\u2019s actually willing to put effort in on group projects wanna join up together? Don\u2019t want a crap group. Pm if interested",
+      "score": 0,
+      "num_comments": 3,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.082,
+        "neu": 0.723,
+        "pos": 0.195,
+        "compound": 0.3818
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.48668,
+          "pos": 0.162,
+          "neu": 0.6175,
+          "neg": 0.2205,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "10dgbnn",
+      "title": "An100 l-oc online group chat ?",
+      "author": "Fast_Satisfaction292",
+      "created": "2023-01-16T14:46:26.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/10dgbnn/an100_loc_online_group_chat/",
+      "selftext": "",
+      "score": 1,
+      "num_comments": 2,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.727,
+        "pos": 0.273,
+        "compound": 0.128
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hi90ek",
+      "title": "Bird courses",
+      "author": "0range_t1ger",
+      "created": "2024-12-20T01:49:29.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hi90ek/bird_courses/",
+      "selftext": "I\u2019m registered for gg102, what is it like? What other classes are easy 12s preferably no final or midterm but whatever works- already had an100 es110 and sc100",
+      "score": 0,
+      "num_comments": 16,
+      "upvote_ratio": 0.5,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.119,
+        "neu": 0.699,
+        "pos": 0.182,
+        "compound": 0.4854
+      },
+      "courses": {}
+    },
+    {
+      "id": "1fdli6c",
+      "title": "BIRD COURSES",
+      "author": "oreo_david",
+      "created": "2024-09-10T16:03:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "selftext": "Im a BBA student and ik regardless of what year u are, everyone is always looking for bird courses, after looking extensively through them, here is a list, hope it helps :)  \n(UR WELCOME)\n\n**IN-Person**  \nES110\n\n**ONLINE**  \nAS101 - might've changed it so careful  \nSC100  \nUU150  \nUU100  \nAN100  \nCP102  \nEM202  \nEM203  \nEM101  \nEM110  \nEM300  \nISHS 200\n\n**I heard it was ez but idk**  \nUX100  \nUX103  \nGG101",
+      "score": 11,
+      "num_comments": 8,
+      "upvote_ratio": 0.87,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.023,
+        "neu": 0.758,
+        "pos": 0.219,
+        "compound": 0.866
+      },
+      "courses": {
+        "EM203": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "UU150": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "GG101": {
+          "compound": 1.0733333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "GG"
+        },
+        "SC100": {
+          "compound": 1.6099999999999999,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "SC"
+        },
+        "UX100": {
+          "compound": 1.0733333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        },
+        "EM202": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM101": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM300": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "ES110": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.6099999999999999,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.6099999999999999,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "UU100": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "EM110": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "CP102": {
+          "compound": -1.0,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "UX103": {
+          "compound": 1.0733333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        }
+      }
+    },
+    {
+      "id": "1dg6grm",
+      "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
+      "author": "Confusedandcool",
+      "created": "2024-06-15T01:16:23.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dg6grm/im_going_in_to_first_year_bba_are_these_good_gpa/",
+      "selftext": "An100, uu100, es110, re104, and cc102?",
+      "score": 0,
+      "num_comments": 6,
+      "upvote_ratio": 0.44,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.795,
+        "pos": 0.205,
+        "compound": 0.5994
+      },
+      "courses": {}
+    },
+    {
+      "id": "1dnfz01",
+      "title": "Electives for BBA",
+      "author": "Complete-Speaker-107",
+      "created": "2024-06-24T15:16:37.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dnfz01/electives_for_bba/",
+      "selftext": "Hi guys, \n\n  \nIm trying to plan out my scheduled classes for next year. Im in BBA so I have to take 2 electives per sem. Could you guys let me know which electives below I should and should not take.    \n\n\nFall sem: \n\n  \n- Either es110, into criminology 100, an100, or uu150 (online) - which 2 are the easiest? \n\nWinter sem: \n\n- Either cp102 (online), leadership 101, social and environmental justice 100 (online), 0r cc102 (criminal justice system) - which 2 are the easiest? \n\n  \nAlso if there's any other electives you would reccomend please do so. Im super stressed im going to pick the \"wrong\" ones lol. ",
+      "score": 0,
+      "num_comments": 2,
+      "upvote_ratio": 0.38,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.075,
+        "neu": 0.711,
+        "pos": 0.214,
+        "compound": 0.9327
+      },
+      "courses": {}
+    },
+    {
+      "id": "mmbavs",
+      "title": "Complete bird course list (1st year)",
+      "author": "Certain-Daikon-1850",
+      "created": "2021-04-07T20:33:30.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "selftext": "Ive been doing some research and I came up with a list of all the bird courses for first years at laurier.\n\nThis is just from what I have seen around this sub so I figured I would put em all in one place... lmk if I need to add or remove anything\n\nAN100, UX103, UU150, ES110, AR105, GG102, AS101, UX100, RE104, RE103, UU101, CP102, CC102",
+      "score": 68,
+      "num_comments": 45,
+      "upvote_ratio": 0.95,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.889,
+        "pos": 0.111,
+        "compound": 0.8402
+      },
+      "courses": {
+        "RE103": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "UU150": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UU"
+        },
+        "UU101": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UU"
+        },
+        "UX100": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UX"
+        },
+        "RE104": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "ES110": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "ES"
+        },
+        "CC102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CC"
+        },
+        "AS101": {
+          "compound": 0.6,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 0.6,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AN"
+        },
+        "GG102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "GG"
+        },
+        "CP102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        },
+        "AR105": {
+          "compound": 0.6,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AR"
+        },
+        "UX103": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UX"
+        }
+      }
+    },
+    {
+      "id": "1aq9tt2",
+      "title": "Second year electives",
+      "author": "dunnomynamelol",
+      "created": "2024-02-14T00:49:09.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1aq9tt2/second_year_electives/",
+      "selftext": "If I want to take a elective for second year in spring does the course have to be a second year course or can it just be any like AN100 (for example). And also is there any bird courses for second year that are online available in spring?",
+      "score": 2,
+      "num_comments": 4,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.826,
+        "pos": 0.174,
+        "compound": 0.8074
+      },
+      "courses": {
+        "AN100": {
+          "compound": 1.1508933333333335,
+          "pos": 0.19699999999999998,
+          "neu": 0.8029999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:exam": 1,
+            "bird": 1,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "14ic8p7",
+      "title": "Help with BBA Classes Choice",
+      "author": "Individual-Jelly-369",
+      "created": "2023-06-25T04:01:07.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14ic8p7/help_with_bba_classes_choice/",
+      "selftext": "I'm in the BBA program and I was wondering how these professors and classes are for the first year. Please let me know anyone's experiences!\n\nSem 1:\n\n\\- Intro to Financial Accounting (BU127) with Bixia Xu\n\n\\- Understanding Bus. Environment (BU111) with David Swanston\n\n\\- Intro To Microeconomics (EC120) with Tammy Schirle\n\n\\- Enviro, Sustain &amp; Society (ES110) with Robert McLeman\n\n\\- Info Processing With Micros (CP102) prof tbd\n\n&amp;#x200B;\n\nSem 2:\n\n\\- Critical Thinking &amp; Comm Skill (BU121) prof tbd\n\n\\- Intro Calc for Bus/Soc Science (MA129) with Lawrence Howe\n\n\\- Intro To Macroeconomics (EC140) with Kenneth Jackson\n\n\\- Cultures Today (AN100) prof tbd\n\n\\- Introduction to Global Studies (GS101) prof tbd\n\n&amp;#x200B;",
+      "score": 4,
+      "num_comments": 16,
+      "upvote_ratio": 0.83,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.021,
+        "neu": 0.934,
+        "pos": 0.045,
+        "compound": 0.4019
+      },
+      "courses": {
+        "BU121": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "EC120": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "EC140": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "BU111": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "ES110": {
+          "compound": 0.863324,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "ES"
+        },
+        "MA129": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "MA"
+        },
+        "GS101": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "GS"
+        },
+        "AN100": {
+          "compound": 0.3499906666666666,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AN"
+        },
+        "BU127": {
+          "compound": 0.0,
+          "pos": 0.105,
+          "neu": 0.8836666666666666,
+          "neg": 0.011333333333333334,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "CP102": {
+          "compound": -0.1591,
+          "pos": 0.0,
+          "neu": 0.983,
+          "neg": 0.017,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "150niix",
+      "title": "elective help!",
+      "author": "betterthanyou-3201",
+      "created": "2023-07-15T21:25:09.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/150niix/elective_help/",
+      "selftext": "i originally registered in AN100 bc i heard it was easy but my prof was announced to be Iga Mergler who is apparently a really hard marker and people dont like. Should i stay in the course or drop it?\n\nIf i drop it, the replacement course would most likely be NO105 with Kevin Spooner. Is this a good course + good prof?",
+      "score": 4,
+      "num_comments": 10,
+      "upvote_ratio": 0.83,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.137,
+        "neu": 0.685,
+        "pos": 0.178,
+        "compound": 0.6086
+      },
+      "courses": {
+        "NO105": {
+          "compound": 0.05266800000000001,
+          "pos": 0.19733333333333333,
+          "neu": 0.6793333333333332,
+          "neg": 0.12333333333333334,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "NO"
+        },
+        "AN100": {
+          "compound": 0.47086355555555554,
+          "pos": 0.2643333333333333,
+          "neu": 0.6093333333333334,
+          "neg": 0.12633333333333333,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "18ywj5z",
+      "title": "AN100OC or RE104OC?",
+      "author": "Icicle2",
+      "created": "2024-01-05T03:16:34.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18ywj5z/an100oc_or_re104oc/",
+      "selftext": "I can pick either one for my 5th course right now, I just want a light workload for this last course option, what do you guys recommend? I have re104oc in my schedule right now 'cuz I got waitlisted for an100, should I switch? ",
+      "score": 2,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.868,
+        "pos": 0.132,
+        "compound": 0.5859
+      },
+      "courses": {}
+    },
+    {
+      "id": "14p9969",
+      "title": "Looking for the 100% easiest GPA boosting electives.",
+      "author": "Jumpman78",
+      "created": "2023-07-03T04:52:14.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14p9969/looking_for_the_100_easiest_gpa_boosting_electives/",
+      "selftext": "Currently have UU100 SC100 AN100 (anyone know if this is better irl or online?) ES110 GG102 CP102 CC101 to decide between. Just wanted to see if anyone had any recent experience with any of these (as some might have changed around over the years). Any other recommendations would be very appreciated as well, profs taken or good profs for any courses would be very helpful too.",
+      "score": 1,
+      "num_comments": 8,
+      "upvote_ratio": 0.57,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.734,
+        "pos": 0.266,
+        "compound": 0.9663
+      },
+      "courses": {
+        "CC101": {
+          "compound": 0.22707044444444444,
+          "pos": 0.08933333333333333,
+          "neu": 0.9106666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CC"
+        },
+        "SC100": {
+          "compound": 0.9770706666666665,
+          "pos": 0.286,
+          "neu": 0.714,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "SC"
+        },
+        "ES110": {
+          "compound": 1.233737111111111,
+          "pos": 0.08933333333333333,
+          "neu": 0.9106666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AN100": {
+          "compound": 0.9770706666666665,
+          "pos": 0.286,
+          "neu": 0.714,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "UU100": {
+          "compound": 1.4804039999999998,
+          "pos": 0.286,
+          "neu": 0.714,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "GG102": {
+          "compound": 0.22707044444444444,
+          "pos": 0.08933333333333333,
+          "neu": 0.9106666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "GG"
+        },
+        "CP102": {
+          "compound": -1.7744333333333333,
+          "pos": 0.08933333333333333,
+          "neu": 0.9106666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "xb0fb0",
+      "title": "why are textbooks SO EXPENSIVE",
+      "author": "shawtyg24",
+      "created": "2022-09-10T21:22:44.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/xb0fb0/why_are_textbooks_so_expensive/",
+      "selftext": "i've heard a lot of people say that it's not worth buying textbooks because a lot of profs don't use them much in class. also i can't seem to find any of the newest edition textbooks online for free. i was wondering how often i'll use the textbook/material for each of my classes and whether i should just buy them through the bookstore.\n\nmy classes this semester: BU111, EC120 , ES110 , AN100, MA129\n\nthank you!",
+      "score": 9,
+      "num_comments": 18,
+      "upvote_ratio": 0.77,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.055,
+        "neu": 0.854,
+        "pos": 0.09,
+        "compound": 0.428
+      },
+      "courses": {
+        "MA129": {
+          "compound": -0.030149999999999982,
+          "pos": 0.1,
+          "neu": 0.841,
+          "neg": 0.059,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "MA"
+        },
+        "ES110": {
+          "compound": 1.028041,
+          "pos": 0.1,
+          "neu": 0.841,
+          "neg": 0.059,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "ES"
+        },
+        "BU111": {
+          "compound": -0.030149999999999982,
+          "pos": 0.1,
+          "neu": 0.841,
+          "neg": 0.059,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "BU"
+        },
+        "AN100": {
+          "compound": 0.498041,
+          "pos": 0.1,
+          "neu": 0.841,
+          "neg": 0.059,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AN"
+        },
+        "EC120": {
+          "compound": -0.030149999999999982,
+          "pos": 0.1,
+          "neu": 0.841,
+          "neg": 0.059,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        }
+      }
+    },
+    {
+      "id": "15ss9ob",
+      "title": "Digital Textbook Access",
+      "author": "Curious-Cookie8945",
+      "created": "2023-08-16T15:00:44.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/15ss9ob/digital_textbook_access/",
+      "selftext": "Hey guys, I was wondering how much the digital textbook access is ? it says its up to 40-55% discount at each textbook and im just missing one of them for AN100 so im not sure whether its worth it to opt out or not.\n\nIf anyone knows how much the digital textbook access is please let me know\n\n&amp;#x200B;",
+      "score": 1,
+      "num_comments": 1,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.154,
+        "neu": 0.784,
+        "pos": 0.062,
+        "compound": -0.4983
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.33179733333333333,
+          "pos": 0.06333333333333334,
+          "neu": 0.7853333333333333,
+          "neg": 0.15133333333333332,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "14ozhsl",
+      "title": "Can upper year students take courses meant for previous years?",
+      "author": "Bonchowastaken",
+      "created": "2023-07-02T21:15:33.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14ozhsl/can_upper_year_students_take_courses_meant_for/",
+      "selftext": "I'm progressing to 2nd year honours BBA and I'm wondering if I can take courses from first year like AN100 or CP102. Thanks.",
+      "score": 3,
+      "num_comments": 2,
+      "upvote_ratio": 0.72,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.771,
+        "pos": 0.229,
+        "compound": 0.8225
+      },
+      "courses": {
+        "CP102": {
+          "compound": -1.6229333333333333,
+          "pos": 0.4103333333333334,
+          "neu": 0.5896666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        },
+        "AN100": {
+          "compound": 0.894608,
+          "pos": 0.4103333333333334,
+          "neu": 0.5896666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "o3qbpt",
+      "title": "Thoughts on first year courses?",
+      "author": "Ambitious-Cod8442",
+      "created": "2021-06-19T21:30:06.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/o3qbpt/thoughts_on_first_year_courses/",
+      "selftext": "Hi guys I was wondering what you think about my first year courses as a BBA student!!\n\nfall 2021 - bu111, bu127, ec120, ma129, es110\n\nwinter 2022 - bu121, ec140, an100, no105, (any recommendations on what to take as my 4th elective)\n\nAlso, is there an easier\u00a0remote elective than es110 that I could take first term? something that's an\u00a0easy 12 with little effort or work lol preferably without proctored tests/exams or no exams at all?",
+      "score": 3,
+      "num_comments": 19,
+      "upvote_ratio": 0.67,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.026,
+        "neu": 0.871,
+        "pos": 0.103,
+        "compound": 0.7506
+      },
+      "courses": {}
+    },
+    {
+      "id": "x2eaj7",
+      "title": "Tips for OC classes?",
+      "author": "-ASTROTHUNDER-",
+      "created": "2022-08-31T13:56:44.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/x2eaj7/tips_for_oc_classes/",
+      "selftext": "First year here,\n\nI\u2019m taking AN100 and RE103 as online courses alongside EC120 and BU111 as my in person courses.\n\nAnyone have any tips on succeeding in an online environment and getting the best possible mark?",
+      "score": 3,
+      "num_comments": 7,
+      "upvote_ratio": 0.71,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.776,
+        "pos": 0.224,
+        "compound": 0.8555
+      },
+      "courses": {
+        "RE103": {
+          "compound": 0.42976000000000003,
+          "pos": 0.15966666666666668,
+          "neu": 0.8403333333333333,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 2
+          },
+          "title_mention": false,
+          "department": "RE"
+        },
+        "EC120": {
+          "compound": -0.07866666666666666,
+          "pos": 0.15966666666666668,
+          "neu": 0.8403333333333333,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 2
+          },
+          "title_mention": false,
+          "department": "EC"
+        },
+        "AN100": {
+          "compound": 0.93976,
+          "pos": 0.15966666666666668,
+          "neu": 0.8403333333333333,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 2
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "BU111": {
+          "compound": -0.5786666666666667,
+          "pos": 0.15966666666666668,
+          "neu": 0.8403333333333333,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 2
+          },
+          "title_mention": false,
+          "department": "BU"
+        }
+      }
+    },
+    {
+      "id": "10c1kcu",
+      "title": "Anyone in AN100 OC with Iga?",
+      "author": "Conscious-Cupcake627",
+      "created": "2023-01-14T22:02:21.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/10c1kcu/anyone_in_an100_oc_with_iga/",
+      "selftext": "Is there anyone in AN100 OC with Iga? We can study together and review together for the quizzes.",
+      "score": 1,
+      "num_comments": 2,
+      "upvote_ratio": 0.67,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.5033333333333333,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 5,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "k2op5a",
+      "title": "Good First Year Classes?",
+      "author": "dracucore",
+      "created": "2020-11-28T14:39:27.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/k2op5a/good_first_year_classes/",
+      "selftext": "Hi all! Currently signing up for winter term classes, I'm currently registered to take FS101, PP111, and SY101. My last semester had GS101, AN100, and NO105. Other than that I'm kind of stumped for what else to take so I can hit the four class mark and was hoping you guys might have some input or suggestions.\n\nThe classes don't need to be 100 level courses, as long as I can take them in year one.\n\nThanks!!",
+      "score": 2,
+      "num_comments": 18,
+      "upvote_ratio": 0.75,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.898,
+        "pos": 0.102,
+        "compound": 0.8225
+      },
+      "courses": {
+        "FS101": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "FS"
+        },
+        "PP111": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "PP"
+        },
+        "GS101": {
+          "compound": 0.14237333333333332,
+          "pos": 0.029333333333333333,
+          "neu": 0.9706666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "GS"
+        },
+        "AN100": {
+          "compound": 0.6490400000000001,
+          "pos": 0.029333333333333333,
+          "neu": 0.9706666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AN"
+        },
+        "SY101": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "SY"
+        },
+        "NO105": {
+          "compound": 0.14237333333333332,
+          "pos": 0.029333333333333333,
+          "neu": 0.9706666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "NO"
+        }
+      }
+    },
+    {
+      "id": "z1f6ix",
+      "title": "OC first year bird course for winter",
+      "author": "mrketsniffer",
+      "created": "2022-11-22T00:24:40.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/z1f6ix/oc_first_year_bird_course_for_winter/",
+      "selftext": "Need smth that isn't uu150,an100,gg102,cp102",
+      "score": 1,
+      "num_comments": 1,
+      "upvote_ratio": 0.67,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.733,
+        "pos": 0.267,
+        "compound": 0.6124
+      },
+      "courses": {}
+    },
+    {
+      "id": "xcec6r",
+      "title": "AN100 Textbook",
+      "author": "Visual-Department-29",
+      "created": "2022-09-12T14:30:48.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/xcec6r/an100_textbook/",
+      "selftext": "How necessary is the AN100 textbook, like is it worth buying it? And am I able to find it online instead of buying it? PM me if you have a pdf version please. Thanks",
+      "score": 5,
+      "num_comments": 2,
+      "upvote_ratio": 0.86,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.073,
+        "neu": 0.657,
+        "pos": 0.27,
+        "compound": 0.7964
+      },
+      "courses": {
+        "AN100": {
+          "compound": 0.8998266666666668,
+          "pos": 0.1915,
+          "neu": 0.7224999999999999,
+          "neg": 0.086,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        }
+      }
+    },
+    {
+      "id": "vhqa5f",
+      "title": "an100 with iga mergler",
+      "author": "Far-Antelope-1407",
+      "created": "2022-06-21T23:08:31.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/vhqa5f/an100_with_iga_mergler/",
+      "selftext": "is an100 with iga mergler an easy course because on rate my professor, people are saying shes hard but on reddit people are saying shes easy",
+      "score": 2,
+      "num_comments": 4,
+      "upvote_ratio": 0.67,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.035,
+        "neu": 0.789,
+        "pos": 0.175,
+        "compound": 0.7003
+      },
+      "courses": {}
+    },
+    {
+      "id": "xcnnsb",
+      "title": "Looking/Buying these textbooks please!",
+      "author": "twizzzzyrichhh",
+      "created": "2022-09-12T20:45:10.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/xcnnsb/lookingbuying_these_textbooks_please/",
+      "selftext": "First off, new textbooks are so overpriced wtf is this. My courses are \nAN100 (oc)\nES110\nBU127\nBU111\nEC120\n\nIf anyone has the textbooks in digital or physical please let me know! Im also wondering if I\u2019m required to buy each? \n\nE.g. Does it matter if I get the 16th edition ragan from libgen or must I buy the 17th copy is there a big difference? just looking for the most reasonable way out",
+      "score": 0,
+      "num_comments": 2,
+      "upvote_ratio": 0.5,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.05,
+        "neu": 0.879,
+        "pos": 0.071,
+        "compound": -0.0972
+      },
+      "courses": {
+        "EC120": {
+          "compound": -0.20133333333333334,
+          "pos": 0.033,
+          "neu": 0.863,
+          "neg": 0.104,
+          "mentions": 3,
+          "bird_terms": {
+            "anti:required": 1
+          },
+          "title_mention": false,
+          "department": "EC"
+        },
+        "BU111": {
+          "compound": -0.20133333333333334,
+          "pos": 0.033,
+          "neu": 0.863,
+          "neg": 0.104,
+          "mentions": 3,
+          "bird_terms": {
+            "anti:required": 1
+          },
+          "title_mention": false,
+          "department": "BU"
+        },
+        "ES110": {
+          "compound": 0.7986666666666666,
+          "pos": 0.033,
+          "neu": 0.863,
+          "neg": 0.104,
+          "mentions": 3,
+          "bird_terms": {
+            "anti:required": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AN100": {
+          "compound": 0.29866666666666664,
+          "pos": 0.033,
+          "neu": 0.863,
+          "neg": 0.104,
+          "mentions": 3,
+          "bird_terms": {
+            "anti:required": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "BU127": {
+          "compound": -0.20133333333333334,
+          "pos": 0.033,
+          "neu": 0.863,
+          "neg": 0.104,
+          "mentions": 3,
+          "bird_terms": {
+            "anti:required": 1
+          },
+          "title_mention": false,
+          "department": "BU"
+        }
+      }
+    }
+  ],
+  "bird_term_score": 0.9782608695652174,
+  "dept_adjustment": 0.5,
+  "comment_factor": 0.1869565217391304,
+  "level_adjustment": 0,
+  "topic_adjustment": 3.05,
+  "assessment_penalty": -1.5,
+  "failure_penalty": -0.0
+}

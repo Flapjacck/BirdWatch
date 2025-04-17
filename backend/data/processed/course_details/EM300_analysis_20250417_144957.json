@@ -1,0 +1,666 @@
+{
+  "code": "EM300",
+  "department": "EM",
+  "specific_mentions": 13,
+  "avg_thread_score": 2.230769230769231,
+  "recent_mentions": 0,
+  "oldest_thread_date": "2022-12-08T19:20:38+00:00",
+  "newest_thread_date": "2025-03-29T17:25:11+00:00",
+  "is_online_available": true,
+  "bird_score": 7.01686923076923,
+  "discussion_topics": {
+    "difficulty": 5,
+    "workload": 1,
+    "bird_course": 5,
+    "content": 1,
+    "structure": 0,
+    "grading": 0
+  },
+  "course_components": {
+    "exams": {
+      "midterm": 1,
+      "final": 1,
+      "total": 2,
+      "weight_mentioned": false,
+      "difficulty_mentioned": false
+    },
+    "assignments": {
+      "count": 1,
+      "papers": 1,
+      "total": 2,
+      "weight_mentioned": false,
+      "difficulty_mentioned": false
+    },
+    "assessments": {
+      "quizzes": 0,
+      "labs": 0,
+      "attendance": 0,
+      "participation": 0,
+      "presentations": 0,
+      "projects": 0,
+      "group_work": 0
+    }
+  },
+  "sentiment_analysis": {
+    "positive_aspects": {
+      "interesting": 1
+    },
+    "negative_aspects": {},
+    "overall_sentiment": 2.307692307692308,
+    "compound": 0.6243384615384616,
+    "pos": 0.25653846153846155,
+    "neu": 0.7127692307692306,
+    "neg": 0.030692307692307692,
+    "bird_terms": {
+      "simple": 1,
+      "bird": 7,
+      "easy": 6,
+      "online": 1,
+      "anti:midterm": 1,
+      "anti:final": 1,
+      "anti:exam": 3,
+      "no exam": 2
+    }
+  },
+  "context_clues": {
+    "terms": {
+      "courses": 12,
+      "bird": 7,
+      "easy": 6,
+      "year": 6,
+      "looking": 3,
+      "easiest": 3,
+      "anyone": 3,
+      "electives": 3,
+      "exams": 3,
+      "easier": 2
+    },
+    "year_level_appropriate": true,
+    "pre_requisites_mentioned": false
+  },
+  "thread_summary": {
+    "post_dates": [
+      "2025-03-29T17:25:11+00:00",
+      "2024-12-19T19:39:10+00:00",
+      "2024-07-17T18:22:12+00:00",
+      "2023-08-28T03:32:21+00:00",
+      "2023-07-03T20:25:40+00:00",
+      "2024-09-10T16:03:00+00:00",
+      "2025-02-23T00:13:55+00:00",
+      "2024-06-18T03:31:45+00:00",
+      "2024-06-13T05:18:09+00:00",
+      "2023-12-30T05:01:27+00:00",
+      "2024-01-04T16:14:12+00:00",
+      "2022-12-08T19:20:38+00:00",
+      "2023-07-25T19:43:11+00:00"
+    ],
+    "scores": [
+      1,
+      3,
+      2,
+      1,
+      1,
+      11,
+      5,
+      1,
+      0,
+      0,
+      1,
+      2,
+      1
+    ],
+    "comments": [
+      1,
+      0,
+      9,
+      5,
+      4,
+      8,
+      6,
+      10,
+      10,
+      8,
+      3,
+      16,
+      6
+    ],
+    "titles": [
+      "em202 vs em300?",
+      "em110 vs em300",
+      "Senior Elective Choices -  EM299 and EM300 ?",
+      "EM300 or ES110?",
+      "EM300",
+      "BIRD COURSES",
+      "Em 202 is it easy",
+      "EM110",
+      "Easiest BBA electives?",
+      "1st or 2nd year bird course",
+      "Courses with no exams",
+      "Education Minor",
+      "Easy 200 year courses"
+    ]
+  },
+  "threads": [
+    {
+      "id": "1jmrddl",
+      "title": "em202 vs em300?",
+      "author": "yourmom_03",
+      "created": "2025-03-29T17:25:11.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1jmrddl/em202_vs_em300/",
+      "selftext": "which one is easier? I have a really heavy course load next semester so looking for a simple course!",
+      "score": 1,
+      "num_comments": 1,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.753,
+        "pos": 0.247,
+        "compound": 0.6771
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hi15bq",
+      "title": "em110 vs em300",
+      "author": "SheepherderClear4589",
+      "created": "2024-12-19T19:39:10.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hi15bq/em110_vs_em300/",
+      "selftext": "plan to take one of these in the spring. which one is the easiest to get 12? and whats the workload like?",
+      "score": 3,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.813,
+        "pos": 0.187,
+        "compound": 0.6486
+      },
+      "courses": {}
+    },
+    {
+      "id": "1e5pd47",
+      "title": "Senior Elective Choices -  EM299 and EM300 ?",
+      "author": "wm11wm",
+      "created": "2024-07-17T18:22:12.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1e5pd47/senior_elective_choices_em299_and_em300/",
+      "selftext": "Hi mostly EM courses are easy afaik like em203 or em202 but I wanted to ask if anyone also took;  \n  \n1. EM299   - Reflection in Educ. Context with Beemer, Sarrah  \n2. EM300   - Teaching in Non-School Context\n\n  \nIf they are not easy or have so much of course work what would you recommend as senior electives other than em202 / 203 ?  I heard some leadership classes are also bird ? \n\nI just have a pretty loaded CS courses in fall / winter so trying to fill up with those easy courses.\n\nThankss !!!",
+      "score": 2,
+      "num_comments": 9,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.763,
+        "pos": 0.237,
+        "compound": 0.9771
+      },
+      "courses": {
+        "EM299": {
+          "compound": 1.4997333333333334,
+          "pos": 0.07239999999999999,
+          "neu": 0.9276,
+          "neg": 0.0,
+          "mentions": 5,
+          "bird_terms": {
+            "easy": 2
+          },
+          "title_mention": true,
+          "department": "EM"
+        },
+        "EM300": {
+          "compound": 1.6469179733333335,
+          "pos": 0.13240000000000002,
+          "neu": 0.8516,
+          "neg": 0.016,
+          "mentions": 5,
+          "bird_terms": {
+            "easy": 2,
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "EM"
+        }
+      }
+    },
+    {
+      "id": "163b168",
+      "title": "EM300 or ES110?",
+      "author": "georgesun02",
+      "created": "2023-08-28T03:32:21.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/163b168/em300_or_es110/",
+      "selftext": "Which is easier?",
+      "score": 1,
+      "num_comments": 5,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.641,
+        "pos": 0.359,
+        "compound": 0.4215
+      },
+      "courses": {
+        "ES110": {
+          "compound": 1.2612526666666666,
+          "pos": 0.2915,
+          "neu": 0.7085,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "ES"
+        },
+        "EM300": {
+          "compound": 1.2612526666666666,
+          "pos": 0.2915,
+          "neu": 0.7085,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "EM"
+        }
+      }
+    },
+    {
+      "id": "14pts07",
+      "title": "EM300",
+      "author": "bwl13",
+      "created": "2023-07-03T20:25:40.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14pts07/em300/",
+      "selftext": "I\u2019m just wondering how the coursework is for somebody without experiences in EM courses. I teach music lessons on my own and I have a deep love for pedagogy, but I don\u2019t want to be in outside my depths. Anybody have any insight on this course?",
+      "score": 1,
+      "num_comments": 4,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.91,
+        "pos": 0.09,
+        "compound": 0.4678
+      },
+      "courses": {
+        "EM300": {
+          "compound": 1.2892178666666667,
+          "pos": 0.088,
+          "neu": 0.9119999999999999,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "EM"
+        }
+      }
+    },
+    {
+      "id": "1fdli6c",
+      "title": "BIRD COURSES",
+      "author": "oreo_david",
+      "created": "2024-09-10T16:03:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "selftext": "Im a BBA student and ik regardless of what year u are, everyone is always looking for bird courses, after looking extensively through them, here is a list, hope it helps :)  \n(UR WELCOME)\n\n**IN-Person**  \nES110\n\n**ONLINE**  \nAS101 - might've changed it so careful  \nSC100  \nUU150  \nUU100  \nAN100  \nCP102  \nEM202  \nEM203  \nEM101  \nEM110  \nEM300  \nISHS 200\n\n**I heard it was ez but idk**  \nUX100  \nUX103  \nGG101",
+      "score": 11,
+      "num_comments": 8,
+      "upvote_ratio": 0.83,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.023,
+        "neu": 0.758,
+        "pos": 0.219,
+        "compound": 0.866
+      },
+      "courses": {
+        "EM203": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "UU150": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "GG101": {
+          "compound": 1.0733333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "GG"
+        },
+        "SC100": {
+          "compound": 1.6099999999999999,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "SC"
+        },
+        "UX100": {
+          "compound": 1.0733333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        },
+        "EM202": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM101": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM300": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "ES110": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.6099999999999999,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.6099999999999999,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "UU100": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "EM110": {
+          "compound": 2.1466666666666665,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "CP102": {
+          "compound": -1.0,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "UX103": {
+          "compound": 1.0733333333333333,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        }
+      }
+    },
+    {
+      "id": "1ivx41m",
+      "title": "Em 202 is it easy",
+      "author": "Juicyy42",
+      "created": "2025-02-23T00:13:55.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1ivx41m/em_202_is_it_easy/",
+      "selftext": "",
+      "score": 5,
+      "num_comments": 6,
+      "upvote_ratio": 0.73,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.571,
+        "pos": 0.429,
+        "compound": 0.4588
+      },
+      "courses": {}
+    },
+    {
+      "id": "1dih37c",
+      "title": "EM110",
+      "author": "ScaleAffectionate570",
+      "created": "2024-06-18T03:31:45.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dih37c/em110/",
+      "selftext": "I'm deciding if I should do this course, is it easy or at least interesting?",
+      "score": 1,
+      "num_comments": 10,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.722,
+        "pos": 0.278,
+        "compound": 0.6124
+      },
+      "courses": {
+        "EM110": {
+          "compound": 2.013333333333333,
+          "pos": 0.278,
+          "neu": 0.722,
+          "neg": 0.0,
+          "mentions": 1,
+          "bird_terms": {
+            "easy": 1
+          },
+          "title_mention": true,
+          "department": "EM"
+        }
+      }
+    },
+    {
+      "id": "1der9n0",
+      "title": "Easiest BBA electives?",
+      "author": "funnyarabman",
+      "created": "2024-06-13T05:18:09.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1der9n0/easiest_bba_electives/",
+      "selftext": "What are the easiest 6 WLU electives to take, don't really care about the concentration, just want to speedrun ",
+      "score": 0,
+      "num_comments": 10,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.106,
+        "neu": 0.636,
+        "pos": 0.258,
+        "compound": 0.4687
+      },
+      "courses": {}
+    },
+    {
+      "id": "18u7h92",
+      "title": "1st or 2nd year bird course",
+      "author": "Upset_Entry8140",
+      "created": "2023-12-30T05:01:27.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18u7h92/1st_or_2nd_year_bird_course/",
+      "selftext": "What are some 1st or 2nd year bird courses. Courses that don\u2019t provide any midterm or final exams.",
+      "score": 0,
+      "num_comments": 8,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.097,
+        "neu": 0.645,
+        "pos": 0.258,
+        "compound": 0.7906
+      },
+      "courses": {}
+    },
+    {
+      "id": "18ygtih",
+      "title": "Courses with no exams",
+      "author": "Infamous_Pepper_3828",
+      "created": "2024-01-04T16:14:12.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18ygtih/courses_with_no_exams/",
+      "selftext": "Any 2nd or 3rd year bird courses with no exams, just assignments/ papers?",
+      "score": 1,
+      "num_comments": 3,
+      "upvote_ratio": 0.6,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.196,
+        "neu": 0.625,
+        "pos": 0.179,
+        "compound": 0.1531
+      },
+      "courses": {}
+    },
+    {
+      "id": "zg8jrl",
+      "title": "Education Minor",
+      "author": "Late_Ad5619",
+      "created": "2022-12-08T19:20:38.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/zg8jrl/education_minor/",
+      "selftext": "Hi everyone! I am nearly done fulfilling the requirements for my Education Minor. If anyone has any questions or wants to find out more info about it, feel free to ask!",
+      "score": 2,
+      "num_comments": 16,
+      "upvote_ratio": 0.75,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.904,
+        "pos": 0.096,
+        "compound": 0.5106
+      },
+      "courses": {}
+    },
+    {
+      "id": "159ipyv",
+      "title": "Easy 200 year courses",
+      "author": "Key_Echidna_7848",
+      "created": "2023-07-25T19:43:11.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/159ipyv/easy_200_year_courses/",
+      "selftext": "Anyone know any 200 year bird courses ?",
+      "score": 1,
+      "num_comments": 6,
+      "upvote_ratio": 0.6,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.562,
+        "pos": 0.438,
+        "compound": 0.7906
+      },
+      "courses": {}
+    }
+  ],
+  "bird_term_score": 2.1923076923076925,
+  "dept_adjustment": 1.0,
+  "comment_factor": 0.16923076923076924,
+  "level_adjustment": -0.5,
+  "topic_adjustment": 0.6,
+  "assessment_penalty": -0.1,
+  "failure_penalty": -0.0
+}

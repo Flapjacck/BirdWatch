@@ -1,0 +1,2371 @@
+{
+  "code": "AS101",
+  "department": "AS",
+  "specific_mentions": 43,
+  "avg_thread_score": 4.046511627906977,
+  "recent_mentions": 0,
+  "oldest_thread_date": "2021-04-07T20:33:30+00:00",
+  "newest_thread_date": "2025-02-25T23:37:30+00:00",
+  "is_online_available": true,
+  "bird_score": 5.794855813953488,
+  "discussion_topics": {
+    "difficulty": 14,
+    "workload": 2,
+    "bird_course": 12,
+    "content": 5,
+    "structure": 5,
+    "grading": 2
+  },
+  "course_components": {
+    "exams": {
+      "midterm": 10,
+      "final": 11,
+      "total": 21,
+      "weight_mentioned": false,
+      "difficulty_mentioned": true
+    },
+    "assignments": {
+      "count": 3,
+      "papers": 2,
+      "total": 5,
+      "weight_mentioned": false,
+      "difficulty_mentioned": true
+    },
+    "assessments": {
+      "quizzes": 6,
+      "labs": 1,
+      "attendance": 0,
+      "participation": 1,
+      "presentations": 0,
+      "projects": 1,
+      "group_work": 1
+    }
+  },
+  "sentiment_analysis": {
+    "positive_aspects": {
+      "interesting": 3,
+      "helpful": 1
+    },
+    "negative_aspects": {
+      "stressful": 1
+    },
+    "overall_sentiment": 1.4534883720930234,
+    "compound": 0.3642186046511628,
+    "pos": 0.14725581395348836,
+    "neu": 0.7628139534883721,
+    "neg": 0.08995348837209301,
+    "bird_terms": {
+      "anti:midterm": 20,
+      "online": 19,
+      "anti:difficult": 5,
+      "anti:hard": 8,
+      "bird": 16,
+      "anti:exam": 13,
+      "anti:final": 11,
+      "easy": 10,
+      "basic": 1,
+      "enjoyed": 1,
+      "simple": 2
+    }
+  },
+  "context_clues": {
+    "terms": {
+      "midterm": 20,
+      "online": 19,
+      "courses": 17,
+      "bird": 16,
+      "anyone": 15,
+      "exam": 13,
+      "person": 11,
+      "final": 11,
+      "year": 11,
+      "stephen": 10
+    },
+    "year_level_appropriate": true,
+    "pre_requisites_mentioned": false
+  },
+  "thread_summary": {
+    "post_dates": [
+      "2025-02-25T23:37:30+00:00",
+      "2025-02-25T08:57:07+00:00",
+      "2024-07-15T20:17:09+00:00",
+      "2024-12-28T13:06:35+00:00",
+      "2025-01-07T02:23:26+00:00",
+      "2025-01-10T15:56:27+00:00",
+      "2024-04-14T03:47:33+00:00",
+      "2024-08-12T17:30:41+00:00",
+      "2024-02-25T21:17:18+00:00",
+      "2024-02-28T16:56:01+00:00",
+      "2024-04-07T07:07:05+00:00",
+      "2024-02-27T05:11:41+00:00",
+      "2023-10-12T00:31:54+00:00",
+      "2023-10-05T20:08:30+00:00",
+      "2023-10-10T17:16:04+00:00",
+      "2023-11-16T18:42:23+00:00",
+      "2024-01-30T03:51:43+00:00",
+      "2023-10-11T00:18:01+00:00",
+      "2023-12-13T05:26:12+00:00",
+      "2023-07-06T17:57:26+00:00",
+      "2023-07-06T18:11:57+00:00",
+      "2023-01-03T18:13:29+00:00",
+      "2023-09-13T02:50:30+00:00",
+      "2022-10-04T23:32:38+00:00",
+      "2023-10-17T21:45:18+00:00",
+      "2025-02-12T04:36:08+00:00",
+      "2024-12-18T05:05:59+00:00",
+      "2024-12-16T02:23:39+00:00",
+      "2025-01-17T14:32:51+00:00",
+      "2024-09-10T16:03:00+00:00",
+      "2024-08-11T20:54:18+00:00",
+      "2024-07-05T04:10:23+00:00",
+      "2021-04-07T20:33:30+00:00",
+      "2024-07-03T17:31:15+00:00",
+      "2024-03-19T03:20:26+00:00",
+      "2024-02-11T00:04:19+00:00",
+      "2024-03-04T22:16:04+00:00",
+      "2023-06-13T15:23:11+00:00",
+      "2023-07-07T03:48:54+00:00",
+      "2023-12-29T06:25:16+00:00",
+      "2023-12-17T19:03:40+00:00",
+      "2023-08-18T16:52:05+00:00",
+      "2023-07-07T00:18:00+00:00"
+    ],
+    "scores": [
+      4,
+      2,
+      6,
+      2,
+      1,
+      1,
+      7,
+      2,
+      1,
+      7,
+      2,
+      1,
+      3,
+      7,
+      2,
+      4,
+      4,
+      1,
+      4,
+      2,
+      0,
+      0,
+      5,
+      3,
+      0,
+      2,
+      0,
+      0,
+      2,
+      12,
+      0,
+      0,
+      63,
+      5,
+      5,
+      2,
+      1,
+      2,
+      1,
+      4,
+      1,
+      2,
+      1
+    ],
+    "comments": [
+      4,
+      1,
+      22,
+      4,
+      3,
+      0,
+      8,
+      0,
+      7,
+      3,
+      0,
+      2,
+      10,
+      9,
+      8,
+      4,
+      1,
+      4,
+      0,
+      8,
+      8,
+      15,
+      3,
+      15,
+      0,
+      4,
+      11,
+      5,
+      1,
+      8,
+      3,
+      2,
+      45,
+      0,
+      7,
+      2,
+      0,
+      12,
+      11,
+      2,
+      0,
+      5,
+      7
+    ],
+    "titles": [
+      "AS101 midterm",
+      "as101 midterm",
+      "AS101 Online vs in-person",
+      "Is As101 online class difficult?",
+      "Is As101 in person with stephen hard?",
+      "Selling AS101 textbook",
+      "AS101 EXAM",
+      "AS101 exam",
+      "As101 midterm ",
+      "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
+      "AS101 test bank",
+      "AS101 midterm",
+      "as101 oc",
+      "AS101 midterm",
+      "AS101 Midterm with Stephen Sathiaraj",
+      "as101",
+      "AS101 final exam",
+      "Ar105 vs as101?",
+      "AS101 OC EXAM",
+      "Is AS101 with Stephen Sathiaraj Easy?",
+      "Which prof for AS101: Ismael Moumen or T.Stephen Sathiaraj?",
+      "AS101 Exam results",
+      "AS101 (astronomy) with Stephen Sathiaraj",
+      "As101 with Iannos Haranas",
+      "As101 midterm?",
+      "AS 101 Midterm",
+      "Winter 2025 electives",
+      "4th year BBA student looking for an OC course because of co-op commitments",
+      "EM101",
+      "BIRD COURSES",
+      "Please help ",
+      "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "Complete bird course list (1st year)",
+      "Second year bird courses",
+      "As-101OC Final",
+      "Help Needed",
+      "Question about two online courses",
+      "help me choose electives !!",
+      "Gathering Information About Profs",
+      "As1010",
+      "is AS102 also a bird course?",
+      "Opinions on my first-year schedule!!!",
+      "Help!!"
+    ]
+  },
+  "threads": [
+    {
+      "id": "1iy9egs",
+      "title": "AS101 midterm",
+      "author": "Infinite_Ad7719",
+      "created": "2025-02-25T23:37:30.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1iy9egs/as101_midterm/",
+      "selftext": "Anyone who just did the AS101 midterm, what did you get?\n\n[View Poll](https://www.reddit.com/poll/1iy9egs)",
+      "score": 4,
+      "num_comments": 4,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.188,
+        "neu": 0.812,
+        "pos": 0.0,
+        "compound": -0.25
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.17453333333333332,
+          "pos": 0.0,
+          "neu": 0.893,
+          "neg": 0.107,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:midterm": 2
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1ixqnqq",
+      "title": "as101 midterm",
+      "author": "Infinite-Path-3143",
+      "created": "2025-02-25T08:57:07.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1ixqnqq/as101_midterm/",
+      "selftext": "Hey everyone,\n\nI wondered if anyone here knows whether cheat sheets are allowed for the as101 midterm later. Ty",
+      "score": 2,
+      "num_comments": 1,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.244,
+        "neu": 0.65,
+        "pos": 0.106,
+        "compound": -0.34
+      },
+      "courses": {}
+    },
+    {
+      "id": "1e44zod",
+      "title": "AS101 Online vs in-person",
+      "author": "Impossible-Ad-3711",
+      "created": "2024-07-15T20:17:09.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1e44zod/as101_online_vs_inperson/",
+      "selftext": "I have 2 options to take AS101 in fall. \n1. In person with Sathiaraj, T. Stephen\n2. Online with Moumen, Ismael\n\nIn your experience, which one is easier? ",
+      "score": 6,
+      "num_comments": 22,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.805,
+        "pos": 0.195,
+        "compound": 0.5859
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.6934720000000001,
+          "pos": 0.065,
+          "neu": 0.435,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1ho5b11",
+      "title": "Is As101 online class difficult?",
+      "author": "TallEscape8127",
+      "created": "2024-12-28T13:06:35.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1ho5b11/is_as101_online_class_difficult/",
+      "selftext": "",
+      "score": 2,
+      "num_comments": 4,
+      "upvote_ratio": 0.75,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.357,
+        "neu": 0.429,
+        "pos": 0.214,
+        "compound": -0.25
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hvgyzs",
+      "title": "Is As101 in person with stephen hard?",
+      "author": "TallEscape8127",
+      "created": "2025-01-07T02:23:26.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hvgyzs/is_as101_in_person_with_stephen_hard/",
+      "selftext": "",
+      "score": 1,
+      "num_comments": 3,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.189,
+        "neu": 0.811,
+        "pos": 0.0,
+        "compound": -0.1027
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hy7k11",
+      "title": "Selling AS101 textbook",
+      "author": "Infamous_Pepper_3828",
+      "created": "2025-01-10T15:56:27.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hy7k11/selling_as101_textbook/",
+      "selftext": "Pm me if interested!",
+      "score": 1,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.163,
+        "neu": 0.543,
+        "pos": 0.293,
+        "compound": 0.296
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.8609013333333332,
+          "pos": 0.293,
+          "neu": 0.543,
+          "neg": 0.163,
+          "mentions": 1,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1c3k9pv",
+      "title": "AS101 EXAM",
+      "author": "Altruistic_Hunt_1987",
+      "created": "2024-04-14T03:47:33.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1c3k9pv/as101_exam/",
+      "selftext": "anyone also not ready for the astronomy exam? i took this class thinking it was a bird course but its been my hardest course this semester and im literally in cp164",
+      "score": 7,
+      "num_comments": 8,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.121,
+        "neu": 0.805,
+        "pos": 0.075,
+        "compound": 0.1141
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.3555317333333333,
+          "pos": 0.0555,
+          "neu": 0.7335,
+          "neg": 0.211,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:exam": 2,
+            "bird": 1,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1eqjums",
+      "title": "AS101 exam",
+      "author": "Background-Syrup1954",
+      "created": "2024-08-12T17:30:41.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1eqjums/as101_exam/",
+      "selftext": "I relied to hard on quizlet and studoc, should have saved old quizzes",
+      "score": 2,
+      "num_comments": 0,
+      "upvote_ratio": 0.75,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.174,
+        "neu": 0.659,
+        "pos": 0.168,
+        "compound": 0.2263
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.05224746666666672,
+          "pos": 0.168,
+          "neu": 0.659,
+          "neg": 0.174,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:hard": 1,
+            "anti:exam": 1
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1azz7zi",
+      "title": "As101 midterm ",
+      "author": "young_789",
+      "created": "2024-02-25T21:17:18.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1azz7zi/as101_midterm/",
+      "selftext": "Hey, is the as101 midterm done on lockdown browser and how was it for anyone who has taken it before?",
+      "score": 1,
+      "num_comments": 7,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.13,
+        "neu": 0.87,
+        "pos": 0.0,
+        "compound": -0.25
+      },
+      "courses": {}
+    },
+    {
+      "id": "1b2axew",
+      "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
+      "author": "glxcs_",
+      "created": "2024-02-28T16:56:01.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1b2axew/spring_oc_bird_courses_other_than_as101_cp102/",
+      "selftext": "",
+      "score": 7,
+      "num_comments": 3,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.733,
+        "pos": 0.267,
+        "compound": 0.6124
+      },
+      "courses": {
+        "UU150": {
+          "compound": 1.6746666666666667,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "UU"
+        },
+        "UX100": {
+          "compound": 0.628,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "UX"
+        },
+        "ES110": {
+          "compound": 1.6746666666666667,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.1513333333333333,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.1513333333333333,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        },
+        "CP102": {
+          "compound": -1.4,
+          "pos": 0.2855,
+          "neu": 0.7145,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {
+            "bird": 1
+          },
+          "title_mention": true,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "1bxy7fo",
+      "title": "AS101 test bank",
+      "author": "Responsible-Box4674",
+      "created": "2024-04-07T07:07:05.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1bxy7fo/as101_test_bank/",
+      "selftext": "I\u2019ve heard that there\u2019s an in person AS101 test bank for the final can anyone send me this? ",
+      "score": 2,
+      "num_comments": 0,
+      "upvote_ratio": 0.75,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.2,
+        "neu": 0.8,
+        "pos": 0.0,
+        "compound": -0.3612
+      },
+      "courses": {
+        "AS101": {
+          "compound": -0.11343999999999999,
+          "pos": 0.0,
+          "neu": 0.8,
+          "neg": 0.2,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:final": 1
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1b13qa7",
+      "title": "AS101 midterm",
+      "author": "jeffiejdklads",
+      "created": "2024-02-27T05:11:41.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1b13qa7/as101_midterm/",
+      "selftext": "I know there have been about 100 posts about this class but I have a few question, my prof is **T.Stephen Sathiara**\n\n1) is it true that a majority (if not all) of the midterm questions are almost copy and pasted from the assignments \n\n2) how specific are some of the questions outside of the assignments or are they more general theory  ",
+      "score": 1,
+      "num_comments": 2,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.049,
+        "neu": 0.891,
+        "pos": 0.06,
+        "compound": 0.4019
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.47542853333333335,
+          "pos": 0.034,
+          "neu": 0.9155,
+          "neg": 0.0505,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:midterm": 2
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "175tloj",
+      "title": "as101 oc",
+      "author": "yourmom_03",
+      "created": "2023-10-12T00:31:54.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/175tloj/as101_oc/",
+      "selftext": "If anyone has this course, how are y\u2019all studying? because it seems to me that there\u2019s alot of memorisation and reading of textbook.",
+      "score": 3,
+      "num_comments": 10,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.059,
+        "neu": 0.941,
+        "pos": 0.0,
+        "compound": -0.128
+      },
+      "courses": {}
+    },
+    {
+      "id": "170rx0x",
+      "title": "AS101 midterm",
+      "author": "Mysterious-Let6838",
+      "created": "2023-10-05T20:08:30.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/170rx0x/as101_midterm/",
+      "selftext": "Hey I know this course is really light, but I have no idea what to expect for the midterm. Can anybody tell me what it\u2019s like? Like if it\u2019s multiple choice or short answers or something. Thanks!",
+      "score": 7,
+      "num_comments": 9,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.121,
+        "neu": 0.628,
+        "pos": 0.251,
+        "compound": 0.8018
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.25655893333333335,
+          "pos": 0.1835,
+          "neu": 0.687,
+          "neg": 0.129,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:midterm": 2
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "174qki7",
+      "title": "AS101 Midterm with Stephen Sathiaraj",
+      "author": "Melodic_Response2277",
+      "created": "2023-10-10T17:16:04.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/174qki7/as101_midterm_with_stephen_sathiaraj/",
+      "selftext": "I was wondering what I can expect for on the midterm and how to study for it? We also get a cheet sheet what should I write on it?",
+      "score": 2,
+      "num_comments": 8,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.097,
+        "neu": 0.903,
+        "pos": 0.0,
+        "compound": -0.25
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.17226666666666668,
+          "pos": 0.0,
+          "neu": 0.9285,
+          "neg": 0.0715,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:midterm": 2
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "17wu5wp",
+      "title": "as101",
+      "author": "Difficult-Whole-5114",
+      "created": "2023-11-16T18:42:23.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/17wu5wp/as101/",
+      "selftext": "how is this astronomy course bad? ive seen so many ppl complain about it but I'm wondering how its bad, also can someone send me the sylibus",
+      "score": 4,
+      "num_comments": 4,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.262,
+        "neu": 0.738,
+        "pos": 0.0,
+        "compound": -0.8352
+      },
+      "courses": {}
+    },
+    {
+      "id": "1aef687",
+      "title": "AS101 final exam",
+      "author": "Plane_Career878",
+      "created": "2024-01-30T03:51:43.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1aef687/as101_final_exam/",
+      "selftext": "Anyone who can teach this course for final exam (feb 3) or has course materials that can be sent please send it across, thanks !",
+      "score": 4,
+      "num_comments": 1,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.192,
+        "neu": 0.641,
+        "pos": 0.167,
+        "compound": 0.296
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.13880533333333336,
+          "pos": 0.167,
+          "neu": 0.641,
+          "neg": 0.192,
+          "mentions": 1,
+          "bird_terms": {
+            "anti:final": 2,
+            "anti:exam": 2
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1750kf1",
+      "title": "Ar105 vs as101?",
+      "author": "Fast_Satisfaction292",
+      "created": "2023-10-11T00:18:01.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1750kf1/ar105_vs_as101/",
+      "selftext": "Which courses is easier and which profs",
+      "score": 1,
+      "num_comments": 4,
+      "upvote_ratio": 0.67,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.763,
+        "pos": 0.237,
+        "compound": 0.4215
+      },
+      "courses": {}
+    },
+    {
+      "id": "18h9jxx",
+      "title": "AS101 OC EXAM",
+      "author": "Jumpman78",
+      "created": "2023-12-13T05:26:12.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18h9jxx/as101_oc_exam/",
+      "selftext": "Has anyone taken the OC exam for AS101 before? Its now irl mc on and we have to bring our laptops. Just wondering if anyone had any tips and could give their input on the difficulty",
+      "score": 4,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.13,
+        "neu": 0.87,
+        "pos": 0.0,
+        "compound": -0.5267
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.17453333333333332,
+          "pos": 0.0,
+          "neu": 0.8845000000000001,
+          "neg": 0.1155,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:exam": 2
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "14sgqj3",
+      "title": "Is AS101 with Stephen Sathiaraj Easy?",
+      "author": "Glittering_Space7323",
+      "created": "2023-07-06T17:57:26.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14sgqj3/is_as101_with_stephen_sathiaraj_easy/",
+      "selftext": "Just found out I have this prof for AS101, worried it might be harder with him. Can anyone let me know?",
+      "score": 2,
+      "num_comments": 8,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.075,
+        "neu": 0.822,
+        "pos": 0.103,
+        "compound": 0.2023
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.6302122666666667,
+          "pos": 0.15,
+          "neu": 0.7956,
+          "neg": 0.054400000000000004,
+          "mentions": 5,
+          "bird_terms": {
+            "easy": 2,
+            "anti:hard": 2
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "14sh554",
+      "title": "Which prof for AS101: Ismael Moumen or T.Stephen Sathiaraj?",
+      "author": "Glittering_Space7323",
+      "created": "2023-07-06T18:11:57.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14sh554/which_prof_for_as101_ismael_moumen_or_tstephen/",
+      "selftext": "I took this course as a bird course, wondering which prof is better. ",
+      "score": 0,
+      "num_comments": 8,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.723,
+        "pos": 0.277,
+        "compound": 0.7845
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.5,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "102f167",
+      "title": "AS101 Exam results",
+      "author": "Puzzleheaded-Cat-150",
+      "created": "2023-01-03T18:13:29.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/102f167/as101_exam_results/",
+      "selftext": "Has anyone gotten theyre exam results back for Astronomy? I feel like the prof should\u2019ve released them by now since it was fully online and was done WEEKS ago.",
+      "score": 0,
+      "num_comments": 15,
+      "upvote_ratio": 0.4,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.087,
+        "neu": 0.787,
+        "pos": 0.125,
+        "compound": 0.3167
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.5657,
+          "pos": 0.101,
+          "neu": 0.7835000000000001,
+          "neg": 0.1155,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:exam": 2,
+            "online": 1
+          },
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "16hbbf5",
+      "title": "AS101 (astronomy) with Stephen Sathiaraj",
+      "author": "BuythaDipz",
+      "created": "2023-09-13T02:50:30.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/16hbbf5/as101_astronomy_with_stephen_sathiaraj/",
+      "selftext": "How is this class? How is the prof? Anyone take it in Winter 2023?",
+      "score": 5,
+      "num_comments": 3,
+      "upvote_ratio": 1,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.5166666666666667,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "xvu71h",
+      "title": "As101 with Iannos Haranas",
+      "author": "FedeValv",
+      "created": "2022-10-04T23:32:38.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/xvu71h/as101_with_iannos_haranas/",
+      "selftext": "When is the midterm for this class ? And is it in person or online ?",
+      "score": 3,
+      "num_comments": 15,
+      "upvote_ratio": 0.8,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.079,
+        "neu": 0.842,
+        "pos": 0.079,
+        "compound": 0.0
+      },
+      "courses": {}
+    },
+    {
+      "id": "17a9no2",
+      "title": "As101 midterm?",
+      "author": "Only-Nature-7091",
+      "created": "2023-10-17T21:45:18.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/17a9no2/as101_midterm/",
+      "selftext": "How did y'all do on the midterm? Also is it me or was the the midterm hard?\n\n[View Poll](https://www.reddit.com/poll/17a9no2)",
+      "score": 0,
+      "num_comments": 0,
+      "upvote_ratio": 0.5,
+      "search_type": "general_match",
+      "sentiment": {
+        "neg": 0.258,
+        "neu": 0.742,
+        "pos": 0.0,
+        "compound": -0.4404
+      },
+      "courses": {}
+    },
+    {
+      "id": "1iniwap",
+      "title": "AS 101 Midterm",
+      "author": "Top_Number8944",
+      "created": "2025-02-12T04:36:08.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1iniwap/as_101_midterm/",
+      "selftext": "The AS101 midterm is coming up in a few weeks and I was wondering how it will be, there isn\u2019t much info in the syllabus abt it and the weekly quizzes are pretty information heavy. Is there a cheat sheet allowed or is it easier than the quizzes and what would be the best ways to prepare for it. Anything would help thanks.",
+      "score": 2,
+      "num_comments": 4,
+      "upvote_ratio": 0.75,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.078,
+        "neu": 0.716,
+        "pos": 0.206,
+        "compound": 0.8957
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.8149226666666668,
+          "pos": 0.1575,
+          "neu": 0.7545,
+          "neg": 0.0885,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:midterm": 2
+          },
+          "title_mention": false,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1hgue3i",
+      "title": "Winter 2025 electives",
+      "author": "ThatOneGuy2810",
+      "created": "2024-12-18T05:05:59.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgue3i/winter_2025_electives/",
+      "selftext": "Does anyone know any easy (preferably online) winter 2025 courses? A lot are full, like cp102, uu100, em202,  as101, etc. Already took em203 in the fall",
+      "score": 0,
+      "num_comments": 11,
+      "upvote_ratio": 0.5,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.781,
+        "pos": 0.219,
+        "compound": 0.7184
+      },
+      "courses": {}
+    },
+    {
+      "id": "1hf8wp1",
+      "title": "4th year BBA student looking for an OC course because of co-op commitments",
+      "author": "Mindless_Yogurt_322",
+      "created": "2024-12-16T02:23:39.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
+      "selftext": "As the title suggests, I am looking for a course that is offered online because I have 5-day in-person co-op in a different city and need 3.0 credits (6 courses of 0.5 credits each) to graduate in time. I cannot make the commute back and forth for any in-person lectures or labs. In an ideal world, I don't want to commute for an in-person midterm or final. I don't mind any assignments or any number of hours to be put into quizzes or other grading assessments. The course doesn't have to be necessarily be a bird course, all I am trying to accommodate for myself is that I can get the credit without having to take days off from work to write the midterm or the final and it is offered OC. I appreciate any all advice you guys can give.\n\nFor reference, I have already taken the following electives:  \n1. PS101 (Intro to Psychology 1)  \n2. CP102 (Info Processing with Micros)  \n3. RE103 (Love and its Myths)  \n4. RE104 (Evil and its Symbols)  \n5. AS101 (Astronomy 1: Our Cosmos)  \n6. EC223 (Canadian Banking)  \n7. EC229 (Economics of China)  \n8. EM202 (Educational Divide)  \n9. EM203 (The Twitter Course)  \n",
+      "score": 0,
+      "num_comments": 5,
+      "upvote_ratio": 0.5,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.063,
+        "neu": 0.812,
+        "pos": 0.125,
+        "compound": 0.9334
+      },
+      "courses": {
+        "RE103": {
+          "compound": -0.007599999999999977,
+          "pos": 0.17066666666666666,
+          "neu": 0.6546666666666666,
+          "neg": 0.17466666666666666,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "EM203": {
+          "compound": 1.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EC229": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "EM202": {
+          "compound": 1.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EM"
+        },
+        "PS101": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "PS"
+        },
+        "RE104": {
+          "compound": -0.007599999999999977,
+          "pos": 0.17066666666666666,
+          "neu": 0.6546666666666666,
+          "neg": 0.17466666666666666,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "AS101": {
+          "compound": 0.2801,
+          "pos": 0.0,
+          "neu": 0.8253333333333334,
+          "neg": 0.17466666666666666,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AS"
+        },
+        "EC223": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "EC"
+        },
+        "CP102": {
+          "compound": -1.7877,
+          "pos": 0.17066666666666666,
+          "neu": 0.8293333333333334,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "1i3hmqr",
+      "title": "EM101",
+      "author": "RazicusYT",
+      "created": "2025-01-17T14:32:51.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1i3hmqr/em101/",
+      "selftext": "I just got accepted into EM101 OC off the waitlist and was wondering if I should take it over AS101 OC. Which is easier?",
+      "score": 2,
+      "num_comments": 1,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.811,
+        "pos": 0.189,
+        "compound": 0.5994
+      },
+      "courses": {
+        "EM101": {
+          "compound": 1.4357109333333333,
+          "pos": 0.34149999999999997,
+          "neu": 0.6585,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": true,
+          "department": "EM"
+        },
+        "AS101": {
+          "compound": 0.8586480000000001,
+          "pos": 0.34149999999999997,
+          "neu": 0.6585,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1fdli6c",
+      "title": "BIRD COURSES",
+      "author": "oreo_david",
+      "created": "2024-09-10T16:03:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "selftext": "Im a BBA student and ik regardless of what year u are, everyone is always looking for bird courses, after looking extensively through them, here is a list, hope it helps :)  \n(UR WELCOME)\n\n**IN-Person**  \nES110\n\n**ONLINE**  \nAS101 - might've changed it so careful  \nSC100  \nUU150  \nUU100  \nAN100  \nCP102  \nEM202  \nEM203  \nEM101  \nEM110  \nEM300  \nISHS 200\n\n**I heard it was ez but idk**  \nUX100  \nUX103  \nGG101",
+      "score": 12,
+      "num_comments": 8,
+      "upvote_ratio": 0.87,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.023,
+        "neu": 0.758,
+        "pos": 0.219,
+        "compound": 0.866
+      },
+      "courses": {
+        "EM203": {
+          "compound": 2.16,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "UU150": {
+          "compound": 2.16,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "GG101": {
+          "compound": 1.08,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "GG"
+        },
+        "SC100": {
+          "compound": 1.62,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "SC"
+        },
+        "UX100": {
+          "compound": 1.08,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        },
+        "EM202": {
+          "compound": 2.16,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM101": {
+          "compound": 2.16,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "EM300": {
+          "compound": 2.16,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "ES110": {
+          "compound": 2.16,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.62,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.62,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AN"
+        },
+        "UU100": {
+          "compound": 2.16,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "EM110": {
+          "compound": 2.16,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "EM"
+        },
+        "CP102": {
+          "compound": -1.0,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "UX103": {
+          "compound": 1.08,
+          "pos": 0.219,
+          "neu": 0.758,
+          "neg": 0.023,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UX"
+        }
+      }
+    },
+    {
+      "id": "1epv7h5",
+      "title": "Please help ",
+      "author": "Background-Syrup1954",
+      "created": "2024-08-11T20:54:18.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1epv7h5/please_help/",
+      "selftext": "Guys the exam for AS101 is tomorrow what am I supposed to study, is the test bank on studoc good? Please help I have Arthur read also can I fail the exam and still pass? Please help ",
+      "score": 0,
+      "num_comments": 3,
+      "upvote_ratio": 0.2,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.157,
+        "neu": 0.491,
+        "pos": 0.352,
+        "compound": 0.872
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.7048,
+          "pos": 0.27849999999999997,
+          "neu": 0.5345,
+          "neg": 0.1875,
+          "mentions": 2,
+          "bird_terms": {
+            "anti:exam": 2
+          },
+          "title_mention": false,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1dvp78v",
+      "title": "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "author": "little-bandit1026",
+      "created": "2024-07-05T04:10:23.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvp78v/i_gotta_take_off_1_elective_to_fit_in_a_pc_class/",
+      "selftext": "ive hear alot abt Mcleman and him being a very good teacher and the class being very straight foward, but AN100 is online even tho i have no clue whether its better to take or not,  ultimately i want a booster thats very easy and wont take too much time so i can focus on the harder classes, \n\nmy schedule so far is:\n\nFall: MA123, CP104, PC131, MA102(i had a gap yr so i need to catch-up even after doing good in the CPE), and either one of AN100/ES110\n\nWinter: MA103, PC132, CP164, AS101, AR101\n\nim thinking of dropping MA102 and spending the summer to basically review everything that'll be in MA103\n\nI'd rather have 2 bird courses, but idk whether or not i should take MA102, i can take MA103 without MA102 btw\n\nbut idk, can yall lmk what yall think?",
+      "score": 0,
+      "num_comments": 2,
+      "upvote_ratio": 0.33,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.062,
+        "neu": 0.789,
+        "pos": 0.149,
+        "compound": 0.9495
+      },
+      "courses": {
+        "AR101": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "AR"
+        },
+        "PC132": {
+          "compound": -0.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "PC"
+        },
+        "CP164": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "MA123": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        },
+        "PC131": {
+          "compound": -0.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "PC"
+        },
+        "MA102": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        },
+        "ES110": {
+          "compound": 2.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 1.5,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": true,
+          "department": "AN"
+        },
+        "CP104": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "MA103": {
+          "compound": -1.0,
+          "pos": 0.149,
+          "neu": 0.789,
+          "neg": 0.062,
+          "mentions": 1,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "basic": 1,
+            "online": 2,
+            "anti:hard": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        }
+      }
+    },
+    {
+      "id": "mmbavs",
+      "title": "Complete bird course list (1st year)",
+      "author": "Certain-Daikon-1850",
+      "created": "2021-04-07T20:33:30.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "selftext": "Ive been doing some research and I came up with a list of all the bird courses for first years at laurier.\n\nThis is just from what I have seen around this sub so I figured I would put em all in one place... lmk if I need to add or remove anything\n\nAN100, UX103, UU150, ES110, AR105, GG102, AS101, UX100, RE104, RE103, UU101, CP102, CC102",
+      "score": 63,
+      "num_comments": 45,
+      "upvote_ratio": 0.93,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.889,
+        "pos": 0.111,
+        "compound": 0.8402
+      },
+      "courses": {
+        "RE103": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "UU150": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UU"
+        },
+        "UU101": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UU"
+        },
+        "UX100": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UX"
+        },
+        "RE104": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "RE"
+        },
+        "ES110": {
+          "compound": 1.2,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "ES"
+        },
+        "CC102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CC"
+        },
+        "AS101": {
+          "compound": 0.6,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AS"
+        },
+        "AN100": {
+          "compound": 0.6,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AN"
+        },
+        "GG102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "GG"
+        },
+        "CP102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        },
+        "AR105": {
+          "compound": 0.6,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AR"
+        },
+        "UX103": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UX"
+        }
+      }
+    },
+    {
+      "id": "1duk5dr",
+      "title": "Second year bird courses",
+      "author": "BudgetLecture1970",
+      "created": "2024-07-03T17:31:15.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1duk5dr/second_year_bird_courses/",
+      "selftext": "I'm a CS student going into second year and need some electives to fill up my schedule. Last year I really enjoyed GL102 and AS101 as they didn't have any writing assignment's and were pretty easy 12s. If anyone has any course recommendations similar that would be great.",
+      "score": 5,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.716,
+        "pos": 0.284,
+        "compound": 0.9577
+      },
+      "courses": {
+        "GL102": {
+          "compound": 0.9041322222222224,
+          "pos": 0.2816666666666667,
+          "neu": 0.7183333333333333,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "enjoyed": 1,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "GL"
+        },
+        "AS101": {
+          "compound": 1.4207988888888892,
+          "pos": 0.2816666666666667,
+          "neu": 0.7183333333333333,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "easy": 1,
+            "enjoyed": 1,
+            "bird": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1biaj2e",
+      "title": "As-101OC Final",
+      "author": "Embarrassed-Carry-86",
+      "created": "2024-03-19T03:20:26.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1biaj2e/as101oc_final/",
+      "selftext": "I wanted to ask anyone who took as101-oc final last term if you guys used lockdown browsers during the final exam or was it just on MyLs using the quizzes tool and do you guys have any tips for prepping for the final. Thank you ",
+      "score": 5,
+      "num_comments": 7,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.15,
+        "neu": 0.8,
+        "pos": 0.05,
+        "compound": -0.25
+      },
+      "courses": {}
+    },
+    {
+      "id": "1anuck6",
+      "title": "Help Needed",
+      "author": "fordeytwofour",
+      "created": "2024-02-11T00:04:19.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1anuck6/help_needed/",
+      "selftext": "I am writing an essay in AS101 on Galileo Galilei with a group of 4, although I am the only one contributing anything to it. I was wondering if there was someone (hopefully good at english) that could peer review it to make sure it sounds good? It is due at 3pm tomorrow, and I want to make sure I get a good grade on it. Thanks!",
+      "score": 2,
+      "num_comments": 2,
+      "upvote_ratio": 0.75,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.02,
+        "neu": 0.676,
+        "pos": 0.304,
+        "compound": 0.9607
+      },
+      "courses": {
+        "AS101": {
+          "compound": 1.096882666666667,
+          "pos": 0.2475,
+          "neu": 0.7224999999999999,
+          "neg": 0.03,
+          "mentions": 2,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "1b6nxh8",
+      "title": "Question about two online courses",
+      "author": "Herogalaxy",
+      "created": "2024-03-04T22:16:04.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1b6nxh8/question_about_two_online_courses/",
+      "selftext": "I've been looking at this subreddit a lot trying to find the answer to this question but it always devolves back to the in person classes. How simple is the online course AS101 (Astronomy 1:Our place Cosmos) and ID 120 (intro to indigenous Studies).  I just need some simple online courses for spring. I have narrowed it down to those two or the online course for psych 101. I have done 2 online courses already in my current year so I am not to worried about it being online.",
+      "score": 1,
+      "num_comments": 0,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.808,
+        "pos": 0.192,
+        "compound": 0.9304
+      },
+      "courses": {
+        "AS101": {
+          "compound": 1.2463875555555555,
+          "pos": 0.21366666666666667,
+          "neu": 0.7863333333333333,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "simple": 2,
+            "online": 3
+          },
+          "title_mention": false,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "148hwos",
+      "title": "help me choose electives !!",
+      "author": "yourmom_03",
+      "created": "2023-06-13T15:23:11.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/148hwos/help_me_choose_electives/",
+      "selftext": "are these online bird courses easy and interesting?\nUU150/100\nAS101\nCC100/202\nCP102\nES110 \nGG102\n\nI have already searched through the subreddit, but want to know latest opinions.. pls any input will be helpful! thanks",
+      "score": 2,
+      "num_comments": 12,
+      "upvote_ratio": 0.75,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.589,
+        "pos": 0.411,
+        "compound": 0.9387
+      },
+      "courses": {
+        "UU150": {
+          "compound": 1.5511093333333335,
+          "pos": 0.4363333333333333,
+          "neu": 0.5636666666666666,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "UU"
+        },
+        "ES110": {
+          "compound": 1.5511093333333335,
+          "pos": 0.4363333333333333,
+          "neu": 0.5636666666666666,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "ES"
+        },
+        "AS101": {
+          "compound": 1.0444426666666666,
+          "pos": 0.4363333333333333,
+          "neu": 0.5636666666666666,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "GG102": {
+          "compound": 0.537776,
+          "pos": 0.4363333333333333,
+          "neu": 0.5636666666666666,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "GG"
+        },
+        "CC100": {
+          "compound": 0.537776,
+          "pos": 0.4363333333333333,
+          "neu": 0.5636666666666666,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CC"
+        },
+        "CP102": {
+          "compound": -1.4693,
+          "pos": 0.4363333333333333,
+          "neu": 0.5636666666666666,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 1,
+            "easy": 1,
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        }
+      }
+    },
+    {
+      "id": "14svmf0",
+      "title": "Gathering Information About Profs",
+      "author": "Glittering_Space7323",
+      "created": "2023-07-07T03:48:54.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14svmf0/gathering_information_about_profs/",
+      "selftext": "Hello WLU Reddit, \n\nAs of now, I have found out most of my professors for my classes. I am wondering if you guys can provide some insights for these profs. This could include their marking schemes, overall rating, their overall generosity and teaching style (easy/ hard), and if they are an easy grader. \n\n\\--- \n\n* Howe, Lawrence \n* Schirle, Tammy\n* McLeman, Robert\n* Paquette, Scott !!! (UX100) \n* Zhang, Yichen !!! (CP102)\n* Hagarty, Leanne\n* Sathiaraj, T. Stephen !!! (AS101) ---&gt; I have the ability to switch to **Ismael Moumen** but online. \n* Jackson, Kenneth\n* Mamo, Kaleab\n\n\\--- \n\nI've added \"!!!\" exclamation marks for the ones I am worried about as I've not found much on Reddit or rate my professor. \n\n&amp;#x200B;\n\nThanks in advance. ",
+      "score": 1,
+      "num_comments": 11,
+      "upvote_ratio": 0.6,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.033,
+        "neu": 0.845,
+        "pos": 0.123,
+        "compound": 0.8381
+      },
+      "courses": {
+        "AS101": {
+          "compound": 0.7045659999999999,
+          "pos": 0.11833333333333333,
+          "neu": 0.8816666666666667,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {
+            "online": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "CP102": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "CP"
+        },
+        "UX100": {
+          "compound": 0.0,
+          "pos": 0.0,
+          "neu": 1.0,
+          "neg": 0.0,
+          "mentions": 3,
+          "bird_terms": {},
+          "title_mention": false,
+          "department": "UX"
+        }
+      }
+    },
+    {
+      "id": "18tgegk",
+      "title": "As1010",
+      "author": "gaurvg10",
+      "created": "2023-12-29T06:25:16.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18tgegk/as1010/",
+      "selftext": "How is as101 this year, i heard many 3rd and 4th year students it was very easy during their years but this year i hear it was harder. Is it still considered a bird course?",
+      "score": 4,
+      "num_comments": 2,
+      "upvote_ratio": 0.83,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.802,
+        "pos": 0.198,
+        "compound": 0.8247
+      },
+      "courses": {}
+    },
+    {
+      "id": "18koh9k",
+      "title": "is AS102 also a bird course?",
+      "author": "Left-Aioli-7379",
+      "created": "2023-12-17T19:03:40.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/18koh9k/is_as102_also_a_bird_course/",
+      "selftext": "I took AS101 this term and it was easy and interesting. What is the difficulty/how fun is AS101 compared to AS102? Is the final exam in person?",
+      "score": 1,
+      "num_comments": 0,
+      "upvote_ratio": 0.6,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.076,
+        "neu": 0.633,
+        "pos": 0.291,
+        "compound": 0.8591
+      },
+      "courses": {
+        "AS102": {
+          "compound": 1.0737992533333334,
+          "pos": 0.2974,
+          "neu": 0.6167999999999999,
+          "neg": 0.0858,
+          "mentions": 5,
+          "bird_terms": {
+            "bird": 1,
+            "anti:difficult": 1,
+            "easy": 2,
+            "anti:final": 1,
+            "anti:exam": 1
+          },
+          "title_mention": true,
+          "department": "AS"
+        },
+        "AS101": {
+          "compound": 0.8845915555555556,
+          "pos": 0.284,
+          "neu": 0.6445,
+          "neg": 0.0715,
+          "mentions": 6,
+          "bird_terms": {
+            "easy": 2,
+            "anti:difficult": 2,
+            "bird": 1,
+            "anti:final": 1,
+            "anti:exam": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        }
+      }
+    },
+    {
+      "id": "15upuhz",
+      "title": "Opinions on my first-year schedule!!!",
+      "author": "No_Interaction9345",
+      "created": "2023-08-18T16:52:05.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/15upuhz/opinions_on_my_firstyear_schedule/",
+      "selftext": "Hey guy, I'm an incoming bba student, and I hope you guys can give me an honest opinion on my courses.  If there are any courses that you guys think are easier than these courses, please tell me so I can check and maybe sub them in. I would greatly appreciate if you guys could give me some bird courses. Thanks!!!\n\n&amp;#x200B;\n\nFall 2023:\n\nMA129 with Lawrence Howe\n\nBU111 with David Swanston\n\nSY111 with Greg Bird\n\nAR104 with Kristin Lord\n\nEC120 with Tammy Schirle\n\n&amp;#x200B;\n\nWinter 2024:\n\nAS101 with Stephen Sathiaraj (I have heard mixed reviews on this course, some say it's difficult because there is physics, and i don't really know so I need ur help on this)\n\nBU121 with Leanne Hagarty\n\nCP102 online with Yichen Zhang (I don't have a computing background, and I have heard it changed in recent years and the final is difficult and no longer a bird. But again some say it is easy, so I don't know who to trust)\n\nBU127 with Kaleab Mamo\n\nEC140 with Kenneth Jackson",
+      "score": 2,
+      "num_comments": 5,
+      "upvote_ratio": 0.75,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.043,
+        "neu": 0.795,
+        "pos": 0.162,
+        "compound": 0.9669
+      },
+      "courses": {
+        "AR104": {
+          "compound": 1.264977777777778,
+          "pos": 0.4776666666666667,
+          "neu": 0.48500000000000004,
+          "neg": 0.037333333333333336,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1,
+            "easy": 1
+          },
+          "title_mention": false,
+          "department": "AR"
+        },
+        "BU127": {
+          "compound": -0.09770000000000001,
+          "pos": 0.2165,
+          "neu": 0.7275,
+          "neg": 0.056,
+          "mentions": 2,
+          "bird_terms": {
+            "easy": 1,
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1
+          },
+          "title_mention": false,
+          "department": "BU"
+        },
+        "EC140": {
+          "compound": 0.407664,
+          "pos": 0.2165,
+          "neu": 0.7275,
+          "neg": 0.056,
+          "mentions": 2,
+          "bird_terms": {
+            "easy": 1,
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1
+          },
+          "title_mention": false,
+          "department": "EC"
+        },
+        "BU111": {
+          "compound": -0.2516666666666666,
+          "pos": 0.4776666666666667,
+          "neu": 0.48500000000000004,
+          "neg": 0.037333333333333336,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1,
+            "easy": 1
+          },
+          "title_mention": false,
+          "department": "BU"
+        },
+        "MA129": {
+          "compound": -1.2516666666666665,
+          "pos": 0.4776666666666667,
+          "neu": 0.48500000000000004,
+          "neg": 0.037333333333333336,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1,
+            "easy": 1
+          },
+          "title_mention": false,
+          "department": "MA"
+        },
+        "SY111": {
+          "compound": 0.7583111111111113,
+          "pos": 0.4776666666666667,
+          "neu": 0.48500000000000004,
+          "neg": 0.037333333333333336,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1,
+            "easy": 1
+          },
+          "title_mention": false,
+          "department": "SY"
+        },
+        "AS101": {
+          "compound": 1.264977777777778,
+          "pos": 0.4776666666666667,
+          "neu": 0.48500000000000004,
+          "neg": 0.037333333333333336,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1,
+            "easy": 1
+          },
+          "title_mention": false,
+          "department": "AS"
+        },
+        "EC120": {
+          "compound": 0.25164444444444456,
+          "pos": 0.4776666666666667,
+          "neu": 0.48500000000000004,
+          "neg": 0.037333333333333336,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1,
+            "easy": 1
+          },
+          "title_mention": false,
+          "department": "EC"
+        },
+        "CP102": {
+          "compound": -1.2516666666666665,
+          "pos": 0.4776666666666667,
+          "neu": 0.48500000000000004,
+          "neg": 0.037333333333333336,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1,
+            "easy": 1
+          },
+          "title_mention": false,
+          "department": "CP"
+        },
+        "BU121": {
+          "compound": -0.2516666666666666,
+          "pos": 0.4776666666666667,
+          "neu": 0.48500000000000004,
+          "neg": 0.037333333333333336,
+          "mentions": 3,
+          "bird_terms": {
+            "bird": 2,
+            "online": 1,
+            "anti:difficult": 2,
+            "anti:final": 1,
+            "easy": 1
+          },
+          "title_mention": false,
+          "department": "BU"
+        }
+      }
+    },
+    {
+      "id": "14squc5",
+      "title": "Help!!",
+      "author": "Fast_Satisfaction292",
+      "created": "2023-07-07T00:18:00.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/14squc5/help/",
+      "selftext": "Ar101 oc1 with Alec mclellan \nOr\nAs101 with Stephen sathiaraji\nOr \nBu127 oc with James Matthew \n\nWhich one is easier ??",
+      "score": 1,
+      "num_comments": 7,
+      "upvote_ratio": 1,
+      "search_type": "body_match",
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.776,
+        "pos": 0.224,
+        "compound": 0.6705
+      },
+      "courses": {}
+    }
+  ],
+  "bird_term_score": 0.5813953488372093,
+  "dept_adjustment": 0.5,
+  "comment_factor": 0.19302325581395346,
+  "level_adjustment": 0,
+  "topic_adjustment": 1.0000000000000007,
+  "assessment_penalty": -3.15,
+  "failure_penalty": -0.0
+}
