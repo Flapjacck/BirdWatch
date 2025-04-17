@@ -31,3 +31,16 @@ source venv/bin/activate  # macOS/Linux
 # Run the pipleine
 python pipeline.py
 ```
+
+## 3. Frontend Setup
+
+```bash
+# Navigate to the frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start the frontend server
+npm run dev
+```
