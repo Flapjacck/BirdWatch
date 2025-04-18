@@ -7,7 +7,8 @@ class RedditService {
     this.tokenExpiry = null;
     this.userAgent = 'BirdWatch/1.0.0 (by /u/your_username)';
     this.REQUEST_DELAY = 2000; // 2 seconds between requests
-    this.MAX_RETRIES = 3;
+    this.MAX_RETRIES = 5; // Increased from 3
+    this.BASE_DELAY = 2000; // Base delay for exponential backoff
     this.lastRequestTime = 0;
   }
 
@@ -30,7 +31,7 @@ class RedditService {
       } catch (error) {
         if (error.response?.status === 429 && retries < this.MAX_RETRIES - 1) {
           retries++;
-          const waitTime = Math.pow(2, retries) * this.REQUEST_DELAY;
+          const waitTime = Math.pow(3, retries) * this.BASE_DELAY; // More aggressive exponential backoff
           console.log(`Rate limited, waiting ${waitTime/1000} seconds before retry ${retries}...`);
           await this.sleep(waitTime);
           continue;
