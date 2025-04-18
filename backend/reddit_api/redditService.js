@@ -6,6 +6,38 @@ class RedditService {
     this.accessToken = null;
     this.tokenExpiry = null;
     this.userAgent = 'BirdWatch/1.0.0 (by /u/your_username)';
+    this.REQUEST_DELAY = 2000; // 2 seconds between requests
+    this.MAX_RETRIES = 3;
+    this.lastRequestTime = 0;
+  }
+
+  async sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  async makeRateLimitedRequest(requestFn) {
+    let retries = 0;
+    while (retries < this.MAX_RETRIES) {
+      // Ensure minimum delay between requests
+      const timeSinceLastRequest = Date.now() - this.lastRequestTime;
+      if (timeSinceLastRequest < this.REQUEST_DELAY) {
+        await this.sleep(this.REQUEST_DELAY - timeSinceLastRequest);
+      }
+
+      try {
+        this.lastRequestTime = Date.now();
+        return await requestFn();
+      } catch (error) {
+        if (error.response?.status === 429 && retries < this.MAX_RETRIES - 1) {
+          retries++;
+          const waitTime = Math.pow(2, retries) * this.REQUEST_DELAY;
+          console.log(`Rate limited, waiting ${waitTime/1000} seconds before retry ${retries}...`);
+          await this.sleep(waitTime);
+          continue;
+        }
+        throw error;
+      }
+    }
   }
 
   async getAccessToken() {
@@ -41,8 +73,7 @@ class RedditService {
   }
 
   async getBirdCourseThreads(limit = 100, timePeriod = 'year') {
-    try {
-      // Using public API - no need for authentication for this use case
+    return this.makeRateLimitedRequest(async () => {
       const response = await axios({
         method: 'get',
         url: 'https://www.reddit.com/r/wlu/search.json',
@@ -76,10 +107,7 @@ class RedditService {
           upvote_ratio: data.upvote_ratio
         };
       });
-    } catch (error) {
-      console.error('Error fetching bird course threads:', error.message);
-      throw new Error('Failed to fetch data from Reddit');
-    }
+    });
   }
 
   async getTopBirdCourses(count = 10) {
@@ -99,23 +127,25 @@ class RedditService {
       let allThreads = [];
       
       // First search for threads that mention the course in the title
-      const titleResponse = await axios({
-        method: 'get',
-        url: 'https://www.reddit.com/r/wlu/search.json',
-        params: {
-          q: `title:${courseCode}`,  // Search specifically in titles
-          restrict_sr: 'on',
-          t: 'all',                  // Get all time results for more data
-          limit: limit,
-          sort: 'relevance'
-        },
-        headers: {
-          'User-Agent': this.userAgent
-        }
-      });
+      const titleThreads = await this.makeRateLimitedRequest(async () => {
+        const response = await axios({
+          method: 'get',
+          url: 'https://www.reddit.com/r/wlu/search.json',
+          params: {
+            q: `title:${courseCode}`,  // Search specifically in titles
+            restrict_sr: 'on',
+            t: 'all',                  // Get all time results for more data
+            limit: limit,
+            sort: 'relevance'
+          },
+          headers: {
+            'User-Agent': this.userAgent
+          }
+        });
 
-      if (titleResponse.data && titleResponse.data.data && titleResponse.data.data.children) {
-        const titleThreads = titleResponse.data.data.children.map(post => {
+        if (!response.data?.data?.children) return [];
+        
+        return response.data.data.children.map(post => {
           const data = post.data;
           return {
             id: data.id,
@@ -127,32 +157,33 @@ class RedditService {
             score: data.score,
             num_comments: data.num_comments,
             upvote_ratio: data.upvote_ratio,
-            search_type: 'title_match'  // Marking this as a title match
+            search_type: 'title_match'
           };
         });
-        
-        allThreads = allThreads.concat(titleThreads);
-      }
+      });
+      
+      allThreads = allThreads.concat(titleThreads);
       
       // Then search for threads that mention the course in the body
-      // This gets threads that discuss the course but don't have it in the title
-      const bodyResponse = await axios({
-        method: 'get',
-        url: 'https://www.reddit.com/r/wlu/search.json',
-        params: {
-          q: `selftext:${courseCode}`,  // Search in post content
-          restrict_sr: 'on',
-          t: 'all',
-          limit: limit,
-          sort: 'relevance'
-        },
-        headers: {
-          'User-Agent': this.userAgent
-        }
-      });
+      const bodyThreads = await this.makeRateLimitedRequest(async () => {
+        const response = await axios({
+          method: 'get',
+          url: 'https://www.reddit.com/r/wlu/search.json',
+          params: {
+            q: `selftext:${courseCode}`,  // Search in post content
+            restrict_sr: 'on',
+            t: 'all',
+            limit: limit,
+            sort: 'relevance'
+          },
+          headers: {
+            'User-Agent': this.userAgent
+          }
+        });
 
-      if (bodyResponse.data && bodyResponse.data.data && bodyResponse.data.data.children) {
-        const bodyThreads = bodyResponse.data.data.children.map(post => {
+        if (!response.data?.data?.children) return [];
+        
+        return response.data.data.children.map(post => {
           const data = post.data;
           return {
             id: data.id,
@@ -164,32 +195,33 @@ class RedditService {
             score: data.score,
             num_comments: data.num_comments,
             upvote_ratio: data.upvote_ratio,
-            search_type: 'body_match'  // Marking this as a body match
+            search_type: 'body_match'
           };
         });
-        
-        allThreads = allThreads.concat(bodyThreads);
-      }
+      });
       
-      // Finally, search for general mentions without specifying where
-      // This can catch additional threads not found by the previous searches
-      const generalResponse = await axios({
-        method: 'get',
-        url: 'https://www.reddit.com/r/wlu/search.json',
-        params: {
-          q: courseCode,  // General search
-          restrict_sr: 'on',
-          t: 'all',
-          limit: limit,
-          sort: 'relevance'
-        },
-        headers: {
-          'User-Agent': this.userAgent
-        }
-      });
+      allThreads = allThreads.concat(bodyThreads);
+      
+      // Finally, search for general mentions
+      const generalThreads = await this.makeRateLimitedRequest(async () => {
+        const response = await axios({
+          method: 'get',
+          url: 'https://www.reddit.com/r/wlu/search.json',
+          params: {
+            q: courseCode,  // General search
+            restrict_sr: 'on',
+            t: 'all',
+            limit: limit,
+            sort: 'relevance'
+          },
+          headers: {
+            'User-Agent': this.userAgent
+          }
+        });
 
-      if (generalResponse.data && generalResponse.data.data && generalResponse.data.data.children) {
-        const generalThreads = generalResponse.data.data.children.map(post => {
+        if (!response.data?.data?.children) return [];
+        
+        return response.data.data.children.map(post => {
           const data = post.data;
           return {
             id: data.id,
@@ -201,12 +233,12 @@ class RedditService {
             score: data.score,
             num_comments: data.num_comments,
             upvote_ratio: data.upvote_ratio,
-            search_type: 'general_match'  // Marking this as a general match
+            search_type: 'general_match'
           };
         });
-        
-        allThreads = allThreads.concat(generalThreads);
-      }
+      });
+      
+      allThreads = allThreads.concat(generalThreads);
       
       // Remove duplicate threads (same ID)
       const uniqueThreads = Array.from(new Map(allThreads.map(thread => [thread.id, thread])).values());
