@@ -482,14 +482,10 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
     """Analyze threads specific to a list of course codes"""
     os.makedirs(output_dir, exist_ok=True)
     
-    # Generate timestamp for filenames
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    
     # Initialize sentiment analyzer
     analyzer = SentimentAnalyzer()
     
     all_course_details = []
-    course_summary = []
     
     for course_code in course_codes:
         print(f"Analyzing threads specifically for {course_code}...")
@@ -510,74 +506,43 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
         if course_details:
             # Ensure bird score is properly capped at 10.0
             course_details['bird_score'] = min(10.0, course_details.get('bird_score', 0))
+            course_details['bird_score'] = round(course_details['bird_score'] * 100) / 100
             
-            # Create a summary version for the combined summary file
-            course_summary_item = {
+            # Create streamlined course details
+            streamlined_details = {
                 "code": course_details['code'],
                 "department": course_details['department'],
-                "bird_score": round(course_details.get('bird_score', 0) * 100) / 100,  # Round to 2 decimal places
+                "bird_score": course_details['bird_score'],
                 "specific_mentions": course_details['specific_mentions'],
-                "sentiment": {
-                    "compound": round(course_details['sentiment_analysis']['compound'] * 100) / 100,
-                    "pos": round(course_details['sentiment_analysis']['pos'] * 100) / 100,
-                    "neg": round(course_details['sentiment_analysis']['neg'] * 100) / 100
+                "is_online_available": course_details.get('is_online_available', False),
+                "difficulty_level": {
+                    "easy_mentions": course_details['sentiment_analysis']['bird_terms'].get('easy', 0),
+                    "hard_mentions": course_details['sentiment_analysis']['bird_terms'].get('anti:hard', 0) + 
+                                   course_details['sentiment_analysis']['bird_terms'].get('anti:difficult', 0),
+                    "workload": course_details['discussion_topics'].get('workload', 0)
                 },
-                "bird_term_score": round(course_details.get('bird_term_score', 0) * 100) / 100,
-                "topic_adjustment": round(course_details.get('topic_adjustment', 0) * 100) / 100,
-                "assessment_penalty": round(course_details.get('assessment_penalty', 0) * 100) / 100,
-                "failure_penalty": round(course_details.get('failure_penalty', 0) * 100) / 100,
-                "dept_adjustment": round(course_details.get('dept_adjustment', 0) * 100) / 100,
-                "bird_mentions": course_details['discussion_topics'].get('bird_course', 0),
-                "difficulty_mentions": course_details['discussion_topics'].get('difficulty', 0),
-                "is_online_available": course_details.get('is_online_available', False)
+                "course_structure": {
+                    "has_finals": course_details['course_components']['exams']['final'] > 0,
+                    "has_midterms": course_details['course_components']['exams']['midterm'] > 0,
+                    "has_assignments": course_details['course_components']['assignments']['total'] > 0,
+                    "has_projects": course_details['course_components']['assessments'].get('projects', 0) > 0,
+                },
+                "threads": [
+                    {
+                        "title": t['title'],
+                        "url": t['url'],
+                        "score": t['score'],
+                        "created": t.get('created', '')
+                    }
+                    for t in course_details.get('threads', [])
+                ]
             }
             
-            course_summary.append(course_summary_item)
-            all_course_details.append(course_details)
+            all_course_details.append(streamlined_details)
             
-            # Save detailed analysis for this specific course with pretty formatting
-            course_file = os.path.join(output_dir, f"{course_code}_analysis_{timestamp}.json")
-            with open(course_file, 'w') as f:
-                json.dump(course_details, f, indent=2, sort_keys=False)
-            print(f"Course details for {course_code} saved to {course_file}")
-            print(f"Bird Score: {course_details.get('bird_score', 0):.2f}/10")
-    
-    # Save combined analysis for all courses with pretty formatting
-    if all_course_details:
-        # Save comprehensive course details
-        combined_file = os.path.join(output_dir, f"course_details_{timestamp}.json")
-        with open(combined_file, 'w') as f:
-            json.dump(all_course_details, f, indent=2, sort_keys=False)
-        
-        # Save as latest comprehensive analysis
-        latest_file = os.path.join(output_dir, "latest_course_details.json")
-        with open(latest_file, 'w') as f:
-            json.dump(all_course_details, f, indent=2, sort_keys=False)
-        
-        # Save summary file in the main processed directory
-        summary_file = os.path.join(os.path.dirname(output_dir), f"course_summary_{timestamp}.json")
-        with open(summary_file, 'w') as f:
-            json.dump(course_summary, f, indent=2, sort_keys=False)
-            
-        # Save latest summary file
-        latest_summary_file = os.path.join(os.path.dirname(output_dir), "latest_course_summary.json")
-        with open(latest_summary_file, 'w') as f:
-            json.dump(course_summary, f, indent=2, sort_keys=False)
-        
-        print(f"Combined course details saved to {combined_file}")
-        print(f"Course summary saved to {summary_file}")
-        
-        # Print summary of bird scores with score components
-        print("\nBird Score Summary:")
-        for course in sorted(course_summary, key=lambda x: x.get('bird_score', 0), reverse=True):
-            print(f"{course['code']}: {course['bird_score']:.2f}/10")
-            print(f"  - Sentiment: {course['sentiment']['compound']:.2f} (pos: {course['sentiment']['pos']:.2f}, neg: {course['sentiment']['neg']:.2f})")
-            print(f"  - Bird terms: {course.get('bird_term_score', 0):.2f}")
-            print(f"  - Topic adj: {course.get('topic_adjustment', 0):.2f} (bird mentions: {course['bird_mentions']}, difficulty: {course['difficulty_mentions']})")
-            print(f"  - Assessment penalty: {course.get('assessment_penalty', 0):.2f}")
-            print(f"  - Failure mentions: {course.get('failure_penalty', 0):.2f}")
-            print(f"  - Department adj: {course.get('dept_adjustment', 0):.2f}")
-            print()
+            # Save individual course details
+            with open(os.path.join(output_dir, f"{course_code}.json"), 'w') as f:
+                json.dump(streamlined_details, f, indent=2)
     
     return all_course_details
 

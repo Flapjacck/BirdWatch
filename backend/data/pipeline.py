@@ -35,9 +35,6 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_t
     course_details_dir = os.path.join(processed_dir, "course_details")
     os.makedirs(course_details_dir, exist_ok=True)
     
-    # Generate timestamp
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    
     # 1. Fetch data from Reddit API
     print(f"Fetching up to {limit} bird course threads from the past {time_period}...")
     threads = fetch_bird_course_threads(api_url, limit, time_period)
@@ -47,11 +44,9 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_t
         print(f"Check that the API server is running at {api_url}")
         return
     
-    # 2. Save raw data
-    raw_data_file = os.path.join(data_dir, f"bird_course_threads_{timestamp}.json")
+    # 2. Save raw data to a single file
+    raw_data_file = os.path.join(data_dir, "latest_raw_threads.json")
     save_to_json(threads, raw_data_file)
-    latest_threads_file = os.path.join(data_dir, "latest_threads.json")
-    save_to_json(threads, latest_threads_file)
     
     # 3. Initialize sentiment analyzer
     analyzer = SentimentAnalyzer()
@@ -60,11 +55,8 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_t
     print(f"Analyzing {len(threads)} threads...")
     analyzed_threads = analyzer.analyze_threads(threads)
     
-    # 5. Save analyzed threads
-    analyzed_file = os.path.join(processed_dir, f"analyzed_threads_{timestamp}.json")
-    save_to_json(analyzed_threads, analyzed_file)
-    latest_analyzed_file = os.path.join(processed_dir, "latest_analyzed_threads.json")
-    save_to_json(analyzed_threads, latest_analyzed_file)
+    # 5. Save analyzed threads to a single file
+    save_to_json(analyzed_threads, os.path.join(data_dir, "latest_threads.json"))
     
     # 6. Generate course rankings
     print("Generating course rankings...")
@@ -72,18 +64,10 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_t
     
     # 7. Normalize bird scores to ensure they're on a 0-10 scale
     for course in course_rankings:
-        # Ensure bird score is properly capped at 10.0
         course['bird_score'] = min(10.0, course.get('bird_score', 0))
-        # Round to 2 decimal places for consistency
         course['bird_score'] = round(course['bird_score'] * 100) / 100
     
-    # 8. Save course rankings
-    rankings_file = os.path.join(processed_dir, f"course_rankings_{timestamp}.json")
-    save_to_json(course_rankings, rankings_file)
-    latest_rankings_file = os.path.join(processed_dir, "latest_course_rankings.json")
-    save_to_json(course_rankings, latest_rankings_file)
-    
-    # 9. If enabled, analyze top courses in more detail
+    # 8. If enabled, analyze top courses in more detail
     if analyze_top_courses and course_rankings:
         print(f"\nAnalyzing top {top_courses_count} courses in detail...")
         
@@ -91,56 +75,23 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_t
         top_courses = [course['code'] for course in course_rankings[:top_courses_count]]
         print(f"Top courses selected for detailed analysis: {', '.join(top_courses)}")
         
-        # Run detailed analysis on these courses
+        # Run detailed analysis
         course_details = analyze_course_specific_threads(api_url, top_courses, course_details_dir)
         
         if course_details:
             print(f"Detailed analysis completed for {len(course_details)} courses.")
-            
-            # Update course rankings with references to the detailed analysis
-            for course_ranking in course_rankings:
-                for course_detail in course_details:
-                    if course_ranking['code'] == course_detail['code']:
-                        # Add a reference to the detailed analysis
-                        course_ranking['has_detailed_analysis'] = True
-                        course_ranking['specific_mentions'] = course_detail['specific_mentions']
-                        # Update the bird score from the detailed analysis (more accurate)
-                        course_ranking['bird_score'] = round(course_detail['bird_score'] * 100) / 100
-                        # Add some key details directly to the course ranking
-                        if 'professors' in course_detail and course_detail['professors']:
-                            course_ranking['professors'] = course_detail['professors']
-                        if 'is_online_available' in course_detail:
-                            course_ranking['is_online_available'] = course_detail['is_online_available']
-                        break
-                else:
-                    course_ranking['has_detailed_analysis'] = False
-            
-            # Save updated rankings with detailed analysis references
-            updated_rankings_file = os.path.join(processed_dir, f"course_rankings_detailed_{timestamp}.json")
-            save_to_json(course_rankings, updated_rankings_file)
-            latest_detailed_rankings_file = os.path.join(processed_dir, "latest_course_rankings_detailed.json")
-            save_to_json(course_rankings, latest_detailed_rankings_file)
+            save_to_json(course_details, os.path.join(processed_dir, "latest_course_details.json"))
     
-    # 10. Print summary
+    # 9. Print summary
     print(f"\nPipeline completed successfully.")
     print(f"Processed {len(threads)} threads and identified {len(course_rankings)} courses")
     
-    # Sort the course rankings by bird_score before displaying the top 5
+    # Sort the course rankings by bird_score before displaying
     sorted_rankings = sorted(course_rankings, key=lambda x: x['bird_score'], reverse=True)
     
-    print(f"Top 5 bird courses:")
+    print(f"\nTop 5 bird courses:")
     for i, course in enumerate(sorted_rankings[:5], 1):
         print(f"{i}. {course['code']} - Bird Score: {course['bird_score']:.2f}/10 - Mentions: {course['mentions']}")
-        # Print department adjustment if available
-        if 'dept_adjustment' in course:
-            print(f"   Department adjustment: {course['dept_adjustment']:.2f}")
-        # Print if detailed analysis is available
-        if 'has_detailed_analysis' in course and course['has_detailed_analysis']:
-            print(f"   Detailed analysis available with {course.get('specific_mentions', 0)} specific threads")
-            if 'professors' in course:
-                print(f"   Professors mentioned: {', '.join(course['professors'])}")
-            if 'is_online_available' in course:
-                print(f"   Online option: {'Yes' if course['is_online_available'] else 'Not mentioned'}")
 
 def main():
     parser = argparse.ArgumentParser(description='Run the BirdWatch data pipeline')
