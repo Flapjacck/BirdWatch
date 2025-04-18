@@ -1,0 +1,44 @@
+{
+  "code": "OL101",
+  "department": "OL",
+  "bird_score": 5.34,
+  "specific_mentions": 4,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": false,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Syllabus for OL101, GG102, ES110",
+      "url": "https://www.reddit.com/r/wlu/comments/1dmntdc/syllabus_for_ol101_gg102_es110/",
+      "score": 0,
+      "created": "2024-06-23T14:48:56.000Z"
+    },
+    {
+      "title": "Highly Recommend OL101 as a bird course",
+      "url": "https://www.reddit.com/r/wlu/comments/106svzn/highly_recommend_ol101_as_a_bird_course/",
+      "score": 1,
+      "created": "2023-01-08T20:10:49.000Z"
+    },
+    {
+      "title": "OL101",
+      "url": "https://www.reddit.com/r/wlu/comments/u1i31k/ol101/",
+      "score": 0,
+      "created": "2022-04-11T21:25:55.000Z"
+    },
+    {
+      "title": "No exam first year classes",
+      "url": "https://www.reddit.com/r/wlu/comments/13fhyyh/no_exam_first_year_classes/",
+      "score": 1,
+      "created": "2023-05-12T11:07:07.000Z"
+    }
+  ]
+}

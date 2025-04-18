@@ -1,0 +1,56 @@
+{
+  "code": "AR101",
+  "department": "AR",
+  "bird_score": 9.37,
+  "specific_mentions": 6,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 4,
+    "hard_mentions": 1,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "UU150 OC or AR101 OC- easier bird course?",
+      "url": "https://www.reddit.com/r/wlu/comments/1hk696b/uu150_oc_or_ar101_oc_easier_bird_course/",
+      "score": 3,
+      "created": "2024-12-22T19:55:16.000Z"
+    },
+    {
+      "title": "How\u2019s AR101 online with Alec McLellan?",
+      "url": "https://www.reddit.com/r/wlu/comments/1hk28y3/hows_ar101_online_with_alec_mclellan/",
+      "score": 3,
+      "created": "2024-12-22T16:45:26.000Z"
+    },
+    {
+      "title": "Ar101 or ar104 or ar105 all online? Which one is easier from your experience?",
+      "url": "https://www.reddit.com/r/wlu/comments/14tkw3w/ar101_or_ar104_or_ar105_all_online_which_one_is/",
+      "score": 2,
+      "created": "2023-07-07T22:02:11.000Z"
+    },
+    {
+      "title": "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvp78v/i_gotta_take_off_1_elective_to_fit_in_a_pc_class/",
+      "score": 0,
+      "created": "2024-07-05T04:10:23.000Z"
+    },
+    {
+      "title": "Help!!",
+      "url": "https://www.reddit.com/r/wlu/comments/14squc5/help/",
+      "score": 1,
+      "created": "2023-07-07T00:18:00.000Z"
+    },
+    {
+      "title": "Transferring, need course Syllabus to show credit transfer",
+      "url": "https://www.reddit.com/r/wlu/comments/wqb30z/transferring_need_course_syllabus_to_show_credit/",
+      "score": 0,
+      "created": "2022-08-17T00:59:16.000Z"
+    }
+  ]
+}

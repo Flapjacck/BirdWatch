@@ -1,0 +1,44 @@
+{
+  "code": "GL102",
+  "department": "GL",
+  "bird_score": 3.33,
+  "specific_mentions": 4,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 1,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": true,
+    "has_projects": true
+  },
+  "threads": [
+    {
+      "title": "GL102",
+      "url": "https://www.reddit.com/r/wlu/comments/16uwkpt/gl102/",
+      "score": 1,
+      "created": "2023-09-29T00:18:24.000Z"
+    },
+    {
+      "title": "gl102 discord",
+      "url": "https://www.reddit.com/r/wlu/comments/12wtm2k/gl102_discord/",
+      "score": 2,
+      "created": "2023-04-23T22:59:59.000Z"
+    },
+    {
+      "title": "Second year bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1duk5dr/second_year_bird_courses/",
+      "score": 5,
+      "created": "2024-07-03T17:31:15.000Z"
+    },
+    {
+      "title": "Financial Mathematics course registration",
+      "url": "https://www.reddit.com/r/wlu/comments/14g7k8u/financial_mathematics_course_registration/",
+      "score": 1,
+      "created": "2023-06-22T16:08:14.000Z"
+    }
+  ]
+}

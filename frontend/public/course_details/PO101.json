@@ -1,0 +1,158 @@
+{
+  "code": "PO101",
+  "department": "PO",
+  "bird_score": 4.01,
+  "specific_mentions": 23,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 5,
+    "hard_mentions": 3,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "PO101 Final Exam Marks not back",
+      "url": "https://www.reddit.com/r/wlu/comments/1hph6lu/po101_final_exam_marks_not_back/",
+      "score": 2,
+      "created": "2024-12-30T06:38:37.000Z"
+    },
+    {
+      "title": "PO101 Final exam ",
+      "url": "https://www.reddit.com/r/wlu/comments/1hcdnuk/po101_final_exam/",
+      "score": 1,
+      "created": "2024-12-12T05:00:28.000Z"
+    },
+    {
+      "title": "Po101",
+      "url": "https://www.reddit.com/r/wlu/comments/18iq86r/po101/",
+      "score": 1,
+      "created": "2023-12-15T03:04:57.000Z"
+    },
+    {
+      "title": "PO101 midterm notes",
+      "url": "https://www.reddit.com/r/wlu/comments/170m9kh/po101_midterm_notes/",
+      "score": 2,
+      "created": "2023-10-05T16:25:12.000Z"
+    },
+    {
+      "title": "Is PO101 and 102 bird courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/14bgmxe/is_po101_and_102_bird_courses/",
+      "score": 1,
+      "created": "2023-06-17T03:53:45.000Z"
+    },
+    {
+      "title": "SY101 (with greg)or PO101 (with Debora)??",
+      "url": "https://www.reddit.com/r/wlu/comments/wuk89s/sy101_with_gregor_po101_with_debora/",
+      "score": 2,
+      "created": "2022-08-22T04:48:41.000Z"
+    },
+    {
+      "title": "PO101 Final Grade",
+      "url": "https://www.reddit.com/r/wlu/comments/101hjll/po101_final_grade/",
+      "score": 0,
+      "created": "2023-01-02T17:03:00.000Z"
+    },
+    {
+      "title": "PO101 vs PO102",
+      "url": "https://www.reddit.com/r/wlu/comments/vhjclm/po101_vs_po102/",
+      "score": 0,
+      "created": "2022-06-21T18:00:13.000Z"
+    },
+    {
+      "title": "Does someone have the link to po101 discord?",
+      "url": "https://www.reddit.com/r/wlu/comments/prcx0e/does_someone_have_the_link_to_po101_discord/",
+      "score": 0,
+      "created": "2021-09-19T17:58:11.000Z"
+    },
+    {
+      "title": "How do you succeed in courses with really specific questions (PO101 in my case)",
+      "url": "https://www.reddit.com/r/wlu/comments/3osjmn/how_do_you_succeed_in_courses_with_really/",
+      "score": 5,
+      "created": "2015-10-15T00:09:17.000Z"
+    },
+    {
+      "title": "Poli sci",
+      "url": "https://www.reddit.com/r/wlu/comments/1532pch/poli_sci/",
+      "score": 1,
+      "created": "2023-07-18T16:12:01.000Z"
+    },
+    {
+      "title": "Open Lecture but Full Tutorial",
+      "url": "https://www.reddit.com/r/wlu/comments/o6i3o4/open_lecture_but_full_tutorial/",
+      "score": 1,
+      "created": "2021-06-23T17:50:32.000Z"
+    },
+    {
+      "title": "First Year Courses help",
+      "url": "https://www.reddit.com/r/wlu/comments/o1gs0b/first_year_courses_help/",
+      "score": 1,
+      "created": "2021-06-16T22:00:52.000Z"
+    },
+    {
+      "title": "Political Science Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/gzci5q/political_science_electives/",
+      "score": 1,
+      "created": "2020-06-09T00:56:12.000Z"
+    },
+    {
+      "title": "First Year Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/bo9njx/first_year_electives/",
+      "score": 2,
+      "created": "2019-05-13T21:38:03.000Z"
+    },
+    {
+      "title": "WLU BBA 1ST YEAR ELECTIVES HELP",
+      "url": "https://www.reddit.com/r/wlu/comments/6delkf/wlu_bba_1st_year_electives_help/",
+      "score": 3,
+      "created": "2017-05-26T03:47:31.000Z"
+    },
+    {
+      "title": "First year electives",
+      "url": "https://www.reddit.com/r/wlu/comments/6f7coj/first_year_electives/",
+      "score": 1,
+      "created": "2017-06-04T13:33:03.000Z"
+    },
+    {
+      "title": "1st year birds courses",
+      "url": "https://www.reddit.com/r/wlu/comments/14ampmy/1st_year_birds_courses/",
+      "score": 0,
+      "created": "2023-06-16T04:13:47.000Z"
+    },
+    {
+      "title": "Sheesh, glad I finished everything. Now I'll be more prepared for next semester.",
+      "url": "https://www.reddit.com/r/wlu/comments/zs6msc/sheesh_glad_i_finished_everything_now_ill_be_more/",
+      "score": 36,
+      "created": "2022-12-22T00:27:22.000Z"
+    },
+    {
+      "title": "Choosing Courses for Political Science",
+      "url": "https://www.reddit.com/r/wlu/comments/vnnday/choosing_courses_for_political_science/",
+      "score": 1,
+      "created": "2022-06-29T19:01:09.000Z"
+    },
+    {
+      "title": "First Year Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/lo79dg/first_year_electives/",
+      "score": 11,
+      "created": "2021-02-20T13:35:41.000Z"
+    },
+    {
+      "title": "Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/vnuwov/courses/",
+      "score": 0,
+      "created": "2022-06-30T00:35:46.000Z"
+    },
+    {
+      "title": "HR100 with Pietro Piriani",
+      "url": "https://www.reddit.com/r/wlu/comments/plemna/hr100_with_pietro_piriani/",
+      "score": 1,
+      "created": "2021-09-10T05:13:32.000Z"
+    }
+  ]
+}

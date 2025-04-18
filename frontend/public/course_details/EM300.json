@@ -1,0 +1,98 @@
+{
+  "code": "EM300",
+  "department": "EM",
+  "bird_score": 9.06,
+  "specific_mentions": 13,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 6,
+    "hard_mentions": 0,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "em202 vs em300?",
+      "url": "https://www.reddit.com/r/wlu/comments/1jmrddl/em202_vs_em300/",
+      "score": 1,
+      "created": "2025-03-29T17:25:11.000Z"
+    },
+    {
+      "title": "em110 vs em300",
+      "url": "https://www.reddit.com/r/wlu/comments/1hi15bq/em110_vs_em300/",
+      "score": 3,
+      "created": "2024-12-19T19:39:10.000Z"
+    },
+    {
+      "title": "Senior Elective Choices -  EM299 and EM300 ?",
+      "url": "https://www.reddit.com/r/wlu/comments/1e5pd47/senior_elective_choices_em299_and_em300/",
+      "score": 2,
+      "created": "2024-07-17T18:22:12.000Z"
+    },
+    {
+      "title": "EM300 or ES110?",
+      "url": "https://www.reddit.com/r/wlu/comments/163b168/em300_or_es110/",
+      "score": 1,
+      "created": "2023-08-28T03:32:21.000Z"
+    },
+    {
+      "title": "EM300",
+      "url": "https://www.reddit.com/r/wlu/comments/14pts07/em300/",
+      "score": 1,
+      "created": "2023-07-03T20:25:40.000Z"
+    },
+    {
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 10,
+      "created": "2024-09-10T16:03:00.000Z"
+    },
+    {
+      "title": "Em 202 is it easy",
+      "url": "https://www.reddit.com/r/wlu/comments/1ivx41m/em_202_is_it_easy/",
+      "score": 7,
+      "created": "2025-02-23T00:13:55.000Z"
+    },
+    {
+      "title": "EM110",
+      "url": "https://www.reddit.com/r/wlu/comments/1dih37c/em110/",
+      "score": 1,
+      "created": "2024-06-18T03:31:45.000Z"
+    },
+    {
+      "title": "Easiest BBA electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/1der9n0/easiest_bba_electives/",
+      "score": 1,
+      "created": "2024-06-13T05:18:09.000Z"
+    },
+    {
+      "title": "1st or 2nd year bird course",
+      "url": "https://www.reddit.com/r/wlu/comments/18u7h92/1st_or_2nd_year_bird_course/",
+      "score": 0,
+      "created": "2023-12-30T05:01:27.000Z"
+    },
+    {
+      "title": "Courses with no exams",
+      "url": "https://www.reddit.com/r/wlu/comments/18ygtih/courses_with_no_exams/",
+      "score": 1,
+      "created": "2024-01-04T16:14:12.000Z"
+    },
+    {
+      "title": "Education Minor",
+      "url": "https://www.reddit.com/r/wlu/comments/zg8jrl/education_minor/",
+      "score": 2,
+      "created": "2022-12-08T19:20:38.000Z"
+    },
+    {
+      "title": "Easy 200 year courses",
+      "url": "https://www.reddit.com/r/wlu/comments/159ipyv/easy_200_year_courses/",
+      "score": 1,
+      "created": "2023-07-25T19:43:11.000Z"
+    }
+  ]
+}

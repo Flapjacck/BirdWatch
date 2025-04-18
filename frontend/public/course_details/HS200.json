@@ -1,0 +1,32 @@
+{
+  "code": "HS200",
+  "department": "HS",
+  "bird_score": 2.17,
+  "specific_mentions": 2,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 0,
+    "hard_mentions": 0,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Has anyone taken HS200(Social determinants of health) or HS201 (Canadian Health care systems) ? Are they bird courses ?",
+      "url": "https://www.reddit.com/r/wlu/comments/vtjtxg/has_anyone_taken_hs200social_determinants_of/",
+      "score": 3,
+      "created": "2022-07-07T14:21:50.000Z"
+    },
+    {
+      "title": "You don't get to see your actual quiz results?",
+      "url": "https://www.reddit.com/r/wlu/comments/jm9m8j/you_dont_get_to_see_your_actual_quiz_results/",
+      "score": 3,
+      "created": "2020-11-01T20:41:15.000Z"
+    }
+  ]
+}

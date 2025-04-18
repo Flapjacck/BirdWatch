@@ -1,0 +1,74 @@
+{
+  "code": "AS102",
+  "department": "AS",
+  "bird_score": 7.91,
+  "specific_mentions": 9,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 2,
+    "hard_mentions": 3,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "AS102!!!",
+      "url": "https://www.reddit.com/r/wlu/comments/1cbihw6/as102/",
+      "score": 4,
+      "created": "2024-04-23T22:49:09.000Z"
+    },
+    {
+      "title": "AS102",
+      "url": "https://www.reddit.com/r/wlu/comments/1c943id/as102/",
+      "score": 2,
+      "created": "2024-04-20T23:49:00.000Z"
+    },
+    {
+      "title": "is AS102 also a bird course?",
+      "url": "https://www.reddit.com/r/wlu/comments/18koh9k/is_as102_also_a_bird_course/",
+      "score": 1,
+      "created": "2023-12-17T19:03:40.000Z"
+    },
+    {
+      "title": "AS102 (online) with Arthur Read",
+      "url": "https://www.reddit.com/r/wlu/comments/10g76dj/as102_online_with_arthur_read/",
+      "score": 1,
+      "created": "2023-01-19T17:12:42.000Z"
+    },
+    {
+      "title": "AS102 OC",
+      "url": "https://www.reddit.com/r/wlu/comments/esomg5/as102_oc/",
+      "score": 2,
+      "created": "2020-01-23T05:23:21.000Z"
+    },
+    {
+      "title": "when do the online courses show up on myls and my schedule?",
+      "url": "https://www.reddit.com/r/wlu/comments/1910s7e/when_do_the_online_courses_show_up_on_myls_and_my/",
+      "score": 1,
+      "created": "2024-01-07T19:55:22.000Z"
+    },
+    {
+      "title": "Bird summer (6 week) online courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/bwwoxh/bird_summer_6_week_online_courses/",
+      "score": 0,
+      "created": "2019-06-05T01:09:19.000Z"
+    },
+    {
+      "title": "What are some easy online bird courses for winter term",
+      "url": "https://www.reddit.com/r/wlu/comments/z84g8p/what_are_some_easy_online_bird_courses_for_winter/",
+      "score": 2,
+      "created": "2022-11-29T20:04:36.000Z"
+    },
+    {
+      "title": "Hey guys! I need some help picking electives. Lets Pool our knowledge!",
+      "url": "https://www.reddit.com/r/wlu/comments/1gxsla/hey_guys_i_need_some_help_picking_electives_lets/",
+      "score": 7,
+      "created": "2013-06-24T00:36:31.000Z"
+    }
+  ]
+}

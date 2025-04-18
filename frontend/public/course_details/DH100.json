@@ -1,0 +1,74 @@
+{
+  "code": "DH100",
+  "department": "DH",
+  "bird_score": 5.83,
+  "specific_mentions": 9,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 6,
+    "hard_mentions": 2,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "ENTR200 or DH100?",
+      "url": "https://www.reddit.com/r/wlu/comments/15fdxvu/entr200_or_dh100/",
+      "score": 1,
+      "created": "2023-08-01T14:19:06.000Z"
+    },
+    {
+      "title": "Have any BBA Students Taken UX103, UX100 OR DH100?",
+      "url": "https://www.reddit.com/r/wlu/comments/glhnyo/have_any_bba_students_taken_ux103_ux100_or_dh100/",
+      "score": 1,
+      "created": "2020-05-17T15:51:11.000Z"
+    },
+    {
+      "title": "What is the difference between UX100(Design Thinking) and DH100 (Digital Creativity)?",
+      "url": "https://www.reddit.com/r/wlu/comments/8qz4c0/what_is_the_difference_between_ux100design/",
+      "score": 4,
+      "created": "2018-06-14T04:48:28.000Z"
+    },
+    {
+      "title": "Easy 1st or 2nd year courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dp7vw5/easy_1st_or_2nd_year_courses/",
+      "score": 0,
+      "created": "2024-06-26T19:55:26.000Z"
+    },
+    {
+      "title": "Elective not showing up. ",
+      "url": "https://www.reddit.com/r/wlu/comments/1dnodq3/elective_not_showing_up/",
+      "score": 2,
+      "created": "2024-06-24T21:04:45.000Z"
+    },
+    {
+      "title": "My Bird Course List",
+      "url": "https://www.reddit.com/r/wlu/comments/1b0zpn1/my_bird_course_list/",
+      "score": 19,
+      "created": "2024-02-27T01:53:43.000Z"
+    },
+    {
+      "title": "Notes &amp; Textbooks for first year BBA students",
+      "url": "https://www.reddit.com/r/wlu/comments/o6ujaw/notes_textbooks_for_first_year_bba_students/",
+      "score": 0,
+      "created": "2021-06-24T05:38:09.000Z"
+    },
+    {
+      "title": "First Year Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/bo9njx/first_year_electives/",
+      "score": 2,
+      "created": "2019-05-13T21:38:03.000Z"
+    },
+    {
+      "title": "Any good psych bird courses available this semester?",
+      "url": "https://www.reddit.com/r/wlu/comments/10677ve/any_good_psych_bird_courses_available_this/",
+      "score": 0,
+      "created": "2023-01-08T02:30:12.000Z"
+    }
+  ]
+}

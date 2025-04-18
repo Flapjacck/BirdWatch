@@ -1,0 +1,44 @@
+{
+  "code": "DH200",
+  "department": "DH",
+  "bird_score": 5.99,
+  "specific_mentions": 4,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 4,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Has anyone taken dh200? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1dp7rdh/has_anyone_taken_dh200/",
+      "score": 1,
+      "created": "2024-06-26T19:50:17.000Z"
+    },
+    {
+      "title": "Is DH200 an easy elective to take?",
+      "url": "https://www.reddit.com/r/wlu/comments/hvhk96/is_dh200_an_easy_elective_to_take/",
+      "score": 2,
+      "created": "2020-07-21T22:36:20.000Z"
+    },
+    {
+      "title": "DH200, DH300 textbook",
+      "url": "https://www.reddit.com/r/wlu/comments/kkchc1/dh200_dh300_textbook/",
+      "score": 2,
+      "created": "2020-12-26T04:26:38.000Z"
+    },
+    {
+      "title": "My Bird Course List",
+      "url": "https://www.reddit.com/r/wlu/comments/1b0zpn1/my_bird_course_list/",
+      "score": 20,
+      "created": "2024-02-27T01:53:43.000Z"
+    }
+  ]
+}

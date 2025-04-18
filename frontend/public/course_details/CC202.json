@@ -1,0 +1,50 @@
+{
+  "code": "CC202",
+  "department": "CC",
+  "bird_score": 8.22,
+  "specific_mentions": 5,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 5,
+    "hard_mentions": 1,
+    "workload": 2
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Has anyone taken cc202 with Terry Roswell",
+      "url": "https://www.reddit.com/r/wlu/comments/14kcv15/has_anyone_taken_cc202_with_terry_roswell/",
+      "score": 1,
+      "created": "2023-06-27T12:48:22.000Z"
+    },
+    {
+      "title": "first year electives to take: KS100, EN112, FS101, or CC202",
+      "url": "https://www.reddit.com/r/wlu/comments/vc9al7/first_year_electives_to_take_ks100_en112_fs101_or/",
+      "score": 1,
+      "created": "2022-06-14T17:52:50.000Z"
+    },
+    {
+      "title": "WLU Bird Course - CC202",
+      "url": "https://www.reddit.com/r/wlu/comments/10eis6q/wlu_bird_course_cc202/",
+      "score": 2,
+      "created": "2023-01-17T18:02:04.000Z"
+    },
+    {
+      "title": "first yr electives",
+      "url": "https://www.reddit.com/r/wlu/comments/nmqt5d/first_yr_electives/",
+      "score": 0,
+      "created": "2021-05-28T05:38:00.000Z"
+    },
+    {
+      "title": "Easy second year electives",
+      "url": "https://www.reddit.com/r/wlu/comments/gqf5gy/easy_second_year_electives/",
+      "score": 2,
+      "created": "2020-05-25T17:25:54.000Z"
+    }
+  ]
+}
