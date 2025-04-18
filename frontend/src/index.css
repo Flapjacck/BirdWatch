@@ -5,6 +5,7 @@
 }
 
 body {
+  background: #111827;
   background-color: rgb(17 24 39); /* bg-gray-900 */
   overflow-x: hidden;
 }

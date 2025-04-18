@@ -140,25 +140,31 @@ function App() {
 
       <footer className="border-t border-gray-800 mt-auto py-8">
         <div className="container mx-auto px-4 text-center text-gray-400">
-          <p className="text-sm">
-            Made by{" "}
-            <a
-              href="https://github.com/Flapjacck"
-              className="text-blue-400 hover:text-blue-300 transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Spencer Kelly
-            </a>
-            {" • "}
-            <a
-              href="https://github.com/Flapjacck/BirdWatch"
-              className="text-blue-400 hover:text-blue-300 transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Repo
-            </a>
+          <p className="text-sm space-y-2">
+            <span className="block">
+              Made by{" "}
+              <a
+                href="https://SpencerKelly.tech/"
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Spencer Kelly
+              </a>
+              {" • "}
+              <a
+                href="https://github.com/Flapjacck/BirdWatch"
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Repo
+              </a>
+            </span>
+            <span className="block">
+              Think something is off? Contact me on Discord:{" "}
+              <span className="text-blue-400">Flapjacck</span>
+            </span>
           </p>
         </div>
       </footer>
