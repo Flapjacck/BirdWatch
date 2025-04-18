@@ -1,0 +1,86 @@
+{
+  "code": "EC229",
+  "department": "EC",
+  "bird_score": 3.99,
+  "specific_mentions": 11,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 3,
+    "hard_mentions": 1,
+    "workload": 2
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "ec229",
+      "url": "https://www.reddit.com/r/wlu/comments/1hah429/ec229/",
+      "score": 2,
+      "created": "2024-12-09T18:50:25.000Z"
+    },
+    {
+      "title": "EC229 and EC248",
+      "url": "https://www.reddit.com/r/wlu/comments/1giup34/ec229_and_ec248/",
+      "score": 1,
+      "created": "2024-11-03T19:15:47.000Z"
+    },
+    {
+      "title": "EC233 or EC229",
+      "url": "https://www.reddit.com/r/wlu/comments/1f7l0kk/ec233_or_ec229/",
+      "score": 1,
+      "created": "2024-09-02T23:18:11.000Z"
+    },
+    {
+      "title": "Ec229 with Jason Dean",
+      "url": "https://www.reddit.com/r/wlu/comments/1931dvg/ec229_with_jason_dean/",
+      "score": 2,
+      "created": "2024-01-10T06:07:24.000Z"
+    },
+    {
+      "title": "EC229 - Economics of China (Final)",
+      "url": "https://www.reddit.com/r/wlu/comments/zelkek/ec229_economics_of_china_final/",
+      "score": 2,
+      "created": "2022-12-06T23:22:24.000Z"
+    },
+    {
+      "title": "4th year BBA student looking for an OC course because of co-op commitments",
+      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
+      "score": 0,
+      "created": "2024-12-16T02:23:39.000Z"
+    },
+    {
+      "title": "3RD year econ electives ",
+      "url": "https://www.reddit.com/r/wlu/comments/1hdf7r3/3rd_year_econ_electives/",
+      "score": 2,
+      "created": "2024-12-13T15:53:10.000Z"
+    },
+    {
+      "title": "Second Year Econ Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvoqc1/second_year_econ_bird_courses/",
+      "score": 2,
+      "created": "2024-07-05T03:42:23.000Z"
+    },
+    {
+      "title": "Economics Senior Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1clpf5w/economics_senior_electives/",
+      "score": 2,
+      "created": "2024-05-06T17:53:10.000Z"
+    },
+    {
+      "title": "Ec248oc or ec229oc",
+      "url": "https://www.reddit.com/r/wlu/comments/1dti2qg/ec248oc_or_ec229oc/",
+      "score": 0,
+      "created": "2024-07-02T09:57:02.000Z"
+    },
+    {
+      "title": "Double Minor",
+      "url": "https://www.reddit.com/r/wlu/comments/137y4ek/double_minor/",
+      "score": 2,
+      "created": "2023-05-04T19:59:08.000Z"
+    }
+  ]
+}

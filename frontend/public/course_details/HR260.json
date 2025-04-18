@@ -1,0 +1,62 @@
+{
+  "code": "HR260",
+  "department": "HR",
+  "bird_score": 5.28,
+  "specific_mentions": 7,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "HR260",
+      "url": "https://www.reddit.com/r/wlu/comments/jsdyfd/hr260/",
+      "score": 1,
+      "created": "2020-11-11T18:44:54.000Z"
+    },
+    {
+      "title": "hr260 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/f33lgg/hr260_midterm/",
+      "score": 1,
+      "created": "2020-02-13T03:28:41.000Z"
+    },
+    {
+      "title": "Review of Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1e0w0m6/review_of_bird_courses/",
+      "score": 0,
+      "created": "2024-07-11T18:30:20.000Z"
+    },
+    {
+      "title": "Interesting Good Online Courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/bdkwml/interesting_good_online_courses/",
+      "score": 4,
+      "created": "2019-04-15T20:18:13.000Z"
+    },
+    {
+      "title": "Best and worst electives at WLU\u2014what would you recommend?",
+      "url": "https://www.reddit.com/r/wlu/comments/1j9l6t7/best_and_worst_electives_at_wluwhat_would_you/",
+      "score": 23,
+      "created": "2025-03-12T14:20:33.000Z"
+    },
+    {
+      "title": "Bird Courses ",
+      "url": "https://www.reddit.com/r/wlu/comments/1dgqj14/bird_courses/",
+      "score": 1,
+      "created": "2024-06-15T20:13:46.000Z"
+    },
+    {
+      "title": "Online courses without midterms/finals",
+      "url": "https://www.reddit.com/r/wlu/comments/1b7bl3t/online_courses_without_midtermsfinals/",
+      "score": 3,
+      "created": "2024-03-05T17:50:51.000Z"
+    }
+  ]
+}

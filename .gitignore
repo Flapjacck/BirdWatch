@@ -38,9 +38,11 @@ venv.bak/
 .coverage
 .tox/
 
-
-backend/data/data/*.json
-backend/data/processed/*.json
+# Data directories
+backend/data/data/*
+!backend/data/data/.gitkeep
+backend/data/processed/*
+!backend/data/processed/.gitkeep
 
 # OS specific files
 .DS_Store

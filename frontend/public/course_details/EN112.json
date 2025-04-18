@@ -1,7 +1,7 @@
 {
   "code": "EN112",
   "department": "EN",
-  "bird_score": 5.77,
+  "bird_score": 5.76,
   "specific_mentions": 6,
   "is_online_available": false,
   "difficulty_level": {
@@ -37,13 +37,13 @@
     {
       "title": "Anyone take any of the following courses and can share their experience?",
       "url": "https://www.reddit.com/r/wlu/comments/11l1rfj/anyone_take_any_of_the_following_courses_and_can/",
-      "score": 4,
+      "score": 3,
       "created": "2023-03-07T15:07:28.000Z"
     },
     {
       "title": "Having trouble researching the courses so I am ready for course registration",
       "url": "https://www.reddit.com/r/wlu/comments/nuu3it/having_trouble_researching_the_courses_so_i_am/",
-      "score": 4,
+      "score": 3,
       "created": "2021-06-08T02:26:16.000Z"
     },
     {

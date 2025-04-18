@@ -1,0 +1,32 @@
+{
+  "code": "EC306",
+  "department": "EC",
+  "bird_score": 5.04,
+  "specific_mentions": 2,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Recommendations on 300/400 EC bird courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/ob1v8c/recommendations_on_300400_ec_bird_courses/",
+      "score": 6,
+      "created": "2021-06-30T17:16:42.000Z"
+    },
+    {
+      "title": "EC306 or EC310E",
+      "url": "https://www.reddit.com/r/wlu/comments/1hvjlf3/ec306_or_ec310e/",
+      "score": 1,
+      "created": "2025-01-07T04:41:47.000Z"
+    }
+  ]
+}

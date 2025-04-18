@@ -1,0 +1,92 @@
+{
+  "code": "OL200",
+  "department": "OL",
+  "bird_score": 4.99,
+  "specific_mentions": 12,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 4,
+    "hard_mentions": 3,
+    "workload": 2
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Thoughts on EM299 and OL200?",
+      "url": "https://www.reddit.com/r/wlu/comments/1gbtac1/thoughts_on_em299_and_ol200/",
+      "score": 2,
+      "created": "2024-10-25T12:40:22.000Z"
+    },
+    {
+      "title": "OL200 Textbook",
+      "url": "https://www.reddit.com/r/wlu/comments/1ft6syg/ol200_textbook/",
+      "score": 2,
+      "created": "2024-09-30T21:13:10.000Z"
+    },
+    {
+      "title": "Do not take OL200 OC !!",
+      "url": "https://www.reddit.com/r/wlu/comments/1e0m7dp/do_not_take_ol200_oc/",
+      "score": 13,
+      "created": "2024-07-11T11:02:04.000Z"
+    },
+    {
+      "title": "OL200",
+      "url": "https://www.reddit.com/r/wlu/comments/14sgab1/ol200/",
+      "score": 2,
+      "created": "2023-07-06T17:40:56.000Z"
+    },
+    {
+      "title": "OL200",
+      "url": "https://www.reddit.com/r/wlu/comments/xjokz3/ol200/",
+      "score": 1,
+      "created": "2022-09-20T23:47:40.000Z"
+    },
+    {
+      "title": "OL200",
+      "url": "https://www.reddit.com/r/wlu/comments/107ipsq/ol200/",
+      "score": 1,
+      "created": "2023-01-09T16:30:01.000Z"
+    },
+    {
+      "title": "OL200 as an elective? Any winter elective?",
+      "url": "https://www.reddit.com/r/wlu/comments/z1fg6q/ol200_as_an_elective_any_winter_elective/",
+      "score": 0,
+      "created": "2022-11-22T00:37:03.000Z"
+    },
+    {
+      "title": "How is OL200? Easy?",
+      "url": "https://www.reddit.com/r/wlu/comments/pfc7zg/how_is_ol200_easy/",
+      "score": 0,
+      "created": "2021-08-31T18:51:20.000Z"
+    },
+    {
+      "title": "Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1hk0nrp/bird_courses/",
+      "score": 0,
+      "created": "2024-12-22T15:27:50.000Z"
+    },
+    {
+      "title": "Which course is easier? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1du4zcm/which_course_is_easier/",
+      "score": 3,
+      "created": "2024-07-03T03:48:17.000Z"
+    },
+    {
+      "title": "Grading error?",
+      "url": "https://www.reddit.com/r/wlu/comments/102xtks/grading_error/",
+      "score": 0,
+      "created": "2023-01-04T08:03:02.000Z"
+    },
+    {
+      "title": "200-level bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/11dmhm9/200level_bird_courses/",
+      "score": 2,
+      "created": "2023-02-27T20:50:55.000Z"
+    }
+  ]
+}

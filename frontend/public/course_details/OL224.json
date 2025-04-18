@@ -1,0 +1,56 @@
+{
+  "code": "CC233",
+  "department": "CC",
+  "bird_score": 6.29,
+  "specific_mentions": 6,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 4,
+    "hard_mentions": 1,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": true
+  },
+  "threads": [
+    {
+      "title": "Review of Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1e0w0m6/review_of_bird_courses/",
+      "score": 0,
+      "created": "2024-07-11T18:30:20.000Z"
+    },
+    {
+      "title": "Which course is easier? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1du4zcm/which_course_is_easier/",
+      "score": 4,
+      "created": "2024-07-03T03:48:17.000Z"
+    },
+    {
+      "title": "Having trouble finding my courses on loris.",
+      "url": "https://www.reddit.com/r/wlu/comments/4x40qv/having_trouble_finding_my_courses_on_loris/",
+      "score": 1,
+      "created": "2016-08-10T19:48:33.000Z"
+    },
+    {
+      "title": "Senior level bird courses? \ud83d\udc40",
+      "url": "https://www.reddit.com/r/wlu/comments/vuo37o/senior_level_bird_courses/",
+      "score": 1,
+      "created": "2022-07-08T23:36:39.000Z"
+    },
+    {
+      "title": "In person 2nd year electives",
+      "url": "https://www.reddit.com/r/wlu/comments/vs80re/in_person_2nd_year_electives/",
+      "score": 1,
+      "created": "2022-07-05T20:57:31.000Z"
+    },
+    {
+      "title": "CC233 OR OL233",
+      "url": "https://www.reddit.com/r/wlu/comments/vos7bi/cc233_or_ol233/",
+      "score": 1,
+      "created": "2022-07-01T04:42:45.000Z"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "code": "CC202",
   "department": "CC",
-  "bird_score": 8.22,
+  "bird_score": 8.23,
   "specific_mentions": 5,
   "is_online_available": false,
   "difficulty_level": {
@@ -37,7 +37,7 @@
     {
       "title": "first yr electives",
       "url": "https://www.reddit.com/r/wlu/comments/nmqt5d/first_yr_electives/",
-      "score": 0,
+      "score": 3,
       "created": "2021-05-28T05:38:00.000Z"
     },
     {

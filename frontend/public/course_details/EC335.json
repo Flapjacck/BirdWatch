@@ -1,0 +1,32 @@
+{
+  "code": "EC316",
+  "department": "EC",
+  "bird_score": 4.94,
+  "specific_mentions": 2,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "EC316 or EC335?",
+      "url": "https://www.reddit.com/r/wlu/comments/vsgojx/ec316_or_ec335/",
+      "score": 0,
+      "created": "2022-07-06T03:52:25.000Z"
+    },
+    {
+      "title": "Recommendations on 300/400 EC bird courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/ob1v8c/recommendations_on_300400_ec_bird_courses/",
+      "score": 7,
+      "created": "2021-06-30T17:16:42.000Z"
+    }
+  ]
+}

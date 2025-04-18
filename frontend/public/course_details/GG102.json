@@ -1,0 +1,272 @@
+{
+  "code": "GG102",
+  "department": "GG",
+  "bird_score": 8.91,
+  "specific_mentions": 42,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 11,
+    "hard_mentions": 12,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "GG102 final exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1jwu1i3/gg102_final_exam/",
+      "score": 6,
+      "created": "2025-04-11T16:27:44.000Z"
+    },
+    {
+      "title": "GG102 Final exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1jxbv4u/gg102_final_exam/",
+      "score": 6,
+      "created": "2025-04-12T07:30:12.000Z"
+    },
+    {
+      "title": "Gg102 testbank for final",
+      "url": "https://www.reddit.com/r/wlu/comments/1jjn64j/gg102_testbank_for_final/",
+      "score": 3,
+      "created": "2025-03-25T16:14:55.000Z"
+    },
+    {
+      "title": "GG102 Online Class Final",
+      "url": "https://www.reddit.com/r/wlu/comments/1jnp8lm/gg102_online_class_final/",
+      "score": 3,
+      "created": "2025-03-30T23:05:44.000Z"
+    },
+    {
+      "title": "GG102 Notes",
+      "url": "https://www.reddit.com/r/wlu/comments/1iyqozn/gg102_notes/",
+      "score": 1,
+      "created": "2025-02-26T15:54:20.000Z"
+    },
+    {
+      "title": "GG102 Online final",
+      "url": "https://www.reddit.com/r/wlu/comments/1is0fgq/gg102_online_final/",
+      "score": 2,
+      "created": "2025-02-18T01:08:41.000Z"
+    },
+    {
+      "title": "GG102 with Doherty",
+      "url": "https://www.reddit.com/r/wlu/comments/1gd11iz/gg102_with_doherty/",
+      "score": 1,
+      "created": "2024-10-27T02:25:41.000Z"
+    },
+    {
+      "title": "Gg102 and es110 OC online winter term",
+      "url": "https://www.reddit.com/r/wlu/comments/1g1t1nc/gg102_and_es110_oc_online_winter_term/",
+      "score": 2,
+      "created": "2024-10-12T05:12:41.000Z"
+    },
+    {
+      "title": "GG102 Midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1g36x5c/gg102_midterm/",
+      "score": 8,
+      "created": "2024-10-14T03:16:53.000Z"
+    },
+    {
+      "title": "Syllabus for OL101, GG102, ES110",
+      "url": "https://www.reddit.com/r/wlu/comments/1dmntdc/syllabus_for_ol101_gg102_es110/",
+      "score": 0,
+      "created": "2024-06-23T14:48:56.000Z"
+    },
+    {
+      "title": "GG102 OC spring",
+      "url": "https://www.reddit.com/r/wlu/comments/1cmjswd/gg102_oc_spring/",
+      "score": 1,
+      "created": "2024-05-07T19:05:51.000Z"
+    },
+    {
+      "title": "GG102 midterm #1",
+      "url": "https://www.reddit.com/r/wlu/comments/1adks4y/gg102_midterm_1/",
+      "score": 3,
+      "created": "2024-01-29T02:55:57.000Z"
+    },
+    {
+      "title": "Hows gg102 oc?",
+      "url": "https://www.reddit.com/r/wlu/comments/18ugqt0/hows_gg102_oc/",
+      "score": 1,
+      "created": "2023-12-30T14:25:00.000Z"
+    },
+    {
+      "title": "GG102 not a bird course",
+      "url": "https://www.reddit.com/r/wlu/comments/18n3fuf/gg102_not_a_bird_course/",
+      "score": 2,
+      "created": "2023-12-20T19:48:55.000Z"
+    },
+    {
+      "title": "GG102",
+      "url": "https://www.reddit.com/r/wlu/comments/156j9bg/gg102/",
+      "score": 2,
+      "created": "2023-07-22T12:46:48.000Z"
+    },
+    {
+      "title": "How hard is GG101 / GG102?",
+      "url": "https://www.reddit.com/r/wlu/comments/191gmvz/how_hard_is_gg101_gg102/",
+      "score": 2,
+      "created": "2024-01-08T08:39:26.000Z"
+    },
+    {
+      "title": "Anyone got GG102 slides from previous years that have all the info on it.",
+      "url": "https://www.reddit.com/r/wlu/comments/194l632/anyone_got_gg102_slides_from_previous_years_that/",
+      "score": 1,
+      "created": "2024-01-12T03:32:37.000Z"
+    },
+    {
+      "title": "GG102",
+      "url": "https://www.reddit.com/r/wlu/comments/18zb9xq/gg102/",
+      "score": 2,
+      "created": "2024-01-05T16:44:40.000Z"
+    },
+    {
+      "title": "ES110(online) VS GG102(Online)",
+      "url": "https://www.reddit.com/r/wlu/comments/137ubt4/es110online_vs_gg102online/",
+      "score": 4,
+      "created": "2023-05-04T17:40:16.000Z"
+    },
+    {
+      "title": "GG102 Winter Term",
+      "url": "https://www.reddit.com/r/wlu/comments/zup82s/gg102_winter_term/",
+      "score": 3,
+      "created": "2022-12-25T03:04:52.000Z"
+    },
+    {
+      "title": "GG102 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/11b97qz/gg102_midterm/",
+      "score": 0,
+      "created": "2023-02-25T02:13:17.000Z"
+    },
+    {
+      "title": "AN100 vs GG102 vs ES110 Which is the easiest elective course ?",
+      "url": "https://www.reddit.com/r/wlu/comments/vugl4m/an100_vs_gg102_vs_es110_which_is_the_easiest/",
+      "score": 2,
+      "created": "2022-07-08T17:52:35.000Z"
+    },
+    {
+      "title": "GG102 vs CS101 in person",
+      "url": "https://www.reddit.com/r/wlu/comments/zaskyw/gg102_vs_cs101_in_person/",
+      "score": 0,
+      "created": "2022-12-02T17:51:51.000Z"
+    },
+    {
+      "title": "GG102 Textbook",
+      "url": "https://www.reddit.com/r/wlu/comments/vra28a/gg102_textbook/",
+      "score": 1,
+      "created": "2022-07-04T15:33:33.000Z"
+    },
+    {
+      "title": "Has anyone taken GG102 with terah sportel?",
+      "url": "https://www.reddit.com/r/wlu/comments/vgzmwx/has_anyone_taken_gg102_with_terah_sportel/",
+      "score": 1,
+      "created": "2022-06-21T00:01:30.000Z"
+    },
+    {
+      "title": "Bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1hi90ek/bird_courses/",
+      "score": 0,
+      "created": "2024-12-20T01:49:29.000Z"
+    },
+    {
+      "title": "To GG 102 online learning students",
+      "url": "https://www.reddit.com/r/wlu/comments/1igh52v/to_gg_102_online_learning_students/",
+      "score": 2,
+      "created": "2025-02-03T04:42:35.000Z"
+    },
+    {
+      "title": "Two Geography courses in one term",
+      "url": "https://www.reddit.com/r/wlu/comments/1dsiq0f/two_geography_courses_in_one_term/",
+      "score": 1,
+      "created": "2024-07-01T02:59:33.000Z"
+    },
+    {
+      "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
+      "url": "https://www.reddit.com/r/wlu/comments/18aqxdy/need_one_more_course_for_winter_whats_your/",
+      "score": 2,
+      "created": "2023-12-04T18:42:01.000Z"
+    },
+    {
+      "title": "BBA course choices",
+      "url": "https://www.reddit.com/r/wlu/comments/15n99ik/bba_course_choices/",
+      "score": 5,
+      "created": "2023-08-10T11:01:14.000Z"
+    },
+    {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 65,
+      "created": "2021-04-07T20:33:30.000Z"
+    },
+    {
+      "title": "First Year Electives (BBA)",
+      "url": "https://www.reddit.com/r/wlu/comments/1dmb1ax/first_year_electives_bba/",
+      "score": 0,
+      "created": "2024-06-23T01:37:01.000Z"
+    },
+    {
+      "title": "Question",
+      "url": "https://www.reddit.com/r/wlu/comments/1bsipkg/question/",
+      "score": 2,
+      "created": "2024-03-31T19:33:36.000Z"
+    },
+    {
+      "title": "Birds for winter",
+      "url": "https://www.reddit.com/r/wlu/comments/175yaps/birds_for_winter/",
+      "score": 1,
+      "created": "2023-10-12T04:30:39.000Z"
+    },
+    {
+      "title": "help me choose electives !!",
+      "url": "https://www.reddit.com/r/wlu/comments/148hwos/help_me_choose_electives/",
+      "score": 2,
+      "created": "2023-06-13T15:23:11.000Z"
+    },
+    {
+      "title": "Classes start",
+      "url": "https://www.reddit.com/r/wlu/comments/168gm07/classes_start/",
+      "score": 5,
+      "created": "2023-09-02T22:59:25.000Z"
+    },
+    {
+      "title": "Looking for the 100% easiest GPA boosting electives.",
+      "url": "https://www.reddit.com/r/wlu/comments/14p9969/looking_for_the_100_easiest_gpa_boosting_electives/",
+      "score": 2,
+      "created": "2023-07-03T04:52:14.000Z"
+    },
+    {
+      "title": "First Year BBA bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/14dfwh5/first_year_bba_bird_courses/",
+      "score": 4,
+      "created": "2023-06-19T14:17:20.000Z"
+    },
+    {
+      "title": "HELP - course selection",
+      "url": "https://www.reddit.com/r/wlu/comments/14vu0mp/help_course_selection/",
+      "score": 0,
+      "created": "2023-07-10T13:25:42.000Z"
+    },
+    {
+      "title": "Online Physical Geography or Human Geography",
+      "url": "https://www.reddit.com/r/wlu/comments/13c2qx0/online_physical_geography_or_human_geography/",
+      "score": 2,
+      "created": "2023-05-08T19:52:40.000Z"
+    },
+    {
+      "title": "Elective Advice",
+      "url": "https://www.reddit.com/r/wlu/comments/nwdccj/elective_advice/",
+      "score": 2,
+      "created": "2021-06-10T02:55:01.000Z"
+    },
+    {
+      "title": "OC first year bird course for winter",
+      "url": "https://www.reddit.com/r/wlu/comments/z1f6ix/oc_first_year_bird_course_for_winter/",
+      "score": 1,
+      "created": "2022-11-22T00:24:40.000Z"
+    }
+  ]
+}

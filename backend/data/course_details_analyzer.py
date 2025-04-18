@@ -486,6 +486,7 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
     analyzer = SentimentAnalyzer()
     
     all_course_details = []
+    successful_course_codes = []  # Track successfully analyzed courses
     
     for course_code in course_codes:
         print(f"Analyzing threads specifically for {course_code}...")
@@ -539,10 +540,15 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
             }
             
             all_course_details.append(streamlined_details)
+            successful_course_codes.append(course_code)  # Add to successful courses list
             
             # Save individual course details
             with open(os.path.join(output_dir, f"{course_code}.json"), 'w') as f:
                 json.dump(streamlined_details, f, indent=2)
+    
+    # Save index.json with all successful course codes
+    with open(os.path.join(output_dir, "index.json"), 'w') as f:
+        json.dump(sorted(successful_course_codes), f, indent=2)
     
     return all_course_details
 
