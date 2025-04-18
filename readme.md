@@ -46,6 +46,9 @@ pip install -r requirements.txt
 
 # Run the pipeline
 python pipeline.py
+
+# Run the pipeline with parameters
+python pipeline.py --time-period all --limit 300 --analyze-top-courses True --top-courses-count 50
 ```
 
 #### Pipeline Parameters
