@@ -4,6 +4,13 @@
   color-scheme: dark;
 }
 
+html, body {
+  background: #111827;
+  background-color: #111827;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background: #111827;
   background-color: rgb(17 24 39); /* bg-gray-900 */

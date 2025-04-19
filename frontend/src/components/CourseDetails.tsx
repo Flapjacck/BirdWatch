@@ -67,7 +67,7 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
       >
         <div className="flex-none p-6 border-b border-gray-700/50 bg-gray-900/50 relative overflow-hidden">
           <div className="flex justify-between items-start relative">
-            <div className="flex-1 max-w-[85%]">
+            <div className="flex-1 max-w-[75%]">
               <div className="flex items-center gap-4 mb-4">
                 <h2 className="text-3xl font-bold text-white group-hover:text-blue-400 transition-colors">
                   {course.code}
@@ -84,10 +84,10 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
               </div>
 
               {/* Calendar Information Section */}
-              <div className="mt-4 p-3 bg-blue-900/20 rounded-lg border border-blue-500/20 backdrop-blur-sm">
+              <div className="mt-2 p-2 md:mt-4 md:p-3 bg-blue-900/20 rounded-lg border border-blue-500/20 backdrop-blur-sm mr-4">
                 <div className="flex items-start gap-2">
                   <svg
-                    className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1"
+                    className="w-4 h-4 md:w-5 md:h-5 text-blue-400 flex-shrink-0 mt-1"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -99,11 +99,11 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
                       d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                     />
                   </svg>
-                  <div className="space-y-1.5">
-                    <h3 className="text-base font-medium text-blue-300">
+                  <div className="space-y-1">
+                    <h3 className="text-sm md:text-base font-medium text-blue-300">
                       Course Information
                     </h3>
-                    <p className="text-sm text-gray-300">
+                    <p className="text-xs md:text-sm text-gray-300">
                       For detailed information about this course, including
                       prerequisites, credit weight, and full course description,
                       please refer to the Academic Calendar.
@@ -112,8 +112,8 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
                       href={getCalendarSearchUrl(course.code)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-3 py-1.5 bg-blue-500/20 hover:bg-blue-500/30 
-                               text-blue-300 rounded-lg transition-colors duration-300 group mt-1 text-sm"
+                      className="inline-flex items-center gap-1 px-2 py-1 md:px-3 md:py-1.5 bg-blue-500/20 hover:bg-blue-500/30 
+                               text-blue-300 rounded-lg transition-colors duration-300 group mt-1 text-xs md:text-sm"
                     >
                       <span>
                         View {course.code} in Academic Calendar 2025/2026 (First
@@ -295,10 +295,10 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
 
           {/* Right side - Reddit Discussions */}
           <div className="md:col-span-2 overflow-hidden flex flex-col">
-            <div className="flex-none sticky top-0 z-10 bg-gray-800/95 backdrop-blur-sm rounded-lg m-4">
-              <h3 className="text-xl font-medium text-gray-100 flex items-center gap-2 p-4">
+            <div className="flex-none sticky top-0 z-10 bg-gray-800/95 backdrop-blur-sm rounded-lg mx-4 mt-2 mb-1">
+              <h3 className="text-base md:text-lg font-medium text-gray-100 flex items-center gap-2 p-2 md:p-3">
                 <svg
-                  className="w-5 h-5 text-blue-400"
+                  className="w-4 h-4 md:w-5 md:h-5 text-blue-400"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -311,7 +311,7 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
                   />
                 </svg>
                 Reddit Discussions
-                <span className="text-sm font-normal text-gray-400">
+                <span className="text-xs md:text-sm font-normal text-gray-400">
                   ({course.threads.length} threads)
                 </span>
               </h3>
