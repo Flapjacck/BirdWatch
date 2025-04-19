@@ -96,47 +96,47 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-gray-100">
-      <div className="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
-        <Header onSearch={handleSearch} />
-      </div>
-      <Hero />
+      <Header onSearch={handleSearch} />
+      <div className="pt-24">
+        <Hero />
 
-      <main
-        ref={mainRef}
-        id="courses-section"
-        className="container mx-auto px-4 py-16"
-      >
-        <div>
-          <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
-            Available Courses
-            <span className="text-lg font-normal text-gray-400">
-              ({filteredCourses.length})
-            </span>
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredCourses.map((course, index) => (
-              <div
-                key={course.code}
-                className="animate-fade-up"
-                style={{
-                  animationDelay: `${index * 100}ms`,
-                  animationFillMode: "forwards",
-                }}
-              >
-                <CourseCard
-                  code={course.code}
-                  department={course.department}
-                  birdScore={course.bird_score}
-                  mentions={course.specific_mentions}
-                  isOnline={course.is_online_available}
-                  difficulty={course.difficulty_level}
-                  onClick={() => setSelectedCourse(course)}
-                />
-              </div>
-            ))}
+        <main
+          ref={mainRef}
+          id="courses-section"
+          className="container mx-auto px-4 py-16"
+        >
+          <div>
+            <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
+              Available Courses
+              <span className="text-lg font-normal text-gray-400">
+                ({filteredCourses.length})
+              </span>
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredCourses.map((course, index) => (
+                <div
+                  key={course.code}
+                  className="animate-fade-up"
+                  style={{
+                    animationDelay: `${index * 100}ms`,
+                    animationFillMode: "forwards",
+                  }}
+                >
+                  <CourseCard
+                    code={course.code}
+                    department={course.department}
+                    birdScore={course.bird_score}
+                    mentions={course.specific_mentions}
+                    isOnline={course.is_online_available}
+                    difficulty={course.difficulty_level}
+                    onClick={() => setSelectedCourse(course)}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </div>
 
       <footer className="border-t border-gray-800 mt-auto py-8">
         <div className="container mx-auto px-4 text-center text-gray-400">
