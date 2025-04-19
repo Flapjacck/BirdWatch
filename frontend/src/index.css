@@ -2,6 +2,8 @@
 
 :root {
   color-scheme: dark;
+  background: #111827;
+  background-color: #111827;
 }
 
 html, body {
@@ -9,6 +11,12 @@ html, body {
   background-color: #111827;
   min-height: 100%;
   overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background: #111827;
+  background-color: #111827;
 }
 
 @keyframes gradient-shift {

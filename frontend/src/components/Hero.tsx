@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative min-h-[400px] h-[calc(100vh-theme('spacing.32'))] flex items-center justify-center overflow-hidden">
+    <div className="relative h-[calc(100vh-4rem)] min-h-[500px] md:min-h-[600px] flex items-center justify-center overflow-hidden pb-16">
       {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 animate-gradient-shift"></div>
 
@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mb-16">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
           BirdWatch
         </h1>
@@ -59,7 +59,7 @@ export const Hero: React.FC = () => {
 
       {/* Scroll indicator */}
       <div
-        className={`absolute bottom-12 left-1/2 transform -translate-x-1/2 transition-opacity duration-300 ${
+        className={`fixed bottom-6 left-1/2 transform -translate-x-1/2 transition-opacity duration-300 z-20 ${
           scrolled ? "opacity-0" : "opacity-100"
         }`}
       >
