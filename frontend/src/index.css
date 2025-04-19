@@ -11,12 +11,6 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
-  background: #111827;
-  background-color: rgb(17 24 39); /* bg-gray-900 */
-  overflow-x: hidden;
-}
-
 @keyframes gradient-shift {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
