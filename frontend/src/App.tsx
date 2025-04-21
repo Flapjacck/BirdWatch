@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { CourseCard } from "./components/CourseCard";
 import { CourseDetails } from "./components/CourseDetails";
+import { HowItWorks } from "./components/HowItWorks";
 
 interface Course {
   code: string;
@@ -33,6 +34,7 @@ function App() {
   const [courses, setCourses] = useState<Course[]>([]);
   const [filteredCourses, setFilteredCourses] = useState<Course[]>([]);
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
+  const [showHowItWorks, setShowHowItWorks] = useState(false);
   const [loading, setLoading] = useState(true);
   const mainRef = useRef<HTMLDivElement>(null);
 
@@ -96,7 +98,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-gray-100">
-      <Header onSearch={handleSearch} />
+      <Header
+        onSearch={handleSearch}
+        onHowItWorksClick={() => setShowHowItWorks(true)}
+      />
       <div className="pt-24">
         <Hero />
 
@@ -174,6 +179,10 @@ function App() {
           course={selectedCourse}
           onClose={() => setSelectedCourse(null)}
         />
+      )}
+
+      {showHowItWorks && (
+        <HowItWorks onClose={() => setShowHowItWorks(false)} />
       )}
     </div>
   );

@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
           BirdWatch
         </h1>
         <p className="text-xl md:text-2xl text-gray-200 mb-12 animate-fade-in-delay">
-          Discover and explore bird courses with real student insights
+          Tracking the chirps that boost your GPA
         </p>
         <button
           onClick={() => {
