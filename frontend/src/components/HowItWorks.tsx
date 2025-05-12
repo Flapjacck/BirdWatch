@@ -197,6 +197,10 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onClose }) => {
                   the most accurate assessment.
                 </p>
               </div>
+
+              <div className="text-center text-sm text-gray-400 mt-4">
+                Course Information Last Updated: April 21, 2025
+              </div>
             </div>
           </div>
         </div>
