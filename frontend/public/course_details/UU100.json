@@ -1,13 +1,13 @@
 {
   "code": "UU100",
   "department": "UU",
-  "bird_score": 9.49,
-  "specific_mentions": 26,
+  "bird_score": 7.63,
+  "specific_mentions": 29,
   "is_online_available": true,
   "difficulty_level": {
-    "easy_mentions": 14,
+    "easy_mentions": 6,
     "hard_mentions": 0,
-    "workload": 1
+    "workload": 2
   },
   "course_structure": {
     "has_finals": true,
@@ -31,14 +31,8 @@
     {
       "title": "Is UU100 a pass fail course?",
       "url": "https://www.reddit.com/r/wlu/comments/1g084p3/is_uu100_a_pass_fail_course/",
-      "score": 3,
+      "score": 4,
       "created": "2024-10-10T01:52:13.000Z"
-    },
-    {
-      "title": "Is uu100 a pass or fail",
-      "url": "https://www.reddit.com/r/wlu/comments/1dqb0nu/is_uu100_a_pass_or_fail/",
-      "score": 0,
-      "created": "2024-06-28T04:22:31.000Z"
     },
     {
       "title": "Thoughts on Em 202/ UU100?",
@@ -53,22 +47,64 @@
       "created": "2023-01-11T20:13:51.000Z"
     },
     {
+      "title": "Should I drop GG101 or GG102?",
+      "url": "https://www.reddit.com/r/wlu/comments/1okkhq0/should_i_drop_gg101_or_gg102/",
+      "score": 1,
+      "created": "2025-10-31T03:42:33.000Z"
+    },
+    {
+      "title": "Lisa Fiksenbaum",
+      "url": "https://www.reddit.com/r/wlu/comments/1nivf1d/lisa_fiksenbaum/",
+      "score": 3,
+      "created": "2025-09-16T22:09:44.000Z"
+    },
+    {
+      "title": "Elective",
+      "url": "https://www.reddit.com/r/wlu/comments/1nj1dnm/elective/",
+      "score": 1,
+      "created": "2025-09-17T02:37:35.000Z"
+    },
+    {
+      "title": "Taking electives online BBA",
+      "url": "https://www.reddit.com/r/wlu/comments/1lk8wvr/taking_electives_online_bba/",
+      "score": 1,
+      "created": "2025-06-25T15:36:13.000Z"
+    },
+    {
       "title": "Easiest 12 ",
       "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
-      "score": 19,
+      "score": 20,
       "created": "2024-12-17T22:57:19.000Z"
+    },
+    {
+      "title": "course recommendations",
+      "url": "https://www.reddit.com/r/wlu/comments/1kflw6s/course_recommendations/",
+      "score": 2,
+      "created": "2025-05-05T20:22:50.000Z"
+    },
+    {
+      "title": "How are my electives (first year)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lcacdl/how_are_my_electives_first_year/",
+      "score": 0,
+      "created": "2025-06-15T20:35:15.000Z"
+    },
+    {
+      "title": "what are good courses to take in first year?",
+      "url": "https://www.reddit.com/r/wlu/comments/1li61sa/what_are_good_courses_to_take_in_first_year/",
+      "score": 0,
+      "created": "2025-06-23T03:05:58.000Z"
+    },
+    {
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 12,
+      "created": "2024-09-10T16:03:00.000Z"
     },
     {
       "title": "Winter 2025 electives",
       "url": "https://www.reddit.com/r/wlu/comments/1hgue3i/winter_2025_electives/",
       "score": 0,
       "created": "2024-12-18T05:05:59.000Z"
-    },
-    {
-      "title": "BIRD COURSES",
-      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 10,
-      "created": "2024-09-10T16:03:00.000Z"
     },
     {
       "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
@@ -79,13 +115,13 @@
     {
       "title": "Looking for the 100% easiest GPA boosting electives.",
       "url": "https://www.reddit.com/r/wlu/comments/14p9969/looking_for_the_100_easiest_gpa_boosting_electives/",
-      "score": 2,
+      "score": 1,
       "created": "2023-07-03T04:52:14.000Z"
     },
     {
       "title": "spring courses a good idea?",
       "url": "https://www.reddit.com/r/wlu/comments/11sxmmi/spring_courses_a_good_idea/",
-      "score": 10,
+      "score": 9,
       "created": "2023-03-16T15:41:55.000Z"
     },
     {
@@ -95,15 +131,45 @@
       "created": "2023-06-20T05:36:09.000Z"
     },
     {
-      "title": "Easy courses",
-      "url": "https://www.reddit.com/r/wlu/comments/1k03c17/easy_courses/",
+      "title": "What are the easiest/best courses for me to take first year BBA?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l162s9/what_are_the_easiestbest_courses_for_me_to_take/",
+      "score": 6,
+      "created": "2025-06-02T01:52:47.000Z"
+    },
+    {
+      "title": "BBA FIRST YEAR COURSE RECOMMENDATIONS",
+      "url": "https://www.reddit.com/r/wlu/comments/1l2sctj/bba_first_year_course_recommendations/",
+      "score": 2,
+      "created": "2025-06-04T00:46:09.000Z"
+    },
+    {
+      "title": "What 4 electives should I take for first year bba",
+      "url": "https://www.reddit.com/r/wlu/comments/1lejm0z/what_4_electives_should_i_take_for_first_year_bba/",
+      "score": 6,
+      "created": "2025-06-18T15:11:20.000Z"
+    },
+    {
+      "title": "Professors",
+      "url": "https://www.reddit.com/r/wlu/comments/1mir2l1/professors/",
+      "score": 2,
+      "created": "2025-08-06T01:05:57.000Z"
+    },
+    {
+      "title": "Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1kvnysw/electives/",
+      "score": 3,
+      "created": "2025-05-26T06:57:22.000Z"
+    },
+    {
+      "title": "Incoming First Year BBA Student",
+      "url": "https://www.reddit.com/r/wlu/comments/1km19z0/incoming_first_year_bba_student/",
       "score": 0,
-      "created": "2025-04-15T21:16:05.000Z"
+      "created": "2025-05-13T23:54:41.000Z"
     },
     {
       "title": "BU Bird Electives",
       "url": "https://www.reddit.com/r/wlu/comments/1hhzw3i/bu_bird_electives/",
-      "score": 7,
+      "score": 5,
       "created": "2024-12-19T18:44:48.000Z"
     },
     {
@@ -123,54 +189,6 @@
       "url": "https://www.reddit.com/r/wlu/comments/1equpp6/no_exam_bird_courses/",
       "score": 0,
       "created": "2024-08-13T00:55:29.000Z"
-    },
-    {
-      "title": "What are good coures to take as first psych student at Laurier for BA? ",
-      "url": "https://www.reddit.com/r/wlu/comments/1dgt44r/what_are_good_coures_to_take_as_first_psych/",
-      "score": 3,
-      "created": "2024-06-15T22:19:20.000Z"
-    },
-    {
-      "title": "WILL I SURVIVE? \ud83d\ude42",
-      "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
-      "score": 3,
-      "created": "2023-07-21T02:49:30.000Z"
-    },
-    {
-      "title": "What first year courses are easy and don\u2019t include a lot of essays (if any)?",
-      "url": "https://www.reddit.com/r/wlu/comments/14c96gj/what_first_year_courses_are_easy_and_dont_include/",
-      "score": 3,
-      "created": "2023-06-18T02:53:33.000Z"
-    },
-    {
-      "title": "Bird Courses",
-      "url": "https://www.reddit.com/r/wlu/comments/18gpna4/bird_courses/",
-      "score": 0,
-      "created": "2023-12-12T16:20:01.000Z"
-    },
-    {
-      "title": "Help me with a bird course",
-      "url": "https://www.reddit.com/r/wlu/comments/18hvds0/help_me_with_a_bird_course/",
-      "score": 1,
-      "created": "2023-12-14T00:10:15.000Z"
-    },
-    {
-      "title": "Easy/interesting electives",
-      "url": "https://www.reddit.com/r/wlu/comments/14r8du8/easyinteresting_electives/",
-      "score": 3,
-      "created": "2023-07-05T11:47:55.000Z"
-    },
-    {
-      "title": "Laurier BBA GPA Course Booster",
-      "url": "https://www.reddit.com/r/wlu/comments/14gllrs/laurier_bba_gpa_course_booster/",
-      "score": 0,
-      "created": "2023-06-23T01:51:02.000Z"
-    },
-    {
-      "title": "Bird/Easy second year courses to complete in the summer",
-      "url": "https://www.reddit.com/r/wlu/comments/12fxkw0/birdeasy_second_year_courses_to_complete_in_the/",
-      "score": 3,
-      "created": "2023-04-08T20:33:20.000Z"
     }
   ]
 }

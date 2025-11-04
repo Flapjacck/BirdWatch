@@ -1,12 +1,12 @@
 {
   "code": "RE104",
   "department": "RE",
-  "bird_score": 5.3,
-  "specific_mentions": 33,
+  "bird_score": 6.65,
+  "specific_mentions": 32,
   "is_online_available": true,
   "difficulty_level": {
-    "easy_mentions": 15,
-    "hard_mentions": 5,
+    "easy_mentions": 13,
+    "hard_mentions": 4,
     "workload": 3
   },
   "course_structure": {
@@ -16,6 +16,12 @@
     "has_projects": false
   },
   "threads": [
+    {
+      "title": "RE104 online vs CP102 online",
+      "url": "https://www.reddit.com/r/wlu/comments/1omo0p8/re104_online_vs_cp102_online/",
+      "score": 1,
+      "created": "2025-11-02T17:55:35.000Z"
+    },
     {
       "title": "RE104 online?",
       "url": "https://www.reddit.com/r/wlu/comments/1dq1rlm/re104_online/",
@@ -29,16 +35,16 @@
       "created": "2022-12-22T05:51:28.000Z"
     },
     {
-      "title": "Selling required books for RE104",
-      "url": "https://www.reddit.com/r/wlu/comments/10en26y/selling_required_books_for_re104/",
-      "score": 0,
-      "created": "2023-01-17T20:48:16.000Z"
-    },
-    {
       "title": "Re104?",
       "url": "https://www.reddit.com/r/wlu/comments/vh4eew/re104/",
       "score": 1,
       "created": "2022-06-21T04:10:03.000Z"
+    },
+    {
+      "title": "Selling required books for RE104",
+      "url": "https://www.reddit.com/r/wlu/comments/10en26y/selling_required_books_for_re104/",
+      "score": 0,
+      "created": "2023-01-17T20:48:16.000Z"
     },
     {
       "title": "Deciding between re103 or re104 online",
@@ -67,7 +73,7 @@
     {
       "title": "how hard is re104",
       "url": "https://www.reddit.com/r/wlu/comments/ah8554/how_hard_is_re104/",
-      "score": 5,
+      "score": 6,
       "created": "2019-01-18T07:40:39.000Z"
     },
     {
@@ -75,6 +81,12 @@
       "url": "https://www.reddit.com/r/wlu/comments/8t4oal/re104_oc/",
       "score": 1,
       "created": "2018-06-22T20:46:02.000Z"
+    },
+    {
+      "title": "first year elective recs?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l6ue9i/first_year_elective_recs/",
+      "score": 3,
+      "created": "2025-06-09T03:07:56.000Z"
     },
     {
       "title": "Easiest 12 ",
@@ -89,16 +101,16 @@
       "created": "2024-12-16T02:23:39.000Z"
     },
     {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 73,
+      "created": "2021-04-07T20:33:30.000Z"
+    },
+    {
       "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
       "url": "https://www.reddit.com/r/wlu/comments/1dg6grm/im_going_in_to_first_year_bba_are_these_good_gpa/",
       "score": 0,
       "created": "2024-06-15T01:16:23.000Z"
-    },
-    {
-      "title": "Complete bird course list (1st year)",
-      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 67,
-      "created": "2021-04-07T20:33:30.000Z"
     },
     {
       "title": "which should I drop",
@@ -121,14 +133,8 @@
     {
       "title": "RE103 Online?",
       "url": "https://www.reddit.com/r/wlu/comments/hscvpa/re103_online/",
-      "score": 2,
+      "score": 4,
       "created": "2020-07-16T16:36:01.000Z"
-    },
-    {
-      "title": "Questions about specific courses...",
-      "url": "https://www.reddit.com/r/wlu/comments/gbnvp7/questions_about_specific_courses/",
-      "score": 0,
-      "created": "2020-05-01T18:48:21.000Z"
     },
     {
       "title": "How is this course load for a first year BBA student?",
@@ -145,7 +151,7 @@
     {
       "title": "easy summer courses",
       "url": "https://www.reddit.com/r/wlu/comments/fq8eck/easy_summer_courses/",
-      "score": 10,
+      "score": 9,
       "created": "2020-03-27T23:23:04.000Z"
     },
     {
@@ -157,13 +163,13 @@
     {
       "title": "bird courses",
       "url": "https://www.reddit.com/r/wlu/comments/1hiys2f/bird_courses/",
-      "score": 1,
+      "score": 4,
       "created": "2024-12-21T01:12:46.000Z"
     },
     {
       "title": "As of 2024, What are the best first year electives?",
       "url": "https://www.reddit.com/r/wlu/comments/1dhnn8g/as_of_2024_what_are_the_best_first_year_electives/",
-      "score": 0,
+      "score": 1,
       "created": "2024-06-17T02:28:21.000Z"
     },
     {
@@ -187,7 +193,7 @@
     {
       "title": "Help!",
       "url": "https://www.reddit.com/r/wlu/comments/15glwac/help/",
-      "score": 5,
+      "score": 4,
       "created": "2023-08-02T22:21:11.000Z"
     },
     {
@@ -199,20 +205,8 @@
     {
       "title": "Any OC recommendation?",
       "url": "https://www.reddit.com/r/wlu/comments/11ww0d5/any_oc_recommendation/",
-      "score": 4,
+      "score": 5,
       "created": "2023-03-20T21:09:44.000Z"
-    },
-    {
-      "title": "First Year Easy Electives with NO labs or tutorials",
-      "url": "https://www.reddit.com/r/wlu/comments/x9facx/first_year_easy_electives_with_no_labs_or/",
-      "score": 0,
-      "created": "2022-09-08T23:29:56.000Z"
-    },
-    {
-      "title": "electives for 2nd year",
-      "url": "https://www.reddit.com/r/wlu/comments/vqri1w/electives_for_2nd_year/",
-      "score": 2,
-      "created": "2022-07-03T21:26:06.000Z"
     }
   ]
 }

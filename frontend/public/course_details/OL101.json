@@ -1,8 +1,8 @@
 {
   "code": "OL101",
   "department": "OL",
-  "bird_score": 5.34,
-  "specific_mentions": 4,
+  "bird_score": 5.26,
+  "specific_mentions": 5,
   "is_online_available": false,
   "difficulty_level": {
     "easy_mentions": 1,
@@ -33,6 +33,12 @@
       "url": "https://www.reddit.com/r/wlu/comments/u1i31k/ol101/",
       "score": 0,
       "created": "2022-04-11T21:25:55.000Z"
+    },
+    {
+      "title": "First reddit post lol. Regarding Course Selection...",
+      "url": "https://www.reddit.com/r/wlu/comments/1lfhp9i/first_reddit_post_lol_regarding_course_selection/",
+      "score": 0,
+      "created": "2025-06-19T18:08:06.000Z"
     },
     {
       "title": "No exam first year classes",

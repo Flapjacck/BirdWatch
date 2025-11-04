@@ -1,8 +1,8 @@
 {
   "code": "HS200",
   "department": "HS",
-  "bird_score": 2.18,
-  "specific_mentions": 2,
+  "bird_score": 2.55,
+  "specific_mentions": 3,
   "is_online_available": false,
   "difficulty_level": {
     "easy_mentions": 0,
@@ -21,6 +21,12 @@
       "url": "https://www.reddit.com/r/wlu/comments/vtjtxg/has_anyone_taken_hs200social_determinants_of/",
       "score": 4,
       "created": "2022-07-07T14:21:50.000Z"
+    },
+    {
+      "title": "Has anyone taken courses at both Waterloo and Brantford campuses?",
+      "url": "https://www.reddit.com/r/wlu/comments/1mamb2d/has_anyone_taken_courses_at_both_waterloo_and/",
+      "score": 2,
+      "created": "2025-07-27T13:28:55.000Z"
     },
     {
       "title": "You don't get to see your actual quiz results?",

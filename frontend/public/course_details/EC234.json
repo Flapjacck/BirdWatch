@@ -1,0 +1,50 @@
+{
+  "code": "EC234",
+  "department": "EC",
+  "bird_score": 4.15,
+  "specific_mentions": 5,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 3,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Tutor Ec234 Sport Econ Ken Jackson",
+      "url": "https://www.reddit.com/r/wlu/comments/1npdi9b/tutor_ec234_sport_econ_ken_jackson/",
+      "score": 1,
+      "created": "2025-09-24T14:23:28.000Z"
+    },
+    {
+      "title": "is Sports Economics with Ken Jackson only available during the spring term? (EC234)",
+      "url": "https://www.reddit.com/r/wlu/comments/14psu8g/is_sports_economics_with_ken_jackson_only/",
+      "score": 7,
+      "created": "2023-07-03T19:48:50.000Z"
+    },
+    {
+      "title": "EC234",
+      "url": "https://www.reddit.com/r/wlu/comments/vrf0ne/ec234/",
+      "score": 4,
+      "created": "2022-07-04T19:17:13.000Z"
+    },
+    {
+      "title": "Second Year Econ Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvoqc1/second_year_econ_bird_courses/",
+      "score": 2,
+      "created": "2024-07-05T03:42:23.000Z"
+    },
+    {
+      "title": "Second year econ",
+      "url": "https://www.reddit.com/r/wlu/comments/vrj01c/second_year_econ/",
+      "score": 3,
+      "created": "2022-07-04T22:23:38.000Z"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "code": "AN110",
+  "department": "AN",
+  "bird_score": 5.6,
+  "specific_mentions": 14,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 2,
+    "hard_mentions": 2,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "AN110",
+      "url": "https://www.reddit.com/r/wlu/comments/1o86r4t/an110/",
+      "score": 5,
+      "created": "2025-10-16T13:53:07.000Z"
+    },
+    {
+      "title": "AN110 a bird course??",
+      "url": "https://www.reddit.com/r/wlu/comments/1mm3qee/an110_a_bird_course/",
+      "score": 0,
+      "created": "2025-08-09T23:41:48.000Z"
+    },
+    {
+      "title": "AN110",
+      "url": "https://www.reddit.com/r/wlu/comments/h8fv5n/an110/",
+      "score": 5,
+      "created": "2020-06-13T21:06:47.000Z"
+    },
+    {
+      "title": "AN110,CP102,AN110,RE103",
+      "url": "https://www.reddit.com/r/wlu/comments/hakjz4/an110cp102an110re103/",
+      "score": 2,
+      "created": "2020-06-17T05:05:06.000Z"
+    },
+    {
+      "title": "How is AN110 like?",
+      "url": "https://www.reddit.com/r/wlu/comments/guxfne/how_is_an110_like/",
+      "score": 3,
+      "created": "2020-06-02T01:10:18.000Z"
+    },
+    {
+      "title": "first yr bba txbks",
+      "url": "https://www.reddit.com/r/wlu/comments/in4j2s/first_yr_bba_txbks/",
+      "score": 1,
+      "created": "2020-09-05T16:55:28.000Z"
+    },
+    {
+      "title": "first yr txbks",
+      "url": "https://www.reddit.com/r/wlu/comments/iik15d/first_yr_txbks/",
+      "score": 1,
+      "created": "2020-08-29T01:44:33.000Z"
+    },
+    {
+      "title": "Buying textbooks (bba)",
+      "url": "https://www.reddit.com/r/wlu/comments/htacro/buying_textbooks_bba/",
+      "score": 1,
+      "created": "2020-07-18T04:06:21.000Z"
+    },
+    {
+      "title": "1st year Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/guq36p/1st_year_electives/",
+      "score": 4,
+      "created": "2020-06-01T18:34:26.000Z"
+    },
+    {
+      "title": "wat marks did u get/ should i expect to get in these courses",
+      "url": "https://www.reddit.com/r/wlu/comments/ipy2b6/wat_marks_did_u_get_should_i_expect_to_get_in/",
+      "score": 0,
+      "created": "2020-09-10T06:30:27.000Z"
+    },
+    {
+      "title": "First Year Econ/Fin Management Schedule",
+      "url": "https://www.reddit.com/r/wlu/comments/gz8e2p/first_year_econfin_management_schedule/",
+      "score": 1,
+      "created": "2020-06-08T21:17:17.000Z"
+    },
+    {
+      "title": "first yr schedule",
+      "url": "https://www.reddit.com/r/wlu/comments/halj9f/first_yr_schedule/",
+      "score": 0,
+      "created": "2020-06-17T06:10:57.000Z"
+    },
+    {
+      "title": "First Year Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/bo9njx/first_year_electives/",
+      "score": 2,
+      "created": "2019-05-13T21:38:03.000Z"
+    },
+    {
+      "title": "Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/18gpna4/bird_courses/",
+      "score": 0,
+      "created": "2023-12-12T16:20:01.000Z"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "code": "AR101",
   "department": "AR",
-  "bird_score": 9.38,
-  "specific_mentions": 6,
+  "bird_score": 8.41,
+  "specific_mentions": 8,
   "is_online_available": true,
   "difficulty_level": {
-    "easy_mentions": 4,
+    "easy_mentions": 5,
     "hard_mentions": 1,
     "workload": 1
   },
@@ -31,8 +31,20 @@
     {
       "title": "Ar101 or ar104 or ar105 all online? Which one is easier from your experience?",
       "url": "https://www.reddit.com/r/wlu/comments/14tkw3w/ar101_or_ar104_or_ar105_all_online_which_one_is/",
-      "score": 3,
+      "score": 4,
       "created": "2023-07-07T22:02:11.000Z"
+    },
+    {
+      "title": "What course is easier?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ndey13/what_course_is_easier/",
+      "score": 3,
+      "created": "2025-09-10T13:58:05.000Z"
+    },
+    {
+      "title": "Are these electives easy",
+      "url": "https://www.reddit.com/r/wlu/comments/1ll7728/are_these_electives_easy/",
+      "score": 1,
+      "created": "2025-06-26T18:07:52.000Z"
     },
     {
       "title": "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",

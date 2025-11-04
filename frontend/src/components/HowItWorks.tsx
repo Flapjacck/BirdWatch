@@ -199,7 +199,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onClose }) => {
               </div>
 
               <div className="text-center text-sm text-gray-400 mt-4">
-                Course Information Last Updated: April 21, 2025
+                Course Information Last Updated: November 3, 2025
               </div>
             </div>
           </div>

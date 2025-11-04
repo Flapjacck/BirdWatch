@@ -1,13 +1,13 @@
 {
   "code": "CC102",
   "department": "CC",
-  "bird_score": 8.62,
-  "specific_mentions": 39,
+  "bird_score": 9.36,
+  "specific_mentions": 41,
   "is_online_available": true,
   "difficulty_level": {
-    "easy_mentions": 12,
+    "easy_mentions": 15,
     "hard_mentions": 2,
-    "workload": 6
+    "workload": 7
   },
   "course_structure": {
     "has_finals": true,
@@ -17,10 +17,10 @@
   },
   "threads": [
     {
-      "title": "Cc102 article grades",
-      "url": "https://www.reddit.com/r/wlu/comments/1jt2o90/cc102_article_grades/",
-      "score": 2,
-      "created": "2025-04-06T19:45:42.000Z"
+      "title": "does anyone have the syllabus for CC102?",
+      "url": "https://www.reddit.com/r/wlu/comments/1nim9b5/does_anyone_have_the_syllabus_for_cc102/",
+      "score": 1,
+      "created": "2025-09-16T16:27:59.000Z"
     },
     {
       "title": "CC102 bird course or not",
@@ -31,14 +31,14 @@
     {
       "title": "CC102 or AS101? (both in person)",
       "url": "https://www.reddit.com/r/wlu/comments/zu13ce/cc102_or_as101_both_in_person/",
-      "score": 7,
+      "score": 6,
       "created": "2022-12-24T03:56:26.000Z"
     },
     {
-      "title": "CC102 Module 1 test",
-      "url": "https://www.reddit.com/r/wlu/comments/10pg4v9/cc102_module_1_test/",
-      "score": 3,
-      "created": "2023-01-30T22:27:48.000Z"
+      "title": "GG294, CC102 (OC), ES274, ES295, ES296, GG231, GG270",
+      "url": "https://www.reddit.com/r/wlu/comments/vwlba2/gg294_cc102_oc_es274_es295_es296_gg231_gg270/",
+      "score": 4,
+      "created": "2022-07-11T15:37:17.000Z"
     },
     {
       "title": "cc102- bird or nah?",
@@ -47,22 +47,16 @@
       "created": "2023-01-10T22:02:56.000Z"
     },
     {
-      "title": "GG294, CC102 (OC), ES274, ES295, ES296, GG231, GG270",
-      "url": "https://www.reddit.com/r/wlu/comments/vwlba2/gg294_cc102_oc_es274_es295_es296_gg231_gg270/",
-      "score": 3,
-      "created": "2022-07-11T15:37:17.000Z"
+      "title": "CC102 OC with Nikolai Kovalev",
+      "url": "https://www.reddit.com/r/wlu/comments/zrzshy/cc102_oc_with_nikolai_kovalev/",
+      "score": 2,
+      "created": "2022-12-21T20:25:22.000Z"
     },
     {
       "title": "Does anyone have a discord link for CC102?",
       "url": "https://www.reddit.com/r/wlu/comments/10pbhnv/does_anyone_have_a_discord_link_for_cc102/",
       "score": 1,
       "created": "2023-01-30T19:25:58.000Z"
-    },
-    {
-      "title": "CC102 OC with Nikolai Kovalev",
-      "url": "https://www.reddit.com/r/wlu/comments/zrzshy/cc102_oc_with_nikolai_kovalev/",
-      "score": 4,
-      "created": "2022-12-21T20:25:22.000Z"
     },
     {
       "title": "CC102 Winter 2023",
@@ -97,14 +91,8 @@
     {
       "title": "CC102 - Intro to Crim Justice system",
       "url": "https://www.reddit.com/r/wlu/comments/rul6ry/cc102_intro_to_crim_justice_system/",
-      "score": 2,
+      "score": 4,
       "created": "2022-01-02T22:25:00.000Z"
-    },
-    {
-      "title": "cc102 textbook",
-      "url": "https://www.reddit.com/r/wlu/comments/pcpv0x/cc102_textbook/",
-      "score": 0,
-      "created": "2021-08-27T15:42:53.000Z"
     },
     {
       "title": "Help picking elective (All OC): Es110 (Grafton), CC102(unknown teacher), No105(Heath) or Re103 (white)",
@@ -113,10 +101,10 @@
       "created": "2020-12-01T23:47:26.000Z"
     },
     {
-      "title": "UU101 w Manuel riemer be cc102 with terry Rowell",
-      "url": "https://www.reddit.com/r/wlu/comments/qlwxat/uu101_w_manuel_riemer_be_cc102_with_terry_rowell/",
+      "title": "cc102 textbook",
+      "url": "https://www.reddit.com/r/wlu/comments/pcpv0x/cc102_textbook/",
       "score": 0,
-      "created": "2021-11-03T15:29:00.000Z"
+      "created": "2021-08-27T15:42:53.000Z"
     },
     {
       "title": "CC102 - Introduction to the Criminal Justice System",
@@ -131,16 +119,16 @@
       "created": "2020-12-08T00:23:02.000Z"
     },
     {
-      "title": "CC102 (OC) or GG102",
-      "url": "https://www.reddit.com/r/wlu/comments/kvvm32/cc102_oc_or_gg102/",
-      "score": 3,
-      "created": "2021-01-12T17:01:57.000Z"
+      "title": "UU101 w Manuel riemer be cc102 with terry Rowell",
+      "url": "https://www.reddit.com/r/wlu/comments/qlwxat/uu101_w_manuel_riemer_be_cc102_with_terry_rowell/",
+      "score": 0,
+      "created": "2021-11-03T15:29:00.000Z"
     },
     {
-      "title": "PS102 or CC102?",
-      "url": "https://www.reddit.com/r/wlu/comments/l2701l/ps102_or_cc102/",
-      "score": 0,
-      "created": "2021-01-21T20:29:16.000Z"
+      "title": "CC102 (OC) or GG102",
+      "url": "https://www.reddit.com/r/wlu/comments/kvvm32/cc102_oc_or_gg102/",
+      "score": 2,
+      "created": "2021-01-12T17:01:57.000Z"
     },
     {
       "title": "CC102 with James Popham",
@@ -155,6 +143,12 @@
       "created": "2020-10-13T18:29:37.000Z"
     },
     {
+      "title": "PS102 or CC102?",
+      "url": "https://www.reddit.com/r/wlu/comments/l2701l/ps102_or_cc102/",
+      "score": 0,
+      "created": "2021-01-21T20:29:16.000Z"
+    },
+    {
       "title": "CC102",
       "url": "https://www.reddit.com/r/wlu/comments/el8nig/cc102/",
       "score": 2,
@@ -165,6 +159,30 @@
       "url": "https://www.reddit.com/r/wlu/comments/ebks17/anyone_that_has_taken_cc102online_ps102/",
       "score": 3,
       "created": "2019-12-16T20:37:13.000Z"
+    },
+    {
+      "title": "CC102 Online",
+      "url": "https://www.reddit.com/r/wlu/comments/ec25fa/cc102_online/",
+      "score": 4,
+      "created": "2019-12-17T21:17:22.000Z"
+    },
+    {
+      "title": "What\u2019s the better course?",
+      "url": "https://www.reddit.com/r/wlu/comments/1n7h2sp/whats_the_better_course/",
+      "score": 1,
+      "created": "2025-09-03T14:57:47.000Z"
+    },
+    {
+      "title": "Which course should I take?",
+      "url": "https://www.reddit.com/r/wlu/comments/1nikshj/which_course_should_i_take/",
+      "score": 0,
+      "created": "2025-09-16T15:33:15.000Z"
+    },
+    {
+      "title": "Easy Crim Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1ll8ng4/easy_crim_courses/",
+      "score": 2,
+      "created": "2025-06-26T19:05:12.000Z"
     },
     {
       "title": "criminology",
@@ -179,6 +197,18 @@
       "created": "2025-03-08T20:23:18.000Z"
     },
     {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 68,
+      "created": "2021-04-07T20:33:30.000Z"
+    },
+    {
+      "title": "WILL I SURVIVE? \ud83d\ude42",
+      "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
+      "score": 3,
+      "created": "2023-07-21T02:49:30.000Z"
+    },
+    {
       "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
       "url": "https://www.reddit.com/r/wlu/comments/1dg6grm/im_going_in_to_first_year_bba_are_these_good_gpa/",
       "score": 0,
@@ -191,28 +221,10 @@
       "created": "2024-06-24T15:16:37.000Z"
     },
     {
-      "title": "Complete bird course list (1st year)",
-      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 67,
-      "created": "2021-04-07T20:33:30.000Z"
-    },
-    {
-      "title": "WILL I SURVIVE? \ud83d\ude42",
-      "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
-      "score": 2,
-      "created": "2023-07-21T02:49:30.000Z"
-    },
-    {
       "title": "Electives for first year BBA",
       "url": "https://www.reddit.com/r/wlu/comments/vd1iua/electives_for_first_year_bba/",
       "score": 6,
       "created": "2022-06-15T18:42:00.000Z"
-    },
-    {
-      "title": "Transferring, need course Syllabus to show credit transfer",
-      "url": "https://www.reddit.com/r/wlu/comments/wqb30z/transferring_need_course_syllabus_to_show_credit/",
-      "score": 0,
-      "created": "2022-08-17T00:59:16.000Z"
     },
     {
       "title": "Are classes 10 minutes apart a bad idea?",
@@ -221,15 +233,15 @@
       "created": "2021-06-15T14:38:31.000Z"
     },
     {
-      "title": "PSA for First Years",
-      "url": "https://www.reddit.com/r/wlu/comments/hubvi3/psa_for_first_years/",
-      "score": 52,
-      "created": "2020-07-20T00:56:28.000Z"
+      "title": "Transferring, need course Syllabus to show credit transfer",
+      "url": "https://www.reddit.com/r/wlu/comments/wqb30z/transferring_need_course_syllabus_to_show_credit/",
+      "score": 0,
+      "created": "2022-08-17T00:59:16.000Z"
     },
     {
       "title": "first yr electives",
       "url": "https://www.reddit.com/r/wlu/comments/nmqt5d/first_yr_electives/",
-      "score": 3,
+      "score": 2,
       "created": "2021-05-28T05:38:00.000Z"
     },
     {

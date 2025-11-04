@@ -1,8 +1,8 @@
 {
   "code": "UU101",
   "department": "UU",
-  "bird_score": 8.51,
-  "specific_mentions": 27,
+  "bird_score": 8.97,
+  "specific_mentions": 28,
   "is_online_available": true,
   "difficulty_level": {
     "easy_mentions": 6,
@@ -41,16 +41,16 @@
       "created": "2022-06-20T16:09:23.000Z"
     },
     {
-      "title": "UU101",
-      "url": "https://www.reddit.com/r/wlu/comments/rpa1mr/uu101/",
-      "score": 0,
-      "created": "2021-12-27T00:32:06.000Z"
-    },
-    {
       "title": "UU101, NO105 &amp; AN100",
       "url": "https://www.reddit.com/r/wlu/comments/h7r6n8/uu101_no105_an100/",
       "score": 2,
       "created": "2020-06-12T19:18:59.000Z"
+    },
+    {
+      "title": "UU101",
+      "url": "https://www.reddit.com/r/wlu/comments/rpa1mr/uu101/",
+      "score": 0,
+      "created": "2021-12-27T00:32:06.000Z"
     },
     {
       "title": "UU101 w Manuel riemer be cc102 with terry Rowell",
@@ -77,22 +77,28 @@
       "created": "2021-01-13T16:46:34.000Z"
     },
     {
-      "title": "UU101",
-      "url": "https://www.reddit.com/r/wlu/comments/kslror/uu101/",
-      "score": 5,
-      "created": "2021-01-07T20:20:18.000Z"
-    },
-    {
       "title": "UU101 Winter 2021",
       "url": "https://www.reddit.com/r/wlu/comments/jpdtzt/uu101_winter_2021/",
-      "score": 3,
+      "score": 2,
       "created": "2020-11-06T21:26:40.000Z"
+    },
+    {
+      "title": "UU101",
+      "url": "https://www.reddit.com/r/wlu/comments/kslror/uu101/",
+      "score": 4,
+      "created": "2021-01-07T20:20:18.000Z"
     },
     {
       "title": "UU101?",
       "url": "https://www.reddit.com/r/wlu/comments/dz7ux7/uu101/",
       "score": 1,
       "created": "2019-11-20T20:32:50.000Z"
+    },
+    {
+      "title": "Bird courses I took during my program",
+      "url": "https://www.reddit.com/r/wlu/comments/1lsiqrw/bird_courses_i_took_during_my_program/",
+      "score": 16,
+      "created": "2025-07-05T20:04:11.000Z"
     },
     {
       "title": "Interesting/easy first and second year courses for BBA Winter Term?",
@@ -103,26 +109,26 @@
     {
       "title": "Complete bird course list (1st year)",
       "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 65,
+      "score": 69,
       "created": "2021-04-07T20:33:30.000Z"
     },
     {
       "title": "My thoughts on Laurier Econ after two years, from a former BBA transfer hopeful",
       "url": "https://www.reddit.com/r/wlu/comments/bmidrr/my_thoughts_on_laurier_econ_after_two_years_from/",
-      "score": 34,
+      "score": 33,
       "created": "2019-05-09T11:03:39.000Z"
     },
     {
       "title": "raising gpa second sem in bba",
       "url": "https://www.reddit.com/r/wlu/comments/rvjed2/raising_gpa_second_sem_in_bba/",
-      "score": 4,
+      "score": 3,
       "created": "2022-01-04T02:40:15.000Z"
     },
     {
-      "title": "OL200 as an elective? Any winter elective?",
-      "url": "https://www.reddit.com/r/wlu/comments/z1fg6q/ol200_as_an_elective_any_winter_elective/",
-      "score": 0,
-      "created": "2022-11-22T00:37:03.000Z"
+      "title": "First year Electives Help",
+      "url": "https://www.reddit.com/r/wlu/comments/ha6sob/first_year_electives_help/",
+      "score": 4,
+      "created": "2020-06-16T16:02:05.000Z"
     },
     {
       "title": "Need Help Choosing Electives",
@@ -137,10 +143,10 @@
       "created": "2021-11-08T20:14:35.000Z"
     },
     {
-      "title": "First year Electives Help",
-      "url": "https://www.reddit.com/r/wlu/comments/ha6sob/first_year_electives_help/",
-      "score": 5,
-      "created": "2020-06-16T16:02:05.000Z"
+      "title": "OL200 as an elective? Any winter elective?",
+      "url": "https://www.reddit.com/r/wlu/comments/z1fg6q/ol200_as_an_elective_any_winter_elective/",
+      "score": 0,
+      "created": "2022-11-22T00:37:03.000Z"
     },
     {
       "title": "first year bird courses?",
@@ -149,16 +155,16 @@
       "created": "2021-06-03T03:50:04.000Z"
     },
     {
-      "title": "Is gg102OC with Marinel Mandres an easy 12?",
-      "url": "https://www.reddit.com/r/wlu/comments/rxt3uw/is_gg102oc_with_marinel_mandres_an_easy_12/",
-      "score": 0,
-      "created": "2022-01-07T00:09:07.000Z"
-    },
-    {
       "title": "Help picking elective (All OC): Es110 (Grafton), CC102(unknown teacher), No105(Heath) or Re103 (white)",
       "url": "https://www.reddit.com/r/wlu/comments/k4xaa3/help_picking_elective_all_oc_es110_grafton/",
       "score": 0,
       "created": "2020-12-01T23:47:26.000Z"
+    },
+    {
+      "title": "Is gg102OC with Marinel Mandres an easy 12?",
+      "url": "https://www.reddit.com/r/wlu/comments/rxt3uw/is_gg102oc_with_marinel_mandres_an_easy_12/",
+      "score": 0,
+      "created": "2022-01-07T00:09:07.000Z"
     },
     {
       "title": "bird courses",

@@ -1,13 +1,13 @@
 {
   "code": "EM203",
   "department": "EM",
-  "bird_score": 8.63,
+  "bird_score": 9.3,
   "specific_mentions": 45,
   "is_online_available": true,
   "difficulty_level": {
-    "easy_mentions": 21,
-    "hard_mentions": 7,
-    "workload": 4
+    "easy_mentions": 20,
+    "hard_mentions": 4,
+    "workload": 5
   },
   "course_structure": {
     "has_finals": true,
@@ -19,8 +19,26 @@
     {
       "title": "em203 spread the news ",
       "url": "https://www.reddit.com/r/wlu/comments/1h97qow/em203_spread_the_news/",
-      "score": 6,
+      "score": 5,
       "created": "2024-12-08T01:34:44.000Z"
+    },
+    {
+      "title": "EM203",
+      "url": "https://www.reddit.com/r/wlu/comments/1lt9g25/em203/",
+      "score": 4,
+      "created": "2025-07-06T19:15:45.000Z"
+    },
+    {
+      "title": "em203 oc",
+      "url": "https://www.reddit.com/r/wlu/comments/1ktq4lg/em203_oc/",
+      "score": 1,
+      "created": "2025-05-23T17:58:40.000Z"
+    },
+    {
+      "title": "EM203 OC",
+      "url": "https://www.reddit.com/r/wlu/comments/1ko5dgc/em203_oc/",
+      "score": 1,
+      "created": "2025-05-16T16:36:21.000Z"
     },
     {
       "title": "Em203",
@@ -29,34 +47,34 @@
       "created": "2024-11-23T23:07:10.000Z"
     },
     {
-      "title": "Em203 OC1",
-      "url": "https://www.reddit.com/r/wlu/comments/1gfrmek/em203_oc1/",
-      "score": 2,
-      "created": "2024-10-30T17:07:14.000Z"
-    },
-    {
       "title": "Is EM203 not available to everyone anymore?",
       "url": "https://www.reddit.com/r/wlu/comments/1dzyc5d/is_em203_not_available_to_everyone_anymore/",
       "score": 3,
       "created": "2024-07-10T15:17:15.000Z"
     },
     {
-      "title": "EM203 AND EM 202 Not Available",
-      "url": "https://www.reddit.com/r/wlu/comments/1dvhnn6/em203_and_em_202_not_available/",
-      "score": 6,
-      "created": "2024-07-04T21:20:25.000Z"
+      "title": "Em203 OC1",
+      "url": "https://www.reddit.com/r/wlu/comments/1gfrmek/em203_oc1/",
+      "score": 2,
+      "created": "2024-10-30T17:07:14.000Z"
     },
     {
-      "title": "BBA incoming first year taking EM203",
-      "url": "https://www.reddit.com/r/wlu/comments/1dp1969/bba_incoming_first_year_taking_em203/",
-      "score": 0,
-      "created": "2024-06-26T15:23:09.000Z"
+      "title": "EM203 AND EM 202 Not Available",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvhnn6/em203_and_em_202_not_available/",
+      "score": 5,
+      "created": "2024-07-04T21:20:25.000Z"
     },
     {
       "title": "How easy is EM203 for spring",
       "url": "https://www.reddit.com/r/wlu/comments/1bok59o/how_easy_is_em203_for_spring/",
       "score": 3,
       "created": "2024-03-26T21:46:31.000Z"
+    },
+    {
+      "title": "BBA incoming first year taking EM203",
+      "url": "https://www.reddit.com/r/wlu/comments/1dp1969/bba_incoming_first_year_taking_em203/",
+      "score": 0,
+      "created": "2024-06-26T15:23:09.000Z"
     },
     {
       "title": "EM203 Discord",
@@ -101,28 +119,28 @@
       "created": "2021-09-17T15:10:50.000Z"
     },
     {
-      "title": "EM203 Spread The News",
-      "url": "https://www.reddit.com/r/wlu/comments/sqg2ne/em203_spread_the_news/",
-      "score": 0,
-      "created": "2022-02-12T02:04:25.000Z"
-    },
-    {
       "title": "EM203 final assignment",
       "url": "https://www.reddit.com/r/wlu/comments/r2dpn2/em203_final_assignment/",
       "score": 4,
       "created": "2021-11-26T03:26:49.000Z"
     },
     {
-      "title": "if youve taken em203 and got a 90+ on the how do u learn assignment, pm me",
-      "url": "https://www.reddit.com/r/wlu/comments/nz3lle/if_youve_taken_em203_and_got_a_90_on_the_how_do_u/",
-      "score": 4,
-      "created": "2021-06-13T19:15:27.000Z"
+      "title": "EM203 Spread The News",
+      "url": "https://www.reddit.com/r/wlu/comments/sqg2ne/em203_spread_the_news/",
+      "score": 0,
+      "created": "2022-02-12T02:04:25.000Z"
     },
     {
       "title": "EM203 Spread The News Assignment",
       "url": "https://www.reddit.com/r/wlu/comments/kd26cy/em203_spread_the_news_assignment/",
       "score": 0,
       "created": "2020-12-14T17:34:52.000Z"
+    },
+    {
+      "title": "if youve taken em203 and got a 90+ on the how do u learn assignment, pm me",
+      "url": "https://www.reddit.com/r/wlu/comments/nz3lle/if_youve_taken_em203_and_got_a_90_on_the_how_do_u/",
+      "score": 4,
+      "created": "2021-06-13T19:15:27.000Z"
     },
     {
       "title": "EM203 with Clarke Kathleen",
@@ -139,7 +157,7 @@
     {
       "title": "EM203 Final Assignment",
       "url": "https://www.reddit.com/r/wlu/comments/cm4z08/em203_final_assignment/",
-      "score": 3,
+      "score": 4,
       "created": "2019-08-05T02:14:29.000Z"
     },
     {
@@ -149,28 +167,46 @@
       "created": "2019-01-02T04:34:11.000Z"
     },
     {
-      "title": "SE200 vs. EM203 vs. WS203",
-      "url": "https://www.reddit.com/r/wlu/comments/aeni75/se200_vs_em203_vs_ws203/",
-      "score": 2,
-      "created": "2019-01-10T21:07:52.000Z"
-    },
-    {
-      "title": "KS205 and EM203",
-      "url": "https://www.reddit.com/r/wlu/comments/c3gzrz/ks205_and_em203/",
+      "title": "recommend some electives to me!! what did you enjoy?",
+      "url": "https://www.reddit.com/r/wlu/comments/1lza9rs/recommend_some_electives_to_me_what_did_you_enjoy/",
       "score": 1,
-      "created": "2019-06-21T21:49:37.000Z"
+      "created": "2025-07-14T01:59:19.000Z"
     },
     {
-      "title": "EM203 or EC238",
-      "url": "https://www.reddit.com/r/wlu/comments/adayc6/em203_or_ec238/",
+      "title": "When can I register for courses held for minors/majors",
+      "url": "https://www.reddit.com/r/wlu/comments/1lzzcaa/when_can_i_register_for_courses_held_for/",
+      "score": 5,
+      "created": "2025-07-14T21:36:10.000Z"
+    },
+    {
+      "title": "Course registration",
+      "url": "https://www.reddit.com/r/wlu/comments/1lepi32/course_registration/",
+      "score": 0,
+      "created": "2025-06-18T19:01:14.000Z"
+    },
+    {
+      "title": "OC classes spring 2025",
+      "url": "https://www.reddit.com/r/wlu/comments/1kfur1n/oc_classes_spring_2025/",
       "score": 3,
-      "created": "2019-01-06T22:53:12.000Z"
+      "created": "2025-05-06T03:17:00.000Z"
     },
     {
       "title": "Easiest 12 ",
       "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
-      "score": 18,
+      "score": 19,
       "created": "2024-12-17T22:57:19.000Z"
+    },
+    {
+      "title": "easy senior bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1lq4wsd/easy_senior_bird_courses/",
+      "score": 0,
+      "created": "2025-07-02T19:26:32.000Z"
+    },
+    {
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 12,
+      "created": "2024-09-10T16:03:00.000Z"
     },
     {
       "title": "Winter 2025 electives",
@@ -185,16 +221,10 @@
       "created": "2024-12-16T02:23:39.000Z"
     },
     {
-      "title": "BIRD COURSES",
-      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 9,
-      "created": "2024-09-10T16:03:00.000Z"
-    },
-    {
-      "title": "Course Drop Penalty",
-      "url": "https://www.reddit.com/r/wlu/comments/1g5dd6j/course_drop_penalty/",
-      "score": 6,
-      "created": "2024-10-16T23:37:45.000Z"
+      "title": "Easy 1st or 2nd year courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dp7vw5/easy_1st_or_2nd_year_courses/",
+      "score": 0,
+      "created": "2024-06-26T19:55:26.000Z"
     },
     {
       "title": "Senior Elective Choices -  EM299 and EM300 ?",
@@ -203,16 +233,16 @@
       "created": "2024-07-17T18:22:12.000Z"
     },
     {
-      "title": "Easy 1st or 2nd year courses",
-      "url": "https://www.reddit.com/r/wlu/comments/1dp7vw5/easy_1st_or_2nd_year_courses/",
-      "score": 0,
-      "created": "2024-06-26T19:55:26.000Z"
-    },
-    {
       "title": "Elective restriction confusion",
       "url": "https://www.reddit.com/r/wlu/comments/1dnel91/elective_restriction_confusion/",
       "score": 0,
       "created": "2024-06-24T14:18:15.000Z"
+    },
+    {
+      "title": "Course Drop Penalty",
+      "url": "https://www.reddit.com/r/wlu/comments/1g5dd6j/course_drop_penalty/",
+      "score": 5,
+      "created": "2024-10-16T23:37:45.000Z"
     },
     {
       "title": "PP201 OR CC205 ? As an elective",
@@ -223,7 +253,7 @@
     {
       "title": "My Bird Course List",
       "url": "https://www.reddit.com/r/wlu/comments/1b0zpn1/my_bird_course_list/",
-      "score": 21,
+      "score": 24,
       "created": "2024-02-27T01:53:43.000Z"
     },
     {
@@ -231,6 +261,12 @@
       "url": "https://www.reddit.com/r/wlu/comments/15h4jqs/i_messed_up/",
       "score": 8,
       "created": "2023-08-03T13:39:26.000Z"
+    },
+    {
+      "title": "online courses",
+      "url": "https://www.reddit.com/r/wlu/comments/12v8xtr/online_courses/",
+      "score": 1,
+      "created": "2023-04-22T15:14:41.000Z"
     },
     {
       "title": "Teaching Minor",
@@ -245,46 +281,10 @@
       "created": "2023-06-20T05:36:09.000Z"
     },
     {
-      "title": "online courses",
-      "url": "https://www.reddit.com/r/wlu/comments/12v8xtr/online_courses/",
-      "score": 1,
-      "created": "2023-04-22T15:14:41.000Z"
-    },
-    {
       "title": "OC electives with no midterms/finals",
       "url": "https://www.reddit.com/r/wlu/comments/xt4evi/oc_electives_with_no_midtermsfinals/",
       "score": 3,
       "created": "2022-10-01T19:48:12.000Z"
-    },
-    {
-      "title": "In person 2nd year electives",
-      "url": "https://www.reddit.com/r/wlu/comments/vs80re/in_person_2nd_year_electives/",
-      "score": 1,
-      "created": "2022-07-05T20:57:31.000Z"
-    },
-    {
-      "title": "3A Syllabus",
-      "url": "https://www.reddit.com/r/wlu/comments/wyph89/3a_syllabus/",
-      "score": 1,
-      "created": "2022-08-27T01:03:18.000Z"
-    },
-    {
-      "title": "Courses",
-      "url": "https://www.reddit.com/r/wlu/comments/rn3fjn/courses/",
-      "score": 2,
-      "created": "2021-12-23T19:35:15.000Z"
-    },
-    {
-      "title": "EM202",
-      "url": "https://www.reddit.com/r/wlu/comments/ujtrmq/em202/",
-      "score": 0,
-      "created": "2022-05-06T18:20:44.000Z"
-    },
-    {
-      "title": "Easy 200 (or higher) elective reccomendations?",
-      "url": "https://www.reddit.com/r/wlu/comments/vreu1e/easy_200_or_higher_elective_reccomendations/",
-      "score": 0,
-      "created": "2022-07-04T19:08:53.000Z"
     }
   ]
 }

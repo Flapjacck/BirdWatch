@@ -1,16 +1,16 @@
 {
   "code": "EM110",
   "department": "EM",
-  "bird_score": 7.82,
-  "specific_mentions": 4,
+  "bird_score": 8.77,
+  "specific_mentions": 6,
   "is_online_available": true,
   "difficulty_level": {
-    "easy_mentions": 2,
+    "easy_mentions": 3,
     "hard_mentions": 0,
     "workload": 2
   },
   "course_structure": {
-    "has_finals": false,
+    "has_finals": true,
     "has_midterms": false,
     "has_assignments": false,
     "has_projects": false
@@ -35,10 +35,22 @@
       "created": "2023-07-15T03:28:11.000Z"
     },
     {
+      "title": "Elective",
+      "url": "https://www.reddit.com/r/wlu/comments/1nj1dnm/elective/",
+      "score": 1,
+      "created": "2025-09-17T02:37:35.000Z"
+    },
+    {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 10,
+      "score": 12,
       "created": "2024-09-10T16:03:00.000Z"
+    },
+    {
+      "title": "Classes without final exams",
+      "url": "https://www.reddit.com/r/wlu/comments/1naemrs/classes_without_final_exams/",
+      "score": 8,
+      "created": "2025-09-06T23:55:46.000Z"
     }
   ]
 }

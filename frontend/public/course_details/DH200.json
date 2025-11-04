@@ -1,8 +1,8 @@
 {
   "code": "DH200",
   "department": "DH",
-  "bird_score": 5.99,
-  "specific_mentions": 4,
+  "bird_score": 6.42,
+  "specific_mentions": 5,
   "is_online_available": true,
   "difficulty_level": {
     "easy_mentions": 4,
@@ -37,8 +37,14 @@
     {
       "title": "My Bird Course List",
       "url": "https://www.reddit.com/r/wlu/comments/1b0zpn1/my_bird_course_list/",
-      "score": 20,
+      "score": 24,
       "created": "2024-02-27T01:53:43.000Z"
+    },
+    {
+      "title": "What bird courses should I take",
+      "url": "https://www.reddit.com/r/wlu/comments/1kt3eet/what_bird_courses_should_i_take/",
+      "score": 0,
+      "created": "2025-05-22T22:06:05.000Z"
     }
   ]
 }

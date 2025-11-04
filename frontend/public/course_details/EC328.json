@@ -1,0 +1,38 @@
+{
+  "code": "EC328",
+  "department": "EC",
+  "bird_score": 5.18,
+  "specific_mentions": 3,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 3,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": true,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "EC328 with Muthoni Nganga wlu",
+      "url": "https://www.reddit.com/r/wlu/comments/slm8cq/ec328_with_muthoni_nganga_wlu/",
+      "score": 1,
+      "created": "2022-02-06T01:17:19.000Z"
+    },
+    {
+      "title": "Second Year Econ Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvoqc1/second_year_econ_bird_courses/",
+      "score": 2,
+      "created": "2024-07-05T03:42:23.000Z"
+    },
+    {
+      "title": "Guys pls help with easy Economics ec300/400 level courses",
+      "url": "https://www.reddit.com/r/wlu/comments/vphc6d/guys_pls_help_with_easy_economics_ec300400_level/",
+      "score": 1,
+      "created": "2022-07-02T02:24:58.000Z"
+    }
+  ]
+}

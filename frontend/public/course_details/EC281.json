@@ -1,0 +1,134 @@
+{
+  "code": "EC281",
+  "department": "EC",
+  "bird_score": 0.0,
+  "specific_mentions": 19,
+  "is_online_available": true,
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 13,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": true
+  },
+  "threads": [
+    {
+      "title": "Ec281 assignment marking",
+      "url": "https://www.reddit.com/r/wlu/comments/1ol39dq/ec281_assignment_marking/",
+      "score": 1,
+      "created": "2025-10-31T19:02:42.000Z"
+    },
+    {
+      "title": "EC281 in the spring",
+      "url": "https://www.reddit.com/r/wlu/comments/1k1ylvi/ec281_in_the_spring/",
+      "score": 0,
+      "created": "2025-04-18T06:50:13.000Z"
+    },
+    {
+      "title": "Can I sneak into unregistered EC281 lectures?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dwcitg/can_i_sneak_into_unregistered_ec281_lectures/",
+      "score": 1,
+      "created": "2024-07-06T00:09:18.000Z"
+    },
+    {
+      "title": "Has anyone taken ma235, cp212, en206, hi275 or ec281?",
+      "url": "https://www.reddit.com/r/wlu/comments/c23gw3/has_anyone_taken_ma235_cp212_en206_hi275_or_ec281/",
+      "score": 2,
+      "created": "2019-06-18T15:15:55.000Z"
+    },
+    {
+      "title": "Winter Courses Advice",
+      "url": "https://www.reddit.com/r/wlu/comments/1lqqmqo/winter_courses_advice/",
+      "score": 0,
+      "created": "2025-07-03T14:12:54.000Z"
+    },
+    {
+      "title": "Waitlist",
+      "url": "https://www.reddit.com/r/wlu/comments/1hlk1g2/waitlist/",
+      "score": 2,
+      "created": "2024-12-24T18:56:08.000Z"
+    },
+    {
+      "title": "Second Year Econ Course Difficulty ",
+      "url": "https://www.reddit.com/r/wlu/comments/1d94mlm/second_year_econ_course_difficulty/",
+      "score": 1,
+      "created": "2024-06-05T23:53:47.000Z"
+    },
+    {
+      "title": "Second Year Econ Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvoqc1/second_year_econ_bird_courses/",
+      "score": 2,
+      "created": "2024-07-05T03:42:23.000Z"
+    },
+    {
+      "title": "Economics program ADVICE",
+      "url": "https://www.reddit.com/r/wlu/comments/15zig2b/economics_program_advice/",
+      "score": 2,
+      "created": "2023-08-23T22:09:33.000Z"
+    },
+    {
+      "title": "Deciding between BU357 and BU387 for next semester as a 2nd year",
+      "url": "https://www.reddit.com/r/wlu/comments/17rshog/deciding_between_bu357_and_bu387_for_next/",
+      "score": 3,
+      "created": "2023-11-10T01:16:16.000Z"
+    },
+    {
+      "title": "Need advice from a former second year Econ student",
+      "url": "https://www.reddit.com/r/wlu/comments/15tqyzp/need_advice_from_a_former_second_year_econ_student/",
+      "score": 2,
+      "created": "2023-08-17T15:35:26.000Z"
+    },
+    {
+      "title": "Questions about second year Econ",
+      "url": "https://www.reddit.com/r/wlu/comments/15zrvrh/questions_about_second_year_econ/",
+      "score": 1,
+      "created": "2023-08-24T04:54:24.000Z"
+    },
+    {
+      "title": "Second Year Econ with Finance Courses Review?",
+      "url": "https://www.reddit.com/r/wlu/comments/130b7eb/second_year_econ_with_finance_courses_review/",
+      "score": 1,
+      "created": "2023-04-27T05:41:17.000Z"
+    },
+    {
+      "title": "Is the management option worth it?",
+      "url": "https://www.reddit.com/r/wlu/comments/10qcwpv/is_the_management_option_worth_it/",
+      "score": 4,
+      "created": "2023-01-31T22:43:03.000Z"
+    },
+    {
+      "title": "Thoughts on classes",
+      "url": "https://www.reddit.com/r/wlu/comments/humdn0/thoughts_on_classes/",
+      "score": 6,
+      "created": "2020-07-20T14:38:36.000Z"
+    },
+    {
+      "title": "Second Year Econ (+BU) Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/c0bb1s/second_year_econ_bu_courses/",
+      "score": 6,
+      "created": "2019-06-13T20:57:58.000Z"
+    },
+    {
+      "title": "Advice for second year economics and accounting student?",
+      "url": "https://www.reddit.com/r/wlu/comments/1n0r7qx/advice_for_second_year_economics_and_accounting/",
+      "score": 0,
+      "created": "2025-08-26T16:53:41.000Z"
+    },
+    {
+      "title": "Second Year Econ",
+      "url": "https://www.reddit.com/r/wlu/comments/1lu02ev/second_year_econ/",
+      "score": 3,
+      "created": "2025-07-07T17:18:27.000Z"
+    },
+    {
+      "title": "2nd Year Econ Presentations",
+      "url": "https://www.reddit.com/r/wlu/comments/btacoa/2nd_year_econ_presentations/",
+      "score": 3,
+      "created": "2019-05-26T17:06:57.000Z"
+    }
+  ]
+}

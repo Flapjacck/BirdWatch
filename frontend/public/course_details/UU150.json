@@ -6,33 +6,27 @@
   "is_online_available": true,
   "difficulty_level": {
     "easy_mentions": 10,
-    "hard_mentions": 5,
+    "hard_mentions": 7,
     "workload": 3
   },
   "course_structure": {
     "has_finals": true,
     "has_midterms": true,
     "has_assignments": true,
-    "has_projects": true
+    "has_projects": false
   },
   "threads": [
     {
-      "title": "UU150 Update",
-      "url": "https://www.reddit.com/r/wlu/comments/1jzeyg5/uu150_update/",
-      "score": 2,
-      "created": "2025-04-15T00:50:01.000Z"
+      "title": "UU150 vs HS 101",
+      "url": "https://www.reddit.com/r/wlu/comments/1lqv12a/uu150_vs_hs_101/",
+      "score": 1,
+      "created": "2025-07-03T17:09:23.000Z"
     },
     {
       "title": "Has anyone missed a quiz in UU150?",
       "url": "https://www.reddit.com/r/wlu/comments/1j4ettg/has_anyone_missed_a_quiz_in_uu150/",
-      "score": 3,
+      "score": 4,
       "created": "2025-03-05T21:40:17.000Z"
-    },
-    {
-      "title": "ES 110 vs UU150",
-      "url": "https://www.reddit.com/r/wlu/comments/1i1nbwo/es_110_vs_uu150/",
-      "score": 0,
-      "created": "2025-01-15T02:26:58.000Z"
     },
     {
       "title": "Does UU150 count towards your grade?",
@@ -47,16 +41,16 @@
       "created": "2025-01-06T15:59:19.000Z"
     },
     {
-      "title": "UU150 OC or AR101 OC- easier bird course?",
-      "url": "https://www.reddit.com/r/wlu/comments/1hk696b/uu150_oc_or_ar101_oc_easier_bird_course/",
-      "score": 3,
-      "created": "2024-12-22T19:55:16.000Z"
-    },
-    {
       "title": "UU150 Missed Quiz",
       "url": "https://www.reddit.com/r/wlu/comments/1gqmo0a/uu150_missed_quiz/",
       "score": 3,
       "created": "2024-11-13T20:28:26.000Z"
+    },
+    {
+      "title": "UU150 OC or AR101 OC- easier bird course?",
+      "url": "https://www.reddit.com/r/wlu/comments/1hk696b/uu150_oc_or_ar101_oc_easier_bird_course/",
+      "score": 3,
+      "created": "2024-12-22T19:55:16.000Z"
     },
     {
       "title": "This is stupid but does \"S\" in a pass or fail course like UU150 indicate a pass? ",
@@ -65,10 +59,10 @@
       "created": "2024-06-26T01:22:27.000Z"
     },
     {
-      "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
-      "url": "https://www.reddit.com/r/wlu/comments/1b2axew/spring_oc_bird_courses_other_than_as101_cp102/",
-      "score": 6,
-      "created": "2024-02-28T16:56:01.000Z"
+      "title": "UU150 is no longer counted towards your grade",
+      "url": "https://www.reddit.com/r/wlu/comments/oni4l9/uu150_is_no_longer_counted_towards_your_grade/",
+      "score": 37,
+      "created": "2021-07-19T16:56:19.000Z"
     },
     {
       "title": "SC100 vs UU150",
@@ -77,10 +71,10 @@
       "created": "2023-12-11T10:21:04.000Z"
     },
     {
-      "title": "UU150 is no longer counted towards your grade",
-      "url": "https://www.reddit.com/r/wlu/comments/oni4l9/uu150_is_no_longer_counted_towards_your_grade/",
-      "score": 36,
-      "created": "2021-07-19T16:56:19.000Z"
+      "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
+      "url": "https://www.reddit.com/r/wlu/comments/1b2axew/spring_oc_bird_courses_other_than_as101_cp102/",
+      "score": 7,
+      "created": "2024-02-28T16:56:01.000Z"
     },
     {
       "title": "Uu150 - tcps",
@@ -113,16 +107,16 @@
       "created": "2022-09-15T22:44:36.000Z"
     },
     {
+      "title": "AMA: Took UU150 and CP102, Now I am the CEO of GameStop and Tesla",
+      "url": "https://www.reddit.com/r/wlu/comments/nzcxd7/ama_took_uu150_and_cp102_now_i_am_the_ceo_of/",
+      "score": 34,
+      "created": "2021-06-14T02:56:19.000Z"
+    },
+    {
       "title": "UU150?? Incoming BBA student wanting co-op",
       "url": "https://www.reddit.com/r/wlu/comments/oqt894/uu150_incoming_bba_student_wanting_coop/",
       "score": 0,
       "created": "2021-07-24T16:25:10.000Z"
-    },
-    {
-      "title": "AMA: Took UU150 and CP102, Now I am the CEO of GameStop and Tesla",
-      "url": "https://www.reddit.com/r/wlu/comments/nzcxd7/ama_took_uu150_and_cp102_now_i_am_the_ceo_of/",
-      "score": 35,
-      "created": "2021-06-14T02:56:19.000Z"
     },
     {
       "title": "CP102/UU150 Resources",
@@ -149,16 +143,16 @@
       "created": "2021-11-12T18:40:17.000Z"
     },
     {
-      "title": "Should I Drop UU150?",
-      "url": "https://www.reddit.com/r/wlu/comments/onnc1n/should_i_drop_uu150/",
-      "score": 4,
-      "created": "2021-07-19T21:10:31.000Z"
-    },
-    {
       "title": "AN100 online or UU150",
       "url": "https://www.reddit.com/r/wlu/comments/krrxng/an100_online_or_uu150/",
       "score": 5,
       "created": "2021-01-06T17:01:18.000Z"
+    },
+    {
+      "title": "Any Bird Electives Other than CP102, GG102, AS101 &amp; UU150",
+      "url": "https://www.reddit.com/r/wlu/comments/ihkbn6/any_bird_electives_other_than_cp102_gg102_as101/",
+      "score": 2,
+      "created": "2020-08-27T12:42:18.000Z"
     },
     {
       "title": "UU150: Should I drop it or not?",
@@ -167,16 +161,28 @@
       "created": "2021-01-09T04:12:10.000Z"
     },
     {
-      "title": "UU 150",
-      "url": "https://www.reddit.com/r/wlu/comments/1hiufrl/uu_150/",
+      "title": "Should I Drop UU150?",
+      "url": "https://www.reddit.com/r/wlu/comments/onnc1n/should_i_drop_uu150/",
       "score": 3,
-      "created": "2024-12-20T21:37:23.000Z"
+      "created": "2021-07-19T21:10:31.000Z"
+    },
+    {
+      "title": "What bird courses should I take",
+      "url": "https://www.reddit.com/r/wlu/comments/1kt3eet/what_bird_courses_should_i_take/",
+      "score": 0,
+      "created": "2025-05-22T22:06:05.000Z"
     },
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 10,
+      "score": 13,
       "created": "2024-09-10T16:03:00.000Z"
+    },
+    {
+      "title": "UU 150",
+      "url": "https://www.reddit.com/r/wlu/comments/1hiufrl/uu_150/",
+      "score": 3,
+      "created": "2024-12-20T21:37:23.000Z"
     },
     {
       "title": "Online courses",
@@ -191,15 +197,9 @@
       "created": "2024-06-26T19:55:26.000Z"
     },
     {
-      "title": "Electives for BBA",
-      "url": "https://www.reddit.com/r/wlu/comments/1dnfz01/electives_for_bba/",
-      "score": 0,
-      "created": "2024-06-24T15:16:37.000Z"
-    },
-    {
       "title": "Complete bird course list (1st year)",
       "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 67,
+      "score": 73,
       "created": "2021-04-07T20:33:30.000Z"
     },
     {
@@ -209,22 +209,22 @@
       "created": "2023-07-21T02:49:30.000Z"
     },
     {
-      "title": "Online courses for coop",
-      "url": "https://www.reddit.com/r/wlu/comments/1dqr773/online_courses_for_coop/",
+      "title": "Electives for BBA",
+      "url": "https://www.reddit.com/r/wlu/comments/1dnfz01/electives_for_bba/",
       "score": 0,
-      "created": "2024-06-28T18:52:33.000Z"
-    },
-    {
-      "title": "Courses this semester.",
-      "url": "https://www.reddit.com/r/wlu/comments/191nqjj/courses_this_semester/",
-      "score": 2,
-      "created": "2024-01-08T15:29:05.000Z"
+      "created": "2024-06-24T15:16:37.000Z"
     },
     {
       "title": "BIG ACHIEVEMENT pls see",
       "url": "https://www.reddit.com/r/wlu/comments/u1qgmf/big_achievement_pls_see/",
-      "score": 94,
+      "score": 96,
       "created": "2022-04-12T04:24:54.000Z"
+    },
+    {
+      "title": "Online courses for coop",
+      "url": "https://www.reddit.com/r/wlu/comments/1dqr773/online_courses_for_coop/",
+      "score": 0,
+      "created": "2024-06-28T18:52:33.000Z"
     },
     {
       "title": "help me choose electives !!",
@@ -233,16 +233,16 @@
       "created": "2023-06-13T15:23:11.000Z"
     },
     {
-      "title": "The BBA Coop Bible (2022 Edition)",
-      "url": "https://www.reddit.com/r/wlu/comments/xsxhg3/the_bba_coop_bible_2022_edition/",
-      "score": 73,
-      "created": "2022-10-01T15:01:26.000Z"
+      "title": "Courses this semester.",
+      "url": "https://www.reddit.com/r/wlu/comments/191nqjj/courses_this_semester/",
+      "score": 2,
+      "created": "2024-01-08T15:29:05.000Z"
     },
     {
-      "title": "HELP - course selection",
-      "url": "https://www.reddit.com/r/wlu/comments/14vu0mp/help_course_selection/",
-      "score": 0,
-      "created": "2023-07-10T13:25:42.000Z"
+      "title": "The BBA Coop Bible (2022 Edition)",
+      "url": "https://www.reddit.com/r/wlu/comments/xsxhg3/the_bba_coop_bible_2022_edition/",
+      "score": 77,
+      "created": "2022-10-01T15:01:26.000Z"
     },
     {
       "title": "are there any extremely easy bird courses for first year?",
@@ -251,16 +251,16 @@
       "created": "2021-05-14T22:47:05.000Z"
     },
     {
+      "title": "HELP - course selection",
+      "url": "https://www.reddit.com/r/wlu/comments/14vu0mp/help_course_selection/",
+      "score": 0,
+      "created": "2023-07-10T13:25:42.000Z"
+    },
+    {
       "title": "First Year Electives",
       "url": "https://www.reddit.com/r/wlu/comments/lo79dg/first_year_electives/",
       "score": 10,
       "created": "2021-02-20T13:35:41.000Z"
-    },
-    {
-      "title": "OC first year bird course for winter",
-      "url": "https://www.reddit.com/r/wlu/comments/z1f6ix/oc_first_year_bird_course_for_winter/",
-      "score": 1,
-      "created": "2022-11-22T00:24:40.000Z"
     },
     {
       "title": "Is this too hard of a semester?",

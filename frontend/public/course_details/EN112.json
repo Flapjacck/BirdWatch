@@ -1,21 +1,39 @@
 {
   "code": "EN112",
   "department": "EN",
-  "bird_score": 5.76,
-  "specific_mentions": 6,
+  "bird_score": 5.96,
+  "specific_mentions": 10,
   "is_online_available": false,
   "difficulty_level": {
-    "easy_mentions": 0,
-    "hard_mentions": 0,
+    "easy_mentions": 1,
+    "hard_mentions": 1,
     "workload": 1
   },
   "course_structure": {
-    "has_finals": false,
+    "has_finals": true,
     "has_midterms": false,
     "has_assignments": false,
     "has_projects": false
   },
   "threads": [
+    {
+      "title": "can I pm anyone who has taken en112 (literature and love) before?",
+      "url": "https://www.reddit.com/r/wlu/comments/1njobxt/can_i_pm_anyone_who_has_taken_en112_literature/",
+      "score": 3,
+      "created": "2025-09-17T20:28:13.000Z"
+    },
+    {
+      "title": "How do you guys like literature &amp; love (EN112)",
+      "url": "https://www.reddit.com/r/wlu/comments/1liokbf/how_do_you_guys_like_literature_love_en112/",
+      "score": 4,
+      "created": "2025-06-23T18:36:27.000Z"
+    },
+    {
+      "title": "En112 - Lit and Love",
+      "url": "https://www.reddit.com/r/wlu/comments/1ljx0do/en112_lit_and_love/",
+      "score": 2,
+      "created": "2025-06-25T05:02:17.000Z"
+    },
     {
       "title": "EN112",
       "url": "https://www.reddit.com/r/wlu/comments/1izpcdl/en112/",
@@ -35,15 +53,21 @@
       "created": "2022-06-14T17:52:50.000Z"
     },
     {
+      "title": "what english course",
+      "url": "https://www.reddit.com/r/wlu/comments/1livf31/what_english_course/",
+      "score": 2,
+      "created": "2025-06-23T23:07:39.000Z"
+    },
+    {
       "title": "Anyone take any of the following courses and can share their experience?",
       "url": "https://www.reddit.com/r/wlu/comments/11l1rfj/anyone_take_any_of_the_following_courses_and_can/",
-      "score": 3,
+      "score": 2,
       "created": "2023-03-07T15:07:28.000Z"
     },
     {
       "title": "Having trouble researching the courses so I am ready for course registration",
       "url": "https://www.reddit.com/r/wlu/comments/nuu3it/having_trouble_researching_the_courses_so_i_am/",
-      "score": 3,
+      "score": 2,
       "created": "2021-06-08T02:26:16.000Z"
     },
     {

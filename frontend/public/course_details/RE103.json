@@ -1,12 +1,12 @@
 {
   "code": "RE103",
   "department": "RE",
-  "bird_score": 5.43,
+  "bird_score": 6.25,
   "specific_mentions": 31,
   "is_online_available": true,
   "difficulty_level": {
-    "easy_mentions": 14,
-    "hard_mentions": 6,
+    "easy_mentions": 12,
+    "hard_mentions": 5,
     "workload": 4
   },
   "course_structure": {
@@ -49,14 +49,20 @@
     {
       "title": "RE103 (Love &amp; Myths) or RE104 (Evil &amp; Symbols) online",
       "url": "https://www.reddit.com/r/wlu/comments/ju7uws/re103_love_myths_or_re104_evil_symbols_online/",
-      "score": 4,
+      "score": 3,
       "created": "2020-11-14T19:40:25.000Z"
     },
     {
       "title": "RE103 &amp; MU121 ... Which is harder online?",
       "url": "https://www.reddit.com/r/wlu/comments/d2po31/re103_mu121_which_is_harder_online/",
-      "score": 3,
+      "score": 4,
       "created": "2019-09-11T12:52:04.000Z"
+    },
+    {
+      "title": "RE103 Online?",
+      "url": "https://www.reddit.com/r/wlu/comments/hscvpa/re103_online/",
+      "score": 3,
+      "created": "2020-07-16T16:36:01.000Z"
     },
     {
       "title": "RE103 gc",
@@ -69,12 +75,6 @@
       "url": "https://www.reddit.com/r/wlu/comments/jajbx0/switching_re103_to_cc102_or_cc1001/",
       "score": 2,
       "created": "2020-10-13T18:29:37.000Z"
-    },
-    {
-      "title": "RE103 Online?",
-      "url": "https://www.reddit.com/r/wlu/comments/hscvpa/re103_online/",
-      "score": 4,
-      "created": "2020-07-16T16:36:01.000Z"
     },
     {
       "title": "AN110,CP102,AN110,RE103",
@@ -119,22 +119,34 @@
       "created": "2019-10-02T22:57:21.000Z"
     },
     {
+      "title": "first year elective recs?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l6ue9i/first_year_elective_recs/",
+      "score": 3,
+      "created": "2025-06-09T03:07:56.000Z"
+    },
+    {
+      "title": "Year 1  &amp; 2 Course layout, is this good??",
+      "url": "https://www.reddit.com/r/wlu/comments/1kpaxvp/year_1_2_course_layout_is_this_good/",
+      "score": 0,
+      "created": "2025-05-18T03:45:04.000Z"
+    },
+    {
       "title": "4th year BBA student looking for an OC course because of co-op commitments",
       "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
       "score": 0,
       "created": "2024-12-16T02:23:39.000Z"
     },
     {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 68,
+      "created": "2021-04-07T20:33:30.000Z"
+    },
+    {
       "title": "RE104 online?",
       "url": "https://www.reddit.com/r/wlu/comments/1dq1rlm/re104_online/",
       "score": 1,
       "created": "2024-06-27T20:49:11.000Z"
-    },
-    {
-      "title": "Complete bird course list (1st year)",
-      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 70,
-      "created": "2021-04-07T20:33:30.000Z"
     },
     {
       "title": "Anyone take any of the following courses and can share their experience?",
@@ -145,7 +157,7 @@
     {
       "title": "Tips for OC classes?",
       "url": "https://www.reddit.com/r/wlu/comments/x2eaj7/tips_for_oc_classes/",
-      "score": 2,
+      "score": 1,
       "created": "2022-08-31T13:56:44.000Z"
     },
     {
@@ -167,12 +179,6 @@
       "created": "2019-06-04T18:48:15.000Z"
     },
     {
-      "title": "Questions about specific courses...",
-      "url": "https://www.reddit.com/r/wlu/comments/gbnvp7/questions_about_specific_courses/",
-      "score": 0,
-      "created": "2020-05-01T18:48:21.000Z"
-    },
-    {
       "title": "first yr schedule",
       "url": "https://www.reddit.com/r/wlu/comments/halj9f/first_yr_schedule/",
       "score": 0,
@@ -185,22 +191,16 @@
       "created": "2019-06-09T14:54:45.000Z"
     },
     {
-      "title": "Help!",
-      "url": "https://www.reddit.com/r/wlu/comments/15glwac/help/",
-      "score": 4,
-      "created": "2023-08-02T22:21:11.000Z"
+      "title": "RE104 online vs CP102 online",
+      "url": "https://www.reddit.com/r/wlu/comments/1omo0p8/re104_online_vs_cp102_online/",
+      "score": 1,
+      "created": "2025-11-02T17:55:35.000Z"
     },
     {
-      "title": "What are some easy online bird courses for winter term",
-      "url": "https://www.reddit.com/r/wlu/comments/z84g8p/what_are_some_easy_online_bird_courses_for_winter/",
-      "score": 2,
-      "created": "2022-11-29T20:04:36.000Z"
-    },
-    {
-      "title": "All first year electives full",
-      "url": "https://www.reddit.com/r/wlu/comments/x66a60/all_first_year_electives_full/",
-      "score": 2,
-      "created": "2022-09-05T03:57:15.000Z"
+      "title": "What bird courses should I take",
+      "url": "https://www.reddit.com/r/wlu/comments/1kt3eet/what_bird_courses_should_i_take/",
+      "score": 0,
+      "created": "2025-05-22T22:06:05.000Z"
     }
   ]
 }

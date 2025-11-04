@@ -1,13 +1,13 @@
 {
   "code": "EC229",
   "department": "EC",
-  "bird_score": 3.99,
-  "specific_mentions": 11,
+  "bird_score": 2.48,
+  "specific_mentions": 13,
   "is_online_available": true,
   "difficulty_level": {
-    "easy_mentions": 3,
-    "hard_mentions": 1,
-    "workload": 2
+    "easy_mentions": 2,
+    "hard_mentions": 4,
+    "workload": 4
   },
   "course_structure": {
     "has_finals": true,
@@ -16,6 +16,18 @@
     "has_projects": false
   },
   "threads": [
+    {
+      "title": "Ec229 Final",
+      "url": "https://www.reddit.com/r/wlu/comments/1k4m8gw/ec229_final/",
+      "score": 2,
+      "created": "2025-04-21T19:27:21.000Z"
+    },
+    {
+      "title": "EC229 or EC248?",
+      "url": "https://www.reddit.com/r/wlu/comments/1kawghd/ec229_or_ec248/",
+      "score": 0,
+      "created": "2025-04-29T19:21:15.000Z"
+    },
     {
       "title": "ec229",
       "url": "https://www.reddit.com/r/wlu/comments/1hah429/ec229/",
@@ -47,28 +59,28 @@
       "created": "2022-12-06T23:22:24.000Z"
     },
     {
+      "title": "Econ Courses Minor",
+      "url": "https://www.reddit.com/r/wlu/comments/1n8euqk/econ_courses_minor/",
+      "score": 1,
+      "created": "2025-09-04T16:25:31.000Z"
+    },
+    {
+      "title": "EC249 (Online)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lbgsif/ec249_online/",
+      "score": 2,
+      "created": "2025-06-14T19:22:53.000Z"
+    },
+    {
       "title": "4th year BBA student looking for an OC course because of co-op commitments",
       "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
       "score": 0,
       "created": "2024-12-16T02:23:39.000Z"
     },
     {
-      "title": "3RD year econ electives ",
-      "url": "https://www.reddit.com/r/wlu/comments/1hdf7r3/3rd_year_econ_electives/",
-      "score": 2,
-      "created": "2024-12-13T15:53:10.000Z"
-    },
-    {
       "title": "Second Year Econ Bird Courses",
       "url": "https://www.reddit.com/r/wlu/comments/1dvoqc1/second_year_econ_bird_courses/",
       "score": 2,
       "created": "2024-07-05T03:42:23.000Z"
-    },
-    {
-      "title": "Economics Senior Electives",
-      "url": "https://www.reddit.com/r/wlu/comments/1clpf5w/economics_senior_electives/",
-      "score": 2,
-      "created": "2024-05-06T17:53:10.000Z"
     },
     {
       "title": "Ec248oc or ec229oc",

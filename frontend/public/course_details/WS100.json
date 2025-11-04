@@ -1,7 +1,7 @@
 {
   "code": "WS100",
   "department": "WS",
-  "bird_score": 8.05,
+  "bird_score": 7.95,
   "specific_mentions": 31,
   "is_online_available": true,
   "difficulty_level": {
@@ -17,9 +17,15 @@
   },
   "threads": [
     {
+      "title": "elective help (PS101, SY101, WS100)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lzun7r/elective_help_ps101_sy101_ws100/",
+      "score": 3,
+      "created": "2025-07-14T18:39:48.000Z"
+    },
+    {
       "title": "WS100 - Helen",
       "url": "https://www.reddit.com/r/wlu/comments/1jgp977/ws100_helen/",
-      "score": 10,
+      "score": 9,
       "created": "2025-03-21T19:28:26.000Z"
     },
     {
@@ -125,12 +131,6 @@
       "created": "2024-12-18T22:02:07.000Z"
     },
     {
-      "title": "Question",
-      "url": "https://www.reddit.com/r/wlu/comments/1bsipkg/question/",
-      "score": 2,
-      "created": "2024-03-31T19:33:36.000Z"
-    },
-    {
       "title": "bird courses help",
       "url": "https://www.reddit.com/r/wlu/comments/rw52dc/bird_courses_help/",
       "score": 0,
@@ -167,10 +167,10 @@
       "created": "2018-07-09T21:42:13.000Z"
     },
     {
-      "title": "To those seeking a Bird course",
-      "url": "https://www.reddit.com/r/wlu/comments/1h83cw5/to_those_seeking_a_bird_course/",
-      "score": 29,
-      "created": "2024-12-06T15:05:17.000Z"
+      "title": "What are the easiest/best courses for me to take first year BBA?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l162s9/what_are_the_easiestbest_courses_for_me_to_take/",
+      "score": 6,
+      "created": "2025-06-02T01:52:47.000Z"
     },
     {
       "title": "An100 got harder?? ",
@@ -179,21 +179,21 @@
       "created": "2024-09-07T21:16:30.000Z"
     },
     {
+      "title": "Courses with no exams",
+      "url": "https://www.reddit.com/r/wlu/comments/190b0bf/courses_with_no_exams/",
+      "score": 10,
+      "created": "2024-01-06T21:41:45.000Z"
+    },
+    {
       "title": "HE100: Health Issues I review",
       "url": "https://www.reddit.com/r/wlu/comments/1f7stgb/he100_health_issues_i_review/",
       "score": 1,
       "created": "2024-09-03T06:08:42.000Z"
     },
     {
-      "title": "Courses with no exams",
-      "url": "https://www.reddit.com/r/wlu/comments/190b0bf/courses_with_no_exams/",
-      "score": 11,
-      "created": "2024-01-06T21:41:45.000Z"
-    },
-    {
       "title": "Bird/Easy second year courses to complete in the summer",
       "url": "https://www.reddit.com/r/wlu/comments/12fxkw0/birdeasy_second_year_courses_to_complete_in_the/",
-      "score": 4,
+      "score": 3,
       "created": "2023-04-08T20:33:20.000Z"
     },
     {

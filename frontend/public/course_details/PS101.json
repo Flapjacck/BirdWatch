@@ -1,21 +1,81 @@
 {
   "code": "PS101",
   "department": "PS",
-  "bird_score": 6.88,
-  "specific_mentions": 42,
+  "bird_score": 6.7,
+  "specific_mentions": 40,
   "is_online_available": true,
   "difficulty_level": {
-    "easy_mentions": 8,
-    "hard_mentions": 6,
-    "workload": 3
+    "easy_mentions": 6,
+    "hard_mentions": 4,
+    "workload": 2
   },
   "course_structure": {
     "has_finals": true,
     "has_midterms": true,
     "has_assignments": true,
-    "has_projects": false
+    "has_projects": true
   },
   "threads": [
+    {
+      "title": "PS101 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1nvnqm6/ps101_midterm/",
+      "score": 6,
+      "created": "2025-10-01T23:15:39.000Z"
+    },
+    {
+      "title": "PS101 midterm on Thursday",
+      "url": "https://www.reddit.com/r/wlu/comments/1o0t2hl/ps101_midterm_on_thursday/",
+      "score": 3,
+      "created": "2025-10-07T22:15:25.000Z"
+    },
+    {
+      "title": "PS101 with Anneke",
+      "url": "https://www.reddit.com/r/wlu/comments/1ogppnq/ps101_with_anneke/",
+      "score": 3,
+      "created": "2025-10-26T16:58:00.000Z"
+    },
+    {
+      "title": "Dr Foster PS101 Midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1o0vv39/dr_foster_ps101_midterm/",
+      "score": 7,
+      "created": "2025-10-08T00:16:10.000Z"
+    },
+    {
+      "title": "PS101 OC Spring Final exam scores",
+      "url": "https://www.reddit.com/r/wlu/comments/1ms2ibr/ps101_oc_spring_final_exam_scores/",
+      "score": 1,
+      "created": "2025-08-16T17:54:08.000Z"
+    },
+    {
+      "title": "PS101 OC Final Exam today",
+      "url": "https://www.reddit.com/r/wlu/comments/1minqt4/ps101_oc_final_exam_today/",
+      "score": 2,
+      "created": "2025-08-05T22:40:21.000Z"
+    },
+    {
+      "title": "elective help (PS101, SY101, WS100)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lzun7r/elective_help_ps101_sy101_ws100/",
+      "score": 3,
+      "created": "2025-07-14T18:39:48.000Z"
+    },
+    {
+      "title": "PS101 Slides from lectures",
+      "url": "https://www.reddit.com/r/wlu/comments/1m7pb39/ps101_slides_from_lectures/",
+      "score": 1,
+      "created": "2025-07-23T23:55:10.000Z"
+    },
+    {
+      "title": "PS101 &amp; PS102",
+      "url": "https://www.reddit.com/r/wlu/comments/1l98g75/ps101_ps102/",
+      "score": 2,
+      "created": "2025-06-12T00:11:09.000Z"
+    },
+    {
+      "title": "ps101 mini project marks",
+      "url": "https://www.reddit.com/r/wlu/comments/1k4h655/ps101_mini_project_marks/",
+      "score": 2,
+      "created": "2025-04-21T16:09:11.000Z"
+    },
     {
       "title": "PS101 OC",
       "url": "https://www.reddit.com/r/wlu/comments/1i27sa4/ps101_oc/",
@@ -23,15 +83,9 @@
       "created": "2025-01-15T21:05:45.000Z"
     },
     {
-      "title": "PS101 urgent help",
-      "url": "https://www.reddit.com/r/wlu/comments/1hx1i3p/ps101_urgent_help/",
-      "score": 2,
-      "created": "2025-01-09T01:53:25.000Z"
-    },
-    {
       "title": "PS101",
       "url": "https://www.reddit.com/r/wlu/comments/1hhgd97/ps101/",
-      "score": 5,
+      "score": 4,
       "created": "2024-12-19T00:34:54.000Z"
     },
     {
@@ -71,12 +125,6 @@
       "created": "2023-12-01T21:57:41.000Z"
     },
     {
-      "title": "Ps101 OC with Mindy foster",
-      "url": "https://www.reddit.com/r/wlu/comments/17qu0cg/ps101_oc_with_mindy_foster/",
-      "score": 2,
-      "created": "2023-11-08T19:53:54.000Z"
-    },
-    {
       "title": "PS101 and 102 textbook",
       "url": "https://www.reddit.com/r/wlu/comments/161hzgt/ps101_and_102_textbook/",
       "score": 1,
@@ -87,6 +135,12 @@
       "url": "https://www.reddit.com/r/wlu/comments/16kdeqh/selling_ps101102_textbook/",
       "score": 1,
       "created": "2023-09-16T17:43:13.000Z"
+    },
+    {
+      "title": "Ps101 OC with Mindy foster",
+      "url": "https://www.reddit.com/r/wlu/comments/17qu0cg/ps101_oc_with_mindy_foster/",
+      "score": 2,
+      "created": "2023-11-08T19:53:54.000Z"
     },
     {
       "title": "Psychology ( PS101 and PS102)",
@@ -113,63 +167,57 @@
       "created": "2022-12-19T12:30:59.000Z"
     },
     {
-      "title": "What is PS101 like?",
-      "url": "https://www.reddit.com/r/wlu/comments/txuezk/what_is_ps101_like/",
+      "title": "Feeling behind, lost, unable to get footing",
+      "url": "https://www.reddit.com/r/wlu/comments/1nkilrg/feeling_behind_lost_unable_to_get_footing/",
+      "score": 13,
+      "created": "2025-09-18T19:58:15.000Z"
+    },
+    {
+      "title": "Bird courses I took during my program",
+      "url": "https://www.reddit.com/r/wlu/comments/1lsiqrw/bird_courses_i_took_during_my_program/",
+      "score": 17,
+      "created": "2025-07-05T20:04:11.000Z"
+    },
+    {
+      "title": "Should I go for easy A\u2019s or follow my interests?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ldx5xc/should_i_go_for_easy_as_or_follow_my_interests/",
       "score": 6,
-      "created": "2022-04-06T19:43:21.000Z"
+      "created": "2025-06-17T19:57:29.000Z"
     },
     {
-      "title": "Ps101 gc?",
-      "url": "https://www.reddit.com/r/wlu/comments/xhjmax/ps101_gc/",
-      "score": 7,
-      "created": "2022-09-18T15:27:52.000Z"
+      "title": "1st year kin tutoring",
+      "url": "https://www.reddit.com/r/wlu/comments/1oh0eza/1st_year_kin_tutoring/",
+      "score": 3,
+      "created": "2025-10-27T00:22:01.000Z"
     },
     {
-      "title": "How to study for PS101?",
-      "url": "https://www.reddit.com/r/wlu/comments/zl68og/how_to_study_for_ps101/",
-      "score": 0,
-      "created": "2022-12-13T20:38:29.000Z"
+      "title": "first year elective recs?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l6ue9i/first_year_elective_recs/",
+      "score": 3,
+      "created": "2025-06-09T03:07:56.000Z"
     },
     {
-      "title": "PS101 Exam result estimates?",
-      "url": "https://www.reddit.com/r/wlu/comments/zpyxpc/ps101_exam_result_estimates/",
+      "title": "health sci first year courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1l7gfmw/health_sci_first_year_courses/",
+      "score": 5,
+      "created": "2025-06-09T21:02:35.000Z"
+    },
+    {
+      "title": "Help with textbook/course details",
+      "url": "https://www.reddit.com/r/wlu/comments/1kks7bh/help_with_textbookcourse_details/",
       "score": 1,
-      "created": "2022-12-19T18:11:09.000Z"
+      "created": "2025-05-12T13:13:53.000Z"
     },
     {
-      "title": "PS101 Textbook",
-      "url": "https://www.reddit.com/r/wlu/comments/x3hcaj/ps101_textbook/",
+      "title": "Year 1  &amp; 2 Course layout, is this good??",
+      "url": "https://www.reddit.com/r/wlu/comments/1kpaxvp/year_1_2_course_layout_is_this_good/",
       "score": 0,
-      "created": "2022-09-01T20:13:38.000Z"
-    },
-    {
-      "title": "Ps101/ps102 fourth edition text book not used for sale, dm if interested.",
-      "url": "https://www.reddit.com/r/wlu/comments/10dgc82/ps101ps102_fourth_edition_text_book_not_used_for/",
-      "score": 0,
-      "created": "2023-01-16T14:47:07.000Z"
-    },
-    {
-      "title": "PS101/PS102 in a nutshell",
-      "url": "https://www.reddit.com/r/wlu/comments/oehiv2/ps101ps102_in_a_nutshell/",
-      "score": 60,
-      "created": "2021-07-05T22:07:27.000Z"
-    },
-    {
-      "title": "ps101 textbook",
-      "url": "https://www.reddit.com/r/wlu/comments/xb094i/ps101_textbook/",
-      "score": 0,
-      "created": "2022-09-10T21:15:02.000Z"
-    },
-    {
-      "title": "Does anyone have a PS101 masterdoc?",
-      "url": "https://www.reddit.com/r/wlu/comments/ylgj0n/does_anyone_have_a_ps101_masterdoc/",
-      "score": 4,
-      "created": "2022-11-03T22:21:58.000Z"
+      "created": "2025-05-18T03:45:04.000Z"
     },
     {
       "title": "Which Online Bird Courses Should I Take? ",
       "url": "https://www.reddit.com/r/wlu/comments/1gz47ii/which_online_bird_courses_should_i_take/",
-      "score": 6,
+      "score": 5,
       "created": "2024-11-24T23:02:55.000Z"
     },
     {
@@ -181,8 +229,14 @@
     {
       "title": "WILL I SURVIVE? \ud83d\ude42",
       "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
-      "score": 2,
+      "score": 1,
       "created": "2023-07-21T02:49:30.000Z"
+    },
+    {
+      "title": "PS270!!!!",
+      "url": "https://www.reddit.com/r/wlu/comments/18ykerf/ps270/",
+      "score": 3,
+      "created": "2024-01-04T18:42:00.000Z"
     },
     {
       "title": "First Year Electives (BBA)",
@@ -191,82 +245,16 @@
       "created": "2024-06-23T01:37:01.000Z"
     },
     {
-      "title": "PS270!!!!",
-      "url": "https://www.reddit.com/r/wlu/comments/18ykerf/ps270/",
-      "score": 4,
-      "created": "2024-01-04T18:42:00.000Z"
-    },
-    {
-      "title": "Courses this semester.",
-      "url": "https://www.reddit.com/r/wlu/comments/191nqjj/courses_this_semester/",
-      "score": 2,
-      "created": "2024-01-08T15:29:05.000Z"
-    },
-    {
       "title": "Fin math bsc 1st year",
       "url": "https://www.reddit.com/r/wlu/comments/169tshc/fin_math_bsc_1st_year/",
       "score": 3,
       "created": "2023-09-04T14:41:17.000Z"
     },
     {
-      "title": "spring courses a good idea?",
-      "url": "https://www.reddit.com/r/wlu/comments/11sxmmi/spring_courses_a_good_idea/",
-      "score": 10,
-      "created": "2023-03-16T15:41:55.000Z"
-    },
-    {
-      "title": "Mydegree Issue",
-      "url": "https://www.reddit.com/r/wlu/comments/117rwu1/mydegree_issue/",
-      "score": 5,
-      "created": "2023-02-21T02:25:50.000Z"
-    },
-    {
-      "title": "Selling textbook",
-      "url": "https://www.reddit.com/r/wlu/comments/10mumvp/selling_textbook/",
+      "title": "Courses this semester.",
+      "url": "https://www.reddit.com/r/wlu/comments/191nqjj/courses_this_semester/",
       "score": 2,
-      "created": "2023-01-27T20:07:49.000Z"
-    },
-    {
-      "title": "Books!",
-      "url": "https://www.reddit.com/r/wlu/comments/xbvpd2/books/",
-      "score": 0,
-      "created": "2022-09-11T22:26:07.000Z"
-    },
-    {
-      "title": "Elective Advice",
-      "url": "https://www.reddit.com/r/wlu/comments/nwdccj/elective_advice/",
-      "score": 2,
-      "created": "2021-06-10T02:55:01.000Z"
-    },
-    {
-      "title": "Looking for textbooks",
-      "url": "https://www.reddit.com/r/wlu/comments/xe7baf/looking_for_textbooks/",
-      "score": 1,
-      "created": "2022-09-14T17:04:12.000Z"
-    },
-    {
-      "title": "Classes Thurs",
-      "url": "https://www.reddit.com/r/wlu/comments/x7j7a5/classes_thurs/",
-      "score": 0,
-      "created": "2022-09-06T19:19:28.000Z"
-    },
-    {
-      "title": "PS101 with Mindi Foster",
-      "url": "https://www.reddit.com/r/wlu/comments/sgrlhh/ps101_with_mindi_foster/",
-      "score": 5,
-      "created": "2022-01-31T03:54:39.000Z"
-    },
-    {
-      "title": "creating a time table for first year",
-      "url": "https://www.reddit.com/r/wlu/comments/o0scyg/creating_a_time_table_for_first_year/",
-      "score": 0,
-      "created": "2021-06-16T00:18:35.000Z"
-    },
-    {
-      "title": "first yr electives",
-      "url": "https://www.reddit.com/r/wlu/comments/nmqt5d/first_yr_electives/",
-      "score": 4,
-      "created": "2021-05-28T05:38:00.000Z"
+      "created": "2024-01-08T15:29:05.000Z"
     }
   ]
 }

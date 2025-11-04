@@ -1,12 +1,12 @@
 {
-  "code": "HS201",
+  "code": "HS200",
   "department": "HS",
-  "bird_score": 5.66,
+  "bird_score": 2.68,
   "specific_mentions": 4,
   "is_online_available": true,
   "difficulty_level": {
     "easy_mentions": 0,
-    "hard_mentions": 0,
+    "hard_mentions": 2,
     "workload": 1
   },
   "course_structure": {
@@ -25,7 +25,7 @@
     {
       "title": "Has anyone taken HS200(Social determinants of health) or HS201 (Canadian Health care systems) ? Are they bird courses ?",
       "url": "https://www.reddit.com/r/wlu/comments/vtjtxg/has_anyone_taken_hs200social_determinants_of/",
-      "score": 3,
+      "score": 4,
       "created": "2022-07-07T14:21:50.000Z"
     },
     {
@@ -35,10 +35,10 @@
       "created": "2024-11-24T23:02:55.000Z"
     },
     {
-      "title": "Review of Bird Courses",
-      "url": "https://www.reddit.com/r/wlu/comments/1e0w0m6/review_of_bird_courses/",
-      "score": 0,
-      "created": "2024-07-11T18:30:20.000Z"
+      "title": "Spring Term Run:",
+      "url": "https://www.reddit.com/r/wlu/comments/1k6gq25/spring_term_run/",
+      "score": 1,
+      "created": "2025-04-24T01:59:22.000Z"
     }
   ]
 }

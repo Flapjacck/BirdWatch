@@ -1,7 +1,7 @@
 {
   "code": "GL102",
   "department": "GL",
-  "bird_score": 3.32,
+  "bird_score": 3.33,
   "specific_mentions": 4,
   "is_online_available": false,
   "difficulty_level": {
@@ -31,7 +31,7 @@
     {
       "title": "Second year bird courses",
       "url": "https://www.reddit.com/r/wlu/comments/1duk5dr/second_year_bird_courses/",
-      "score": 3,
+      "score": 5,
       "created": "2024-07-03T17:31:15.000Z"
     },
     {

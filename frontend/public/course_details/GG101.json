@@ -2,7 +2,7 @@
   "code": "GG101",
   "department": "GG",
   "bird_score": 10.0,
-  "specific_mentions": 37,
+  "specific_mentions": 39,
   "is_online_available": true,
   "difficulty_level": {
     "easy_mentions": 12,
@@ -11,11 +11,41 @@
   },
   "course_structure": {
     "has_finals": true,
-    "has_midterms": false,
+    "has_midterms": true,
     "has_assignments": true,
     "has_projects": false
   },
   "threads": [
+    {
+      "title": "Should I drop GG101 or GG102?",
+      "url": "https://www.reddit.com/r/wlu/comments/1okkhq0/should_i_drop_gg101_or_gg102/",
+      "score": 1,
+      "created": "2025-10-31T03:42:33.000Z"
+    },
+    {
+      "title": "GG101 or GG102",
+      "url": "https://www.reddit.com/r/wlu/comments/1lkdv02/gg101_or_gg102/",
+      "score": 1,
+      "created": "2025-06-25T18:42:01.000Z"
+    },
+    {
+      "title": "GG102 or GG101 as a bird course?",
+      "url": "https://www.reddit.com/r/wlu/comments/1lgbvq3/gg102_or_gg101_as_a_bird_course/",
+      "score": 0,
+      "created": "2025-06-20T18:51:40.000Z"
+    },
+    {
+      "title": "gg101 vs gg102",
+      "url": "https://www.reddit.com/r/wlu/comments/1lkplwu/gg101_vs_gg102/",
+      "score": 1,
+      "created": "2025-06-26T03:14:39.000Z"
+    },
+    {
+      "title": "Did GG101 get curved??",
+      "url": "https://www.reddit.com/r/wlu/comments/1k9x5so/did_gg101_get_curved/",
+      "score": 3,
+      "created": "2025-04-28T14:39:29.000Z"
+    },
     {
       "title": "GG101 Study Photo Bonus",
       "url": "https://www.reddit.com/r/wlu/comments/1h4j2k1/gg101_study_photo_bonus/",
@@ -71,6 +101,12 @@
       "created": "2022-09-03T00:52:08.000Z"
     },
     {
+      "title": "GG101/102",
+      "url": "https://www.reddit.com/r/wlu/comments/mb4i6h/gg101102/",
+      "score": 3,
+      "created": "2021-03-23T02:32:33.000Z"
+    },
+    {
       "title": "GG101",
       "url": "https://www.reddit.com/r/wlu/comments/russ98/gg101/",
       "score": 0,
@@ -81,12 +117,6 @@
       "url": "https://www.reddit.com/r/wlu/comments/o23olz/gg101/",
       "score": 0,
       "created": "2021-06-17T18:10:48.000Z"
-    },
-    {
-      "title": "GG101/102",
-      "url": "https://www.reddit.com/r/wlu/comments/mb4i6h/gg101102/",
-      "score": 2,
-      "created": "2021-03-23T02:32:33.000Z"
     },
     {
       "title": "GG101 vs GG102",
@@ -101,16 +131,16 @@
       "created": "2021-03-30T14:45:43.000Z"
     },
     {
-      "title": "GG101 OC with Katherine Mcleod",
-      "url": "https://www.reddit.com/r/wlu/comments/n9kccw/gg101_oc_with_katherine_mcleod/",
-      "score": 4,
-      "created": "2021-05-11T00:23:32.000Z"
-    },
-    {
       "title": "SP101W OR GG101",
       "url": "https://www.reddit.com/r/wlu/comments/kt116p/sp101w_or_gg101/",
       "score": 0,
       "created": "2021-01-08T11:55:02.000Z"
+    },
+    {
+      "title": "GG101 OC with Katherine Mcleod",
+      "url": "https://www.reddit.com/r/wlu/comments/n9kccw/gg101_oc_with_katherine_mcleod/",
+      "score": 4,
+      "created": "2021-05-11T00:23:32.000Z"
     },
     {
       "title": "GG101 vs GG102",
@@ -137,28 +167,16 @@
       "created": "2020-01-07T16:45:09.000Z"
     },
     {
-      "title": "Thoughts on GG101",
-      "url": "https://www.reddit.com/r/wlu/comments/elilxl/thoughts_on_gg101/",
+      "title": "Are these electives easy",
+      "url": "https://www.reddit.com/r/wlu/comments/1ll7728/are_these_electives_easy/",
       "score": 1,
-      "created": "2020-01-07T22:05:24.000Z"
+      "created": "2025-06-26T18:07:52.000Z"
     },
     {
-      "title": "Is GG101 a bird course?",
-      "url": "https://www.reddit.com/r/wlu/comments/c9xpts/is_gg101_a_bird_course/",
-      "score": 1,
-      "created": "2019-07-06T19:42:09.000Z"
-    },
-    {
-      "title": "WS100 or GG101",
-      "url": "https://www.reddit.com/r/wlu/comments/elgx6x/ws100_or_gg101/",
-      "score": 2,
-      "created": "2020-01-07T20:09:49.000Z"
-    },
-    {
-      "title": "GG101 VS. GG102",
-      "url": "https://www.reddit.com/r/wlu/comments/ae1m8i/gg101_vs_gg102/",
-      "score": 2,
-      "created": "2019-01-09T01:33:57.000Z"
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 15,
+      "created": "2024-09-10T16:03:00.000Z"
     },
     {
       "title": "Interesting/easy first and second year courses for BBA Winter Term?",
@@ -173,22 +191,16 @@
       "created": "2025-01-13T16:42:36.000Z"
     },
     {
-      "title": "BIRD COURSES",
-      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 9,
-      "created": "2024-09-10T16:03:00.000Z"
+      "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
+      "url": "https://www.reddit.com/r/wlu/comments/18aqxdy/need_one_more_course_for_winter_whats_your/",
+      "score": 1,
+      "created": "2023-12-04T18:42:01.000Z"
     },
     {
       "title": "Two Geography courses in one term",
       "url": "https://www.reddit.com/r/wlu/comments/1dsiq0f/two_geography_courses_in_one_term/",
       "score": 1,
       "created": "2024-07-01T02:59:33.000Z"
-    },
-    {
-      "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
-      "url": "https://www.reddit.com/r/wlu/comments/18aqxdy/need_one_more_course_for_winter_whats_your/",
-      "score": 2,
-      "created": "2023-12-04T18:42:01.000Z"
     },
     {
       "title": "First Year Electives (BBA)",
@@ -211,7 +223,7 @@
     {
       "title": "What Should I Do?",
       "url": "https://www.reddit.com/r/wlu/comments/mgksde/what_should_i_do/",
-      "score": 2,
+      "score": 3,
       "created": "2021-03-30T17:07:02.000Z"
     },
     {
@@ -229,7 +241,7 @@
     {
       "title": "Exam Study Guide Google Doc [Free] Hopefully this helps with any remaining exams",
       "url": "https://www.reddit.com/r/wlu/comments/ecckjd/exam_study_guide_google_doc_free_hopefully_this/",
-      "score": 88,
+      "score": 87,
       "created": "2019-12-18T13:24:21.000Z"
     },
     {

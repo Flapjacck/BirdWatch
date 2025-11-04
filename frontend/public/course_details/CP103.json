@@ -1,0 +1,68 @@
+{
+  "code": "MA102",
+  "department": "MA",
+  "bird_score": 0.0,
+  "specific_mentions": 8,
+  "is_online_available": false,
+  "difficulty_level": {
+    "easy_mentions": 3,
+    "hard_mentions": 4,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": false,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Cp104 vs cp103 ",
+      "url": "https://www.reddit.com/r/wlu/comments/1eakgyl/cp104_vs_cp103/",
+      "score": 1,
+      "created": "2024-07-23T22:02:01.000Z"
+    },
+    {
+      "title": "Where do I actually submit the Computer Science IA application form",
+      "url": "https://www.reddit.com/r/wlu/comments/1mob37p/where_do_i_actually_submit_the_computer_science/",
+      "score": 1,
+      "created": "2025-08-12T15:00:31.000Z"
+    },
+    {
+      "title": "MA102 after already taking MA103",
+      "url": "https://www.reddit.com/r/wlu/comments/1eua4jp/ma102_after_already_taking_ma103/",
+      "score": 1,
+      "created": "2024-08-17T05:20:55.000Z"
+    },
+    {
+      "title": "CP164 difficulty?",
+      "url": "https://www.reddit.com/r/wlu/comments/13q3clz/cp164_difficulty/",
+      "score": 0,
+      "created": "2023-05-23T22:42:40.000Z"
+    },
+    {
+      "title": "CompSci 103 Bird course?",
+      "url": "https://www.reddit.com/r/wlu/comments/105y9gd/compsci_103_bird_course/",
+      "score": 1,
+      "created": "2023-01-07T20:06:32.000Z"
+    },
+    {
+      "title": "WLU BBA 1ST YEAR ELECTIVES HELP",
+      "url": "https://www.reddit.com/r/wlu/comments/6delkf/wlu_bba_1st_year_electives_help/",
+      "score": 3,
+      "created": "2017-05-26T03:47:31.000Z"
+    },
+    {
+      "title": "How do I apply to be a TA",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgsir7/how_do_i_apply_to_be_a_ta/",
+      "score": 5,
+      "created": "2024-12-18T03:19:31.000Z"
+    },
+    {
+      "title": "No exam first year classes",
+      "url": "https://www.reddit.com/r/wlu/comments/13fhyyh/no_exam_first_year_classes/",
+      "score": 1,
+      "created": "2023-05-12T11:07:07.000Z"
+    }
+  ]
+}

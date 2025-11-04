@@ -1,13 +1,13 @@
 {
   "code": "UX103",
   "department": "UX",
-  "bird_score": 6.2,
-  "specific_mentions": 18,
+  "bird_score": 6.05,
+  "specific_mentions": 17,
   "is_online_available": true,
   "difficulty_level": {
     "easy_mentions": 6,
-    "hard_mentions": 2,
-    "workload": 1
+    "hard_mentions": 1,
+    "workload": 0
   },
   "course_structure": {
     "has_finals": true,
@@ -47,12 +47,6 @@
       "created": "2021-03-29T16:01:44.000Z"
     },
     {
-      "title": "UX103",
-      "url": "https://www.reddit.com/r/wlu/comments/mzcjwg/ux103/",
-      "score": 5,
-      "created": "2021-04-27T00:45:35.000Z"
-    },
-    {
       "title": "hi there! i\u2019m doing a survey for my ux103 class and would love to get some responses from anyone who\u2019s interested! it\u2019ll take a minute, thank you :)",
       "url": "https://www.reddit.com/r/wlu/comments/m0mr4m/hi_there_im_doing_a_survey_for_my_ux103_class_and/",
       "score": 0,
@@ -71,21 +65,21 @@
       "created": "2019-06-17T16:45:46.000Z"
     },
     {
-      "title": "Bird Courses",
-      "url": "https://www.reddit.com/r/wlu/comments/1hk0nrp/bird_courses/",
-      "score": 0,
-      "created": "2024-12-22T15:27:50.000Z"
+      "title": "first year elective recs?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l6ue9i/first_year_elective_recs/",
+      "score": 2,
+      "created": "2025-06-09T03:07:56.000Z"
     },
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 12,
+      "score": 13,
       "created": "2024-09-10T16:03:00.000Z"
     },
     {
       "title": "Complete bird course list (1st year)",
       "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 69,
+      "score": 70,
       "created": "2021-04-07T20:33:30.000Z"
     },
     {
@@ -115,13 +109,13 @@
     {
       "title": "2 OC Electives Manageable during Co-op",
       "url": "https://www.reddit.com/r/wlu/comments/sy1pav/2_oc_electives_manageable_during_coop/",
-      "score": 6,
+      "score": 7,
       "created": "2022-02-21T19:13:40.000Z"
     },
     {
       "title": "Best first year birds",
       "url": "https://www.reddit.com/r/wlu/comments/mdafx4/best_first_year_birds/",
-      "score": 2,
+      "score": 1,
       "created": "2021-03-25T22:41:38.000Z"
     }
   ]

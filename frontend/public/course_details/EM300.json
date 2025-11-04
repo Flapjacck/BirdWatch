@@ -1,7 +1,7 @@
 {
   "code": "EM300",
   "department": "EM",
-  "bird_score": 9.05,
+  "bird_score": 9.85,
   "specific_mentions": 13,
   "is_online_available": true,
   "difficulty_level": {
@@ -17,15 +17,9 @@
   },
   "threads": [
     {
-      "title": "em202 vs em300?",
-      "url": "https://www.reddit.com/r/wlu/comments/1jmrddl/em202_vs_em300/",
-      "score": 1,
-      "created": "2025-03-29T17:25:11.000Z"
-    },
-    {
       "title": "em110 vs em300",
       "url": "https://www.reddit.com/r/wlu/comments/1hi15bq/em110_vs_em300/",
-      "score": 3,
+      "score": 5,
       "created": "2024-12-19T19:39:10.000Z"
     },
     {
@@ -49,13 +43,19 @@
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 9,
+      "score": 12,
       "created": "2024-09-10T16:03:00.000Z"
+    },
+    {
+      "title": "Bird courses with take home exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1laqibq/bird_courses_with_take_home_exam/",
+      "score": 1,
+      "created": "2025-06-13T20:39:53.000Z"
     },
     {
       "title": "Em 202 is it easy",
       "url": "https://www.reddit.com/r/wlu/comments/1ivx41m/em_202_is_it_easy/",
-      "score": 4,
+      "score": 5,
       "created": "2025-02-23T00:13:55.000Z"
     },
     {
@@ -77,16 +77,16 @@
       "created": "2023-12-30T05:01:27.000Z"
     },
     {
-      "title": "Courses with no exams",
-      "url": "https://www.reddit.com/r/wlu/comments/18ygtih/courses_with_no_exams/",
-      "score": 1,
-      "created": "2024-01-04T16:14:12.000Z"
-    },
-    {
       "title": "Education Minor",
       "url": "https://www.reddit.com/r/wlu/comments/zg8jrl/education_minor/",
       "score": 2,
       "created": "2022-12-08T19:20:38.000Z"
+    },
+    {
+      "title": "Courses with no exams",
+      "url": "https://www.reddit.com/r/wlu/comments/18ygtih/courses_with_no_exams/",
+      "score": 1,
+      "created": "2024-01-04T16:14:12.000Z"
     },
     {
       "title": "Easy 200 year courses",
